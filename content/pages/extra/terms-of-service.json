@@ -1,0 +1,51 @@
+{
+  "updated": "2026-11-19",
+  "noindex": true,
+  "meta": {
+    "description": "The terms of use for the Better Life Moving website and services: acceptable use, intellectual property, liability, third-party links and changes."
+  },
+  "hero": {
+    "h1": "Better Life Moving Terms of Service",
+    "overview": [
+      "Last updated: 12.07.2024. Please read these Terms of Use carefully before using our website or services."
+    ]
+  },
+  "sections": [
+    {
+      "h2": "Acceptance of Terms",
+      "body": ["By accessing or using our website, you agree to be bound by these Terms of Use. If you disagree with any part of these terms, you may not use our services."]
+    },
+    {
+      "h2": "Use of the Website",
+      "body": ["You agree to use the website only for lawful purposes and in a way that does not infringe upon the rights of others or inhibit their use of the website."]
+    },
+    {
+      "h2": "Intellectual Property",
+      "body": ["All content on this website, including text, graphics, logos, and software, is our property and protected by intellectual property laws."]
+    },
+    {
+      "h2": "Limitation of Liability",
+      "body": ["We are not liable for any damages resulting from the use of our website or services."]
+    },
+    {
+      "h2": "Disclaimers",
+      "body": ["Our services are provided \"as is\" without any warranties, express or implied."]
+    },
+    {
+      "h2": "Links to Other Websites",
+      "body": ["Our website may contain links to third-party websites. We have no control over, and assume no responsibility for, the content or practices of any third-party sites."]
+    },
+    {
+      "h2": "Termination",
+      "body": ["We may terminate or suspend your access to our services immediately, without prior notice, for any reason whatsoever."]
+    },
+    {
+      "h2": "Changes to Terms",
+      "body": ["We reserve the right to modify these terms at any time. We will notify users of any changes by updating the \"Last updated\" date of these Terms."]
+    },
+    {
+      "h2": "Contact Us",
+      "body": ["If you have any questions about these Terms, please contact us at [(617) 668-1807](tel:+16176681807)."]
+    }
+  ]
+}

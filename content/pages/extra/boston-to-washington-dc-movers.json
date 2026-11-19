@@ -1,0 +1,37 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Movers from Boston to Washington DC with a flat-rate quote and our own truck. Packing, storage and military PCS moves available. Get a free quote."
+  },
+  "hero": {
+    "h1": "Movers From Boston to Washington DC",
+    "overview": [
+      "A move from Boston to Washington DC gets a flat-rate quote from Better Life Moving, and our own crew and truck carry it the whole way. No handoff to another company in the middle."
+    ],
+    "ctaLabel": "Get a Boston to DC Quote"
+  },
+  "intro": [
+    "People make this move for new jobs, government postings and military orders. Whatever the reason, the process is the same: send your date and both addresses, and a manager prices the move and explains the booking terms."
+  ],
+  "sections": [
+    {
+      "h2": "Flat-Rate Pricing for Boston to DC",
+      "body": [
+        "Long distance moves are quoted at a flat rate, so the cost of the drive to DC is set before loading day. The quote reflects your date, the size of your home and both addresses."
+      ]
+    },
+    {
+      "h2": "Moving to DC on Military Orders",
+      "body": [
+        "If your move comes with PCS orders, tell us your report date and pickup window. We plan the move around your orders, and storage can hold your household until housing in the DC area is ready."
+      ]
+    },
+    {
+      "h2": "Packing, Storage and the Drive From One Company",
+      "body": [
+        "Add packing and the crew boxes and labels your Boston home before loading. Need a gap before delivery? Storage is priced by the cubic feet your items take up.",
+        "Better Life Moving is a licensed interstate carrier, USDOT 3866930, MC 1414489, with our own crews and trucks. The people who load in Boston work for the company that delivers in DC."
+      ]
+    }
+  ]
+}

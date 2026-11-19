@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Waltham movers for apartments, houses and office moves, with our own crews and trucks. Hourly local moves, flat-rate long distance. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Waltham is where our Thumbtack profile is listed, and our Boston crews move homes and offices here, wrapping every piece and billing by the hour.",
+      "Leaving the state instead? That's a flat-rate quote."
+    ],
+    "sellingPoints": [
+      "Apartment, house and office moves",
+      "Hourly local billing, explained up front",
+      "Flat-rate quotes for moves out of state"
+    ],
+    "ctaLabel": "Get a Waltham Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Services for Waltham Homes and Businesses",
+    "intro": "We move both homes and offices in Waltham, and packing or storage can be added to either. Everything we offer is listed below."
+  },
+  "whyChoose": {
+    "h2": "Reasons Waltham Customers Choose Better Life Moving",
+    "cards": [
+      {
+        "title": "Reviewed by Waltham Customers",
+        "text": "Our Thumbtack profile is listed in Waltham, and its reviews come from people who booked us there and nearby."
+      },
+      {
+        "title": "Office Moves Around Your Hours",
+        "text": "For a Waltham business, we plan the move around the hours you can close, so the team isn't idle for days."
+      },
+      {
+        "title": "Interstate Authority on File",
+        "text": "Moving from Waltham to another state? We hold FMCSA operating authority under USDOT 3866930, MC 1414489."
+      },
+      {
+        "title": "Packing and Storage In-House",
+        "text": "Packing, storage and the move come from one company, so no second contractor gets involved."
+      }
+    ]
+  },
+  "faqHeading": "Waltham Customers Often Ask",
+  "faq": [
+    {
+      "q": "Do Waltham movers from Better Life Moving handle office moves?",
+      "a": "Yes. We move offices and retail spaces in Waltham, planned around the hours your business can close."
+    },
+    {
+      "q": "What does a local move in Waltham cost?",
+      "a": "Local moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time. Your quote gives the rate."
+    },
+    {
+      "q": "Can I see reviews from Waltham customers?",
+      "a": "Yes. Our Thumbtack profile is listed under Waltham, and our Google reviews appear in the widget on this page."
+    },
+    {
+      "q": "Can you move my Waltham house to another state?",
+      "a": "Yes. That's a long distance move, quoted at a flat rate and carried on our own truck."
+    },
+    {
+      "q": "Can packing be added to a Waltham move?",
+      "a": "Yes. Full or partial packing goes on the same quote as the move, priced together by the manager."
+    }
+  ],
+  "faqClosing": "Want more detail? The FAQ page explains billing, deposits and moving day.",
+  "closing": {
+    "h2": "Book Waltham Movers Today",
+    "body": "Home or office, send the date and both addresses. We'll explain the billing before anything is booked."
+  }
+}

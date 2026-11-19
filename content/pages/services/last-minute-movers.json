@@ -1,0 +1,131 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Last minute movers in Boston for lease changes, late closings and sudden moves. We fit urgent moves in whenever a crew is available. Call or get a quote."
+  },
+  "hero": {
+    "overview": [
+      "The lease fell through, the closing moved up, or the other company cancelled. Better Life Moving works as last minute movers in Boston whenever a crew is available, and we tell you on the first call whether one is."
+    ],
+    "sellingPoints": [
+      "A clear yes or no on crew availability",
+      "Hourly local billing with materials in the rate",
+      "Packing help when there's no time to pack"
+    ],
+    "ctaLabel": "Check Crew Availability"
+  },
+  "serviceBlock": {
+    "h2": "Our Last Minute Movers Services in Boston",
+    "intro": "Urgent moves we get called for most.",
+    "cards": [
+      {
+        "title": "Another Mover Cancelled",
+        "text": "Your booked company backed out. Call us with the date and addresses and we'll check our crews."
+      },
+      {
+        "title": "Lease Ended Early",
+        "text": "A new landlord, a sublet gone wrong or a lease that ends sooner than planned."
+      },
+      {
+        "title": "Closing Date Moved",
+        "text": "The house sale moved up and the furniture has to go before the new owners arrive."
+      },
+      {
+        "title": "Quick Packing",
+        "text": "No time to box up? Add packing and the crew packs as part of the move."
+      },
+      {
+        "title": "Short-Notice Storage",
+        "text": "Out of the old place before the new one is ready. We store your things until delivery."
+      },
+      {
+        "title": "Small Urgent Jobs",
+        "text": "A few pieces that need to move this week, under the 2-hour minimum that includes travel time."
+      }
+    ],
+    "ctaLabel": "Ask About a Last Minute Move"
+  },
+  "areas": {
+    "intro": "Boston is home base, so short-notice moves in the city are where we can most often help. Our crews also take urgent moves in the nearby cities below."
+  },
+  "process": {
+    "h2": "How Last Minute Movers Work in Boston",
+    "steps": [
+      {
+        "title": "Call With Your Date",
+        "text": "For an urgent move, phone is fastest. Have your date, home size and both addresses ready."
+      },
+      {
+        "title": "Hear If a Crew Is Free",
+        "text": "We check the schedule and tell you whether we can take the move, without stringing you along."
+      },
+      {
+        "title": "Get the Price Explained",
+        "text": "Local moves are billed hourly, with travel time from our yard added. A manager covers the booking terms."
+      },
+      {
+        "title": "Crew Arrives and Moves You",
+        "text": "The crew wraps, loads, drives and unloads, the same way as any other move we do."
+      }
+    ],
+    "ctaLabel": "Book Last Minute Movers"
+  },
+  "whyChoose": {
+    "h2": "Why Choose Better Life Moving for Last Minute Movers in Boston?",
+    "intro": "When you're out of time, the worst answer is no answer. People who call movers in a hurry most often complain about phones that ring out. We'd rather tell you quickly that we're booked than leave you waiting.",
+    "cards": [
+      {
+        "title": "A Real Answer on Availability",
+        "text": "We take last minute moves whenever a crew is free, and we say so plainly when one isn't."
+      },
+      {
+        "title": "Billing Explained on the Call",
+        "text": "Local moves are billed hourly with blankets, shrink wrap, tape and truck costs already in the rate."
+      },
+      {
+        "title": "Our Own Crews and Trucks",
+        "text": "An urgent move isn't handed to whoever's free elsewhere. We're a carrier, USDOT 3866930, MC 1414489."
+      },
+      {
+        "title": "Packing When You Can't",
+        "text": "Add packing to the job and the crew boxes what you didn't get to before they load."
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "What Customers Say About Our Last Minute Movers in Boston"
+  },
+  "faqHeading": "Last Minute Movers FAQ for Boston Customers",
+  "faq": [
+    {
+      "q": "Can last minute movers in Boston move me today?",
+      "a": "Sometimes. We take urgent moves whenever a crew is available, so call (617) 668-1807 and we'll tell you whether we can do it."
+    },
+    {
+      "q": "How is a last minute move billed?",
+      "a": "Like any local move: hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time."
+    },
+    {
+      "q": "What's the fastest way to book an urgent move?",
+      "a": "Call us. The quote form works too, but a phone call gets you an answer on crew availability sooner."
+    },
+    {
+      "q": "Can you pack for me if I haven't started?",
+      "a": "Yes. Add packing to the move and the crew packs as part of the job. Expect it to add time to the hourly total."
+    },
+    {
+      "q": "Is September 1 a bad day for a last minute move in Boston?",
+      "a": "It's the hardest day. So many Boston leases turn over on September 1 that crews are booked well ahead, so urgent moves near that date are less likely to fit."
+    },
+    {
+      "q": "What should I have ready when I call?",
+      "a": "Your move date, the size of your home, both addresses and anything that slows a move down, like stairs or a missing elevator booking. With that, we can check crew availability and explain the price on the same call."
+    }
+  ],
+  "faqClosing": "Still have a question about an urgent move? Our FAQ page covers billing, booking and moving day.",
+  "closing": {
+    "h2": "Start Your Last Minute Move in Boston",
+    "body": "Call or send the form with your date and both addresses. You'll hear quickly whether a crew is free.",
+    "ctaLabel": "Book Last Minute Movers in Boston"
+  }
+}

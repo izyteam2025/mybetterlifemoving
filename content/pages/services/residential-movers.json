@@ -1,0 +1,131 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Residential movers in Boston for apartments, condos, houses and senior moves. Furniture wrapped, hourly local billing, our own crews and trucks. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "A home move is a hundred small decisions about what goes first and what fits through the door. Better Life Moving sends residential movers in Boston who wrap every piece before it leaves and plan the carry before they lift."
+    ],
+    "sellingPoints": [
+      "Apartments, condos and whole houses",
+      "Every piece wrapped in blankets and shrink wrap",
+      "Beds and tables taken apart and put back"
+    ],
+    "ctaLabel": "Get a Free Home Moving Quote"
+  },
+  "serviceBlock": {
+    "h2": "Our Residential Movers Services in Boston",
+    "intro": "Every home is different, but most residential moves look like one of these.",
+    "cards": [
+      {
+        "title": "Apartment Moves",
+        "text": "Studios to three-bedrooms, walk-ups included. The crew sizes up the stairs before carrying anything."
+      },
+      {
+        "title": "Condo Moves",
+        "text": "Elevator reservations, loading areas and building rules. Send them with your quote request and we plan the day around them."
+      },
+      {
+        "title": "House Moves",
+        "text": "Full homes with basements, attics and garages, loaded room by room so unloading goes in order."
+      },
+      {
+        "title": "Senior Moves",
+        "text": "Downsizing to a smaller home or apartment, at a pace that works for the person moving."
+      },
+      {
+        "title": "Furniture Disassembly",
+        "text": "Bed frames, tables and large pieces taken apart where needed and rebuilt at the new place."
+      },
+      {
+        "title": "Packing Add-On",
+        "text": "Have the crew pack the kitchen, fragile pieces or the whole home on the same quote."
+      }
+    ],
+    "ctaLabel": "Price My Home Move"
+  },
+  "areas": {
+    "intro": "Boston is home base, and a large share of our residential moves are inside the city. Our crews also move households in the cities listed below."
+  },
+  "process": {
+    "h2": "How Residential Movers Work in Boston",
+    "steps": [
+      {
+        "title": "Describe the Home",
+        "text": "Move date, number of rooms and both addresses. Mention stairs, elevators and anything unusually heavy."
+      },
+      {
+        "title": "Hear How It's Billed",
+        "text": "A manager explains the quote and booking terms. Local home moves are billed hourly, with travel time from our yard added."
+      },
+      {
+        "title": "Protect and Load",
+        "text": "Furniture gets blankets and shrink wrap, drawers are secured, and the truck is loaded heavy pieces first."
+      },
+      {
+        "title": "Set Up the New Home",
+        "text": "The crew unloads, places furniture in the rooms you choose and reassembles what they took apart."
+      }
+    ],
+    "ctaLabel": "Book Residential Movers"
+  },
+  "whyChoose": {
+    "h2": "Why Choose Better Life Moving for Residential Movers in Boston?",
+    "intro": "Damage and rushing are what people fear most about a home move. Our crews wrap first and carry second, and they work on the hourly rate with materials already inside it, so there's no reason to skip the wrapping to save money.",
+    "cards": [
+      {
+        "title": "Wrapping Included, Not Extra",
+        "text": "Blankets, shrink wrap and tape are part of the hourly rate. Every dresser and table leaves your home covered."
+      },
+      {
+        "title": "Our Own Crews in Your Home",
+        "text": "We're a carrier with our own crews, so the people in your home work for Better Life Moving, not a subcontractor."
+      },
+      {
+        "title": "Careful on Tough Staircases",
+        "text": "Narrow stairs and tight landings are common in Boston homes. Reviewers often mention how the crew handled them."
+      },
+      {
+        "title": "Crews Customers Request",
+        "text": "When customers move again, many ask for the same crew by name. That's the reputation we work to keep."
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "What Customers Say About Our Residential Movers in Boston"
+  },
+  "faqHeading": "Residential Movers FAQ for Boston Homeowners and Renters",
+  "faq": [
+    {
+      "q": "How much do residential movers in Boston cost?",
+      "a": "Local home moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time. The size of the home, the stairs and how packed you are decide the hours."
+    },
+    {
+      "q": "Will you take apart my bed and put it back together?",
+      "a": "Yes. The crew takes apart bed frames and other large pieces where needed and reassembles them at the new home."
+    },
+    {
+      "q": "Do you help seniors downsize?",
+      "a": "Yes. Senior moves are part of our residential work, and the crew works at the pace the person moving needs."
+    },
+    {
+      "q": "Should I pack before the crew arrives?",
+      "a": "If you're packing yourself, have every box taped and closed before the crew arrives. Loose items take longer to load and add hours."
+    },
+    {
+      "q": "Can you move a house with a basement or attic?",
+      "a": "Yes. Tell us about basements, attics and garages when you request a quote so the crew size and time match the home."
+    },
+    {
+      "q": "What if my building needs an elevator reservation?",
+      "a": "Book the elevator for your move window and tell us the times when you request a quote. The crew plans the day around the reservation so the heavy pieces go down while the elevator is yours, which keeps the hourly total down."
+    }
+  ],
+  "faqClosing": "Still have a question about your home move? Our FAQ page covers billing, booking and moving day.",
+  "closing": {
+    "h2": "Start Your Home Move in Boston",
+    "body": "Tell us about the home and both addresses. A manager explains the price before anything is booked.",
+    "ctaLabel": "Book Residential Movers in Boston"
+  }
+}

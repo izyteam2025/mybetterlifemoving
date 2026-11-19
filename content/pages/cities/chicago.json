@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Chicago movers from Better Life Moving: a licensed interstate carrier with crews in Chicago for local apartment moves and moves to other states. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Chicago has no shortage of moving companies, and we're one of the newer ones here. What we bring is an interstate carrier's setup: our own crews in Chicago, our own trucks, and crews waiting in Boston, the Carolinas and Los Angeles.",
+      "Local moves are billed hourly with the materials inside the rate."
+    ],
+    "sellingPoints": [
+      "Our own crews in Chicago",
+      "Moves to and from four other metros",
+      "Elevator buildings planned ahead"
+    ],
+    "ctaLabel": "Get a Chicago Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Moves We Take On in Chicago",
+    "intro": "Apartment moves and long distance relocations are where we focus in Chicago, with packing and storage available on either. The full list is below."
+  },
+  "whyChoose": {
+    "h2": "What You Get Choosing Us in Chicago",
+    "cards": [
+      {
+        "title": "Two Ends, One Company",
+        "text": "Moving between Chicago and Boston, Raleigh, Charlotte or Los Angeles? We have crews in all of them."
+      },
+      {
+        "title": "High-Rise Logistics Sorted",
+        "text": "Freight elevators and loading docks often need reservations. Send yours and the crew arrives in the window."
+      },
+      {
+        "title": "Wrapping and Truck Costs In",
+        "text": "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate."
+      },
+      {
+        "title": "Public Federal Record",
+        "text": "You can check our interstate authority, USDOT 3866930, MC 1414489, on the FMCSA website before you book."
+      }
+    ]
+  },
+  "faqHeading": "What Chicago Customers Ask Us",
+  "faq": [
+    {
+      "q": "Are Chicago movers from Better Life Moving a local company?",
+      "a": "We're an interstate carrier founded in Boston in 2022, with our own crews working in Chicago."
+    },
+    {
+      "q": "How are moves inside Chicago billed?",
+      "a": "Local moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time. In a high-rise, the elevator wait is usually the biggest variable in the hours."
+    },
+    {
+      "q": "Can you move me from Chicago to Boston?",
+      "a": "Yes. It's a long distance move, quoted at a flat rate, with our own crews at both ends."
+    },
+    {
+      "q": "My Chicago building needs a freight elevator booking. What should I do?",
+      "a": "Reserve the elevator for your move window and send us the times. The crew plans the load around that slot."
+    },
+    {
+      "q": "Do you offer storage in Chicago moves?",
+      "a": "Yes. Storage can be added between pickup and delivery, priced by the cubic feet your items take up."
+    }
+  ],
+  "faqClosing": "Need more information? Our FAQ page answers the common booking and billing questions.",
+  "closing": {
+    "h2": "Price Your Chicago Move",
+    "body": "Send your date and both addresses through the form. A manager will lay out how the move is billed."
+  }
+}

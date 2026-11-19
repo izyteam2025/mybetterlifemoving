@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Raleigh movers with our own crews and trucks for local and interstate moves in and out of the Triangle, Apex and Wake Forest included. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Lots of people moving into or out of Raleigh are crossing state lines, not just town lines. Better Life Moving is an interstate carrier with our own crews here, so a move from Boston, Chicago or the West Coast can have our people at both ends.",
+      "Moving across town works too, billed by the hour."
+    ],
+    "sellingPoints": [
+      "Interstate moves into and out of the Triangle",
+      "New-construction and HOA communities",
+      "Apex and Wake Forest moves as well"
+    ],
+    "ctaLabel": "Get a Raleigh Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Moving Services Our Raleigh Crews Handle",
+    "intro": "Our Raleigh crews handle new-construction move-ins, apartment moves and relocations from out of state. Every service listed is available here, and long distance moves out of Raleigh have their own page."
+  },
+  "whyChoose": {
+    "h2": "Why Relocating Families Choose Us in Raleigh",
+    "cards": [
+      {
+        "title": "Crews on Both Ends",
+        "text": "With crews in Boston, Charlotte, Chicago and Los Angeles as well as here, many interstate moves never change hands."
+      },
+      {
+        "title": "Gate Codes and HOA Rules",
+        "text": "Moving into a gated or HOA community? Send the gate code and any truck rules when you book, and the crew plans around them."
+      },
+      {
+        "title": "Loading Docks Booked in Advance",
+        "text": "Buildings with a loading dock usually set reservation windows. Give us yours and the truck arrives inside it."
+      },
+      {
+        "title": "Checkable Federal Authority",
+        "text": "Our USDOT 3866930 and MC 1414489 are on the FMCSA public record. Look them up before you sign anything."
+      }
+    ]
+  },
+  "faqHeading": "Answers for People Moving to or From Raleigh",
+  "faq": [
+    {
+      "q": "Do Raleigh movers from Better Life Moving cover Apex and Wake Forest?",
+      "a": "Yes. Apex and Wake Forest moves are handled by our Raleigh crews, billed the same way as a move inside the city."
+    },
+    {
+      "q": "Can you move my family from another state into Raleigh?",
+      "a": "Yes. Moves into the Triangle from out of state are long distance moves, quoted at a flat rate and carried on our own trucks."
+    },
+    {
+      "q": "How are local moves in Raleigh billed?",
+      "a": "Local moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time. Blankets, wrap and truck costs sit inside that rate."
+    },
+    {
+      "q": "We're moving into a new-construction home in Raleigh. What should we tell you?",
+      "a": "The closing date, the community's gate or HOA rules and whether the driveway is finished. Those decide where the truck can park and when the crew can start."
+    },
+    {
+      "q": "Can you pack and store our things during a Raleigh relocation?",
+      "a": "Yes. Packing and storage go on the same quote as the move, and storage is priced by the cubic feet your items take up."
+    }
+  ],
+  "faqClosing": "Need more answers before your Raleigh move? Our FAQ page covers billing and booking in detail.",
+  "closing": {
+    "h2": "Book Movers for Your Raleigh Move",
+    "body": "Coming in from another state or moving across town, send the date and both addresses and we'll price the move."
+  }
+}

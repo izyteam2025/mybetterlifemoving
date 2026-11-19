@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Cambridge movers for students, recent grads and apartment renters: small loads, summer storage and September 1 moves, billed by the hour. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "A lot of Cambridge moves are a room's worth of things, a bike and a deadline set by a lease or a semester. Better Life Moving sizes the job to that, with a 2-hour minimum that includes travel time.",
+      "Need the summer in between? We'll hold your things and bring them back in the fall."
+    ],
+    "sellingPoints": [
+      "Studio and shared-apartment moves",
+      "Storage between semesters",
+      "Small loads billed like small loads"
+    ],
+    "ctaLabel": "Get a Cambridge Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "What Cambridge Renters and Students Book Most",
+    "intro": "For students and recent grads, college moves, furniture-only jobs and storage are usually the best fit. The full list is below, and any of it can go on one quote."
+  },
+  "whyChoose": {
+    "h2": "Why Cambridge Movers Should Be Booked Early",
+    "cards": [
+      {
+        "title": "September Fills Up Fast",
+        "text": "Semesters and leases both turn over around September 1, and those weeks are our busiest. Book as soon as the date is set."
+      },
+      {
+        "title": "A Minimum That Suits a Dorm Room",
+        "text": "Small jobs fall under our 2-hour minimum that includes travel time, so moving one room doesn't cost like moving a house."
+      },
+      {
+        "title": "Storage From the Movers Themselves",
+        "text": "We pick up in spring and redeliver in fall. Storage is priced by the cubic feet your items take up."
+      },
+      {
+        "title": "Parents Can Book for Students",
+        "text": "Anyone can request the quote. Give us the student's addresses and a number to reach on the day."
+      }
+    ]
+  },
+  "faqHeading": "Cambridge Moving Questions",
+  "faq": [
+    {
+      "q": "How are Cambridge movers billed for a small student move?",
+      "a": "Local moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time. A dorm room or a studio often lands near that minimum."
+    },
+    {
+      "q": "Can you store a student's things in Cambridge over the summer?",
+      "a": "Yes. We collect at move-out, keep everything in storage and deliver to the fall address on the date you give us."
+    },
+    {
+      "q": "Do you follow building move-in and move-out times in Cambridge?",
+      "a": "Yes. Send us the loading hours and any building rules when you book, and the crew schedules the move inside them."
+    },
+    {
+      "q": "Can you pick up furniture from a roommate across town?",
+      "a": "Yes. A bed frame or a couch from one Cambridge apartment to another is a normal furniture-only job for us."
+    },
+    {
+      "q": "I'm graduating and leaving Massachusetts. Can you move me?",
+      "a": "Yes. A move out of state is a long distance move, quoted at a flat rate and carried on our own truck from Cambridge to your new home."
+    }
+  ],
+  "faqClosing": "Still deciding? The FAQ page has more on how booking and moving day work.",
+  "closing": {
+    "h2": "Lock In Your Cambridge Moving Date",
+    "body": "Send the move-out date, both addresses and whether storage is part of it. We'll tell you how the bill is worked out before you commit."
+  }
+}

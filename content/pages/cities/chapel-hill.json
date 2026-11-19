@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Chapel Hill movers for student apartments, small loads and storage between terms, plus family moves across the Triangle. Hourly billing. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "A Chapel Hill move is often small and on a deadline: a lease ending in May, a new one starting in August, and a few months of storage in between. We handle the whole stretch.",
+      "Family homes and moves elsewhere in the Triangle get the same Triangle crews."
+    ],
+    "sellingPoints": [
+      "Student and apartment moves",
+      "Storage between May and August",
+      "Moves across the Triangle"
+    ],
+    "ctaLabel": "Get a Chapel Hill Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Chapel Hill Moving Options",
+    "intro": "Students tend to need college moves, furniture-only jobs and storage, and families need full residential moves. Every service is listed below."
+  },
+  "whyChoose": {
+    "h2": "Good Reasons to Book Us in Chapel Hill",
+    "cards": [
+      {
+        "title": "Built for Term Dates",
+        "text": "Give us your move-out and move-in dates together, and we plan the pickup, storage and delivery as one job."
+      },
+      {
+        "title": "Two Hours Covers a Lot",
+        "text": "Our minimum is two hours, travel included, which suits a single room or a few pieces."
+      },
+      {
+        "title": "Across the Triangle",
+        "text": "Moving from Chapel Hill to Durham, Cary or Raleigh? It's one local move with our Triangle crews."
+      },
+      {
+        "title": "Real Carrier Paperwork",
+        "text": "We're federally registered under USDOT 3866930, MC 1414489, which matters when the next move crosses a state line."
+      }
+    ]
+  },
+  "faqHeading": "Chapel Hill Moving FAQ",
+  "faq": [
+    {
+      "q": "Do Chapel Hill movers take small student moves?",
+      "a": "Yes. A room or a studio is a normal job for us, billed under the 2-hour minimum that includes travel time."
+    },
+    {
+      "q": "Can you store my things in Chapel Hill over the summer?",
+      "a": "Yes. We pick up when your lease ends, store everything and deliver to your next address on the date you set."
+    },
+    {
+      "q": "How much does a move within Chapel Hill cost?",
+      "a": "Local moves are billed hourly, with travel time from our yard added, with blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) inside the rate."
+    },
+    {
+      "q": "Can you move me from Chapel Hill to Raleigh or Durham?",
+      "a": "Yes. Moves between Triangle cities are local moves handled by our Triangle crews."
+    },
+    {
+      "q": "I'm leaving North Carolina after graduation. Can you help?",
+      "a": "Yes. Moves out of state are long distance moves, quoted at a flat rate and carried on our own truck."
+    }
+  ],
+  "faqClosing": "Want more detail on booking? Check the FAQ page for billing, deposits and the day itself.",
+  "closing": {
+    "h2": "Set Up Your Chapel Hill Move",
+    "body": "Send your lease dates and both addresses, and tell us if storage is needed. We'll price the whole stretch at once."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Better Life Moving locations: Boston and Greater Boston, Raleigh and the Triangle, Charlotte, Chicago and Los Angeles, with long distance moves between states."
+  },
+  "hero": {
+    "h1": "Better Life Moving Locations",
+    "overview": [
+      "We started in Brighton, Boston, in 2022 and now run crews in five metro areas. Find your city to see how moves work there."
+    ],
+    "sellingPoints": [
+      "Five metros with our own crews",
+      "Interstate moves between any of them",
+      "One quote form for every location"
+    ],
+    "ctaLabel": "Get a Free Quote"
+  },
+  "locationsBlock": {
+    "h2": "Cities We Serve",
+    "intro": "Boston is where most of our moves happen, and the Boston crews also cover the nearby cities below. The Triangle, Charlotte, Chicago and Los Angeles each have their own page.",
+    "closing": "Don't see your city? If it's on the way between two of our markets, or you're moving out of state, ask for a long distance quote."
+  },
+  "servicesBlock": {
+    "h2": "Moving Services in Every Market",
+    "intro": "The services below are what we offer. Your city page and your quote confirm what's available for your date."
+  },
+  "reviews": {
+    "heading": "Reviews From Customers Across Our Locations"
+  },
+  "faqHeading": "Questions About Where We Move",
+  "faq": [
+    {
+      "q": "Do you move people between Boston and your other cities?",
+      "a": "Yes. Moves between our markets are long distance moves, quoted at a flat rate and carried by our own trucks."
+    },
+    {
+      "q": "Is the hourly billing the same in every location?",
+      "a": "The method is the same everywhere: local moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time. Your quote gives the rate for your market."
+    },
+    {
+      "q": "Where is Better Life Moving based?",
+      "a": "Our head office is at 20 Presentation Rd in Brighton, Boston. The company was founded there in 2022."
+    },
+    {
+      "q": "Do you serve New York, Philadelphia or Washington DC?",
+      "a": "We move people from Boston to those cities as long distance moves. We don't run local crews based there."
+    },
+    {
+      "q": "How do I check whether you cover my address?",
+      "a": "Put both addresses in the quote form. The manager who reviews it confirms coverage before anything is booked."
+    }
+  ],
+  "faqClosing": "More questions about booking or billing? The FAQ page covers them.",
+  "closing": {
+    "h2": "Five Cities, One Way of Moving",
+    "body": "Same carrier, same billing method, same crews who wrap every piece before it leaves. Send your addresses and we'll price the move."
+  }
+}
