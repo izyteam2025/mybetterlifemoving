@@ -1,0 +1,127 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Long distance movers in Boston with a flat-rate quote and our own trucks, USDOT 3866930. Interstate moves with packing and storage on one quote."
+  },
+  "hero": {
+    "overview": [
+      "Leaving Boston for another state means one big question: what will it cost by the time the truck unloads? As long distance movers in Boston, we answer it up front, because long distance moves are quoted at a flat rate and carried on our own trucks."
+    ],
+    "sellingPoints": [
+      "Flat-rate quote before you book",
+      "The same company from pickup to delivery",
+      "Packing and storage on the same quote"
+    ],
+    "ctaLabel": "Get a Flat-Rate Quote"
+  },
+  "serviceBlock": {
+    "h2": "Our Long Distance Movers Services in Boston",
+    "intro": "These are the out-of-state moves we price most often.",
+    "cards": [
+      {
+        "title": "Boston to the Southeast",
+        "text": "Customers have moved from Boston to Orlando with our crews, and two of our markets are in North Carolina."
+      },
+      {
+        "title": "Boston to the Mid-Atlantic",
+        "text": "New York, Philadelphia and Washington DC, quoted at a flat rate and driven by our own trucks."
+      },
+      {
+        "title": "Between Our Five Markets",
+        "text": "Boston, the Raleigh area, Charlotte, Chicago and Los Angeles. We have crews at both ends of these moves."
+      },
+      {
+        "title": "Full Packing Before the Drive",
+        "text": "Let the crew pack the home before loading, so boxes are built for a long ride, not a short hop."
+      },
+      {
+        "title": "Storage Between Homes",
+        "text": "Closing date not lined up with move-out? We store your things and deliver on the date you pick."
+      },
+      {
+        "title": "Small Long Distance Loads",
+        "text": "A studio, a few rooms or furniture only. Tell us what's going and the quote reflects it."
+      }
+    ],
+    "ctaLabel": "Price My Long Distance Move"
+  },
+  "areas": {
+    "intro": "Most of our long distance moves start in Boston, where the company began. We also run crews in the cities below, so many interstate moves have our people at both ends."
+  },
+  "process": {
+    "h2": "How Long Distance Movers Work in Boston",
+    "steps": [
+      {
+        "title": "Tell Us Where and When",
+        "text": "Send your move date, home size and both addresses. The destination state matters as much as the size."
+      },
+      {
+        "title": "Get Your Flat-Rate Quote",
+        "text": "A manager prices the move and explains the booking terms, including any deposit."
+      },
+      {
+        "title": "Pack, Wrap and Load",
+        "text": "The crew wraps every piece in blankets and shrink wrap and loads the truck for the distance."
+      },
+      {
+        "title": "Drive and Deliver",
+        "text": "Our truck carries the load to your new home, where the crew unloads and places the furniture."
+      }
+    ],
+    "ctaLabel": "Book Long Distance Movers"
+  },
+  "whyChoose": {
+    "h2": "Why Choose Better Life Moving for Long Distance Movers in Boston?",
+    "intro": "A lot of long distance moves are sold by brokers who hand the job to whichever carrier bids lowest. You end up meeting your movers for the first time on the day. With us, the quote and the truck come from the same company.",
+    "cards": [
+      {
+        "title": "A Carrier, Not a Broker",
+        "text": "We hold interstate operating authority under USDOT 3866930, MC 1414489. Look it up on the FMCSA's public record before you book."
+      },
+      {
+        "title": "A Price Set Before Moving Day",
+        "text": "Long distance moves are quoted at a flat rate. You know the figure before the crew wraps the first piece."
+      },
+      {
+        "title": "Our Own Trucks on the Road",
+        "text": "Your belongings ride in our truck, driven by our people. Reviewers mention moves from Boston to Florida finished in two days."
+      },
+      {
+        "title": "Packing to Storage, One Company",
+        "text": "Packing, storage and the drive all come from us, so nothing changes hands halfway through the move."
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "What Customers Say About Our Long Distance Movers in Boston"
+  },
+  "faqHeading": "Long Distance Movers FAQ for Boston Customers",
+  "faq": [
+    {
+      "q": "How do long distance movers in Boston price a move?",
+      "a": "We quote long distance moves at a flat rate. The price is based on your move date, the size of your home and both addresses."
+    },
+    {
+      "q": "Are you a moving broker?",
+      "a": "No. Better Life Moving is a carrier with its own crews and trucks, registered with the FMCSA under USDOT 3866930, MC 1414489."
+    },
+    {
+      "q": "Can you store my things before delivery?",
+      "a": "Yes. Storage is priced by the cubic feet your items take up, and we deliver on the date you choose."
+    },
+    {
+      "q": "Do you move from Boston to New York?",
+      "a": "Yes. A move from Boston to New York is a long distance move, so it gets a flat-rate quote like any other."
+    },
+    {
+      "q": "How far ahead should I book a long distance move?",
+      "a": "As soon as you have a date. Late August and September are our busiest weeks, so summer moves fill up first."
+    }
+  ],
+  "faqClosing": "Still have a question about moving out of state? Our FAQ page covers pricing, booking and moving day.",
+  "closing": {
+    "h2": "Start Your Long Distance Move From Boston",
+    "body": "Send the date and both addresses. You'll get a flat-rate figure from the company whose truck will carry your things.",
+    "ctaLabel": "Book Long Distance Movers in Boston"
+  }
+}

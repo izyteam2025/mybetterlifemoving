@@ -1,0 +1,131 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Moving and storage in Boston from one company: pickup, storage priced by the cubic foot, and delivery on the date you choose. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Your lease ends before the new place is ready, or the closing slipped two weeks. Better Life Moving handles moving and storage in Boston as one job: we pick up, store your things and deliver them when you're ready."
+    ],
+    "sellingPoints": [
+      "Pickup, storage and delivery from one company",
+      "Short or long-term storage",
+      "Pay for the space your things fill"
+    ],
+    "ctaLabel": "Get a Free Storage Quote"
+  },
+  "serviceBlock": {
+    "h2": "Our Moving and Storage Services in Boston",
+    "intro": "When people need storage with their move, it's usually for one of these reasons.",
+    "cards": [
+      {
+        "title": "Gap Between Leases",
+        "text": "Move-out on the 31st, move-in a week later. We hold everything in between."
+      },
+      {
+        "title": "Home Sale Delays",
+        "text": "A closing that moves at the last minute doesn't leave your furniture on the sidewalk."
+      },
+      {
+        "title": "Long-Term Storage",
+        "text": "A semester abroad, a deployment or a slow renovation. Store for as long as you need."
+      },
+      {
+        "title": "Partial Storage",
+        "text": "Moving into a smaller place? Store the pieces that don't fit yet and move the rest."
+      },
+      {
+        "title": "Storage With a Long Distance Move",
+        "text": "Pickup in Boston, storage, then delivery out of state on the date the new home is ready."
+      },
+      {
+        "title": "Office Storage",
+        "text": "Furniture and files stored between an old office lease and a new one."
+      }
+    ],
+    "ctaLabel": "Price My Move and Storage"
+  },
+  "areas": {
+    "intro": "Most of our storage moves start in Boston, our home market. We also pick up from the nearby cities listed below."
+  },
+  "process": {
+    "h2": "How Moving and Storage Works in Boston",
+    "steps": [
+      {
+        "title": "Tell Us the Dates",
+        "text": "Pickup date, a rough delivery date and both addresses, plus how much is going into storage."
+      },
+      {
+        "title": "Get One Quote",
+        "text": "A manager prices the move and the storage together. Storage is priced by the cubic feet your items take up."
+      },
+      {
+        "title": "Pickup and Store",
+        "text": "The crew wraps and loads your things and takes them into storage."
+      },
+      {
+        "title": "Deliver When Ready",
+        "text": "On the date you choose, we load from storage and deliver to the new home."
+      }
+    ],
+    "ctaLabel": "Book Moving and Storage"
+  },
+  "whyChoose": {
+    "h2": "Why Choose Better Life Moving for Moving and Storage in Boston?",
+    "intro": "Splitting a move between a moving company and a separate storage company means two contracts, two schedules and twice the handling. With us it's one company and one quote from pickup to delivery.",
+    "cards": [
+      {
+        "title": "One Company, Pickup to Delivery",
+        "text": "Packing, storage and delivery all come from Better Life Moving. Nothing is handed to another company along the way."
+      },
+      {
+        "title": "Priced by the Cubic Foot",
+        "text": "Storage is priced by the cubic feet your items take up, so a few boxes don't pay for a whole unit."
+      },
+      {
+        "title": "Wrapped Before Storage",
+        "text": "Furniture goes into storage wrapped in blankets and shrink wrap, the same way it would for a direct move."
+      },
+      {
+        "title": "Our Own Crews and Trucks",
+        "text": "A licensed carrier, USDOT 3866930, MC 1414489, moves your things in and out of storage."
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "What Customers Say About Our Moving and Storage in Boston"
+  },
+  "faqHeading": "Moving and Storage FAQ for Boston Customers",
+  "faq": [
+    {
+      "q": "How is moving and storage priced in Boston?",
+      "a": "Storage is priced by the cubic feet your items take up. The move itself is billed hourly for local moves and at a flat rate for long distance moves."
+    },
+    {
+      "q": "Can I store just part of my belongings?",
+      "a": "Yes. Many customers store the pieces that don't fit the new home yet and move everything else straight in."
+    },
+    {
+      "q": "How long can I keep things in storage?",
+      "a": "Short or long term, depending on what you need. Give us a rough delivery date when you request a quote."
+    },
+    {
+      "q": "Can storage be combined with a long distance move?",
+      "a": "Yes. We pick up in Boston, store your things and deliver out of state once the new home is ready."
+    },
+    {
+      "q": "Do I need to pack differently for storage?",
+      "a": "Pack boxes full and tape them shut so they stack well. The crew wraps furniture before it goes into storage."
+    },
+    {
+      "q": "Can you deliver from storage to a different city than the pickup?",
+      "a": "Yes. Delivery can go to any address we serve, including another state, which turns the delivery leg into a long distance move quoted at a flat rate. Tell us the destination when you request a quote so the manager prices both parts together."
+    }
+  ],
+  "faqClosing": "Still have a question about storage? Our FAQ page covers billing, booking and moving day.",
+  "closing": {
+    "h2": "Start Your Move and Storage in Boston",
+    "body": "Send your pickup date, rough delivery date and both addresses. One quote covers the move and the storage.",
+    "ctaLabel": "Book Moving and Storage in Boston"
+  }
+}

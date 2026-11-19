@@ -1,0 +1,127 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Local movers in Boston billed by the hour, with blankets, wrap and truck costs in the rate and a 2-hour minimum. Our own crews and trucks. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Moving across town is mostly stairs, parking and timing. Better Life Moving sends local movers in Boston with our own trucks, and the bill works one way: hourly, with the materials and truck already in the rate."
+    ],
+    "sellingPoints": [
+      "One hourly rate with materials and truck costs inside it",
+      "Furniture wrapped before it leaves your place",
+      "Small moves welcome under a 2-hour minimum"
+    ],
+    "ctaLabel": "Get a Free Local Moving Quote"
+  },
+  "serviceBlock": {
+    "h2": "Our Local Movers Services in Boston",
+    "intro": "Most local moves we do fall into one of these.",
+    "cards": [
+      {
+        "title": "Apartment and Condo Moves",
+        "text": "Walk-ups, narrow halls and elevator buildings. The crew plans the carry before the first box comes down."
+      },
+      {
+        "title": "House Moves",
+        "text": "Full homes loaded room by room, with beds taken apart and put back together at the new place."
+      },
+      {
+        "title": "Lease-End Moves",
+        "text": "Leases that end on the 31st and start on the 1st. Book early for late August and September."
+      },
+      {
+        "title": "Moves With Packing",
+        "text": "Add packing for the whole home or just the kitchen and fragile pieces, priced on the same quote."
+      },
+      {
+        "title": "Moves With Storage",
+        "text": "A gap between move-out and move-in? We hold your things and deliver on the date you choose."
+      },
+      {
+        "title": "A Few Pieces Only",
+        "text": "A couch, a dresser, a bed frame. Small jobs fit the 2-hour minimum, travel included."
+      }
+    ],
+    "ctaLabel": "Price My Local Move"
+  },
+  "areas": {
+    "intro": "Boston is our home market, and most of our local moves start or end in the city. Our crews also move people in the nearby cities listed below."
+  },
+  "process": {
+    "h2": "How Hiring Local Movers Works in Boston",
+    "steps": [
+      {
+        "title": "Send the Basics",
+        "text": "Your move date, home size and both addresses, through the form or by phone."
+      },
+      {
+        "title": "Get the Billing Explained",
+        "text": "A manager goes over your move and the booking terms. Local moves are billed hourly, with travel time from our yard added."
+      },
+      {
+        "title": "Wrap and Load",
+        "text": "The crew wraps furniture in blankets and shrink wrap, protects what needs protecting and loads the truck."
+      },
+      {
+        "title": "Unload and Place",
+        "text": "Everything comes off the truck and goes into the room you point to, beds and tables reassembled."
+      }
+    ],
+    "ctaLabel": "Book Local Movers"
+  },
+  "whyChoose": {
+    "h2": "Why Choose Better Life Moving for Local Movers in Boston?",
+    "intro": "The usual complaint about local movers is a quote that looked cheap until the extras showed up on the bill. Our hourly rate already carries the materials and the truck, and the people who quote you are the company that shows up.",
+    "cards": [
+      {
+        "title": "Our Own Crews and Trucks",
+        "text": "We're a carrier, not a broker, so your local move is never passed to another company. Our operating authority is public under USDOT 3866930, MC 1414489."
+      },
+      {
+        "title": "Fuel and Tolls Inside the Rate",
+        "text": "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate. No separate fuel line on a local move."
+      },
+      {
+        "title": "Crews People Ask For Again",
+        "text": "Customers who move again often ask for the same crew by name. It comes up in our reviews again and again."
+      },
+      {
+        "title": "Ready for Boston Buildings",
+        "text": "Third-floor walk-ups, tight turns and elevator windows are normal days for us. Tell us the building details and the crew plans around them."
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "What Customers Say About Our Local Movers in Boston"
+  },
+  "faqHeading": "Local Movers FAQ for Boston Customers",
+  "faq": [
+    {
+      "q": "How do local movers in Boston charge?",
+      "a": "We bill local moves by the hour, with travel time from our yard added. The clock covers the drive from our yard to your first address and from your last address back."
+    },
+    {
+      "q": "Is there a minimum for a local move?",
+      "a": "Yes, a 2-hour minimum that includes travel time. It means a one-room move or a few pieces of furniture is still worth booking."
+    },
+    {
+      "q": "Do I pay extra for blankets and shrink wrap?",
+      "a": "No. Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate."
+    },
+    {
+      "q": "What makes a local move take longer?",
+      "a": "Mostly stairs, long carries from the truck and how ready the home is. Boxes packed and taped before the crew arrives keep the hours down."
+    },
+    {
+      "q": "Can you move me on September 1 in Boston?",
+      "a": "Often, if you book early. Late August and September are our busiest weeks, so send your quote request as soon as you know the date."
+    }
+  ],
+  "faqClosing": "Still have a question about your local move? Our FAQ page covers billing, booking and what happens on moving day.",
+  "closing": {
+    "h2": "Start Your Local Move in Boston",
+    "body": "Send your date, home size and both addresses. You'll know how the bill works before the truck pulls up.",
+    "ctaLabel": "Book Local Movers in Boston"
+  }
+}
