@@ -1,0 +1,131 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Piano movers in Boston for upright and grand pianos, with floors and walls protected on the way out. Our own crews and trucks. Get a free piano quote."
+  },
+  "hero": {
+    "overview": [
+      "A piano is heavy, top-heavy and awkward on stairs, and it's usually the one thing people won't let their friends help with. Better Life Moving sends piano movers in Boston for upright and grand pianos, with the floors and walls around them protected."
+    ],
+    "sellingPoints": [
+      "Upright and grand pianos",
+      "Floors, walls and door frames protected",
+      "Piano-only moves or part of a full move"
+    ],
+    "ctaLabel": "Get a Free Piano Moving Quote"
+  },
+  "serviceBlock": {
+    "h2": "Our Piano Movers Services in Boston",
+    "intro": "Piano moves we take on.",
+    "cards": [
+      {
+        "title": "Upright Pianos",
+        "text": "Spinets and full uprights moved out of apartments and houses, stairs included."
+      },
+      {
+        "title": "Grand Pianos",
+        "text": "Baby grands and grands, wrapped and moved with the extra handling their shape needs."
+      },
+      {
+        "title": "Pianos on Stairs",
+        "text": "Walk-ups and split-level homes. The crew plans the carry before the piano moves an inch."
+      },
+      {
+        "title": "Piano-Only Moves",
+        "text": "Just the piano, across town or across the house, under the 2-hour minimum that includes travel time."
+      },
+      {
+        "title": "Piano in a Full Move",
+        "text": "Add the piano to your home move and it goes on the same quote and the same truck."
+      },
+      {
+        "title": "Long Distance Piano Moves",
+        "text": "Taking the piano out of state? Long distance moves are quoted at a flat rate."
+      }
+    ],
+    "ctaLabel": "Price My Piano Move"
+  },
+  "areas": {
+    "intro": "Boston is our home market and where most of our piano moves happen. Our crews also move pianos in the nearby cities below."
+  },
+  "process": {
+    "h2": "How Piano Movers Work in Boston",
+    "steps": [
+      {
+        "title": "Describe the Piano",
+        "text": "Upright or grand, rough size, and how many steps or turns are on the way out and in."
+      },
+      {
+        "title": "Get the Move Priced",
+        "text": "A manager prices the move and explains the booking terms before anything is scheduled."
+      },
+      {
+        "title": "Protect and Move",
+        "text": "The crew wraps the piano, protects floors, walls and door frames, and carries it out with the right equipment."
+      },
+      {
+        "title": "Set It in Place",
+        "text": "The piano goes exactly where you want it in the new room, unwrapped and level."
+      }
+    ],
+    "ctaLabel": "Book Piano Movers"
+  },
+  "whyChoose": {
+    "h2": "Why Choose Better Life Moving for Piano Movers in Boston?",
+    "intro": "Most piano damage happens on stairs and in doorways, and so does most damage to the house around it. Our crews plan those spots before they lift and protect the home as well as the instrument.",
+    "cards": [
+      {
+        "title": "Stairs Planned Before the Lift",
+        "text": "Our crews size up the steps, turns and landings first. Customers often mention how they handled tough staircases."
+      },
+      {
+        "title": "The Home Protected Too",
+        "text": "Floors, walls and door frames are covered along the route, not just the piano itself."
+      },
+      {
+        "title": "Our Own Crew and Truck",
+        "text": "Better Life Moving is a carrier with its own crews and trucks, USDOT 3866930, MC 1414489."
+      },
+      {
+        "title": "Small Jobs Are Welcome",
+        "text": "A piano-only move falls under the 2-hour minimum that includes travel time, so you don't pay for a full day."
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "What Customers Say About Our Piano Movers in Boston"
+  },
+  "faqHeading": "Piano Movers FAQ for Boston Customers",
+  "faq": [
+    {
+      "q": "Do piano movers in Boston move grand pianos?",
+      "a": "Yes. We move upright and grand pianos, including baby grands, with the extra handling a grand's shape needs."
+    },
+    {
+      "q": "Can you move a piano up or down stairs?",
+      "a": "Yes. The crew plans the carry on stairs and landings before lifting. Tell us how many steps and turns there are when you request a quote."
+    },
+    {
+      "q": "How is a piano move priced?",
+      "a": "A local piano move is billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time. A move out of state is quoted at a flat rate."
+    },
+    {
+      "q": "Can I move just the piano?",
+      "a": "Yes. Piano-only moves are common, across town or between rooms of the same home."
+    },
+    {
+      "q": "Will the piano need tuning after the move?",
+      "a": "Pianos often drift out of tune after a move and a change of room. Book a piano tuner once it has settled in its new spot."
+    },
+    {
+      "q": "What should I measure before a piano move?",
+      "a": "Measure the doorways, hallway turns and stairwell width on both ends, and note any tight landing. Send those with your quote request so the crew can plan the route and bring the right number of movers."
+    }
+  ],
+  "faqClosing": "Still have a question about moving your piano? Our FAQ page covers billing, booking and moving day.",
+  "closing": {
+    "h2": "Start Your Piano Move in Boston",
+    "body": "Tell us the piano type, the stairs and both addresses. The crew plans the carry before moving day, and the floors and walls along the route get covered before the piano moves.",
+    "ctaLabel": "Book Piano Movers in Boston"
+  }
+}

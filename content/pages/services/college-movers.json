@@ -1,0 +1,131 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "College movers in Boston for dorms, student apartments and storage between semesters, including the September 1 lease cycle. Hourly billing. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Students move on the tightest schedules in the city: dorm move-out dates, September 1 leases and a summer with nowhere to put a bed. Better Life Moving works as college movers in Boston for dorms, apartments and storage in between."
+    ],
+    "sellingPoints": [
+      "Dorm and student apartment moves",
+      "Storage over the summer or a semester away",
+      "Small loads under a 2-hour minimum"
+    ],
+    "ctaLabel": "Get a Free Student Moving Quote"
+  },
+  "serviceBlock": {
+    "h2": "Our College Movers Services in Boston",
+    "intro": "Student moves come in a few familiar shapes.",
+    "cards": [
+      {
+        "title": "Dorm Move-Out",
+        "text": "Boxes, a mini fridge and a desk chair out of a dorm room and into storage or a new place."
+      },
+      {
+        "title": "First Apartment",
+        "text": "Moving off campus into a shared apartment, often a walk-up with a tight staircase."
+      },
+      {
+        "title": "September 1 Moves",
+        "text": "The Boston lease turnover. Book early, because late August and September are our busiest weeks."
+      },
+      {
+        "title": "Summer Storage",
+        "text": "Store your things between spring move-out and fall move-in, priced by the space they fill."
+      },
+      {
+        "title": "Graduation Moves",
+        "text": "Leaving Boston after graduation? Long distance moves are quoted at a flat rate."
+      },
+      {
+        "title": "A Few Pieces Only",
+        "text": "A bed frame and a couch from a roommate's place, under the 2-hour minimum that includes travel time."
+      }
+    ],
+    "ctaLabel": "Price My Student Move"
+  },
+  "areas": {
+    "intro": "Boston is home base, and most of our student moves happen around its campuses and apartment neighborhoods. Our crews also move students in the nearby cities below."
+  },
+  "process": {
+    "h2": "How College Movers Work in Boston",
+    "steps": [
+      {
+        "title": "Send the Dates",
+        "text": "Your move-out date, both addresses and roughly what's going. Mention if storage is part of it."
+      },
+      {
+        "title": "Get the Price Explained",
+        "text": "Local moves are billed hourly, with travel time from our yard added. A manager covers the booking terms."
+      },
+      {
+        "title": "Load Up",
+        "text": "The crew wraps furniture, carries boxes down and loads the truck, dorm rules and loading times included."
+      },
+      {
+        "title": "Deliver or Store",
+        "text": "Straight to the new place, or into storage until the date you need it delivered."
+      }
+    ],
+    "ctaLabel": "Book College Movers"
+  },
+  "whyChoose": {
+    "h2": "Why Choose Better Life Moving for College Movers in Boston?",
+    "intro": "Students and parents usually want two things: a price that won't surprise them and a crew that turns up on the day. Our hourly rate already includes the materials and truck, and the crew works for us.",
+    "cards": [
+      {
+        "title": "Built Around September 1",
+        "text": "We know what the Boston lease turnover does to moving schedules. Late August and September are our busiest weeks."
+      },
+      {
+        "title": "Small Moves Are Worth Booking",
+        "text": "A 2-hour minimum that includes travel time means a dorm room's worth of things doesn't cost like a house."
+      },
+      {
+        "title": "Storage From the Same Company",
+        "text": "Storage between semesters comes from us, priced by the cubic feet your things take up."
+      },
+      {
+        "title": "Our Own Crews and Trucks",
+        "text": "Better Life Moving is a licensed carrier, USDOT 3866930, MC 1414489, with no subcontracted crews."
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "What Customers Say About Our College Movers in Boston"
+  },
+  "faqHeading": "College Movers FAQ for Boston Students and Parents",
+  "faq": [
+    {
+      "q": "How much do college movers in Boston cost?",
+      "a": "A local student move is billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time. Small dorm moves often stay close to that minimum."
+    },
+    {
+      "q": "Can you store my things over the summer?",
+      "a": "Yes. We pick up at move-out, store your things and deliver when the fall lease starts. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "Can a parent book the move for a student?",
+      "a": "Yes. Anyone can request the quote. Just give us the student's addresses and a phone number for moving day."
+    },
+    {
+      "q": "When should I book a September 1 move?",
+      "a": "As early as you can. So many Boston leases turn over on September 1 that late August and September are our busiest weeks."
+    },
+    {
+      "q": "Do you follow dorm move-out rules?",
+      "a": "Yes. Send us the building's loading times and rules when you book, and the crew plans the move inside them."
+    },
+    {
+      "q": "Can you move me home after graduation?",
+      "a": "Yes. A move from Boston to another state is a long distance move, quoted at a flat rate and carried on our own trucks. Send your date and the home address and the manager prices it."
+    }
+  ],
+  "faqClosing": "Still have a question about a student move? Our FAQ page covers billing, booking and moving day.",
+  "closing": {
+    "h2": "Start Your Student Move in Boston",
+    "body": "Send your move-out date, both addresses and whether you need storage. You'll know how the price works before the crew arrives, and the same company handles the storage if you need it.",
+    "ctaLabel": "Book College Movers in Boston"
+  }
+}
