@@ -1,0 +1,47 @@
+---
+// Main city page /[city]/[umbrella-keyword]/ (city-page-copy, rule set 26 Oct 2026).
+// One city, one direction: links go DOWN only, to this city's city service pages,
+// plus brand pages for brand clients, plus conversion CTAs. No nearby cities,
+// no county, no service area hub, no main service pages, no blog.
+import Hero from '../components/Hero.astro';
+import Team from '../components/Team.astro';
+import Video from '../components/Video.astro';
+import Gallery from '../components/Gallery.astro';
+import ClubBand from '../components/ClubBand.astro';
+import BrandList from '../components/BrandList.astro';
+
+import Numbers from '../components/Numbers.astro';
+import Offers from '../components/Offers.astro';
+import PriceBlock from '../components/PriceBlock.astro';
+import Cards from '../components/Cards.astro';
+import Reviews from '../components/Reviews.astro';
+import Faq from '../components/Faq.astro';
+import FinalCta from '../components/FinalCta.astro';
+import { loadContent, liveHref, ctaPath, h1For, getCity } from '../lib/content.mjs';
+import { routes } from '../lib/routes.mjs';
+
+const { page } = Astro.props;
+const c = page.copy;
+const city = getCity(page.city);
+const { services, brands, site } = loadContent();
+const cta = (label) => ({ href: ctaPath(), label });
+
+const serviceCards = services
+  .map((s) => ({ title: `${s.name} in ${city.name}`, text: c.serviceCards?.[s.slug] ?? s.summary, href: liveHref(routes.cityService(city.slug, s.slug)), image: s.image }))
+  // Every service shows; it links only once its city service page is live (plain card until then).
+  .sort((a, b) => Boolean(b.href) - Boolean(a.href));
+const brandCards = brands.map((b) => ({ title: `${b.name} Repair`, text: b.scope, href: liveHref(routes.brand(b.slug)) })).filter((x) => x.href);
+---
+<Hero h1={h1For(page)} hero={c.hero} image={c.hero?.image ?? site.media?.hero} withForm={!(c.hero?.image ?? site.media?.hero)} />
+<Numbers />
+<Offers offers={c.offers} heading={c.offersHeading} />
+<PriceBlock />
+<Cards heading={c.servicesBlock.h2} intro={c.servicesBlock.intro} items={serviceCards} alt cta={cta(c.servicesBlock.ctaLabel ?? `Book in ${city.name}`)} />
+<Cards heading={c.brandsBlock?.h2} intro={c.brandsBlock?.intro} items={c.brandsBlock ? brandCards : []} cols="grid-3" cta={cta('Book Premium Repair')} />
+<Cards heading={c.whyChoose.h2} items={c.whyChoose.cards} alt={!c.brandsBlock} cta={cta(c.whyChoose.ctaLabel ?? 'Schedule Service')} />
+{c.reviews && <Reviews heading={c.reviews.heading} intro={c.reviews.intro} cta={cta('Book Your Visit')} />}
+<Faq faq={c.faq} heading={c.faqHeading} closing={c.faqClosing} cta={cta('Book Your Repair')} />
+<Team limit={3} alt />
+<Gallery limit={3} />
+<ClubBand />
+<FinalCta closing={c.closing} />

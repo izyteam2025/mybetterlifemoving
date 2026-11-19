@@ -1,0 +1,40 @@
+---
+// Location tiles. Anchor text is the place name alone (agency rule). Tiles without
+// a live destination are not rendered, so the site never links to a missing page.
+// Optional `groups` renders county cards with their cities.
+import { inline } from '../lib/md.mjs';
+const { heading, intro, items = [], groups, closing, cta, alt = false } = Astro.props;
+const live = items.filter((t) => t.href);
+// Every city is shown (an established service area is a trust signal); cities whose
+// page is not live yet appear as plain text, so nothing links to a missing page.
+const shown = items.length ? items : live;
+---
+{(shown.length > 0 || groups?.length) && (
+  <section class={`section ${alt ? 'section-alt' : ''}`}>
+    <div class="wrap">
+      <h2>{heading}</h2>
+      {intro && <p class="lead" set:html={inline(intro)} />}
+      {groups ? (
+        <div class="grid">
+          {groups.map((g) => (
+            <div class="card">
+              <h3>{g.href ? <a href={g.href}>{g.name}</a> : g.name}</h3>
+              <ul class="city-list">{g.items.filter((t) => t.href).map((t) => <li><a href={t.href}>{t.label}</a></li>)}</ul>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <ul class="tiles">{shown.map((t) => <li>{t.href ? <a href={t.href}>{t.label}</a> : <span class="tile-plain">{t.label}</span>}</li>)}</ul>
+      )}
+      {closing && <p class="closing" set:html={inline(closing)} />}
+      {cta && <p class="section-cta"><a class="btn btn-outline" href={cta.href}>{cta.label}</a></p>}
+    </div>
+  </section>
+)}
+
+<style>
+  .city-list{list-style:none;padding:0;margin:8px 0 0}
+  .city-list li{margin:4px 0}
+  .closing{margin:22px 0 0;color:var(--c-muted)}
+  .tile-plain{display:block;padding:13px 14px;border:1px dashed var(--c-line);border-radius:999px;text-align:center;font-weight:600;color:var(--c-muted)}
+</style>

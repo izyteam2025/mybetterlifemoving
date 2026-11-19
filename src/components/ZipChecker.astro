@@ -1,0 +1,54 @@
+---
+// "Do you come to my ZIP?" checker for the service area hub. ZIP codes come from
+// locations.json (cities[].zips). A match names the city and links its page when it
+// is live; no match points to the phone. Renders nothing until ZIPs are filled in.
+import { loadContent, liveHref, ctaPath } from '../lib/content.mjs';
+import { routes } from '../lib/routes.mjs';
+const { heading = 'Check Your ZIP Code', intro, alt = false } = Astro.props;
+const { site, cities } = loadContent();
+const map = {};
+for (const ci of cities) for (const z of ci.zips ?? []) map[String(z)] = [ci.name, liveHref(routes.city(ci.slug)) ?? ''];
+const has = Object.keys(map).length > 0;
+---
+{has && (
+  <section class={`section zipcheck ${alt ? 'section-alt' : ''}`} data-zipcheck data-cta={ctaPath()} data-phone={site.phone} data-tel={site.phoneE164}>
+    <div class="wrap">
+      <h2>{heading}</h2>
+      {intro && <p class="lead">{intro}</p>}
+      <form class="zc-form" novalidate>
+        <label class="sr-only" for="zc-input">Your ZIP code</label>
+        <input id="zc-input" inputmode="numeric" maxlength="10" placeholder="Your ZIP code" autocomplete="postal-code" />
+        <button class="btn btn-accent" type="submit">Check</button>
+      </form>
+      <p class="zc-out" aria-live="polite"></p>
+    </div>
+    <script type="application/json" class="zc-data" set:html={JSON.stringify(map)} />
+  </section>
+)}
+<script is:inline>
+  document.querySelectorAll('[data-zipcheck]').forEach(function (root) {
+    var map = JSON.parse(root.querySelector('.zc-data').textContent), out = root.querySelector('.zc-out');
+    root.querySelector('form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var z = (root.querySelector('input').value || '').replace(/\D/g, '').slice(0, 5), hit = map[z];
+      out.textContent = '';
+      if (!/^[0-9]{5}$/.test(z)) { out.textContent = 'Enter a 5-digit ZIP code.'; return; }
+      if (hit) {
+        out.append('Yes, we cover ' + hit[0] + ' (' + z + '). ');
+        var b = document.createElement('a'); b.className = 'btn btn-accent'; b.href = root.dataset.cta; b.textContent = 'Book Online'; out.append(b);
+        if (hit[1]) { var a = document.createElement('a'); a.href = hit[1]; a.className = 'zc-city'; a.textContent = 'Appliance repair in ' + hit[0]; out.append(' ', a); }
+      } else {
+        out.append('That ZIP is not on our list. Call ');
+        var t = document.createElement('a'); t.href = 'tel:' + root.dataset.tel; t.textContent = root.dataset.phone; out.append(t, ' and we will tell you if we can come.');
+      }
+      (window.dataLayer = window.dataLayer || []).push({ event: 'zip_check', zip: z, covered: !!hit });
+    });
+  });
+</script>
+<style>
+  .zc-form{display:flex;gap:8px;max-width:420px;margin-top:14px}
+  .zc-form input{flex:1;font:inherit;padding:11px 12px;border:1px solid #CBD2DA;border-radius:8px}
+  .zc-form button{border:0;cursor:pointer;font:inherit;font-weight:700}
+  .zc-out{margin:14px 0 0;font-weight:600;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+</style>

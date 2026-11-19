@@ -1,0 +1,5 @@
+[
+  { "_comment": "Old URL -> new URL (301). Required when replacing a live site: every old URL with traffic or links. City and county folder roots (/austin/ -> /austin/appliance-repair/) are added automatically." },
+  { "from": "/services/refrigerator-repair/", "to": "/refrigerator-repair/", "status": 301 },
+  { "from": "/fridge-repair-austin/", "to": "/refrigerator-repair/", "status": 301 }
+]

@@ -1,0 +1,17 @@
+{
+  "_comment": "Where this client's briefing lives in Notion (agency rule, 3 Nov 2026). Fill in at kickoff. clientInput: the Client Input database inside the client's Pros Buddy Client Portal (copy its schema from an existing portal: Question, Status To ask/Asked/Answered/Used, Kind Kickoff/Monthly, Month, Answer, Files, For, Answered by, Answered on). tasks: the agency Tasks database; project is the client's option in its Project column, so the task shows under the client on the board. pm: the project manager who talks to the client. contact: how the client wants to be contacted (email, phone, text), from the portal notes.",
+  "portal": "",
+  "clientInput": {
+    "database": "",
+    "dataSource": ""
+  },
+  "tasks": {
+    "dataSource": "collection://b6b3c546-047b-4064-9a58-791a75df37ce",
+    "project": ""
+  },
+  "pm": {
+    "name": "Ann Modina",
+    "notionUserId": "6affdfe9-2e98-4f76-9212-7af076a3672f"
+  },
+  "contact": ""
+}

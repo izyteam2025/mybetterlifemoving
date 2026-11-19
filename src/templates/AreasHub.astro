@@ -1,0 +1,40 @@
+---
+// Service area hub /service-area/ (service-area-hub-copy). Mirror of the services
+// hub with the locations block first: hero > stats > offers > every main city (county
+// cards when the site has counties) > every main service > reviews > FAQ > final CTA.
+import Hero from '../components/Hero.astro';
+import Team from '../components/Team.astro';
+import Video from '../components/Video.astro';
+import Gallery from '../components/Gallery.astro';
+import ClubBand from '../components/ClubBand.astro';
+import BrandList from '../components/BrandList.astro';
+import { loadContent } from '../lib/content.mjs';
+
+import Numbers from '../components/Numbers.astro';
+import Offers from '../components/Offers.astro';
+import Cards from '../components/Cards.astro';
+import Tiles from '../components/Tiles.astro';
+import Reviews from '../components/Reviews.astro';
+import Faq from '../components/Faq.astro';
+import FinalCta from '../components/FinalCta.astro';
+import MapEmbed from '../components/MapEmbed.astro';
+import ZipChecker from '../components/ZipChecker.astro';
+import { ctaPath, faqCtaPath, h1For } from '../lib/content.mjs';
+import { serviceCardsAll, locationBlock } from '../lib/hub-data.mjs';
+
+const { page } = Astro.props;
+const c = page.copy;
+const cta = (label) => ({ href: ctaPath(), label });
+const loc = locationBlock();
+---
+<Hero h1={h1For(page)} hero={c.hero} image={loadContent().site.media?.hero} />
+<Numbers />
+<Offers offers={c.offers} heading={c.offersHeading} />
+<Tiles heading={c.locationsBlock.h2} intro={c.locationsBlock.intro} items={loc.items} groups={loc.groups} closing={c.locationsBlock.closing} alt cta={cta('Book Online')} />
+<ZipChecker heading={c.zipChecker?.h2} intro={c.zipChecker?.intro} />
+<MapEmbed heading={c.map?.h2} intro={c.map?.intro} />
+<Cards heading={c.servicesBlock.h2} intro={c.servicesBlock.intro} items={serviceCardsAll(c.serviceCards)} cta={cta('Book a Repair')} />
+<Reviews heading={c.reviews?.heading} intro={c.reviews?.intro} cta={cta('Book Your Visit')} />
+<Faq faq={c.faq} heading={c.faqHeading} closing={c.faqClosing} cta={{ href: faqCtaPath(), label: 'See All FAQs' }} />
+<ClubBand />
+<FinalCta closing={c.closing} />

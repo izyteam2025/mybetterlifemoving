@@ -1,0 +1,19 @@
+---
+// Free copy: intro paragraphs and H2 sections (each with optional list).
+import { inline } from '../lib/md.mjs';
+const { intro = [], sections = [], alt = false } = Astro.props;
+---
+{intro.length > 0 && (
+  <section class="section">
+    <div class="wrap prose">{intro.map((p) => <p class="lead" set:html={inline(p)} />)}</div>
+  </section>
+)}
+{sections.map((s, i) => (
+  <section class={`section ${(i + (alt ? 1 : 0)) % 2 === 0 ? 'section-alt' : ''}`}>
+    <div class="wrap prose">
+      <h2>{s.h2}</h2>
+      {(s.body ?? []).map((p) => <p set:html={inline(p)} />)}
+      {s.list?.length > 0 && <ul>{s.list.map((li) => <li set:html={inline(li)} />)}</ul>}
+    </div>
+  </section>
+))}

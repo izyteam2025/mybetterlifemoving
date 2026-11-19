@@ -1,0 +1,38 @@
+{
+  "name": "izy-site-starter",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "IZY Digital / ProsBuddy starter for SEO-first home-services websites. Content in /content, SEO rules in templates and in the build gate.",
+  "scripts": {
+    "dev": "astro dev",
+    "validate": "node scripts/validate-content.mjs",
+    "build": "node scripts/validate-content.mjs && astro build && node scripts/postbuild.mjs && node scripts/seo-check.mjs",
+    "build:raw": "astro build",
+    "seo:check": "node scripts/seo-check.mjs",
+    "links:external": "node scripts/check-external-links.mjs",
+    "indexnow": "node scripts/indexnow.mjs",
+    "preview": "astro preview",
+    "brand-logos": "node scripts/brand-logos.mjs",
+    "audit:live": "node scripts/audit-live.mjs",
+    "publish:due": "node scripts/publish-due.mjs",
+    "ledger": "node scripts/ledger.mjs",
+    "import:drive": "node scripts/import-drive.mjs",
+    "gsc": "node scripts/gsc.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "astro": "^7.4.3",
+    "gray-matter": "^4.0.3",
+    "marked": "^18.1.2",
+    "node-html-parser": "^9.0.5"
+  },
+  "devDependencies": {
+    "heic-decode": "^2.1.0",
+    "sharp": "^0.35.5",
+    "simple-icons": "^16.36.0",
+    "svg-path-bbox": "^2.1.0"
+  }
+}

@@ -1,0 +1,55 @@
+name: Live technical audit
+
+# On the 1st of every month (and on demand): crawl the deployed site, then post the result as
+# a GitHub issue "Live audit YYYY-MM" that the monthly growth run reads on the 2nd.
+# Before launch, set the repository variable AUDIT_BASE_URL to the pages.dev address;
+# after launch, delete it so the audit crawls site.url (the client's domain).
+
+on:
+  schedule:
+    - cron: '23 6 1 * *'
+  # A pull request that changes the audit runs it too (results in the job summary, no issue).
+  pull_request:
+    paths:
+      - scripts/audit-live.mjs
+      - .github/workflows/live-audit.yml
+  workflow_dispatch:
+    inputs:
+      base:
+        description: Address to audit (blank = AUDIT_BASE_URL or site.url)
+        required: false
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Crawl the live site
+        run: node scripts/audit-live.mjs ${{ inputs.base || vars.AUDIT_BASE_URL }}
+      - name: Show the audit in the job summary
+        run: cat audit-live.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audit-live
+          path: |
+            .audit-live.json
+            audit-live.md
+      - name: Post the audit as an issue
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Live audit $(date -u +%Y-%m)"
+          head -c 60000 audit-live.md > body.md
+          gh label create live-audit --color 0E8A16 --force >/dev/null 2>&1 || true
+          num=$(gh issue list --label live-audit --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          if [ -n "$num" ]; then gh issue comment "$num" --body-file body.md; else gh issue create --title "$title" --label live-audit --body-file body.md; fi

@@ -1,0 +1,32 @@
+---
+// Final conversion block: benefit-led H2, short close, optional slogan line, one
+// CTA to the conversion page plus the phone.
+import { loadContent, ctaPath } from '../lib/content.mjs';
+import { inline } from '../lib/md.mjs';
+import Callback from './Callback.astro';
+const { closing, ctaLabel } = Astro.props;
+const { site } = loadContent();
+---
+{closing && (
+  <section class="section final">
+    <div class="wrap center">
+      <h2>{closing.h2}</h2>
+      <p class="lead" set:html={inline(closing.body)} />
+      {(closing.slogan ?? site.slogan) && <p class="slogan">{closing.slogan ?? site.slogan}</p>}
+      <p class="final-ctas">
+        <a class="btn btn-accent" href={ctaPath()}>{ctaLabel ?? closing.ctaLabel ?? site.cta?.label}</a>
+        <a class="btn btn-outline light" href={`tel:${site.phoneE164}`}>Call {site.phone}</a>
+      </p>
+      <Callback variant="dark" />
+    </div>
+  </section>
+)}
+
+<style>
+  .final{background:var(--c-primary);color:#fff}
+  .final h2{color:#fff}
+  .final .lead{color:#C9D4E2}
+  .slogan{font-size:1.35rem;font-weight:700;font-style:italic;margin:10px 0 22px}
+  .final-ctas{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .light{border-color:#fff;color:#fff}
+</style>

@@ -1,0 +1,76 @@
+{
+  "device": "mobile",
+  "checkedAt": "2026-10-29T03:20:28.902Z",
+  "pages": [
+    {
+      "path": "/",
+      "performance": 100,
+      "accessibility": 96,
+      "bestPractices": 96,
+      "seo": 100,
+      "lcpMs": 919,
+      "cls": 0,
+      "tbtMs": 37,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio."
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow"
+        }
+      ]
+    },
+    {
+      "path": "/refrigerator-repair/",
+      "performance": 100,
+      "accessibility": 95,
+      "bestPractices": 96,
+      "seo": 100,
+      "lcpMs": 684,
+      "cls": 0,
+      "tbtMs": 2,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio."
+        }
+      ]
+    },
+    {
+      "path": "/austin/appliance-repair/",
+      "performance": 100,
+      "accessibility": 95,
+      "bestPractices": 96,
+      "seo": 100,
+      "lcpMs": 682,
+      "cls": 0,
+      "tbtMs": 0,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio."
+        }
+      ]
+    }
+  ],
+  "average": {
+    "performance": 100,
+    "accessibility": 95,
+    "bestPractices": 96,
+    "seo": 100
+  }
+}

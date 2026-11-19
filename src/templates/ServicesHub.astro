@@ -1,0 +1,37 @@
+---
+// Services hub /services/ (services-hub-copy). Eight blocks: hero > stats > offers >
+// every main service > every main city (county cards when the site has counties) >
+// reviews > FAQ (+ CTA to FAQ page) > final CTA. One of only two pages that link both
+// main service pages and main city pages. Never a city service page.
+import Hero from '../components/Hero.astro';
+import Team from '../components/Team.astro';
+import Video from '../components/Video.astro';
+import Gallery from '../components/Gallery.astro';
+import ClubBand from '../components/ClubBand.astro';
+import BrandList from '../components/BrandList.astro';
+import { loadContent } from '../lib/content.mjs';
+
+import Numbers from '../components/Numbers.astro';
+import Offers from '../components/Offers.astro';
+import Cards from '../components/Cards.astro';
+import Tiles from '../components/Tiles.astro';
+import Reviews from '../components/Reviews.astro';
+import Faq from '../components/Faq.astro';
+import FinalCta from '../components/FinalCta.astro';
+import { ctaPath, faqCtaPath, h1For } from '../lib/content.mjs';
+import { serviceCardsAll, locationBlock } from '../lib/hub-data.mjs';
+
+const { page } = Astro.props;
+const c = page.copy;
+const cta = (label) => ({ href: ctaPath(), label });
+const loc = locationBlock();
+---
+<Hero h1={h1For(page)} hero={c.hero} image={loadContent().site.media?.hero} />
+<Numbers />
+<Offers offers={c.offers} heading={c.offersHeading} />
+<Cards heading={c.servicesBlock.h2} intro={c.servicesBlock.intro} items={serviceCardsAll(c.serviceCards)} alt cta={cta('Book a Repair')} />
+<Tiles heading={c.locationsBlock.h2} intro={c.locationsBlock.intro} items={loc.items} groups={loc.groups} closing={c.locationsBlock.closing} cta={cta('Book Online')} />
+<Reviews heading={c.reviews?.heading} intro={c.reviews?.intro} cta={cta('Book Your Visit')} />
+<Faq faq={c.faq} heading={c.faqHeading} closing={c.faqClosing} cta={{ href: faqCtaPath(), label: 'See All FAQs' }} />
+<ClubBand />
+<FinalCta closing={c.closing} />

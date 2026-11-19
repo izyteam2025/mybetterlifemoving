@@ -1,0 +1,50 @@
+---
+// Blog article (blog-content SOP + GEO citation surface): H1, named author with role
+// (links to the bio on /about/), visible published and last-updated dates, then the
+// Markdown body: intro, Key Takeaways, On This Page (generated), sections, FAQ, conclusion with CTA.
+import { loadContent, getAuthor } from '../lib/content.mjs';
+import { renderPost } from '../lib/md.mjs';
+import { routes } from '../lib/routes.mjs';
+
+const { page } = Astro.props;
+const post = page.copy;
+const { site } = loadContent();
+const author = getAuthor(post.author);
+const { html } = renderPost(post.body, site.url);
+const fmt = (d) => new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+---
+<article class="post">
+  <header class="post-head">
+    <div class="wrap prose">
+      <h1>{post.title}</h1>
+      <p class="post-meta" data-allow-names>
+        {author ? <>By <a href={`${routes.about()}#${author.slug}`} rel="author">{author.name}</a>, {author.role}</> : 'Author missing'}
+        <br />Published <time datetime={post.date}>{fmt(post.date)}</time>
+        {post.updated && post.updated !== post.date && <> &middot; Updated <time datetime={post.updated}>{fmt(post.updated)}</time></>}
+        {post.updated === post.date && <> &middot; Last updated <time datetime={post.updated}>{fmt(post.updated)}</time></>}
+      </p>
+    </div>
+  </header>
+  <div class="wrap prose post-body" set:html={html} />
+  {author && (
+    <aside class="wrap prose author-box" data-allow-names>
+      <p class="author-name">About the author: {author.name}, {author.role}</p>
+      <p>{author.bio}</p>
+    </aside>
+  )}
+</article>
+
+<style>
+  .post-head{background:var(--c-surface);padding:40px 0 24px;border-bottom:1px solid #E3E6EA}
+  .post-meta{color:var(--c-muted);font-size:.95rem;margin:0}
+  .post-body{padding-top:32px;padding-bottom:24px}
+  .post-body :global(h2){margin-top:1.6em}
+  .post-body :global(h3){margin-top:1.2em}
+  .post-body :global(.toc){background:var(--c-surface);border-radius:var(--radius);padding:18px 22px;margin:24px 0}
+  .post-body :global(.toc h2){font-size:1.1rem;margin:0 0 .5em}
+  .post-body :global(.toc ul){margin:0}
+  .post-body :global(table){border-collapse:collapse;width:100%}
+  .post-body :global(th),.post-body :global(td){border:1px solid #E3E6EA;padding:8px 10px;text-align:left}
+  .author-box{border-top:1px solid #E3E6EA;padding-top:20px;padding-bottom:48px;color:var(--c-muted)}
+  .author-name{font-weight:700;color:var(--c-text)}
+</style>

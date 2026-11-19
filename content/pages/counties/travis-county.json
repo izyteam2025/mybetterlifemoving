@@ -1,0 +1,27 @@
+{
+  "updated": "2026-10-28",
+  "meta": { "description": "Appliance repair across Travis County, from Austin to Pflugerville. Same-day visits, upfront pricing and a 90-day warranty from a local Travis County team." },
+  "hero": {
+    "overview": ["Our shop sits inside Travis County, so your technician is never far away.", "Most Travis County homes get a same-day or next-morning visit."],
+    "sellingPoints": ["Shop based in the county", "Same price in every listed city", "90-day warranty on parts and labor"],
+    "ctaLabel": "Book in Travis County"
+  },
+  "areasBlock": { "h2": "Cities We Serve in Travis County", "intro": "Pick your city for local details.", "closing": "Didn't see your city? Check our full service area." },
+  "servicesBlock": { "h2": "Every Appliance, Anywhere in Travis County", "intro": "Every service is available across the county." },
+  "whyChoose": {
+    "h2": "One Team for the Whole County",
+    "cards": [
+      { "title": "Close By", "text": "A shop inside the county means shorter waits for you." },
+      { "title": "Written Prices", "text": "You approve the price before we start." },
+      { "title": "Backed for 90 Days", "text": "90-day warranty on parts and labor." }
+    ]
+  },
+  "reviews": { "heading": "Reviews From Travis County" },
+  "faqHeading": "Questions About Service Across Travis County",
+  "faq": [
+    { "q": "Which Travis County cities do you cover?", "a": "We currently serve Austin and Pflugerville in Travis County." },
+    { "q": "How soon can a technician reach me in Travis County?", "a": "Because our shop is inside the county, most calls booked by noon are seen the same day." },
+    { "q": "Is the price the same in Pflugerville as in Austin?", "a": "Yes. Every Travis County city we list gets the same pricing." }
+  ],
+  "closing": { "h2": "Book Your Travis County Repair", "body": "Book online or call and pick a time that suits you." }
+}

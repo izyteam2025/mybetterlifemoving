@@ -1,0 +1,40 @@
+---
+// "Meet your technicians": real photos and first names from site.team. Names here are
+// approved by the client (data-allow-names), the same people customers name in reviews.
+// A stock face is never shown as a named technician on the live domain (SITE_LIVE=1):
+// until the real photo arrives, that card shows the first initial instead.
+import { loadContent } from '../lib/content.mjs';
+import Photo from './Photo.astro';
+const { heading = 'Meet Your Technicians', intro, alt = false, limit = 4 } = Astro.props;
+const { site } = loadContent();
+const team = (site.team ?? []).slice(0, limit);
+const live = process.env.SITE_LIVE === '1';
+---
+{team.length > 0 && (
+  <section class={`section ${alt ? 'section-alt' : ''}`} data-allow-names>
+    <div class="wrap">
+      <h2>{heading}</h2>
+      {intro && <p class="lead">{intro}</p>}
+      <ul class="team">
+        {team.map((t) => (
+          <li class="card member">
+            {live && t.photo?.placeholder
+              ? <div class="m-initial" aria-hidden="true">{t.name?.[0]}</div>
+              : <Photo media={t.photo} ratio="1 / 1" w={500} sizes="(max-width: 860px) 50vw, 25vw" />}
+            <p class="m-name">{t.name}</p>
+            {t.role && <p class="m-role">{t.role}</p>}
+            {t.note && <p class="m-note">{t.note}</p>}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+)}
+<style>
+  .team{list-style:none;margin:0;padding:0;display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}
+  .member{padding:12px;text-align:center}
+  .m-initial{aspect-ratio:1 / 1;border-radius:var(--radius);background:var(--c-primary);color:#fff;display:grid;place-items:center;font-size:3.2rem;font-weight:700}
+  .m-name{font-weight:700;font-size:1.1rem;margin:12px 0 2px}
+  .m-role{color:var(--c-muted);margin:0;font-size:.92rem}
+  .m-note{margin:8px 0 0;font-size:.92rem}
+</style>

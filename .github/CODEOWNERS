@@ -1,0 +1,16 @@
+# The team works from one shared GitHub account (@izyteam2025), not individual
+# logins, so GitHub cannot enforce "code owner review" here: it blocks a PR's
+# author from approving their own PR, and every PR here is opened as
+# @izyteam2025 too, which would deadlock every merge. This file is documentation
+# of who is responsible for these paths, not a GitHub-enforced gate — see
+# docs/github-governance.md. Templates, the gate, URLs and site-wide facts
+# need Artem's review before merging, done as a manual step, not a GitHub check.
+/src/                     @izyteam2025
+/scripts/                 @izyteam2025
+/.github/                 @izyteam2025
+/content/site.json        @izyteam2025
+/content/services.json    @izyteam2025
+/content/locations.json   @izyteam2025
+/content/brands.json      @izyteam2025
+/content/redirects.json   @izyteam2025
+/content/keywords.json    @izyteam2025

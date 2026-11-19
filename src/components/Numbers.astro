@@ -1,0 +1,24 @@
+---
+// IZY standard: credibility numbers directly after the hero. Not titled; the
+// figures speak for themselves. Values come from site.json.
+import { loadContent } from '../lib/content.mjs';
+const { site } = loadContent();
+const stats = site.stats ?? [];
+---
+{stats.length > 0 && (
+  <section class="numbers" aria-label="Company at a glance">
+    <ul class="wrap numbers-row">
+      {stats.map((s) => <li><span class="num">{s.value}</span><span class="lbl">{s.label}</span></li>)}
+    </ul>
+  </section>
+)}
+
+<style>
+  .numbers{position:relative;z-index:2;color:#fff;padding:0 20px}
+  .numbers-row{list-style:none;margin:0 auto;padding:26px 12px;max-width:1120px;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:0;text-align:center;background:var(--c-primary);border-radius:20px;box-shadow:0 30px 60px -28px rgba(16,24,32,.6)}
+  .numbers-row li{padding:6px 14px}
+  .numbers-row li+li{border-left:1px solid rgba(255,255,255,.14)}
+  .num{display:block;font-size:clamp(1.6rem,3vw,2.15rem);font-weight:800;letter-spacing:-.02em;line-height:1.1;color:#fff}
+  .lbl{display:block;margin-top:4px;font-size:.9rem;color:#C9D4E2}
+  @media (max-width:640px){.numbers-row{grid-template-columns:1fr 1fr;row-gap:14px}.numbers-row li+li{border-left:0}.numbers-row li:nth-child(even){border-left:1px solid rgba(255,255,255,.14)}}
+</style>

@@ -1,0 +1,38 @@
+---
+// Brand page /[brand]-appliance-repair/ (brand-page-copy). No service areas section.
+// Order: hero > stats > offers > visual service block > process > why choose >
+// reviews > FAQ (must include the "Are you an authorized [Brand] servicer?" question)
+// > final. Links: conversion, FAQ page, brand hub, sister-brand pages only.
+import Hero from '../components/Hero.astro';
+import Numbers from '../components/Numbers.astro';
+import Offers from '../components/Offers.astro';
+import Cards from '../components/Cards.astro';
+import Steps from '../components/Steps.astro';
+import Reviews from '../components/Reviews.astro';
+import Faq from '../components/Faq.astro';
+import FinalCta from '../components/FinalCta.astro';
+import { ctaPath, faqCtaPath, h1For, getBrand, liveHref } from '../lib/content.mjs';
+import { routes } from '../lib/routes.mjs';
+
+const { page } = Astro.props;
+const c = page.copy;
+const brand = getBrand(page.brand);
+const cta = (label) => ({ href: ctaPath(), label });
+// Sister-brand anchors always carry the brand keyword.
+const sisters = (brand.sisters ?? []).map((slug) => ({ slug, href: liveHref(routes.brand(slug)), anchor: `${getBrand(slug)?.name ?? slug} appliance repair` })).filter((s) => s.href);
+---
+<Hero h1={h1For(page)} hero={c.hero} withForm />
+<Numbers />
+<Offers offers={c.offers} heading={c.offersHeading} />
+<Cards heading={c.serviceBlock.h2} intro={c.serviceBlock.intro} items={c.serviceBlock.cards} alt cta={cta(c.serviceBlock.ctaLabel ?? `Book ${brand.name} Repair`)} />
+<Steps heading={c.process.h2} steps={c.process.steps} cta={cta(c.process.ctaLabel ?? 'Schedule a Visit')} />
+<Cards heading={c.whyChoose.h2} items={c.whyChoose.cards} alt cta={cta(c.whyChoose.ctaLabel ?? 'Get Started')} />
+<Reviews heading={c.reviews?.heading} intro={c.reviews?.intro} cta={cta('Book Your Visit')} />
+<Faq faq={c.faq} heading={c.faqHeading} closing={c.faqClosing} cta={{ href: faqCtaPath(), label: 'See All FAQs' }} />
+{(sisters.length > 0 || liveHref(routes.brandsHub())) && (
+  <section class="section"><div class="wrap">
+    {c.sistersLine && sisters.length > 0 && <p>{c.sistersLine} {sisters.map((s, i) => <>{i > 0 && ', '}<a href={s.href}>{s.anchor}</a></>)}</p>}
+    {liveHref(routes.brandsHub()) && <p><a href={routes.brandsHub()}>{c.hubAnchor ?? `More premium appliance repair`}</a></p>}
+  </div></section>
+)}
+<FinalCta closing={c.closing} />

@@ -1,0 +1,46 @@
+{
+  "updated": "2026-10-28",
+  "meta": { "description": "Independent Sub-Zero appliance repair in Austin for built-in refrigerators, wine storage and ice makers. OEM parts, a written price and a 90-day warranty." },
+  "hero": {
+    "h1": "Sub-Zero Appliance Repair in Austin",
+    "overview": ["Your Sub-Zero built-in is warming up or the ice maker quit. You get experienced, independent **Sub-Zero appliance repair** with OEM parts and a written price first."],
+    "sellingPoints": ["Built-in and integrated models", "Sealed-system repair", "90-day warranty on parts and labor"],
+    "ctaLabel": "Book Sub-Zero Repair"
+  },
+  "serviceBlock": {
+    "h2": "Sub-Zero Repairs We Handle",
+    "intro": "The faults Sub-Zero owners call us about most.",
+    "cards": [
+      { "title": "Warm Built-In Refrigerator", "text": "Fans, controls and condenser issues repaired." },
+      { "title": "Ice Maker Not Working", "text": "Ice maker and inlet valve repairs." },
+      { "title": "Wine Storage Temperature Drift", "text": "Sensors and controls diagnosed and fixed." }
+    ]
+  },
+  "process": {
+    "h2": "How Sub-Zero Repair Works",
+    "steps": [
+      { "title": "Tell Us the Model", "text": "So we bring the right parts." },
+      { "title": "Diagnosis", "text": "We test the system on site." },
+      { "title": "Written Price", "text": "You approve before any work." },
+      { "title": "Repair and Test", "text": "We confirm temperatures before leaving." }
+    ]
+  },
+  "whyChoose": {
+    "h2": "Why Austin Owners Choose Us for Sub-Zero Repair",
+    "cards": [
+      { "title": "Built-In Experience", "text": "Integrated units are everyday work for us." },
+      { "title": "OEM Parts", "text": "Genuine replacement parts on every repair." },
+      { "title": "Backed for 90 Days", "text": "90-day warranty on parts and labor." }
+    ]
+  },
+  "reviews": { "heading": "Premium Appliance Repair Reviews" },
+  "faqHeading": "Sub-Zero Repair Questions",
+  "faq": [
+    { "q": "Are you an authorized Sub-Zero servicer?", "a": "No. We are an independent repair company, not affiliated with or authorized by Sub-Zero, and we repair Sub-Zero appliances with OEM parts." },
+    { "q": "Do you repair Sub-Zero wine storage units?", "a": "Yes, along with built-in and integrated Sub-Zero refrigerators." },
+    { "q": "How long does a Sub-Zero repair take?", "a": "Most take one to three hours; sealed-system work can need a second visit." }
+  ],
+  "faqClosing": "Still have a question about your Sub-Zero? Our FAQ page covers scheduling and warranty.",
+  "hubAnchor": "More premium appliance repair",
+  "closing": { "h2": "Your Sub-Zero, Cold Again", "body": "Independent Sub-Zero appliance repair in Austin, priced before we start.", "ctaLabel": "Book Sub-Zero Appliance Repair" }
+}

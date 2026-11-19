@@ -1,0 +1,20 @@
+---
+// Live Google Map of the business's own Google Business Profile listing
+// (site.mapEmbedUrl: the embed URL from Google Maps > Share > Embed a map).
+// Live content instead of a static picture; lazy-loaded so it never slows the page.
+import { loadContent } from '../lib/content.mjs';
+const { heading, intro, alt = false } = Astro.props;
+const { site } = loadContent();
+---
+{site.mapEmbedUrl && (
+  <section class={`section ${alt ? 'section-alt' : ''}`}>
+    <div class="wrap">
+      {heading && <h2>{heading}</h2>}
+      {intro && <p class="lead">{intro}</p>}
+      <iframe class="map" src={site.mapEmbedUrl} title={`${site.name} on Google Maps`} loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+  </section>
+)}
+<style>
+  .map{width:100%;height:380px;border:0;border-radius:var(--radius)}
+</style>

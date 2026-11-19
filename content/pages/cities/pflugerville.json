@@ -1,0 +1,25 @@
+{
+  "updated": "2026-10-28",
+  "meta": { "description": "Appliance repair in Pflugerville with Saturday visits, upfront pricing and a 90-day warranty. Refrigerator, washer and dryer repair from a nearby local team." },
+  "hero": {
+    "overview": ["Busy Pflugerville households run their washers and dryers hard. When one breaks, you pick the window and we fix it around your schedule."],
+    "sellingPoints": ["Saturday appointments", "Call-ahead before arrival", "90-day warranty on parts and labor"],
+    "ctaLabel": "Book in Pflugerville"
+  },
+  "servicesBlock": { "h2": "What We Fix in Pflugerville Homes", "intro": "We cover Pflugerville in 78660, including Falcon Pointe and Blackhawk." },
+  "whyChoose": {
+    "h2": "A Short Drive From Falcon Pointe and Blackhawk",
+    "cards": [
+      { "title": "Family Schedules", "text": "Morning, afternoon and Saturday windows." },
+      { "title": "Two Appliances, One Visit", "text": "Washer and dryer fixed on the same trip." },
+      { "title": "No Travel Fee", "text": "Same pricing as Austin." }
+    ]
+  },
+  "faqHeading": "Questions From Pflugerville Customers",
+  "faq": [
+    { "q": "Do you offer Saturday appointments in Pflugerville?", "a": "Yes. Saturday visits run from 9 AM to 3 PM and fill quickly, so book early in the week." },
+    { "q": "Can you repair my washer and dryer on the same Pflugerville visit?", "a": "Yes. Mention both when you book so we plan enough time." },
+    { "q": "Do you cover Falcon Pointe and Blackhawk?", "a": "Yes. Falcon Pointe and Blackhawk are both on our regular Pflugerville routes." }
+  ],
+  "closing": { "h2": "Pflugerville, We Are Close By", "body": "Pick a slot online, or call and we will find you a time this week." }
+}

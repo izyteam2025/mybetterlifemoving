@@ -1,0 +1,36 @@
+---
+// Promotion block, directly after the numbers on every money page. Conversion rule:
+// ONE featured offer as a banner (the reason to book now), the others as one quiet
+// line each, never a wall of coupon cards. Offers come from site.json so every page
+// states them the same way; a page may override with its own `offers`.
+import { loadContent, ctaPath } from '../lib/content.mjs';
+const { offers: pageOffers } = Astro.props;
+const { site } = loadContent();
+const offers = pageOffers ?? site.offers ?? [];
+const featured = offers.find((o) => o.featured) ?? offers[0];
+const rest = offers.filter((o) => o !== featured);
+---
+{featured && (
+  <section class="offer-band">
+    <div class="wrap"><div class="offer-row">
+      <div class="offer-main">
+        <p class="offer-title">{featured.title}</p>
+        <p class="offer-detail">{featured.detail}</p>
+      </div>
+      <a class="btn btn-accent offer-btn" href={ctaPath()}>{featured.ctaLabel ?? 'Book Online Now'}</a>
+    </div></div>
+    {rest.length > 0 && <ul class="wrap offer-more">{rest.map((o) => <li><strong>{o.title}.</strong> {o.detail}</li>)}</ul>}
+  </section>
+)}
+<style>
+  .offer-band{background:#fff;padding:32px 0 8px}
+  .offer-row{position:relative;overflow:hidden;display:flex;gap:24px;align-items:center;justify-content:space-between;flex-wrap:wrap;border:2px solid var(--c-accent);border-radius:18px;padding:22px 34px;background:color-mix(in srgb,var(--c-accent) 5%,#fff)}
+  .offer-row::before,.offer-row::after{content:"";position:absolute;top:50%;width:26px;height:26px;margin-top:-13px;border-radius:50%;background:#fff;border:2px solid var(--c-accent)}
+  .offer-row::before{left:-15px}.offer-row::after{right:-15px}
+  .offer-main{flex:1 1 380px}
+  .offer-btn{position:relative}
+  .offer-title{font-size:clamp(1.3rem,2.4vw,1.6rem);font-weight:800;letter-spacing:-.01em;margin:0;color:var(--c-accent)}
+  .offer-detail{margin:2px 0 0;color:var(--c-text)}
+  .offer-more{list-style:none;display:flex;flex-wrap:wrap;gap:6px 24px;margin:12px auto 0;padding-top:0;font-size:.92rem;color:var(--c-muted)}
+  .offer-more strong{color:var(--c-text)}
+</style>

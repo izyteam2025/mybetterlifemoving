@@ -1,0 +1,78 @@
+---
+// "What's wrong?" picker: the visitor picks the appliance, then the symptom, and gets
+// the likely cause (from that service page's own problem cards) with a Book button.
+// The choice is kept for the call-back form, so a request arrives with the issue named.
+// All answers are in the HTML (crawlable); the script only shows and hides them.
+import { loadContent, pageByPath, ctaPath } from '../lib/content.mjs';
+import { routes } from '../lib/routes.mjs';
+const { heading = "What's Wrong With Your Appliance?", intro, alt = false } = Astro.props;
+const { services } = loadContent();
+const items = services
+  .map((s) => {
+    const page = pageByPath(routes.service(s.slug));
+    const cards = page?.live ? page.copy?.serviceBlock?.cards ?? [] : [];
+    return { slug: s.slug, name: s.name, appliance: s.appliance ?? s.name.replace(/ Repair$/i, ''), href: routes.service(s.slug), cards };
+  })
+  .filter((x) => x.cards.length);
+---
+{items.length > 1 && (
+  <section class={`section picker ${alt ? 'section-alt' : ''}`} data-picker>
+    <div class="wrap">
+      <h2>{heading}</h2>
+      {intro && <p class="lead">{intro}</p>}
+      <p class="pk-step">1. Choose the appliance</p>
+      <div class="pk-chips" role="group" aria-label="Appliance">
+        {items.map((it) => <button type="button" class="pk-chip" data-app={it.slug} aria-pressed="false">{it.appliance}</button>)}
+      </div>
+      {items.map((it) => (
+        <div class="pk-app" data-for={it.slug} hidden>
+          <p class="pk-step">2. What is it doing?</p>
+          <div class="pk-chips" role="group" aria-label={`${it.appliance} problem`}>
+            {it.cards.map((c, i) => <button type="button" class="pk-chip" data-sym={`${it.slug}-${i}`} aria-pressed="false">{c.title}</button>)}
+          </div>
+          {it.cards.map((c, i) => (
+            <div class="card pk-result" role="status" aria-live="polite" data-res={`${it.slug}-${i}`} data-issue={`${it.appliance}: ${c.title}`} hidden>
+              <p class="pk-title">{c.title}</p>
+              <p>{c.text}</p>
+              <p class="pk-ctas">
+                <a class="btn btn-accent" href={ctaPath()}>Book {it.name}</a>
+                <a class="pk-more" href={it.href}>Read about {it.name.toLowerCase()}</a>
+              </p>
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  </section>
+)}
+<script is:inline>
+  document.querySelectorAll('[data-picker]').forEach(function (root) {
+    function press(group, btn) { group.querySelectorAll('.pk-chip').forEach(function (b) { b.setAttribute('aria-pressed', b === btn ? 'true' : 'false'); }); }
+    root.addEventListener('click', function (e) {
+      var b = e.target.closest('.pk-chip'); if (!b) return;
+      if (b.dataset.app) {
+        press(b.parentNode, b);
+        root.querySelectorAll('.pk-app').forEach(function (p) { p.hidden = p.dataset.for !== b.dataset.app; });
+        root.querySelectorAll('.pk-result').forEach(function (r) { r.hidden = true; });
+        var shown = root.querySelector('.pk-app[data-for="' + b.dataset.app + '"]'); if (shown) shown.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        root.querySelectorAll('.pk-app [aria-pressed]').forEach(function (x) { x.setAttribute('aria-pressed', 'false'); });
+      } else if (b.dataset.sym) {
+        press(b.parentNode, b);
+        var app = b.closest('.pk-app');
+        app.querySelectorAll('.pk-result').forEach(function (r) {
+          r.hidden = r.dataset.res !== b.dataset.sym;
+          if (!r.hidden) { r.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); try { sessionStorage.setItem('izy-issue', r.dataset.issue); } catch (err) {} (window.dataLayer = window.dataLayer || []).push({ event: 'picker_answer', issue: r.dataset.issue }); }
+        });
+      }
+    });
+  });
+</script>
+<style>
+  .pk-step{font-weight:700;margin:18px 0 8px}
+  .pk-chips{display:flex;flex-wrap:wrap;gap:8px}
+  .pk-chip{font:inherit;font-weight:600;cursor:pointer;padding:9px 16px;border-radius:999px;border:1px solid #CBD2DA;background:#fff;color:var(--c-text)}
+  .pk-chip[aria-pressed="true"]{background:var(--c-primary);border-color:var(--c-primary);color:#fff}
+  .pk-result{margin-top:16px;padding:20px;max-width:720px}
+  .pk-title{font-weight:700;font-size:1.15rem;margin:0 0 6px}
+  .pk-ctas{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin:14px 0 0}
+</style>

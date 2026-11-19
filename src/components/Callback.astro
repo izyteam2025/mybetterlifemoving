@@ -1,0 +1,58 @@
+---
+// Two-field call-back request (name + phone) for people who will not finish an online
+// scheduler. Posts to site.callback.webhookUrl (a GoHighLevel inbound webhook), then
+// goes to site.callback.successPath or shows a thank-you line. Renders nothing until
+// the webhook exists, so no page carries a form that posts nowhere.
+import { loadContent } from '../lib/content.mjs';
+const { variant = 'light' } = Astro.props;
+const { site } = loadContent();
+const cb = site.callback;
+const id = `cb-${variant}`;
+---
+{cb?.webhookUrl && (
+  <form class={`callback cb-${variant}`} method="post" action={cb.webhookUrl} data-callback data-success={cb.successPath ?? ''}>
+    <p class="cb-title">{cb.heading ?? 'Rather we call you?'}</p>
+    <div class="cb-row">
+      <label class="sr-only" for={`${id}-name`}>Your name</label>
+      <input id={`${id}-name`} name="name" placeholder="Your name" autocomplete="name" required />
+      <label class="sr-only" for={`${id}-phone`}>Phone number</label>
+      <input id={`${id}-phone`} name="phone" type="tel" placeholder="Phone number" autocomplete="tel" required />
+      <input type="hidden" name="page" value="" />
+      <input type="hidden" name="issue" value="" />
+      <button class="btn btn-accent" type="submit">{cb.submitLabel ?? 'Call Me Back'}</button>
+    </div>
+    {cb.text && <p class="cb-text">{cb.text}</p>}
+    <p class="cb-done" hidden>{cb.successText ?? 'Thanks. We have your number and will call you back.'}</p>
+  </form>
+)}
+<script is:inline>
+  if (!window.__izyCallback) {
+    window.__izyCallback = true;
+    document.addEventListener('submit', function (e) {
+      var f = e.target.closest && e.target.closest('form[data-callback]');
+      if (!f) return;
+      e.preventDefault();
+      f.elements.page.value = location.pathname;
+      try { f.elements.issue.value = sessionStorage.getItem('izy-issue') || ''; } catch (err) {}
+      var btn = f.querySelector('button'); btn.disabled = true;
+      fetch(f.action, { method: 'POST', mode: 'no-cors', body: new URLSearchParams(new FormData(f)) })
+        .then(function () {
+          (window.dataLayer = window.dataLayer || []).push({ event: 'callback_request', source: location.pathname });
+          if (f.dataset.success) { location.href = f.dataset.success; return; }
+          f.querySelector('.cb-row').hidden = true; f.querySelector('.cb-done').hidden = false;
+        })
+        .catch(function () { btn.disabled = false; f.submit(); });
+    });
+  }
+</script>
+<style>
+  .callback{margin:22px auto 0;max-width:640px;text-align:left}
+  .cb-title{font-weight:700;margin:0 0 8px}
+  .cb-row{display:flex;gap:8px;flex-wrap:wrap}
+  .cb-row input{flex:1 1 160px;font:inherit;padding:11px 12px;border:1px solid #CBD2DA;border-radius:8px}
+  .cb-row button{border:0;cursor:pointer;font:inherit;font-weight:700}
+  .cb-text,.cb-done{margin:8px 0 0;font-size:.92rem;opacity:.85}
+  .cb-dark .cb-title,.cb-dark .cb-text,.cb-dark .cb-done{color:#fff}
+  .cb-dialog{margin:0;max-width:none;padding:12px 16px;border-top:1px solid #E3E6EA;background:#F7F8FA}
+  .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+</style>

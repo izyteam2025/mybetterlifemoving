@@ -1,0 +1,97 @@
+name: Client files from Drive
+
+# On the 1st of every month (and on demand): copy new photos, logos and certificates from the
+# client's agency Google Drive folder (docs/growth/drive.json) into the site, as a pull request.
+# Photos are converted to WebP with all metadata removed (GPS location included).
+# The monthly growth run on the 2nd picks the pull request up, checks every photo, writes the
+# alt text and puts the keepers on the pages. A person merges it.
+# Setup (once, Artem): docs/drive-import.md. Without the GOOGLE_SA_KEY secret or a folderId
+# the job ends quietly and changes nothing.
+
+on:
+  schedule:
+    - cron: '17 5 1 * *'
+  workflow_dispatch:
+  # A pull request that changes the import runs a self-test on sample iPhone photos.
+  pull_request:
+    paths:
+      - scripts/import-drive.mjs
+      - scripts/test-import-drive.py
+      - .github/workflows/drive-import.yml
+
+concurrency:
+  group: drive-import
+  cancel-in-progress: false
+
+jobs:
+  selftest:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: pip install pillow-heif piexif
+      - name: Import sample photos (HEIC with GPS, rotated JPEG, logos, video) and check the output
+        run: python3 scripts/test-import-drive.py
+
+  import:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      # If last month's import pull request is still open, add to it instead of opening a second one.
+      - name: Continue an open import pull request
+        id: open
+        run: |
+          branch=$(gh pr list --label client-files --state open --json headRefName -q '.[0].headRefName' || true)
+          if [ -n "$branch" ]; then
+            git checkout "$branch"
+            echo "branch=$branch" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Copy new files from Google Drive
+        id: run
+        env:
+          GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
+        run: node scripts/import-drive.mjs
+      - name: Show the import in the job summary
+        if: always()
+        run: '[ -f .drive-import-report.md ] && cat .drive-import-report.md >> "$GITHUB_STEP_SUMMARY" || true'
+      - name: Open or update the pull request
+        if: steps.run.outputs.imported != '0' && steps.run.outputs.imported != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="${{ steps.open.outputs.branch }}"
+          if [ -z "$branch" ]; then
+            branch="client-files/$(date -u +%Y-%m-%d)"
+            git checkout -b "$branch"
+          fi
+          git add public docs/growth/drive-imported.json
+          git commit -m "Client files from Google Drive: ${{ steps.run.outputs.imported }} new or changed"
+          git push origin "$branch"
+          gh label create client-files --color 0E8A16 --description "Photos and files imported from the client's Drive folder" --force
+          if [ -n "${{ steps.open.outputs.branch }}" ]; then
+            gh pr comment "$branch" --body-file .drive-import-report.md
+          else
+            gh pr create --base main --head "$branch" --label client-files \
+              --title "Client files from Google Drive ($(date -u +%Y-%m-%d))" \
+              --body-file .drive-import-report.md
+          fi

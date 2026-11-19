@@ -1,0 +1,51 @@
+---
+// About: the one page where owner and team names may appear (data-allow-names).
+// Author bios live here with id anchors; blog bylines link to them.
+import Hero from '../components/Hero.astro';
+import Team from '../components/Team.astro';
+import Video from '../components/Video.astro';
+import Gallery from '../components/Gallery.astro';
+import ClubBand from '../components/ClubBand.astro';
+import BrandList from '../components/BrandList.astro';
+import Credentials from '../components/Credentials.astro';
+import Partners from '../components/Partners.astro';
+
+import Numbers from '../components/Numbers.astro';
+import Prose from '../components/Prose.astro';
+import Reviews from '../components/Reviews.astro';
+import FinalCta from '../components/FinalCta.astro';
+import { loadContent, h1For, isLive } from '../lib/content.mjs';
+import { routes } from '../lib/routes.mjs';
+const { page } = Astro.props;
+const c = page.copy;
+const { authors } = loadContent();
+---
+<Hero h1={h1For(page)} hero={c.hero} image={loadContent().site.media?.about ?? loadContent().site.media?.hero} />
+<Numbers />
+<div data-allow-names>
+  <Prose intro={c.intro} sections={c.sections} />
+  {authors.length > 0 && (
+    <section class="section section-alt">
+      <div class="wrap">
+        <h2>{c.teamHeading ?? 'Meet the Team'}</h2>
+        <div class="grid">
+          {authors.map((a) => (
+            <div class="card" id={a.slug}>
+              <h3>{a.name}</h3>
+              <p><strong>{a.role}</strong></p>
+              <p>{a.bio}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</div>
+<Team heading="Meet the Team" limit={8} alt />
+<Video />
+<Gallery alt />
+<Credentials heading={c.credentials?.h2} intro={c.credentials?.intro} />
+<Partners heading={c.partners?.h2} intro={c.partners?.intro} alt />
+<BrandList heading={c.brandsHeading} />
+<Reviews limit={6} cta={isLive(routes.reviews()) ? { href: routes.reviews(), label: 'Read All Reviews' } : null} />
+<FinalCta closing={c.closing} />

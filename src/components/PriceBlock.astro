@@ -1,0 +1,40 @@
+---
+// "What a visit costs": the price facts people ask about first (site.pricing). The
+// numbers live in site.json only, so every page states them the same way. Renders
+// nothing until the client's prices are filled in.
+import { loadContent } from '../lib/content.mjs';
+import { inline } from '../lib/md.mjs';
+const { alt = false } = Astro.props;
+const { site } = loadContent();
+const p = site.pricing;
+---
+{p?.items?.length > 0 && (
+  <section class={`section price ${alt ? 'section-alt' : ''}`}>
+    <div class="wrap">
+      <h2>{p.heading ?? 'What a Visit Costs'}</h2>
+      {p.intro && <p class="lead" set:html={inline(p.intro)} />}
+      <ul class="price-grid">
+        {p.items.map((it) => (
+          <li class={`card price-item ${it.highlight ? 'hl' : ''}`}>
+            <p class="pi-label">{it.label}</p>
+            <p class="pi-value">{it.value}</p>
+            {it.note && <p class="pi-note" set:html={inline(it.note)} />}
+          </li>
+        ))}
+      </ul>
+      {p.note && <p class="price-note" set:html={inline(p.note)} />}
+    </div>
+  </section>
+)}
+<style>
+  .price-grid{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+  .price-item{padding:20px}
+  .price-item.hl{background:var(--c-primary);border-color:var(--c-primary);color:#fff}
+  .price-item.hl .pi-label{color:#C9D4E2}
+  .price-item.hl .pi-value{color:#fff}
+  .price-item.hl .pi-note{color:#DCE3EC}
+  .pi-label{margin:0;font-weight:600;color:var(--c-muted);font-size:.95rem}
+  .pi-value{margin:6px 0 8px;font-size:clamp(1.9rem,3.4vw,2.5rem);font-weight:800;letter-spacing:-.02em;line-height:1.05;color:var(--c-heading,var(--c-primary))}
+  .pi-note{margin:0;font-size:.95rem}
+  .price-note{margin:16px 0 0;color:var(--c-muted);font-size:.95rem}
+</style>

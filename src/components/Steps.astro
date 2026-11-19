@@ -1,0 +1,25 @@
+---
+// Process as a real ordered list (machine-readable sequence for AEO).
+import { inline } from '../lib/md.mjs';
+const { heading, steps = [], cta, alt = false } = Astro.props;
+---
+{steps.length > 0 && (
+  <section class={`section ${alt ? 'section-alt' : ''}`}>
+    <div class="wrap">
+      <h2>{heading}</h2>
+      <ol class="steps">
+        {steps.map((s) => (
+          <li><h3>{s.title}</h3><p set:html={inline(s.text)} /></li>
+        ))}
+      </ol>
+      {cta && <p class="section-cta"><a class="btn btn-accent" href={cta.href}>{cta.label}</a></p>}
+    </div>
+  </section>
+)}
+
+<style>
+  .steps{list-style:none;counter-reset:s;padding:0;margin:0;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+  .steps li{counter-increment:s;position:relative;background:#fff;border:1px solid var(--c-line);border-radius:var(--r-card);padding:24px;box-shadow:var(--shadow-card)}
+  .steps li::before{content:counter(s);display:block;font-size:2.4rem;font-weight:800;line-height:1;letter-spacing:-.03em;color:var(--c-accent);margin-bottom:12px}
+  .steps p{margin:0;color:var(--c-muted)}
+</style>

@@ -1,0 +1,22 @@
+---
+// Recent jobs: real photos of finished repairs (site.gallery), each with a caption
+// naming the appliance and the city. Proof of work, never stock in production.
+import { loadContent } from '../lib/content.mjs';
+import Photo from './Photo.astro';
+const { heading = 'Recent Repairs', intro, alt = false, limit = 6, items } = Astro.props;
+const { site } = loadContent();
+const list = (items ?? site.gallery ?? []).slice(0, limit);
+---
+{list.length > 0 && (
+  <section class={`section ${alt ? 'section-alt' : ''}`}>
+    <div class="wrap">
+      <h2>{heading}</h2>
+      {intro && <p class="lead">{intro}</p>}
+      <div class="gallery">{list.map((m) => <Photo media={m} ratio="4 / 3" w={700} sizes="(max-width: 860px) 50vw, 33vw" />)}</div>
+    </div>
+  </section>
+)}
+<style>
+  .gallery{display:grid;gap:14px;grid-template-columns:repeat(3,1fr)}
+  @media (max-width:860px){.gallery{grid-template-columns:repeat(2,1fr)}}
+</style>

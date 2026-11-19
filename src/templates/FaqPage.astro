@@ -1,0 +1,12 @@
+---
+// Main FAQ page: grouped questions, every one in FAQPage schema.
+import Hero from '../components/Hero.astro';
+import Faq from '../components/Faq.astro';
+import FinalCta from '../components/FinalCta.astro';
+import { h1For } from '../lib/content.mjs';
+const { page } = Astro.props;
+const c = page.copy;
+---
+<Hero h1={h1For(page)} hero={c.hero} />
+{(c.groups ?? []).map((g) => <Faq faq={g.faq} heading={g.h2} />)}
+<FinalCta closing={c.closing} />

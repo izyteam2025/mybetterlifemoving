@@ -1,0 +1,22 @@
+{
+  "_comment": "Approved service-area breakdown from the site map: counties and the exact cities in each. Set countyPages to false for a cities-only site map (no county pages are planned then).",
+  "countyPages": true,
+  "counties": [
+    {
+      "slug": "travis-county",
+      "name": "Travis County",
+      "cities": [
+        { "slug": "austin", "name": "Austin" },
+        { "slug": "pflugerville", "name": "Pflugerville" }
+      ]
+    },
+    {
+      "slug": "williamson-county",
+      "name": "Williamson County",
+      "cities": [
+        { "slug": "round-rock", "name": "Round Rock" },
+        { "slug": "georgetown", "name": "Georgetown" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+name: IndexNow
+
+# After a merge to main, wait until Cloudflare Pages serves this commit (the page's
+# <meta name="build-id"> equals the commit SHA), then submit the changed URLs to
+# IndexNow (Bing and partners; Bing powers Copilot and ChatGPT search).
+# Setup: add repository secret INDEXNOW_KEY (any 32-char hex string) and the same
+# value as an environment variable in Cloudflare Pages so the key file is published.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      all:
+        description: Submit every URL
+        type: boolean
+        default: false
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Wait for the deploy, then submit
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: node scripts/indexnow.mjs --wait ${{ github.sha }} ${{ inputs.all && '--all' || '' }}

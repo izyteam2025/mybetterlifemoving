@@ -1,0 +1,44 @@
+---
+// GoHighLevel form embed when site.form.ghlEmbedUrl is set; otherwise a plain
+// accessible form posting to site.form.fallbackAction.
+// form.mode "booking" (clients who book through an external scheduler such as
+// Housecall Pro): a booking card that sends people to the conversion page instead
+// of a form that would post nowhere.
+import { loadContent, ctaPath } from '../lib/content.mjs';
+const { site } = loadContent();
+const f = site.form ?? {};
+---
+<div class="lead-form">
+  <p class="form-title">{f.heading ?? 'Get Your Free Quote'}</p>
+  {f.mode === 'booking' ? (
+    <div class="booking-card">
+      {f.text && <p>{f.text}</p>}
+      {f.points?.length > 0 && <ul>{f.points.map((pt) => <li>{pt}</li>)}</ul>}
+      <a class="btn btn-accent" href={ctaPath()}>{f.submitLabel ?? 'Book Online'}</a>
+      <a class="btn btn-outline" href={`tel:${site.phoneE164}`}>Call {site.phone}</a>
+    </div>
+  ) : f.ghlEmbedUrl ? (
+    <iframe src={f.ghlEmbedUrl} title={f.heading ?? 'Quote form'} loading="lazy" style="width:100%;min-height:520px;border:0"></iframe>
+  ) : (
+    <form method="post" action={f.fallbackAction || '#'}>
+      <label>Your name<input name="name" autocomplete="name" required /></label>
+      <label>Phone<input name="phone" type="tel" autocomplete="tel" required /></label>
+      <label>ZIP code<input name="zip" inputmode="numeric" autocomplete="postal-code" /></label>
+      <label>What needs fixing?<textarea name="message" rows="3"></textarea></label>
+      <button class="btn btn-accent" type="submit">{f.submitLabel ?? 'Send'}</button>
+    </form>
+  )}
+</div>
+
+<style>
+  .lead-form{background:#fff;border:1px solid #E3E6EA;border-radius:var(--radius);padding:24px;box-shadow:0 10px 30px rgba(19,41,75,.08)}
+  .form-title{font-weight:700;font-size:1.25rem;color:var(--c-primary);margin-bottom:12px}
+  form{display:grid;gap:12px}
+  label{display:grid;gap:4px;font-size:.92rem;font-weight:600}
+  input,textarea{font:inherit;font-weight:400;padding:10px 12px;border:1px solid #CBD2DA;border-radius:8px}
+  button{border:0;cursor:pointer;font:inherit;font-weight:600}
+  .booking-card{display:grid;gap:12px}
+  .booking-card p{margin:0;color:var(--c-muted)}
+  .booking-card ul{margin:0;padding-left:1.1em;display:grid;gap:4px}
+  .booking-card .btn{text-align:center}
+</style>

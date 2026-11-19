@@ -1,0 +1,49 @@
+---
+// Single router. Every live page in the registry (src/lib/content.mjs) gets a route
+// on the IZY URL standard; the page type picks the template. Content lives in /content.
+import Base from '../layouts/Base.astro';
+import { livePages, loadContent, titleFor, descriptionFor, noindexFor } from '../lib/content.mjs';
+import { crumbsFor, schemaFor } from '../lib/page-model.mjs';
+import Home from '../templates/Home.astro';
+import ServicesHub from '../templates/ServicesHub.astro';
+import Service from '../templates/Service.astro';
+import AreasHub from '../templates/AreasHub.astro';
+import County from '../templates/County.astro';
+import City from '../templates/City.astro';
+import CityService from '../templates/CityService.astro';
+import BrandsHub from '../templates/BrandsHub.astro';
+import Brand from '../templates/Brand.astro';
+import About from '../templates/About.astro';
+import FaqPage from '../templates/FaqPage.astro';
+import ReviewsPage from '../templates/ReviewsPage.astro';
+import BlogHub from '../templates/BlogHub.astro';
+import BlogPost from '../templates/BlogPost.astro';
+import Contact from '../templates/Contact.astro';
+import Page from '../templates/Page.astro';
+
+export function getStaticPaths() {
+  return livePages().map((p) => ({
+    params: { slug: p.path === '/' ? undefined : p.path.replace(/^\/|\/$/g, '') },
+    props: { key: p.key },
+  }));
+}
+
+const page = loadContent().pages.find((p) => p.key === Astro.props.key);
+const templates = {
+  home: Home, 'services-hub': ServicesHub, service: Service, 'areas-hub': AreasHub, county: County, city: City,
+  'city-service': CityService, 'brands-hub': BrandsHub, brand: Brand, about: About, faq: FaqPage, reviews: ReviewsPage,
+  'blog-hub': BlogHub, 'blog-post': BlogPost, contact: Contact, page: Page,
+};
+const Template = templates[page.type];
+---
+<Base
+  title={titleFor(page)}
+  description={descriptionFor(page)}
+  path={page.path}
+  crumbs={crumbsFor(page)}
+  schema={schemaFor(page)}
+  noindex={noindexFor(page)}
+  ogType={page.type === 'blog-post' ? 'article' : 'website'}
+>
+  <Template page={page} />
+</Base>

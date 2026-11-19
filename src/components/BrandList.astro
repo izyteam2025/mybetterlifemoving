@@ -1,0 +1,55 @@
+---
+// Brands the client repairs (site.brandsWeRepair), as logos where a file exists and as
+// an icon tile with the name otherwise. Logos are shown greyscale at one size, always
+// with the independence note (site.brandsNote) under them: an independent repair
+// company shows the brands it fixes, never a manufacturer authorization.
+// A logo comes from the entry itself ({ name, logo: { src } }) or from a file named after
+// the brand in public/brand-logos/ (lg.svg, sub-zero.png, ...). `npm run brand-logos`
+// fills that folder from the open Simple Icons set where a brand is in it.
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
+import { loadContent } from '../lib/content.mjs';
+const { heading: h, note, alt = false } = Astro.props;
+const { site } = loadContent();
+const heading = h ?? site.brandsHeading ?? 'Brands We Repair';
+const slug = (s) => String(s).toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const findLogo = (name) => {
+  for (const ext of ['svg', 'png', 'webp']) {
+    const rel = `/brand-logos/${slug(name)}.${ext}`;
+    if (existsSync(join(process.cwd(), 'public', rel))) return { src: rel };
+  }
+  return null;
+};
+const list = (site.brandsWeRepair ?? []).map((b) => {
+  const name = typeof b === 'string' ? b : b.name;
+  const logo = (typeof b === 'object' && b.logo?.src) ? b.logo : findLogo(name);
+  return { name, logo };
+}).sort((a, b) => Number(!!b.logo) - Number(!!a.logo)); // logos first, then icon tiles
+---
+{list.length > 0 && (
+  <section class={`section brands-strip ${alt ? 'section-alt' : ''}`}>
+    <div class="wrap center">
+      <h2>{heading}</h2>
+      <ul class="blogos">
+        {list.map((b) => (
+          <li class="btile" title={b.name}>
+            {b.logo
+              ? <img src={b.logo.src} alt={b.logo.alt ?? `${b.name} logo`} width={b.logo.width ?? 120} height={b.logo.height ?? 40} decoding="async" />
+              : <span class="bname"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm-1.2 14.2-3.5-3.5 1.4-1.4 2.1 2.1 4.9-4.9 1.4 1.4-6.3 6.3Z"/></svg>{b.name}</span>}
+          </li>
+        ))}
+      </ul>
+      {(note ?? site.brandsNote) && <p class="note">{note ?? site.brandsNote}</p>}
+    </div>
+  </section>
+)}
+<style>
+  .blogos{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(132px,1fr))}
+  .btile{background:#fff;border:1px solid var(--c-line);border-radius:var(--radius);height:72px;display:flex;align-items:center;justify-content:center;padding:12px 14px}
+  .btile img{height:30px;max-width:100%;width:auto;object-fit:contain;filter:grayscale(1);opacity:.72;transition:filter .2s,opacity .2s}
+  .btile:hover img{filter:none;opacity:1}
+  .bname{display:inline-flex;align-items:center;gap:6px;font-weight:700;font-size:.95rem;color:var(--c-primary);line-height:1.2}
+  .bname svg{flex:none;color:var(--c-accent,var(--c-primary))}
+  .note{color:var(--c-muted);font-size:.9rem;margin-top:16px}
+  @media (max-width:520px){.blogos{grid-template-columns:repeat(3,1fr);gap:8px}.btile{height:60px;padding:8px}.bname{font-size:.82rem}}
+</style>

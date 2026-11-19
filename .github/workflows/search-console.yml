@@ -1,0 +1,25 @@
+name: Search Console sitemap
+
+# After a merge to main, wait until the client's domain serves this commit, then submit
+# /sitemap.xml to Google Search Console. Before launch the domain still shows the old site,
+# so the run skips. Setup (agency service account, GOOGLE_SA_KEY): docs/search-console.md.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Wait for the deploy, then submit the sitemap
+        env:
+          GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
+        run: node scripts/gsc.mjs submit --wait ${{ github.sha }}

@@ -1,0 +1,104 @@
+{
+  "_comment": "Page path -> keyword mapping, built with DataForSEO (volume, KD, SERP). One primary per page; the build fails if two pages share one. Title tag = 'Primary Keyword | Company' (service pages add the target city when it fits 60 chars) unless 'title' is set.",
+  "/": {
+    "primary": "appliance repair Austin TX",
+    "secondary": [
+      "appliance repair near me",
+      "same day appliance repair Austin"
+    ]
+  },
+  "/services/": {
+    "primary": "appliance repair services",
+    "secondary": [
+      "home appliance repair"
+    ]
+  },
+  "/refrigerator-repair/": {
+    "primary": "refrigerator repair",
+    "secondary": [
+      "fridge repair",
+      "refrigerator repair near me"
+    ]
+  },
+  "/washer-repair/": {
+    "primary": "washer repair",
+    "secondary": [
+      "washing machine repair"
+    ]
+  },
+  "/dryer-repair/": {
+    "primary": "dryer repair",
+    "secondary": [
+      "dryer repair near me",
+      "dryer not heating repair"
+    ]
+  },
+  "/service-area/": {
+    "primary": "appliance repair service area",
+    "secondary": []
+  },
+  "/travis-county/appliance-repair/": {
+    "primary": "appliance repair Travis County",
+    "secondary": [
+      "appliance repair Travis County TX"
+    ]
+  },
+  "/pflugerville/appliance-repair/": {
+    "primary": "appliance repair in Pflugerville",
+    "secondary": [
+      "Pflugerville appliance repair"
+    ]
+  },
+  "/pflugerville/dryer-repair/": {
+    "primary": "dryer repair in Pflugerville, TX",
+    "secondary": [
+      "dryer repair Pflugerville"
+    ]
+  },
+  "/premium-appliance-repair/": {
+    "primary": "premium appliance repair",
+    "secondary": [
+      "luxury appliance repair Austin"
+    ]
+  },
+  "/sub-zero-appliance-repair/": {
+    "primary": "Sub-Zero appliance repair",
+    "secondary": [
+      "Sub-Zero refrigerator repair Austin"
+    ]
+  },
+  "/about/": {
+    "primary": "about Northline Appliance Repair",
+    "title": "About Us | Northline Appliance Repair",
+    "secondary": []
+  },
+  "/faq/": {
+    "primary": "appliance repair FAQ",
+    "secondary": []
+  },
+  "/reviews/": {
+    "primary": "Northline Appliance Repair reviews",
+    "title": "Reviews | Northline Appliance Repair",
+    "secondary": []
+  },
+  "/blog/": {
+    "primary": "appliance repair tips",
+    "title": "Appliance Repair Tips | Northline Appliance Repair",
+    "secondary": []
+  },
+  "/contact/": {
+    "primary": "contact us",
+    "title": "Contact Us | Northline Appliance Repair",
+    "secondary": []
+  },
+  "/privacy-policy/": {
+    "primary": "privacy policy",
+    "title": "Privacy Policy | Northline Appliance Repair",
+    "secondary": []
+  },
+  "/terms-of-service/": {
+    "primary": "terms of service",
+    "title": "Terms of Service | Northline Appliance Repair",
+    "secondary": []
+  }
+}

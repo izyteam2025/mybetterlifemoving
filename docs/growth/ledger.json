@@ -1,0 +1,4 @@
+{
+  "_comment": "Every page the monthly growth cycle creates or changes. kind: new | refresh | title-meta | tech. live: the day it went live (merged or published). baseline: Search Console numbers for the page over the 28 days before (zeros for a new page). checks: added at 30, 60 and 90 days with the same numbers and a verdict (better | same | worse). npm run ledger -- --due lists what to check; -- --locked lists pages changed in the last 60 days, which the run leaves alone.",
+  "changes": []
+}

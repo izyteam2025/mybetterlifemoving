@@ -1,0 +1,125 @@
+---
+// Blog hub (every site, agency rule 3 Nov 2026): posts and guides in one list, newest first,
+// with filters by location, service and article type.
+//
+// SEO: every card is in the HTML and crawlable; the filters only hide cards in the browser.
+// They are buttons, not links, so no filtered URLs get crawled or indexed, and the page's
+// canonical stays /blog/. The chosen filters go in the address (?location=aurora) only so a
+// visitor can share the view. Without JavaScript every card shows and the filters stay hidden.
+// A filter row appears only when it has two or more values; an article with no location tag
+// is general advice and shows under every location.
+import { blogItems, blogTypes, loadContent } from '../lib/content.mjs';
+const { page } = Astro.props;
+const c = page.copy;
+const { services, cities } = loadContent();
+const items = blogItems();
+const types = blogTypes();
+
+const used = (key) => new Set(items.flatMap((i) => [].concat(i[key] ?? []).filter(Boolean)));
+const svcUsed = used('services');
+const cityUsed = used('cities');
+const typeUsed = used('type');
+const rows = [
+  { key: 'location', label: c.filters?.location ?? 'Location', options: cities.filter((x) => cityUsed.has(x.slug)).map((x) => ({ value: x.slug, label: x.name })) },
+  { key: 'service', label: c.filters?.service ?? 'Service', options: services.filter((x) => svcUsed.has(x.slug)).map((x) => ({ value: x.slug, label: x.name })) },
+  { key: 'type', label: c.filters?.type ?? 'Type', options: Object.entries(types).filter(([k]) => typeUsed.has(k)).map(([value, label]) => ({ value, label })) },
+].filter((r) => r.options.length >= 2);
+const serviceName = Object.fromEntries(services.map((s) => [s.slug, s.name]));
+const fmt = (d) => (d ? new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : '');
+---
+<section class="hero-simple">
+  <div class="wrap">
+    <h1>{c.hero.h1}</h1>
+    {c.hero.overview && <p class="lead">{[].concat(c.hero.overview)[0]}</p>}
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    {rows.length > 0 && (
+      <div class="filters" data-blog-filters hidden>
+        {rows.map((r) => (
+          <div class="frow" role="group" aria-label={`Filter by ${r.label.toLowerCase()}`}>
+            <span class="flabel">{r.label}</span>
+            <button type="button" class="chip" data-filter={r.key} data-value="" aria-pressed="true">All</button>
+            {r.options.map((o) => (
+              <button type="button" class="chip" data-filter={r.key} data-value={o.value} aria-pressed="false">{o.label}</button>
+            ))}
+          </div>
+        ))}
+        <p class="fcount" aria-live="polite" data-blog-count></p>
+      </div>
+    )}
+    <div class="grid grid-3" data-blog-list>
+      {items.map((i) => (
+        <article class="card post-card" data-location={i.cities.join(' ')} data-service={i.services.join(' ')} data-type={i.type ?? ''}>
+          {i.type && types[i.type] && <p class="post-type">{types[i.type]}</p>}
+          <h2 class="post-title"><a href={i.path}>{i.title}</a></h2>
+          <p>{i.description}</p>
+          <p class="post-meta-line">
+            {i.services.map((s) => serviceName[s]).filter(Boolean).join(' · ')}
+            {i.kind === 'post' && i.date && <> {i.services.length > 0 && ' · '}<time datetime={i.date}>{fmt(i.date)}</time></>}
+          </p>
+        </article>
+      ))}
+    </div>
+    <p class="fempty" data-blog-empty hidden>{c.filters?.empty ?? 'Nothing here yet for that combination. Try another filter.'}</p>
+  </div>
+</section>
+
+<script>
+  const bar = document.querySelector('[data-blog-filters]');
+  if (bar) {
+    bar.hidden = false;
+    const cards = [...document.querySelectorAll('[data-blog-list] > article')];
+    const count = document.querySelector('[data-blog-count]');
+    const empty = document.querySelector('[data-blog-empty]');
+    const params = new URLSearchParams(location.search);
+    const state = { location: params.get('location') ?? '', service: params.get('service') ?? '', type: params.get('type') ?? '' };
+    const apply = () => {
+      let shown = 0;
+      for (const card of cards) {
+        const has = (k) => (card.dataset[k] ?? '').split(' ').filter(Boolean);
+        const loc = has('location');
+        const ok =
+          (!state.location || loc.length === 0 || loc.includes(state.location)) &&
+          (!state.service || has('service').includes(state.service)) &&
+          (!state.type || card.dataset.type === state.type);
+        card.hidden = !ok;
+        if (ok) shown++;
+      }
+      for (const b of bar.querySelectorAll('[data-filter]')) b.setAttribute('aria-pressed', String(state[b.dataset.filter] === b.dataset.value));
+      count.textContent = shown === cards.length ? `${cards.length} articles` : `Showing ${shown} of ${cards.length} articles`;
+      empty.hidden = shown > 0;
+      const q = new URLSearchParams(Object.entries(state).filter(([, v]) => v));
+      history.replaceState(null, '', `${location.pathname}${q.toString() ? `?${q}` : ''}`);
+    };
+    // A value in the address that no button offers is ignored.
+    for (const k of Object.keys(state)) if (state[k] && !bar.querySelector(`[data-filter="${k}"][data-value="${CSS.escape(state[k])}"]`)) state[k] = '';
+    bar.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-filter]');
+      if (!b) return;
+      state[b.dataset.filter] = b.dataset.value;
+      apply();
+    });
+    apply();
+  }
+</script>
+
+<style>
+  .hero-simple{background:var(--c-surface);padding:40px 0;border-bottom:1px solid var(--c-line)}
+  .filters{margin-bottom:28px;display:grid;gap:12px}
+  .frow{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+  .flabel{font-weight:700;font-size:.9rem;min-width:84px;color:var(--c-heading)}
+  .chip{font:inherit;font-size:.9rem;padding:.45em .95em;border-radius:999px;border:1px solid var(--c-line);background:#fff;color:var(--c-text);cursor:pointer;min-height:40px}
+  .chip:hover{border-color:var(--c-primary)}
+  .chip[aria-pressed="true"]{background:var(--c-primary);border-color:var(--c-primary);color:#fff}
+  .chip:focus-visible{outline:3px solid var(--c-accent);outline-offset:2px}
+  .fcount{font-size:.9rem;color:var(--c-muted);margin:0}
+  .post-type{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--c-primary);margin:0 0 8px}
+  .post-title{font-size:1.2rem}
+  .post-title a{text-decoration:none}
+  .post-meta-line{font-size:.85rem;color:var(--c-muted);margin-top:10px}
+  .post-card[hidden],.fempty[hidden]{display:none}
+  .fempty{margin-top:20px}
+  @media (max-width:520px){.flabel{min-width:100%}}
+</style>

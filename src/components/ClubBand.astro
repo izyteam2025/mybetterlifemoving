@@ -1,0 +1,26 @@
+---
+// Membership band (site.membership): one strong, separate offer with its own page.
+import { loadContent, isLive } from '../lib/content.mjs';
+const { site } = loadContent();
+const m = site.membership;
+---
+{m && isLive(m.href) && (
+  <section class="club">
+    <div class="wrap club-row">
+      <div>
+        <p class="club-kicker">{m.kicker ?? 'Membership'}</p>
+        <h2>{m.title}</h2>
+        <p>{m.text}</p>
+      </div>
+      <a class="btn btn-accent btn-lg" href={m.href}>{m.ctaLabel ?? 'See the Plans'}</a>
+    </div>
+  </section>
+)}
+<style>
+  .club{background:var(--c-deep);color:#fff;padding:clamp(44px,6vw,64px) 0;border-top:4px solid var(--c-accent)}
+  .club h2{color:#fff;margin-bottom:.3em}
+  .club p{margin:0;color:#DCE3EC;max-width:720px}
+  .club-kicker{font-size:1rem;font-weight:600;color:#fff !important;opacity:.75;margin-bottom:.35em !important}
+  .club-row{display:flex;gap:24px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+  .btn-lg{padding:1em 1.6em;font-size:1.05rem}
+</style>

@@ -1,0 +1,13 @@
+---
+import Hero from '../components/Hero.astro';
+import Numbers from '../components/Numbers.astro';
+import Reviews from '../components/Reviews.astro';
+import FinalCta from '../components/FinalCta.astro';
+import { h1For } from '../lib/content.mjs';
+const { page } = Astro.props;
+const c = page.copy;
+---
+<Hero h1={h1For(page)} hero={c.hero} />
+<Numbers />
+<Reviews heading={c.reviewsHeading ?? 'Verified Google Reviews'} limit={100} alt={false} />
+<FinalCta closing={c.closing} />

@@ -1,0 +1,37 @@
+---
+// County page /[county]/[umbrella-keyword]/ (county-page-copy), optional per client.
+// Order: hero > numbers > offers > service areas in county (cities linked, CTA to
+// service area hub) > services in county (no county service pages are built, so each
+// card links to the main service page) > why choose + reviews > FAQ > final CTA.
+// No blog, no other counties, no homepage links in the body.
+import Hero from '../components/Hero.astro';
+import Numbers from '../components/Numbers.astro';
+import Offers from '../components/Offers.astro';
+import Cards from '../components/Cards.astro';
+import Tiles from '../components/Tiles.astro';
+import Reviews from '../components/Reviews.astro';
+import Faq from '../components/Faq.astro';
+import FinalCta from '../components/FinalCta.astro';
+import { loadContent, liveHref, isLive, ctaPath, h1For, getCounty, citiesInCounty, cityHref } from '../lib/content.mjs';
+import { routes } from '../lib/routes.mjs';
+
+const { page } = Astro.props;
+const c = page.copy;
+const county = getCounty(page.county);
+const { services } = loadContent();
+const cta = (label) => ({ href: ctaPath(), label });
+const tiles = citiesInCounty(county.slug).map((ci) => ({ label: ci.name, href: cityHref(ci) }));
+const serviceCards = services
+  .map((s) => ({ title: s.name, text: c.serviceCards?.[s.slug] ?? s.summary, href: liveHref(routes.service(s.slug)) }))
+  .filter((x) => x.href);
+---
+<Hero h1={h1For(page)} hero={c.hero} withForm />
+<Numbers />
+<Offers offers={c.offers} heading={c.offersHeading} />
+<Tiles heading={c.areasBlock.h2} intro={c.areasBlock.intro} items={tiles} closing={c.areasBlock.closing}
+  cta={isLive(routes.areasHub()) ? { href: routes.areasHub(), label: 'Check Your Area' } : null} />
+<Cards heading={c.servicesBlock.h2} intro={c.servicesBlock.intro} items={serviceCards} alt cta={cta(c.servicesBlock.ctaLabel ?? 'Book a Repair')} />
+<Cards heading={c.whyChoose.h2} items={c.whyChoose.cards} cta={cta(c.whyChoose.ctaLabel ?? 'Schedule Service')} />
+<Reviews heading={c.reviews?.heading} intro={c.reviews?.intro} cta={cta('Book Your Visit')} />
+<Faq faq={c.faq} heading={c.faqHeading} closing={c.faqClosing} cta={cta('Talk to Our Team')} />
+<FinalCta closing={c.closing} />

@@ -1,0 +1,721 @@
+{
+  "schema": 1,
+  "site": {
+    "name": "Northline Appliance Repair",
+    "url": "https://www.northline-demo.com",
+    "repo": null
+  },
+  "commit": null,
+  "generatedAt": "2026-10-29T03:20:31.545Z",
+  "summary": {
+    "pages": 21,
+    "indexable": 19,
+    "errors": 0,
+    "warnings": 8,
+    "lighthouse": {
+      "performance": 100,
+      "accessibility": 95,
+      "bestPractices": 96,
+      "seo": 100
+    }
+  },
+  "pages": [
+    {
+      "url": "https://www.northline-demo.com/",
+      "path": "/",
+      "type": "home",
+      "keyword": "appliance repair Austin TX",
+      "title": "Appliance Repair Austin TX | Northline Appliance Repair",
+      "titleLength": 55,
+      "description": "Appliance repair in Austin, TX from a family-run local team. Same-day visits, upfront pricing and a 90-day warranty on parts and labor. Book online today.",
+      "descriptionLength": 154,
+      "h1": [
+        "Appliance Repair in Austin, TX"
+      ],
+      "canonical": "https://www.northline-demo.com/",
+      "indexable": true,
+      "words": 1151,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 1
+    },
+    {
+      "url": "https://www.northline-demo.com/about/",
+      "path": "/about/",
+      "type": "about",
+      "keyword": "about Northline Appliance Repair",
+      "title": "About Us | Northline Appliance Repair",
+      "titleLength": 37,
+      "description": "Meet Northline Appliance Repair, a local family-owned team fixing refrigerators, washers and dryers around Austin since 2012. Licensed, insured and local.",
+      "descriptionLength": 154,
+      "h1": [
+        "About Northline Appliance Repair"
+      ],
+      "canonical": "https://www.northline-demo.com/about/",
+      "indexable": true,
+      "words": 368,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "AboutPage",
+        "BreadcrumbList"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "url": "https://www.northline-demo.com/austin/appliance-repair/",
+      "path": "/austin/appliance-repair/",
+      "type": "city",
+      "keyword": "appliance repair in Austin",
+      "title": "Appliance Repair in Austin | Northline Appliance Repair",
+      "titleLength": 55,
+      "description": "Appliance repair in Austin for refrigerators, washers and dryers. Local technicians, same-day appointments, written pricing and a 90-day warranty.",
+      "descriptionLength": 146,
+      "h1": [
+        "Appliance Repair in Austin"
+      ],
+      "canonical": "https://www.northline-demo.com/austin/appliance-repair/",
+      "indexable": true,
+      "words": 517,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 1
+    },
+    {
+      "url": "https://www.northline-demo.com/austin/dryer-repair/",
+      "path": "/austin/dryer-repair/",
+      "type": "city-service",
+      "keyword": "dryer repair in Austin, TX",
+      "title": "Dryer Repair in Austin, TX | Northline Appliance Repair",
+      "titleLength": 55,
+      "description": "Dryer repair in Austin, TX for gas and electric dryers. No heat, long dry times or noisy drums fixed fast, with a written price and a 90-day warranty.",
+      "descriptionLength": 150,
+      "h1": [
+        "Dryer Repair in Austin, TX"
+      ],
+      "canonical": "https://www.northline-demo.com/austin/dryer-repair/",
+      "indexable": true,
+      "words": 585,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "url": "https://www.northline-demo.com/austin/refrigerator-repair/",
+      "path": "/austin/refrigerator-repair/",
+      "type": "city-service",
+      "keyword": "refrigerator repair in Austin, TX",
+      "title": "Refrigerator Repair Austin TX | Northline Appliance Repair",
+      "titleLength": 58,
+      "description": "Refrigerator repair in Austin, TX with same-day priority for warm fridges, leaks and ice makers. Written price first and a 90-day warranty on parts and labor.",
+      "descriptionLength": 158,
+      "h1": [
+        "Refrigerator Repair in Austin, TX"
+      ],
+      "canonical": "https://www.northline-demo.com/austin/refrigerator-repair/",
+      "indexable": true,
+      "words": 587,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "url": "https://www.northline-demo.com/blog/",
+      "path": "/blog/",
+      "type": "blog-hub",
+      "keyword": "appliance repair tips",
+      "title": "Appliance Repair Tips | Northline Appliance Repair",
+      "titleLength": 50,
+      "description": "Practical appliance repair tips from Northline's Austin technicians. Troubleshooting guides, maintenance checklists and when to call a professional.",
+      "descriptionLength": 148,
+      "h1": [
+        "Appliance Repair Tips and Guides"
+      ],
+      "canonical": "https://www.northline-demo.com/blog/",
+      "indexable": true,
+      "words": 54,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "url": "https://www.northline-demo.com/blog/why-is-my-dryer-not-heating/",
+      "path": "/blog/why-is-my-dryer-not-heating/",
+      "type": "blog-post",
+      "keyword": null,
+      "title": "Dryer Not Heating? 5 Causes | Northline Appliance Repair",
+      "titleLength": 56,
+      "description": "Dryer not heating? See the five most common causes, what you can safely check yourself and when to call a technician to get your dryer heating again fast.",
+      "descriptionLength": 154,
+      "h1": [
+        "Why Is My Dryer Not Heating? 5 Common Causes"
+      ],
+      "canonical": "https://www.northline-demo.com/blog/why-is-my-dryer-not-heating/",
+      "indexable": true,
+      "words": 905,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "BlogPosting",
+        "Person",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "url": "https://www.northline-demo.com/contact/",
+      "path": "/contact/",
+      "type": "contact",
+      "keyword": "contact us",
+      "title": "Contact Us | Northline Appliance Repair",
+      "titleLength": 39,
+      "description": "Contact Northline Appliance Repair in Austin. Call, email or send the form for same-day refrigerator, washer and dryer repair with upfront pricing.",
+      "descriptionLength": 147,
+      "h1": [
+        "Contact Us"
+      ],
+      "canonical": "https://www.northline-demo.com/contact/",
+      "indexable": true,
+      "words": 106,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "ContactPage",
+        "BreadcrumbList"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "url": "https://www.northline-demo.com/dryer-repair/",
+      "path": "/dryer-repair/",
+      "type": "service",
+      "keyword": "dryer repair",
+      "title": "Dryer Repair in Austin | Northline Appliance Repair",
+      "titleLength": 51,
+      "description": "Dryer repair in Austin for gas and electric dryers. No heat, long dry times or a noisy drum fixed, priced up front, with a 90-day warranty on parts and labor.",
+      "descriptionLength": 158,
+      "h1": [
+        "Dryer Repair in Austin"
+      ],
+      "canonical": "https://www.northline-demo.com/dryer-repair/",
+      "indexable": true,
+      "words": 691,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 1
+    },
+    {
+      "url": "https://www.northline-demo.com/faq/",
+      "path": "/faq/",
+      "type": "faq",
+      "keyword": "appliance repair FAQ",
+      "title": "Appliance Repair FAQ | Northline Appliance Repair",
+      "titleLength": 49,
+      "description": "Answers to common appliance repair questions: pricing, the service call fee, scheduling, warranty and which brands Northline Appliance Repair fixes in Austin.",
+      "descriptionLength": 158,
+      "h1": [
+        "Appliance Repair FAQ"
+      ],
+      "canonical": "https://www.northline-demo.com/faq/",
+      "indexable": true,
+      "words": 241,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "url": "https://www.northline-demo.com/pflugerville/appliance-repair/",
+      "path": "/pflugerville/appliance-repair/",
+      "type": "city",
+      "keyword": "appliance repair in Pflugerville",
+      "title": "Appliance Repair Pflugerville | Northline Appliance Repair",
+      "titleLength": 58,
+      "description": "Appliance repair in Pflugerville with Saturday visits, upfront pricing and a 90-day warranty. Refrigerator, washer and dryer repair from a nearby local team.",
+      "descriptionLength": 157,
+      "h1": [
+        "Appliance Repair in Pflugerville"
+      ],
+      "canonical": "https://www.northline-demo.com/pflugerville/appliance-repair/",
+      "indexable": true,
+      "words": 470,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 1
+    },
+    {
+      "url": "https://www.northline-demo.com/pflugerville/dryer-repair/",
+      "path": "/pflugerville/dryer-repair/",
+      "type": "city-service",
+      "keyword": "dryer repair in Pflugerville, TX",
+      "title": "Dryer Repair Pflugerville TX | Northline Appliance Repair",
+      "titleLength": 57,
+      "description": "Dryer repair in Pflugerville, TX with Saturday visits. No heat, slow drying or a noisy drum fixed with a written price and a 90-day parts and labor warranty.",
+      "descriptionLength": 157,
+      "h1": [
+        "Dryer Repair in Pflugerville, TX"
+      ],
+      "canonical": "https://www.northline-demo.com/pflugerville/dryer-repair/",
+      "indexable": true,
+      "words": 527,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "url": "https://www.northline-demo.com/premium-appliance-repair/",
+      "path": "/premium-appliance-repair/",
+      "type": "brands-hub",
+      "keyword": "premium appliance repair",
+      "title": "Premium Appliance Repair | Northline Appliance Repair",
+      "titleLength": 53,
+      "description": "Premium and built-in appliance repair in Austin, including Sub-Zero. Experienced independent technicians, written pricing and a 90-day parts and labor warranty.",
+      "descriptionLength": 160,
+      "h1": [
+        "Premium Appliance Repair in Austin"
+      ],
+      "canonical": "https://www.northline-demo.com/premium-appliance-repair/",
+      "indexable": true,
+      "words": 254,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "url": "https://www.northline-demo.com/privacy-policy/",
+      "path": "/privacy-policy/",
+      "type": "page",
+      "keyword": "privacy policy",
+      "title": "Privacy Policy | Northline Appliance Repair",
+      "titleLength": 43,
+      "description": "How Northline Appliance Repair collects, uses and protects the information you share through this website, forms and phone calls.",
+      "descriptionLength": 129,
+      "h1": [
+        "Privacy Policy"
+      ],
+      "canonical": "https://www.northline-demo.com/privacy-policy/",
+      "indexable": false,
+      "words": 33,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "url": "https://www.northline-demo.com/refrigerator-repair/",
+      "path": "/refrigerator-repair/",
+      "type": "service",
+      "keyword": "refrigerator repair",
+      "title": "Refrigerator Repair in Austin | Northline Appliance Repair",
+      "titleLength": 58,
+      "description": "Refrigerator repair in Austin for warm fridges, leaks and ice makers. Same-day visits, a written price before work and a 90-day warranty on parts and labor.",
+      "descriptionLength": 156,
+      "h1": [
+        "Refrigerator Repair in Austin"
+      ],
+      "canonical": "https://www.northline-demo.com/refrigerator-repair/",
+      "indexable": true,
+      "words": 693,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 1
+    },
+    {
+      "url": "https://www.northline-demo.com/reviews/",
+      "path": "/reviews/",
+      "type": "reviews",
+      "keyword": "Northline Appliance Repair reviews",
+      "title": "Reviews | Northline Appliance Repair",
+      "titleLength": 36,
+      "description": "Read verified Google reviews of Northline Appliance Repair in Austin. Rated 4.9 from 620+ reviews for refrigerator, washer and dryer repair.",
+      "descriptionLength": 140,
+      "h1": [
+        "Northline Appliance Repair Reviews"
+      ],
+      "canonical": "https://www.northline-demo.com/reviews/",
+      "indexable": true,
+      "words": 162,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "url": "https://www.northline-demo.com/service-area/",
+      "path": "/service-area/",
+      "type": "areas-hub",
+      "keyword": "appliance repair service area",
+      "title": "Appliance Repair Service Area | Northline Appliance Repair",
+      "titleLength": 58,
+      "description": "See every county and city Northline Appliance Repair serves from Austin. Same-day appliance repair, upfront pricing and a 90-day warranty in each service area.",
+      "descriptionLength": 159,
+      "h1": [
+        "Appliance Repair Service Area"
+      ],
+      "canonical": "https://www.northline-demo.com/service-area/",
+      "indexable": true,
+      "words": 589,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 1
+    },
+    {
+      "url": "https://www.northline-demo.com/services/",
+      "path": "/services/",
+      "type": "services-hub",
+      "keyword": "appliance repair services",
+      "title": "Appliance Repair Services | Northline Appliance Repair",
+      "titleLength": 54,
+      "description": "Refrigerator, washer and dryer repair across Austin and nearby cities. Upfront pricing, same-day visits and a 90-day warranty on every appliance repair service.",
+      "descriptionLength": 160,
+      "h1": [
+        "Appliance Repair Services in Austin"
+      ],
+      "canonical": "https://www.northline-demo.com/services/",
+      "indexable": true,
+      "words": 463,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 1
+    },
+    {
+      "url": "https://www.northline-demo.com/sub-zero-appliance-repair/",
+      "path": "/sub-zero-appliance-repair/",
+      "type": "brand",
+      "keyword": "Sub-Zero appliance repair",
+      "title": "Sub-Zero Appliance Repair | Northline Appliance Repair",
+      "titleLength": 54,
+      "description": "Independent Sub-Zero appliance repair in Austin for built-in refrigerators, wine storage and ice makers. OEM parts, a written price and a 90-day warranty.",
+      "descriptionLength": 154,
+      "h1": [
+        "Sub-Zero Appliance Repair in Austin"
+      ],
+      "canonical": "https://www.northline-demo.com/sub-zero-appliance-repair/",
+      "indexable": true,
+      "words": 456,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "url": "https://www.northline-demo.com/terms-of-service/",
+      "path": "/terms-of-service/",
+      "type": "page",
+      "keyword": "terms of service",
+      "title": "Terms of Service | Northline Appliance Repair",
+      "titleLength": 45,
+      "description": "The terms that apply when you use the Northline Appliance Repair website and book appliance repair services with our Austin team.",
+      "descriptionLength": 129,
+      "h1": [
+        "Terms of Service"
+      ],
+      "canonical": "https://www.northline-demo.com/terms-of-service/",
+      "indexable": false,
+      "words": 33,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "url": "https://www.northline-demo.com/travis-county/appliance-repair/",
+      "path": "/travis-county/appliance-repair/",
+      "type": "county",
+      "keyword": "appliance repair Travis County",
+      "title": "Appliance Repair Travis County | Northline Appliance Repair",
+      "titleLength": 59,
+      "description": "Appliance repair across Travis County, from Austin to Pflugerville. Same-day visits, upfront pricing and a 90-day warranty from a local Travis County team.",
+      "descriptionLength": 155,
+      "h1": [
+        "Appliance Repair in Travis County"
+      ],
+      "canonical": "https://www.northline-demo.com/travis-county/appliance-repair/",
+      "indexable": true,
+      "words": 438,
+      "schema": [
+        "LocalBusiness",
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service",
+        "FAQPage"
+      ],
+      "imagesMissingAlt": 0,
+      "errors": 0,
+      "warnings": 1
+    }
+  ],
+  "issues": [
+    {
+      "level": "warn",
+      "page": "/austin/appliance-repair/",
+      "rule": "length",
+      "msg": "478 words of copy (standard for a city page: 650 to 1000)"
+    },
+    {
+      "level": "warn",
+      "page": "/dryer-repair/",
+      "rule": "length",
+      "msg": "652 words of copy (standard for a service page: 900 to 1400)"
+    },
+    {
+      "level": "warn",
+      "page": "/pflugerville/appliance-repair/",
+      "rule": "length",
+      "msg": "431 words of copy (standard for a city page: 650 to 1000)"
+    },
+    {
+      "level": "warn",
+      "page": "/refrigerator-repair/",
+      "rule": "length",
+      "msg": "654 words of copy (standard for a service page: 900 to 1400)"
+    },
+    {
+      "level": "warn",
+      "page": "/service-area/",
+      "rule": "length",
+      "msg": "589 words of copy (standard for a areas-hub page: 600 to 900)"
+    },
+    {
+      "level": "warn",
+      "page": "/services/",
+      "rule": "length",
+      "msg": "463 words of copy (standard for a services-hub page: 600 to 950)"
+    },
+    {
+      "level": "warn",
+      "page": "/travis-county/appliance-repair/",
+      "rule": "length",
+      "msg": "438 words of copy (standard for a county page: 700 to 1100)"
+    },
+    {
+      "level": "warn",
+      "page": "/",
+      "rule": "placeholder-media",
+      "msg": "11 page(s) still use stock photos (placeholder: true): swap in the client's real photos as they arrive"
+    }
+  ],
+  "lighthouse": {
+    "device": "mobile",
+    "checkedAt": "2026-10-29T03:20:28.902Z",
+    "pages": [
+      {
+        "path": "/",
+        "performance": 100,
+        "accessibility": 96,
+        "bestPractices": 96,
+        "seo": 100,
+        "lcpMs": 919,
+        "cls": 0,
+        "tbtMs": 37,
+        "failing": [
+          {
+            "id": "errors-in-console",
+            "title": "Browser errors were logged to the console"
+          },
+          {
+            "id": "color-contrast",
+            "title": "Background and foreground colors do not have a sufficient contrast ratio."
+          },
+          {
+            "id": "forced-reflow-insight",
+            "title": "Forced reflow"
+          }
+        ]
+      },
+      {
+        "path": "/refrigerator-repair/",
+        "performance": 100,
+        "accessibility": 95,
+        "bestPractices": 96,
+        "seo": 100,
+        "lcpMs": 684,
+        "cls": 0,
+        "tbtMs": 2,
+        "failing": [
+          {
+            "id": "errors-in-console",
+            "title": "Browser errors were logged to the console"
+          },
+          {
+            "id": "color-contrast",
+            "title": "Background and foreground colors do not have a sufficient contrast ratio."
+          }
+        ]
+      },
+      {
+        "path": "/austin/appliance-repair/",
+        "performance": 100,
+        "accessibility": 95,
+        "bestPractices": 96,
+        "seo": 100,
+        "lcpMs": 682,
+        "cls": 0,
+        "tbtMs": 0,
+        "failing": [
+          {
+            "id": "errors-in-console",
+            "title": "Browser errors were logged to the console"
+          },
+          {
+            "id": "color-contrast",
+            "title": "Background and foreground colors do not have a sufficient contrast ratio."
+          }
+        ]
+      }
+    ],
+    "average": {
+      "performance": 100,
+      "accessibility": 95,
+      "bestPractices": 96,
+      "seo": 100
+    }
+  }
+}

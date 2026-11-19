@@ -1,0 +1,22 @@
+---
+// One photo. Real client photos live in public/photos/; stock photos carry
+// placeholder: true until the client's real ones replace them. Previews show a
+// "Sample photo" tag; the live domain (SITE_LIVE=1) shows the photo without it.
+import { sized, srcset } from '../lib/media.mjs';
+const live = process.env.SITE_LIVE === '1';
+const { media, w = 1200, sizes = '(max-width: 860px) 100vw, 50vw', eager = false, ratio, class: cls = '' } = Astro.props;
+---
+{media?.src && (
+  <figure class={`photo ${cls}`} style={ratio ? `aspect-ratio:${ratio}` : undefined} data-placeholder={media.placeholder ? 'true' : undefined}>
+    <img src={sized(media.src, w)} srcset={srcset(media.src)} sizes={sizes} alt={media.alt ?? ''} width={media.width ?? 1200} height={media.height ?? 800}
+      loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : undefined} decoding="async" />
+    {media.placeholder && !live && <span class="sample-tag">Sample photo</span>}
+    {media.caption && <figcaption>{media.caption}</figcaption>}
+  </figure>
+)}
+<style>
+  .photo{position:relative;margin:0;overflow:hidden;border-radius:var(--radius);background:#dfe3e6}
+  .photo img{width:100%;height:100%;object-fit:cover;display:block}
+  .sample-tag{position:absolute;top:10px;left:10px;background:rgba(0,0,0,.65);color:#fff;font-size:.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:4px 8px;border-radius:999px}
+  figcaption{position:absolute;left:0;right:0;bottom:0;padding:10px 12px;background:linear-gradient(transparent,rgba(0,0,0,.7));color:#fff;font-size:.9rem;font-weight:600}
+</style>

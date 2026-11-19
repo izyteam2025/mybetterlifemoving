@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+.seo-report.json
+.DS_Store
+.env
+.audit-live.json
+audit-live.md
+.drive-import-report.md

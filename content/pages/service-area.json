@@ -1,0 +1,58 @@
+{
+  "updated": "2026-10-28",
+  "meta": {
+    "description": "See every county and city Northline Appliance Repair serves from Austin. Same-day appliance repair, upfront pricing and a 90-day warranty in each service area."
+  },
+  "hero": {
+    "h1": "Appliance Repair Service Area",
+    "overview": [
+      "Local technicians across Travis and Williamson counties, close enough for same-day visits."
+    ],
+    "sellingPoints": [
+      "Same price in every listed city",
+      "No travel surcharge",
+      "Same-day visits in Austin"
+    ],
+    "ctaLabel": "Check Your Address"
+  },
+  "locationsBlock": {
+    "h2": "Counties and Cities We Serve",
+    "intro": "Find your city to see local details and every service available there.",
+    "closing": "Don't see your city? Send us your address and we will confirm coverage."
+  },
+  "servicesBlock": {
+    "h2": "Services Available in Every Area",
+    "intro": "Every service below is offered in each city we cover."
+  },
+  "reviews": {
+    "heading": "Reviews From Across Our Service Area"
+  },
+  "faqHeading": "Questions About Our Service Area",
+  "faq": [
+    {
+      "q": "Do you charge extra for travel?",
+      "a": "No. The price is the same in every city listed on this page."
+    },
+    {
+      "q": "How do I know if you cover my street?",
+      "a": "Send your address when you book and we confirm coverage before scheduling."
+    },
+    {
+      "q": "Which city is your shop in?",
+      "a": "Our shop is in Austin, which is why Austin calls get the fastest same-day slots."
+    },
+    {
+      "q": "Do you plan to add more cities?",
+      "a": "When we add a city it appears on this page with its own city page."
+    },
+    {
+      "q": "Do you serve both Travis and Williamson counties?",
+      "a": "Yes. We cover cities in both counties from our Austin shop."
+    }
+  ],
+  "faqClosing": "More questions about coverage? Our FAQ page has the rest.",
+  "closing": {
+    "h2": "Local Repair, Wherever You Are",
+    "body": "Austin, Pflugerville, Round Rock and Georgetown, served by one local team."
+  }
+}

@@ -1,0 +1,56 @@
+name: Scheduled publishing
+
+# Every morning: if a page or post has today as its publish date, rebuild the live site so
+# it appears, wait until it serves, then submit it to IndexNow. Pages that are due but have no
+# fact-check yet stay unpublished and are listed in the issue "Waiting for fact-check".
+# Setup (once per site): in Cloudflare Pages > Settings > Builds > Deploy hooks, create a hook
+# for the production branch and save its URL as the repository secret CF_DEPLOY_HOOK.
+# Set site.timezone in content/site.json (e.g. "America/Denver") so "today" is the client's day.
+
+permissions:
+  contents: read
+  issues: write
+
+on:
+  schedule:
+    - cron: '7 13 * * *' # 13:07 UTC, early morning in US time zones
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Find pages due today
+        id: due
+        run: node scripts/publish-due.mjs
+      - name: Rebuild the live site
+        if: steps.due.outputs.due == 'true'
+        env:
+          CF_DEPLOY_HOOK: ${{ secrets.CF_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$CF_DEPLOY_HOOK" ]; then echo "::error::CF_DEPLOY_HOOK secret is not set, scheduled pages cannot go live"; exit 1; fi
+          curl -fsS -X POST "$CF_DEPLOY_HOOK"
+      - name: Wait until today's pages are live
+        if: steps.due.outputs.due == 'true'
+        run: node scripts/publish-due.mjs --wait
+      - name: Submit them to IndexNow
+        if: steps.due.outputs.due == 'true'
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: node scripts/indexnow.mjs --paths "${{ steps.due.outputs.paths }}"
+      - name: List pages waiting for a fact-check
+        if: always() && steps.due.outputs.held == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BODY: ${{ steps.due.outputs.held_body }}
+        run: |
+          printf '%s\n' "$BODY" > held.md
+          gh label create fact-check --color D93F0B --force >/dev/null 2>&1 || true
+          num=$(gh issue list --label fact-check --state open --json number --jq '.[0].number')
+          if [ -n "$num" ]; then gh issue edit "$num" --body-file held.md; else gh issue create --title "Waiting for fact-check" --label fact-check --body-file held.md; fi

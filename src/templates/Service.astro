@@ -1,0 +1,52 @@
+---
+// Main service page /[service-keyword]/ (service-page-copy).
+// Order: hero > numbers > offers > visual service block > service areas > process >
+// why choose > reviews > FAQ (+ closing, CTA to FAQ page) > final conversion.
+// Links in the body: conversion CTAs, every live city service page for THIS service
+// (anchor = city name, target city first), the service area hub, the FAQ page. Nothing else.
+import Hero from '../components/Hero.astro';
+import Team from '../components/Team.astro';
+import Video from '../components/Video.astro';
+import Gallery from '../components/Gallery.astro';
+import ClubBand from '../components/ClubBand.astro';
+import BrandList from '../components/BrandList.astro';
+import Credentials from '../components/Credentials.astro';
+import Partners from '../components/Partners.astro';
+
+import Numbers from '../components/Numbers.astro';
+import Offers from '../components/Offers.astro';
+import PriceBlock from '../components/PriceBlock.astro';
+import Cards from '../components/Cards.astro';
+import Tiles from '../components/Tiles.astro';
+import Steps from '../components/Steps.astro';
+import Reviews from '../components/Reviews.astro';
+import Faq from '../components/Faq.astro';
+import FinalCta from '../components/FinalCta.astro';
+import { loadContent, liveHref, isLive, ctaPath, faqCtaPath, h1For, citiesTargetFirst, servedByMainPages, titleCase, getService } from '../lib/content.mjs';
+import { routes } from '../lib/routes.mjs';
+
+const { page } = Astro.props;
+const c = page.copy;
+const { site, keywords } = loadContent();
+const primary = titleCase(keywords[page.path]?.primary ?? '');
+const cta = (label) => ({ href: ctaPath(), label });
+// The target city is this page (unless site.targetCityPages): its tile is plain text; other cities link to their city service page once live.
+const tiles = citiesTargetFirst().map((ci) => ({ label: ci.name, href: servedByMainPages(ci) ? null : liveHref(routes.cityService(ci.slug, page.service)) }));
+---
+<Hero h1={h1For(page)} hero={c.hero} image={getService(page.service)?.image} withForm={!getService(page.service)?.image} />
+<Numbers />
+<Offers offers={c.offers} heading={c.offersHeading} />
+<PriceBlock />
+<Cards heading={c.serviceBlock.h2} intro={c.serviceBlock.intro} items={c.serviceBlock.cards} alt cta={cta(c.serviceBlock.ctaLabel ?? 'Schedule Your Repair')} />
+<Tiles heading={site.targetCityPages ? `${primary} by City` : `${primary} in ${site.targetCity} and Nearby Cities`} intro={c.areas?.intro} items={tiles}
+  cta={isLive(routes.areasHub()) ? { href: routes.areasHub(), label: 'See Our Full Service Area' } : null} />
+<Steps heading={c.process.h2} steps={c.process.steps} alt cta={cta(c.process.ctaLabel ?? 'Book a Technician')} />
+<Cards heading={c.whyChoose.h2} items={c.whyChoose.cards} cta={cta(c.whyChoose.ctaLabel ?? 'Get Started')} />
+<Team heading={c.team?.h2 ?? 'The Technicians Who Will Fix It'} limit={3} />
+<Gallery heading={c.gallery?.h2 ?? 'Recent Repairs'} items={(site.gallery ?? []).filter((g) => !g.services || g.services.includes(page.service))} limit={3} alt />
+<BrandList />
+<Credentials alt />
+<Reviews heading={c.reviews?.heading} intro={c.reviews?.intro} service={page.service} limit={6} cta={cta('Book Your Visit')} />
+<Faq faq={c.faq} heading={c.faqHeading} closing={c.faqClosing} cta={{ href: faqCtaPath(), label: 'See All FAQs' }} />
+<ClubBand />
+<FinalCta closing={c.closing} />

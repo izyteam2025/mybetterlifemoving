@@ -1,0 +1,37 @@
+---
+// City service page /[city]/[service-keyword]/ (city-service-page-copy, 22 Oct 2026).
+// Order: hero (H1 "[Service] in [City], ST") > numbers > offers > problems gallery >
+// why choose > testimonials > FAQ > final CTA. The body links ONLY to the conversion
+// page: no other services, no other cities, no parent city line, no main service page.
+// Parents (city page) are reached through the breadcrumb.
+import Hero from '../components/Hero.astro';
+import Team from '../components/Team.astro';
+import Video from '../components/Video.astro';
+import Gallery from '../components/Gallery.astro';
+import ClubBand from '../components/ClubBand.astro';
+import BrandList from '../components/BrandList.astro';
+
+import Numbers from '../components/Numbers.astro';
+import Offers from '../components/Offers.astro';
+import PriceBlock from '../components/PriceBlock.astro';
+import Cards from '../components/Cards.astro';
+import Reviews from '../components/Reviews.astro';
+import Faq from '../components/Faq.astro';
+import FinalCta from '../components/FinalCta.astro';
+import { ctaPath, faqCtaPath, h1For, getService } from '../lib/content.mjs';
+
+const { page } = Astro.props;
+const c = page.copy;
+const cta = (label) => ({ href: ctaPath(), label });
+---
+<Hero h1={h1For(page)} hero={c.hero} image={getService(page.service)?.image} withForm={!getService(page.service)?.image} />
+<Numbers />
+<Offers offers={c.offers} heading={c.offersHeading} />
+<PriceBlock />
+<Cards heading={c.problems.h2} intro={c.problems.intro} items={c.problems.cards} alt cta={cta(c.problems.ctaLabel ?? 'Fix It Today')} />
+<Cards heading={c.whyChoose.h2} items={c.whyChoose.cards} cta={cta(c.whyChoose.ctaLabel ?? 'Book Your Technician')} />
+<Team heading={c.team?.h2 ?? 'Your Local Technicians'} limit={3} alt />
+<Reviews heading={c.reviews?.heading} intro={c.reviews?.intro} service={page.service} limit={3} cta={cta('Book Now')} />
+<Faq faq={c.faq} heading={c.faqHeading} closing={c.faqClosing} cta={{ href: faqCtaPath(), label: 'See All FAQs' }} />
+<ClubBand />
+<FinalCta closing={c.closing} />

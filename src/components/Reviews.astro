@@ -1,0 +1,59 @@
+---
+// Reviews block. Agency rule (Artem, 28 Oct 2026): reviews are shown ONLY through a
+// live reviews widget (Trustindex, as on plumbing-united.com), never as copied text,
+// so they stay current and cannot look fabricated.
+//   site.reviewsWidget = { provider: "trustindex", id: "<widget id from the Trustindex loader URL>" }
+// Until the widget id exists, the block shows the live Google rating with a link to
+// the real reviews on Google (no quotes). content/reviews.json is only rendered when
+// site.reviewsWidget.provider is "static" (legacy, not for new sites).
+import { loadContent } from '../lib/content.mjs';
+const { heading = 'What Our Customers Say', intro, limit = 10, cta, alt = true, service } = Astro.props;
+const { site, reviews } = loadContent();
+const w = site.reviewsWidget ?? {};
+const googleUrl = site.googleReviewsUrl ?? site.gbpUrl;
+const mode = w.provider === 'static' ? 'static' : w.provider === 'trustindex' && w.id ? 'trustindex' : 'link';
+const matching = service ? reviews.filter((r) => (r.services ?? []).includes(service)) : [];
+const list = [...matching, ...reviews.filter((r) => !matching.includes(r))].slice(0, limit);
+---
+{(mode !== 'static' || list.length > 0) && (
+  <section class={`section ${alt ? 'section-alt' : ''}`} data-allow-names>
+    <div class="wrap">
+      <h2>{heading}</h2>
+      {intro && <p class="lead">{intro}</p>}
+      {mode === 'trustindex' && (
+        <div class="reviews-widget">
+          <script is:inline defer async src={`https://cdn.trustindex.io/loader.js?${w.id}`}></script>
+        </div>
+      )}
+      {mode === 'link' && (
+        <div class="card reviews-live">
+          {site.rating?.value && <p class="rating"><span class="stars" aria-hidden="true">★★★★★</span> <strong>{site.rating.value}</strong> out of 5 from {site.rating.count}+ Google reviews</p>}
+          {googleUrl && <p><a class="btn btn-outline" href={googleUrl} target="_blank" rel="noopener">Read Our Reviews on Google</a></p>}
+        </div>
+      )}
+      {mode === 'static' && (
+        <div class="grid">
+          {list.map((r) => (
+            <figure class="card review">
+              <p class="stars" aria-label={`${r.rating} out of 5 stars`}>{'★'.repeat(r.rating)}</p>
+              <blockquote><p>{r.text}</p></blockquote>
+              <figcaption>{r.author}</figcaption>
+            </figure>
+          ))}
+        </div>
+      )}
+      {cta && <p class="section-cta"><a class="btn btn-outline" href={cta.href}>{cta.label}</a></p>}
+    </div>
+  </section>
+)}
+
+<style>
+  .review{margin:0}
+  .stars{color:#F4B400;letter-spacing:2px;margin-bottom:6px}
+  blockquote{margin:0 0 10px}
+  .reviews-widget{min-height:240px}
+  .reviews-live{max-width:640px;padding:28px}
+  .reviews-live .stars{font-size:1.5rem}
+  .reviews-live .rating{font-size:1.1rem;margin-bottom:16px}
+  .reviews-live .rating strong{font-size:2rem;letter-spacing:-.02em;color:var(--c-heading)}
+</style>

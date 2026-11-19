@@ -1,0 +1,17 @@
+---
+import Hero from '../components/Hero.astro';
+import Numbers from '../components/Numbers.astro';
+import Cards from '../components/Cards.astro';
+import Faq from '../components/Faq.astro';
+import FinalCta from '../components/FinalCta.astro';
+import { loadContent, liveHref, ctaPath, faqCtaPath, h1For } from '../lib/content.mjs';
+import { routes } from '../lib/routes.mjs';
+const { page } = Astro.props;
+const c = page.copy;
+const cards = loadContent().brands.map((b) => ({ title: `${b.name} Appliance Repair`, text: b.scope, href: liveHref(routes.brand(b.slug)) })).filter((x) => x.href);
+---
+<Hero h1={h1For(page)} hero={c.hero} />
+<Numbers />
+<Cards heading={c.brandsBlock.h2} intro={c.brandsBlock.intro} items={cards} alt cta={{ href: ctaPath(), label: 'Book Premium Repair' }} />
+<Faq faq={c.faq} heading={c.faqHeading} closing={c.faqClosing} cta={{ href: faqCtaPath(), label: 'See All FAQs' }} />
+<FinalCta closing={c.closing} />

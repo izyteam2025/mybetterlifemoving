@@ -1,0 +1,32 @@
+name: SEO gate
+
+# Runs on every pull request and on main. A red check means the change breaks an
+# IZY standard; the PR must not be merged until it is green. The host (Cloudflare
+# Pages / Netlify) runs the same `npm run build`, so a failing gate also blocks the deploy.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Validate content, build, run SEO gate
+        run: npm run build
+      - name: Check outbound links still resolve
+        run: npm run links:external
+      - name: Upload SEO report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-report
+          path: .seo-report.json
+          if-no-files-found: ignore

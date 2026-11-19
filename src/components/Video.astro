@@ -1,0 +1,49 @@
+---
+// Short real video (site.video): YouTube via a lightweight click-to-load facade, or a
+// self-hosted MP4 with a poster (vertical: true for a 9:16 phone video). A placeholder shows the poster with a "Sample" tag on
+// previews; on the live domain (SITE_LIVE=1) the section waits for the real video.
+import { loadContent } from '../lib/content.mjs';
+import Photo from './Photo.astro';
+import { sized } from '../lib/media.mjs';
+const { heading, intro, alt = false, video: v0 } = Astro.props;
+const { site } = loadContent();
+const v0v = v0 ?? site.video;
+const live = process.env.SITE_LIVE === '1';
+const v = live && v0v && !((v0v.youtubeId || v0v.mp4) && !v0v.placeholder) ? null : v0v;
+---
+{v && (
+  <section class={`section ${alt ? 'section-alt' : ''}`}>
+    <div class="wrap video-wrap">
+      <div>
+        <h2>{heading ?? v.heading ?? 'See How a Visit Works'}</h2>
+        {(intro ?? v.intro) && <p class="lead">{intro ?? v.intro}</p>}
+      </div>
+      {v.youtubeId && !v.placeholder ? (
+        <button class="yt" type="button" data-yt={v.youtubeId} aria-label={`Play video: ${v.title ?? 'video'}`} style={`background-image:url(${v.poster?.src ? sized(v.poster.src, 1200) : `https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`})`}>
+          <span class="play" aria-hidden="true">▶</span>
+        </button>
+      ) : v.mp4 && !v.placeholder ? (
+        <video class={v.vertical ? 'vertical' : undefined} controls preload="none" playsinline poster={v.poster?.src ? sized(v.poster.src, 1200) : undefined} src={v.mp4} title={v.title}></video>
+      ) : (
+        <div class="video-ph"><Photo media={{ ...v.poster, placeholder: true }} ratio="16 / 9" /><span class="play" aria-hidden="true">▶</span></div>
+      )}
+    </div>
+  </section>
+)}
+<script is:inline>
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('button[data-yt]');
+    if (!b) return;
+    const f = document.createElement('iframe');
+    f.src = `https://www.youtube-nocookie.com/embed/${b.dataset.yt}?autoplay=1&rel=0`;
+    f.allow = 'autoplay; encrypted-media; picture-in-picture'; f.allowFullscreen = true; f.title = b.getAttribute('aria-label');
+    f.className = 'yt-frame'; b.replaceWith(f);
+  });
+</script>
+<style>
+  .video-wrap{display:grid;gap:28px;grid-template-columns:1fr 1.4fr;align-items:center}
+  @media (max-width:860px){.video-wrap{grid-template-columns:1fr}}
+  .yt,.video-ph,video,:global(.yt-frame){position:relative;width:100%;aspect-ratio:16/9;border:0;border-radius:var(--radius);background:#000 center/cover no-repeat;cursor:pointer;display:block}
+  video.vertical{aspect-ratio:9/16;width:auto;height:min(640px,80vh);max-width:100%;margin:0 auto;object-fit:cover}
+  .play{position:absolute;inset:0;margin:auto;width:76px;height:76px;border-radius:50%;background:var(--c-accent);color:#fff;font-size:28px;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.3);padding-left:6px}
+</style>

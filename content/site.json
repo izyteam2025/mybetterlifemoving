@@ -1,0 +1,298 @@
+{
+  "_comment": "DEMO CLIENT. Replace every value from the client's project files (persona, market research, site map, GBP). Nothing here is real.",
+  "name": "Northline Appliance Repair",
+  "legalName": "Northline Appliance Repair LLC",
+  "logoText": "Northline",
+  "url": "https://www.northline-demo.com",
+  "umbrellaKeyword": "appliance repair",
+  "targetCity": "Austin",
+  "phone": "(512) 555-0142",
+  "phoneE164": "+15125550142",
+  "email": "service@northline-demo.com",
+  "address": {
+    "street": "1200 Example Blvd, Suite 4",
+    "city": "Austin",
+    "region": "TX",
+    "postalCode": "78701",
+    "country": "US"
+  },
+  "geo": {
+    "lat": 30.2672,
+    "lng": -97.7431
+  },
+  "hours": [
+    {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:00",
+      "closes": "19:00"
+    },
+    {
+      "days": [
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "15:00"
+    }
+  ],
+  "priceRange": "$$",
+  "foundingYear": 2012,
+  "rating": {
+    "value": 4.9,
+    "count": 620
+  },
+  "gbpUrl": "https://maps.google.com/?cid=0000000000000000000",
+  "sameAs": [
+    "https://www.facebook.com/example",
+    "https://www.yelp.com/biz/example"
+  ],
+  "schema": {
+    "types": [
+      "LocalBusiness",
+      "HomeAndConstructionBusiness"
+    ],
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/Home_appliance",
+      "http://www.productontology.org/id/Home_appliance"
+    ]
+  },
+  "cta": {
+    "path": "/contact/",
+    "label": "Book Your Repair"
+  },
+  "eyebrow": "Family-run appliance repair, based in Austin",
+  "supportLine": [
+    "Licensed and insured",
+    "Same-day visits across Austin"
+  ],
+  "slogan": "Northline. Fixed right the first time.",
+  "stats": [
+    {
+      "value": "4.9",
+      "label": "Google rating"
+    },
+    {
+      "value": "620+",
+      "label": "Google reviews"
+    },
+    {
+      "value": "9,000+",
+      "label": "Repairs completed"
+    },
+    {
+      "value": "Since 2012",
+      "label": "Local and family owned"
+    }
+  ],
+  "offers": [
+    {
+      "title": "$25 Off Any Repair",
+      "detail": "Mention the website when you book. One offer per visit.",
+      "featured": true
+    },
+    {
+      "title": "Service Call Waived",
+      "detail": "Your service call fee is waived when you approve the repair."
+    },
+    {
+      "title": "90-Day Warranty",
+      "detail": "90 days on parts and labor. If the same problem returns, so do we."
+    }
+  ],
+  "offersHeading": "Save on Your Repair Today",
+  "fixedFacts": {
+    "_comment": "One wording per fact, used everywhere (AEO: state the same fact the same way on every page).",
+    "warranty": "90-day warranty on parts and labor",
+    "serviceCall": "a service call fee, waived when you approve the repair",
+    "hours": "Monday to Friday 8 AM to 7 PM, Saturday 9 AM to 3 PM"
+  },
+  "competitors": [
+    "example-competitor-repair.com",
+    "example-national-repair-network.com"
+  ],
+  "compliance": {
+    "_comment": "personNames may appear only on /about/ and in blog author bylines. bannedPhrases fail the build anywhere on the site.",
+    "personNames": [],
+    "bannedPhrases": [
+      "factory-trained",
+      "factory authorized",
+      "certified by",
+      "authorized dealer",
+      "authorized service center"
+    ]
+  },
+  "theme": {
+    "primary": "#13294B",
+    "accent": "#E8721C",
+    "surface": "#F6F7F9",
+    "text": "#1B1F24",
+    "muted": "#5B6470",
+    "radius": "10px"
+  },
+  "ogImage": "/og-default.png",
+  "tracking": {
+    "gtmId": "",
+    "whatconvertsScriptUrl": ""
+  },
+  "form": {
+    "ghlEmbedUrl": "",
+    "fallbackAction": "",
+    "heading": "Get Your Free Quote",
+    "submitLabel": "Request Service"
+  },
+  "aiCrawlers": "allow",
+  "summary": "Northline Appliance Repair is a family-owned appliance repair company in Austin, Texas, fixing refrigerators, washers and dryers since 2012, with same-day visits and a 90-day warranty on parts and labor.",
+  "brandsHub": {
+    "slug": "premium-appliance-repair",
+    "label": "Premium Appliance Repair"
+  },
+  "reviewsWidget": {
+    "provider": "trustindex",
+    "id": "",
+    "_note": "Widget id from cdn.trustindex.io/loader.js?<id> (Trustindex Google widget for a static site)."
+  },
+  "googleReviewsUrl": "https://maps.google.com/?cid=0000000000000000000",
+  "media": {
+    "_comment": "SAMPLE STOCK PHOTOS so the layout can be shown before the client's real photos arrive. Real photos go in public/photos/. The build fails on a live domain (SITE_LIVE=1) while any placeholder:true remains.",
+    "hero": {
+      "src": "https://images.pexels.com/photos/32391499/pexels-photo-32391499.jpeg",
+      "alt": "Appliance technician repairing a refrigerator",
+      "placeholder": true,
+      "width": 1200,
+      "height": 900
+    },
+    "about": {
+      "src": "https://images.pexels.com/photos/38291060/pexels-photo-38291060.jpeg",
+      "alt": "Technician repairing a kitchen appliance",
+      "placeholder": true,
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "team": [
+    {
+      "name": "Dana",
+      "role": "Lead Appliance Technician",
+      "photo": {
+        "src": "https://images.pexels.com/photos/8642041/pexels-photo-8642041.jpeg",
+        "alt": "Dana, appliance technician",
+        "placeholder": true
+      }
+    },
+    {
+      "name": "Sam",
+      "role": "Appliance Technician",
+      "photo": {
+        "src": "https://images.pexels.com/photos/7285930/pexels-photo-7285930.jpeg",
+        "alt": "Sam, appliance technician",
+        "placeholder": true
+      }
+    },
+    {
+      "name": "Alex",
+      "role": "Appliance Technician",
+      "photo": {
+        "src": "https://images.pexels.com/photos/1139743/pexels-photo-1139743.jpeg",
+        "alt": "Alex, appliance technician",
+        "placeholder": true
+      }
+    }
+  ],
+  "video": {
+    "placeholder": true,
+    "heading": "What a Visit Looks Like",
+    "intro": "Replace with a 20 to 40 second phone video of a real visit (youtubeId or mp4).",
+    "title": "A repair visit",
+    "poster": {
+      "src": "https://images.pexels.com/photos/38291060/pexels-photo-38291060.jpeg",
+      "alt": "Technician at work"
+    }
+  },
+  "gallery": [
+    {
+      "src": "https://images.pexels.com/photos/32391499/pexels-photo-32391499.jpeg",
+      "alt": "Technicians repairing a freezer",
+      "placeholder": true,
+      "caption": "Freezer repair",
+      "services": [
+        "refrigerator-repair"
+      ]
+    },
+    {
+      "src": "https://images.pexels.com/photos/37174868/pexels-photo-37174868.jpeg",
+      "alt": "Technician repairing a microwave",
+      "placeholder": true,
+      "caption": "Microwave repair"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1632923565835-6582b54f2105",
+      "alt": "Washer and dryer",
+      "placeholder": true,
+      "caption": "Washer and dryer repair",
+      "services": [
+        "washer-repair",
+        "dryer-repair"
+      ]
+    }
+  ],
+  "brandsWeRepair": [
+    "Whirlpool",
+    "Samsung",
+    "LG",
+    "GE",
+    "Frigidaire",
+    "Maytag",
+    "KitchenAid",
+    "Sub-Zero"
+  ],
+  "brandsNote": "We are independent: we repair these brands, but we are not part of any manufacturer's factory service network.",
+  "_trustComment": "Trust sections, requested from the client at kickoff. credentials: [{name, issuer, issuerUrl?, number?, verifyUrl? (public record), image? {src (in public/), alt}}], real ones only, each with proof. partners: [{name, logo? {src, alt}, url?, note?}], companies the client works with (home warranty, property managers, suppliers, associations), logos only with permission; manufacturers stay in brandsWeRepair. Each block stays hidden while its list is empty.",
+  "credentials": [],
+  "partners": [],
+  "booking": {
+    "url": "",
+    "overlay": true,
+    "_note": "Client's online scheduler URL (Housecall Pro, ServiceTitan, GHL): every Book button opens it in an overlay."
+  },
+  "pricing": {
+    "_note": "What a visit costs: client-confirmed numbers only. Renders after the offers on money pages.",
+    "heading": "What a Visit Costs",
+    "intro": "The price is agreed in your home before any work starts.",
+    "items": [
+      {
+        "label": "Service call",
+        "value": "$89",
+        "note": "Diagnosis in your home.",
+        "highlight": true
+      },
+      {
+        "label": "Approve the repair",
+        "value": "$0",
+        "note": "Service call waived when you go ahead."
+      },
+      {
+        "label": "Warranty",
+        "value": "90 days",
+        "note": "Parts and labor."
+      }
+    ]
+  },
+  "callback": {
+    "_note": "Two-field call-back form (name + phone). webhookUrl = the client's GoHighLevel inbound webhook; the form only renders when it is set.",
+    "webhookUrl": "",
+    "heading": "Rather we call you?",
+    "submitLabel": "Call Me Back",
+    "text": "Leave your name and number and the office calls you back.",
+    "successPath": ""
+  },
+  "sms": {
+    "_note": "Text-us button in the mobile bar: the client's texting number (Housecall Pro or GHL). Empty = no button.",
+    "e164": "",
+    "label": "Text"
+  }
+}

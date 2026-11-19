@@ -1,0 +1,35 @@
+---
+// Visible FAQ: H3 questions (real questions, ending in "?"), answer first.
+// The same data feeds FAQPage schema, so markup and page match word for word.
+// Closing line is a plain paragraph (kept out of the schema) with a CTA to the FAQ page.
+import { inline } from '../lib/md.mjs';
+const { faq = [], heading = 'Frequently Asked Questions', closing, cta } = Astro.props;
+---
+{faq.length > 0 && (
+  <section class="section faq">
+    <div class="wrap prose">
+      <h2>{heading}</h2>
+      {faq.map((f) => (
+        <div class="faq-item">
+          <h3>{f.q}</h3>
+          <p set:html={inline(f.a)} />
+        </div>
+      ))}
+      {closing && <p class="faq-closing">{closing}</p>}
+      {cta && <p><a class="btn btn-outline" href={cta.href}>{cta.label}</a></p>}
+    </div>
+  </section>
+)}
+
+<style>
+  .faq-item{padding:22px 0;border-bottom:1px solid var(--c-line)}
+  .faq-item:first-of-type{border-top:1px solid var(--c-line)}
+  .faq-item h3{font-size:1.12rem;margin-bottom:.45em}
+  .faq-item p{margin:0;color:var(--c-muted)}
+  .faq-closing{margin-top:22px}
+  @media (min-width:960px){
+    .faq .prose{max-width:1160px;display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.5fr);column-gap:64px}
+    .faq .prose>h2{grid-column:1;grid-row:1 / span 40;align-self:start;position:sticky;top:110px}
+    .faq .prose>:not(h2){grid-column:2}
+  }
+</style>

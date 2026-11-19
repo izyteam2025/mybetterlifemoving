@@ -1,0 +1,33 @@
+---
+import Hero from '../components/Hero.astro';
+import Prose from '../components/Prose.astro';
+import LeadForm from '../components/LeadForm.astro';
+import MapEmbed from '../components/MapEmbed.astro';
+import { loadContent, h1For, formatHours } from '../lib/content.mjs';
+const { page } = Astro.props;
+const c = page.copy;
+const { site } = loadContent();
+import SocialIcons from '../components/SocialIcons.astro';
+---
+<Hero h1={h1For(page)} hero={c.hero} />
+<Prose intro={c.intro} />
+<section class="section section-alt">
+  <div class="wrap contact-grid">
+    <div>
+      <h2>{c.detailsHeading ?? 'Reach Our Team'}</h2>
+      <p><strong>Phone:</strong> <a href={`tel:${site.phoneE164}`}>{site.phone}</a><br />
+      <strong>Email:</strong> <a href={`mailto:${site.email}`}>{site.email}</a></p>
+      <p><strong>Address:</strong><br />{site.address.street}<br />{site.address.city}, {site.address.region} {site.address.postalCode}</p>
+      <h3>Hours</h3>
+      <ul>{(site.hours ?? []).map((h) => <li>{formatHours(h)}</li>)}</ul>
+      <SocialIcons variant="light" heading={c.socialHeading ?? 'Find Us Online'} />
+    </div>
+    <div id="quote"><LeadForm /></div>
+  </div>
+</section>
+<MapEmbed heading={c.map?.h2 ?? 'Find Us on Google Maps'} intro={c.map?.intro} />
+
+<style>
+  .contact-grid{display:grid;gap:32px;grid-template-columns:1fr 1fr}
+  @media (max-width:860px){.contact-grid{grid-template-columns:1fr}}
+</style>

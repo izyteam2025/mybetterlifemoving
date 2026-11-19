@@ -1,0 +1,15 @@
+{
+  "updated": "2026-10-28",
+  "meta": { "description": "Meet Northline Appliance Repair, a local family-owned team fixing refrigerators, washers and dryers around Austin since 2012. Licensed, insured and local." },
+  "hero": {
+    "h1": "About Northline Appliance Repair",
+    "overview": ["Local, family owned and focused on fixing it right the first time."],
+    "ctaLabel": "Book a Repair"
+  },
+  "intro": ["Northline started in 2012 with one van and a simple promise: tell people the price before the work, and stand behind the repair. Dana Example still runs the shop the same way."],
+  "sections": [
+    { "h2": "How We Work", "body": ["Every technician is licensed, insured and background checked. Every repair carries a 90-day warranty on parts and labor, and every customer gets a written price before we start."] }
+  ],
+  "teamHeading": "Meet the Team",
+  "closing": { "h2": "Let Us Earn Your Trust", "body": "Book your first repair and see why your neighbors keep calling us back." }
+}

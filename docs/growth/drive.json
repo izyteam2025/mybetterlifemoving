@@ -1,0 +1,14 @@
+{
+  "_comment": "The client's file folder in the agency Google Drive (agency rule, 3 Nov 2026). Fill in at kickoff: folderId is the last part of the folder link (drive.google.com/drive/folders/<folderId>). The folder must be shared with the import service account as Viewer (its email is in docs/drive-import.md). The import runs on the 1st of each month and on demand, converts photos to WebP, removes location data, and opens a pull request. Subfolders are matched by name, ignoring the leading number and case. Folders under listOnly are never copied into the site; the pull request lists what is in them.",
+  "folderId": "",
+  "folderUrl": "",
+  "import": {
+    "Logo and brand": { "to": "public/brand/incoming", "kind": "logo" },
+    "Team": { "to": "public/photos/team", "kind": "photo" },
+    "Jobs": { "to": "public/photos/jobs", "kind": "photo" },
+    "Van and shop": { "to": "public/photos/van", "kind": "photo" },
+    "Licenses and certificates": { "to": "public/credentials", "kind": "document" },
+    "Partner logos": { "to": "public/partner-logos", "kind": "logo" }
+  },
+  "listOnly": ["Video", "Old website", "Documents"]
+}

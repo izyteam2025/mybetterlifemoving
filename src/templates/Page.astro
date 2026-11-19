@@ -1,0 +1,30 @@
+---
+// Generic page for anything else on the site map (privacy policy, terms, booking,
+// membership, financing): content/pages/extra/<slug>.json -> /<slug>/
+import Hero from '../components/Hero.astro';
+import Prose from '../components/Prose.astro';
+import LeadForm from '../components/LeadForm.astro';
+import FinalCta from '../components/FinalCta.astro';
+import Reviews from '../components/Reviews.astro';
+import Faq from '../components/Faq.astro';
+import { faqCtaPath } from '../lib/content.mjs';
+import { h1For, loadContent } from '../lib/content.mjs';
+const { page } = Astro.props;
+const c = page.copy;
+---
+<Hero h1={h1For(page)} hero={c.hero} />
+<Prose intro={c.intro} sections={c.sections} />
+{c.embed && <section class="section section-alt"><div class="wrap" id="booking">
+  <div class="embed-direct" hidden><a class="btn btn-accent btn-lg" href={c.embed.src}>{c.embed.buttonLabel ?? 'Open the Online Scheduler'}</a><p class="embed-alt">Prefer to talk? <a href={`tel:${loadContent().site.phoneE164}`}>Call {loadContent().site.phone}</a></p></div>
+  <iframe src={c.embed.src} title={c.embed.title} loading="eager" style={`width:100%;min-height:${c.embed.height ?? 900}px;border:0;border-radius:var(--radius);background:#fff`}></iframe>
+  <p class="embed-alt">Scheduler not loading? <a href={c.embed.src} target="_blank" rel="noopener">Open it in a new tab</a></p>
+  <script is:inline>(function(){var ua=navigator.userAgent;var direct=/iP(hone|ad|od)/.test(ua)||(/Macintosh/.test(ua)&&navigator.maxTouchPoints>1)||(/Safari\//.test(ua)&&!/Chrom|CriOS|FxiOS|EdgiOS|Edg\/|OPR|Android/.test(ua))||innerWidth<760;if(!direct)return;var w=document.getElementById('booking');var f=w.querySelector('iframe');if(f)f.remove();w.querySelector('.embed-direct').hidden=false;w.querySelectorAll(':scope > .embed-alt').forEach(function(p){p.remove();});})();</script>
+</div></section>}
+<style>
+  .embed-direct{text-align:center;padding:24px 0}
+  .embed-alt{text-align:center;color:var(--c-muted);font-size:.95rem;margin:14px 0 0}
+</style>
+{c.form && <section class="section section-alt"><div class="wrap" id="quote" style="max-width:560px"><LeadForm /></div></section>}
+{c.reviews && <Reviews heading={c.reviews.heading} intro={c.reviews.intro} service={c.reviews.tag} limit={c.reviews.limit ?? 6} />}
+{c.faq && <Faq faq={c.faq} heading={c.faqHeading} closing={c.faqClosing} cta={c.faqClosing ? { href: faqCtaPath(), label: 'See All FAQs' } : null} />}
+<FinalCta closing={c.closing} />

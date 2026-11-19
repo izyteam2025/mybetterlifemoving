@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadContent } from '../lib/content.mjs';
+import { graph, businessNode, websiteNode } from '../lib/schema.mjs';
+const { site } = loadContent();
+---
+<Base title={`Page Not Found | ${site.name}`} description={`This page could not be found. Visit the ${site.name} home page or call ${site.phone}.`} path="/404/" schema={graph([businessNode(), websiteNode()])} noindex>
+  <section class="section">
+    <div class="wrap prose">
+      <h1>Page Not Found</h1>
+      <p class="lead">The page you are looking for has moved or no longer exists.</p>
+      <p><a class="btn btn-accent" href="/">Go to the home page</a></p>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,33 @@
+---
+// Card grid with an H2. Cards link only when given an href (live pages only), and
+// the whole section may end in one CTA. Used for service cards, problem galleries,
+// why-choose reasons and brand cards.
+import { inline } from '../lib/md.mjs';
+import Photo from './Photo.astro';
+const { heading, intro, items = [], cta, alt = false, center = false, cols = '' } = Astro.props;
+---
+{items.length > 0 && (
+  <section class={`section ${alt ? 'section-alt' : ''}`}>
+    <div class="wrap">
+      <div class={center ? 'center' : ''}>
+        <h2>{heading}</h2>
+        {intro && <p class="lead" set:html={inline(intro)} />}
+      </div>
+      <div class={`grid ${cols}`}>
+        {items.map((it) => (
+          <div class={`card ${it.image ? 'card-img' : ''}`}>
+            {it.image && (it.href ? <a href={it.href} tabindex="-1" aria-hidden="true"><Photo media={it.image} ratio="3 / 2" w={600} sizes="(max-width: 860px) 100vw, 25vw" /></a> : <Photo media={it.image} ratio="3 / 2" w={600} sizes="(max-width: 860px) 100vw, 25vw" />)}
+            <h3>{it.href ? <a href={it.href}>{it.title}</a> : it.title}</h3>
+            {it.text && <p set:html={inline(it.text)} />}
+          </div>
+        ))}
+      </div>
+      {cta && <p class="section-cta"><a class="btn btn-accent" href={cta.href}>{cta.label}</a></p>}
+    </div>
+  </section>
+)}
+<style>
+  .card-img{padding:0 0 22px;overflow:hidden}
+  .card-img :global(.photo){border-radius:0;margin-bottom:16px}
+  .card-img h3,.card-img p{padding:0 20px}
+</style>

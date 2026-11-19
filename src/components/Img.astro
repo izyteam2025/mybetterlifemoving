@@ -1,0 +1,9 @@
+---
+// Use this for every content image. It outputs optimized WebP with width/height
+// and lazy loading. `alt` is required: the build fails on images without it.
+// Usage: import photo from '../assets/van.jpg'; <Img src={photo} alt="Technician repairing a dryer in Austin" />
+import { Image } from 'astro:assets';
+const { src, alt, priority = false, ...rest } = Astro.props;
+if (!alt || !String(alt).trim()) throw new Error('Img: alt text is required');
+---
+<Image src={src} alt={alt} format="webp" loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : 'auto'} {...rest} />

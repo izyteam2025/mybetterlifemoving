@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "refrigerator-repair",
+    "name": "Refrigerator Repair",
+    "summary": "Warm fridge, leaks, noisy compressor or an ice maker that quit.",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/Refrigerator",
+      "http://www.productontology.org/id/Refrigerator"
+    ],
+    "image": {
+      "src": "https://images.unsplash.com/photo-1588854337115-1c67d9247e4d",
+      "alt": "Kitchen with a refrigerator",
+      "placeholder": true
+    }
+  },
+  {
+    "slug": "washer-repair",
+    "name": "Washer Repair",
+    "summary": "Won't drain, won't spin, leaks or a loud cycle on top and front loaders.",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/Washing_machine",
+      "http://www.productontology.org/id/Washing_machine"
+    ],
+    "image": {
+      "src": "https://images.unsplash.com/photo-1632923565835-6582b54f2105",
+      "alt": "Washer and dryer",
+      "placeholder": true
+    }
+  },
+  {
+    "slug": "dryer-repair",
+    "name": "Dryer Repair",
+    "summary": "No heat, long dry times, a squealing drum or a tripped breaker.",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/Clothes_dryer",
+      "http://www.productontology.org/id/Clothes_dryer"
+    ],
+    "image": {
+      "src": "https://images.unsplash.com/photo-1778731660248-044f78e8c1fb",
+      "alt": "Laundry room",
+      "placeholder": true
+    }
+  }
+]
