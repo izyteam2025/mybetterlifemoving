@@ -46,14 +46,14 @@
     "ctaLabel": "Price My Furniture Move"
   },
   "areas": {
-    "intro": "Boston is home base, so small furniture jobs in the city fit easily into our schedule. Our crews also move furniture in the nearby cities below."
+    "intro": "Boston is home base, so small furniture jobs in the city are a regular part of our week, from Brighton apartments to houses across town. Our crews also move furniture in the nearby cities below."
   },
   "process": {
     "h2": "How Furniture Movers Work in Boston",
     "steps": [
       {
         "title": "List the Pieces",
-        "text": "What's moving, both addresses and any stairs on either end. A photo helps for unusual pieces."
+        "text": "What's moving, both addresses and any stairs on either end. A photo helps for unusual pieces, and so does a note about elevators or a long walk from the street."
       },
       {
         "title": "Get the Price Explained",
