@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Los Angeles movers from a licensed interstate carrier: our own crews in LA for local moves, plus coast-to-coast moves on our own trucks. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Los Angeles is our newest and farthest market from where we started in Boston. That distance is the point: we carry coast-to-coast moves ourselves, and our LA crews handle the local carrying.",
+      "Local moves run on hourly billing with materials included."
+    ],
+    "sellingPoints": [
+      "Coast-to-coast moves on our own trucks",
+      "Local LA moves billed by the hour",
+      "Packing and storage on the same quote"
+    ],
+    "ctaLabel": "Get a Los Angeles Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Los Angeles Moving Services We Offer",
+    "intro": "Long distance moves to and from the East Coast are our strongest fit in Los Angeles, alongside local apartment and house moves. See every service below."
+  },
+  "whyChoose": {
+    "h2": "Why Choose Better Life Moving in Los Angeles",
+    "cards": [
+      {
+        "title": "Coast to Coast Without a Broker",
+        "text": "Boston to Los Angeles or back, your move stays with one carrier and one truck from pickup to delivery."
+      },
+      {
+        "title": "A Flat Rate for the Long Drive",
+        "text": "Long distance moves are quoted at a flat rate, so a cross-country move has its price set before loading."
+      },
+      {
+        "title": "Storage Between Coasts",
+        "text": "Arriving before your LA lease starts? We store your things and deliver when you're ready."
+      },
+      {
+        "title": "Licensed for Interstate Work",
+        "text": "Our interstate authority is on file with the FMCSA as USDOT 3866930, MC 1414489."
+      }
+    ]
+  },
+  "faqHeading": "Common Questions About Moving in Los Angeles",
+  "faq": [
+    {
+      "q": "Do Los Angeles movers from Better Life Moving do cross-country moves?",
+      "a": "Yes. Coast-to-coast moves are a main part of our LA work, quoted at a flat rate and carried on our own truck."
+    },
+    {
+      "q": "How are local Los Angeles moves billed?",
+      "a": "Local moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time. Distance across the city counts too, since the clock covers travel between addresses."
+    },
+    {
+      "q": "Can you hold my things until my LA apartment is ready?",
+      "a": "Yes. Storage is priced by the cubic feet your items take up, and we deliver on the date you choose."
+    },
+    {
+      "q": "Can the crew pack my Los Angeles home before a long move?",
+      "a": "Yes. Full or partial packing can be added, and long hauls are packed with the distance in mind."
+    },
+    {
+      "q": "How long has Better Life Moving worked in Los Angeles?",
+      "a": "The company was founded in Boston in 2022, and Los Angeles is one of the markets we've added since."
+    }
+  ],
+  "faqClosing": "Have a question we haven't covered? See the FAQ page for billing and booking details.",
+  "closing": {
+    "h2": "Start Your Los Angeles Move",
+    "body": "Send the date and both addresses. Local or cross-country, a manager will walk you through the price."
+  }
+}

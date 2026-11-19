@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Cary movers for new-construction homes, HOA communities and families relocating from other states. Hourly local billing, our own trucks. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Many Cary moves end at a brand-new house with a gate code, an HOA and a closing date that keeps shifting. Our Triangle crews plan around all three.",
+      "And if you're arriving from another state, we can carry the whole move on our own truck."
+    ],
+    "sellingPoints": [
+      "New-build closings and HOA rules planned in",
+      "Families arriving from out of state",
+      "Storage if the house isn't ready"
+    ],
+    "ctaLabel": "Get a Cary Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Cary Moving Services for New and Growing Homes",
+    "intro": "In Cary we pair residential moves with packing, storage while a build finishes, or a long distance move from out of state. The full list is below."
+  },
+  "whyChoose": {
+    "h2": "Why Cary Homeowners Move With Better Life Moving",
+    "cards": [
+      {
+        "title": "Closing-Day Flexibility",
+        "text": "If the builder's date slips, we can hold your things in storage and deliver when the keys arrive."
+      },
+      {
+        "title": "Gate and Community Rules",
+        "text": "Share the gate code, parking rules and any HOA quiet hours, and the crew schedules the move inside them."
+      },
+      {
+        "title": "Out-of-State Arrivals",
+        "text": "Coming from Massachusetts, Illinois or California? We run crews in those markets too, and our own truck makes the drive."
+      },
+      {
+        "title": "Rate Includes the Wrapping",
+        "text": "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate for local moves."
+      }
+    ]
+  },
+  "faqHeading": "Questions From People Moving to Cary",
+  "faq": [
+    {
+      "q": "Can Cary movers handle a new-construction closing that keeps moving?",
+      "a": "Yes. We can pick up on your original date, store everything and deliver when the house closes. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "What do you need to know about my Cary HOA?",
+      "a": "Gate codes, where trucks may park and any hours the community restricts moving. Send them with your quote request."
+    },
+    {
+      "q": "How much does a local move in Cary cost?",
+      "a": "Local moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time. Your quote shows the rate."
+    },
+    {
+      "q": "We're moving to Cary from another state. Do you do that?",
+      "a": "Yes. It's a long distance move, quoted at a flat rate and driven by our own crew."
+    },
+    {
+      "q": "Can the crew unpack in our new Cary home?",
+      "a": "Yes. Add unpacking to the quote and the crew empties boxes and puts things away in the rooms you choose."
+    }
+  ],
+  "faqClosing": "Got another question about your Cary move? Our FAQ page has more on pricing and moving day.",
+  "closing": {
+    "h2": "Get Moved Into Your Cary Home",
+    "body": "Send the closing date and both addresses. We'll work out the move, the storage if you need it and the price with you."
+  }
+}

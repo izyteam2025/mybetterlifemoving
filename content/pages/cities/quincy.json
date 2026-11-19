@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Quincy movers for apartments, condos and single-piece jobs, sent from Brighton. 2-hour minimum with travel included, our own crews and trucks. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Not every Quincy move is a full household. Plenty are one apartment, a condo downsizing or a single sofa going to a new owner, and our 2-hour minimum that includes travel time keeps those jobs sensible.",
+      "Bigger moves get the same crew and the same care."
+    ],
+    "sellingPoints": [
+      "Single-piece and small jobs welcome",
+      "Condo and apartment moves",
+      "Our own crews from the Boston office"
+    ],
+    "ctaLabel": "Get a Quincy Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Quincy Moves, Big and Small",
+    "intro": "Furniture-only moves and condo downsizing sit alongside full apartment moves and storage. Pick what fits your job from the list."
+  },
+  "whyChoose": {
+    "h2": "What Makes Us a Good Fit in Quincy",
+    "cards": [
+      {
+        "title": "Small Jobs Aren't Turned Away",
+        "text": "One dresser or a couple of boxes is still a job we'll take. The minimum is two hours, travel included."
+      },
+      {
+        "title": "Condo Rules Planned In",
+        "text": "Send us elevator bookings and loading rules for your building, and the crew arrives inside the window."
+      },
+      {
+        "title": "Downsizing at Your Pace",
+        "text": "Senior and downsizing moves are part of our residential work. The crew moves at the speed the day needs."
+      },
+      {
+        "title": "Wrapped Before It Leaves",
+        "text": "Every piece of furniture gets blankets and shrink wrap before it goes down the stairs or into the elevator."
+      }
+    ]
+  },
+  "faqHeading": "Questions We Hear in Quincy",
+  "faq": [
+    {
+      "q": "Will Quincy movers come out for one piece of furniture?",
+      "a": "Yes. Single-piece moves fall under the 2-hour minimum that includes travel time, and the crew wraps the piece like any other."
+    },
+    {
+      "q": "How is a Quincy condo move billed?",
+      "a": "Local moves are billed hourly, with travel time from our yard added. Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate."
+    },
+    {
+      "q": "Can you help a parent downsize from a Quincy house to a condo?",
+      "a": "Yes. Senior and downsizing moves are part of our residential service, and storage can hold pieces that don't fit the smaller home."
+    },
+    {
+      "q": "My building in Quincy needs an elevator booking. What do I send you?",
+      "a": "The reservation times and any loading-door rules. The crew schedules its arrival around them."
+    },
+    {
+      "q": "Can I move from Quincy into Boston with you?",
+      "a": "Yes. Moves between Quincy and Boston are local moves billed by the hour, and Boston is our home market."
+    }
+  ],
+  "faqClosing": "Looking for something we didn't cover? The FAQ page goes deeper on billing and booking.",
+  "closing": {
+    "h2": "Get Your Quincy Move on the Calendar",
+    "body": "Whether it's one piece or the whole condo, send what's moving and both addresses, and a manager will price it."
+  }
+}
