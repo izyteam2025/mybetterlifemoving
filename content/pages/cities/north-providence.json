@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "North Providence movers with the bill explained before move day: hourly local billing, travel time and what the rate covers. Our own trucks and crews."
+  },
+  "hero": {
+    "overview": [
+      "Most people moving in North Providence ask the same thing first: what will this actually cost? We answer that before the truck is booked, line by line.",
+      "Our crews come down from Brighton in Boston, and we price that drive in the open instead of hiding it inside a vague number."
+    ],
+    "sellingPoints": [
+      "Travel time shown before you book",
+      "Wrapping and truck costs in the rate",
+      "Packing supplies charged only if used"
+    ],
+    "ctaLabel": "Get a North Providence Quote"
+  },
+  "servicesBlock": {
+    "h2": "What We Move Around North Providence",
+    "intro": "Apartments, small houses and condo units are the usual North Providence jobs. Some customers only need two or three pieces carried, while others want the whole home packed first. Storage, office moves and long distance moves are all available from the same company. Look through the list and pick only the help you need."
+  },
+  "whyChoose": {
+    "h2": "How a North Providence Move Gets Priced",
+    "cards": [
+      {
+        "title": "Travel Time, Explained",
+        "text": "Travel time covers the drive from our yard to your first address and back from your last one. It is added to the hours spent loading, driving and unloading."
+      },
+      {
+        "title": "What the Rate Covers",
+        "text": "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate. The protection your furniture rides in is never billed as an add-on."
+      },
+      {
+        "title": "What Costs Extra",
+        "text": "Boxes and other packing supplies are charged per item, based on what the crew uses. Pack with your own boxes and that line stays at zero."
+      },
+      {
+        "title": "Small Jobs Still Make Sense",
+        "text": "There is a 2-hour minimum that includes travel time. A manager will tell you up front if your job is likely to land on that minimum."
+      }
+    ]
+  },
+  "faqHeading": "North Providence Customers Ask About Cost",
+  "faq": [
+    {
+      "q": "Why is travel time on my North Providence quote?",
+      "a": "Because the crew drives to you from our yard in Brighton and back again. Local moves are billed hourly, with travel time from our yard added, so that drive is part of the job."
+    },
+    {
+      "q": "Are packing boxes included in the hourly price?",
+      "a": "No. Boxes and packing supplies are charged per item for what gets used. The wrapping that protects furniture on the truck is a separate thing and is already in the rate."
+    },
+    {
+      "q": "Is there a minimum charge on a small North Providence move?",
+      "a": "Yes, a 2-hour minimum that includes travel time. On a short job, the drive itself covers a good part of that minimum."
+    },
+    {
+      "q": "Do you ask for a deposit before a North Providence move?",
+      "a": "Ask the manager when you request a quote. They go over the booking terms, including whether a deposit applies, before your date is confirmed."
+    },
+    {
+      "q": "Which payment methods can I use for my move?",
+      "a": "Accepted payment methods and timing are confirmed when you book. The manager explains how and when payment is due before anything is locked in."
+    }
+  ],
+  "faqClosing": "Want the full billing rules? Our FAQ page has every pricing question we get, with plain answers.",
+  "closing": {
+    "h2": "Get a North Providence Price You Can Follow",
+    "body": "Send your addresses, move date and a rough list of furniture. We'll reply with a quote that shows the hours, the travel and anything charged per item."
+  }
+}

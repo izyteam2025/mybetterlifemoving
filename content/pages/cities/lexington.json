@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Lexington movers for pianos, antiques and high-value pieces: floors and walls protected first, equipment planned at quote time. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "The pieces you cannot replace should shape a Lexington move from the start. A piano, an antique cabinet or a collection gets planned at the quote stage, so the equipment is already on the truck.",
+      "Floors and walls along the route are protected before anything heavy moves."
+    ],
+    "sellingPoints": [
+      "Upright and grand piano moves",
+      "Antiques and high-value pieces",
+      "Floors and walls protected"
+    ],
+    "ctaLabel": "Get a Lexington Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Standard and Specialty Moves in Lexington",
+    "intro": "Family moves to Lexington often include one or two items that need specialist care, alongside the regular household load. The everyday furniture moves on our hourly local rate, with protective materials and truck costs in it. Piano moving, white glove handling, storage and packing are all listed below."
+  },
+  "whyChoose": {
+    "h2": "Why Lexington Customers Plan Specialty Moves With Us",
+    "cards": [
+      {
+        "title": "Equipment Chosen Up Front",
+        "text": "Tell us about the piano or the antiques at quote time, and the equipment they need travels with the crew. Nothing gets improvised on the stairs."
+      },
+      {
+        "title": "Nothing Leaves Bare",
+        "text": "Every item is wrapped before it moves, from the grand piano down to the side table. Framed art and mirrors get their own wrapping rather than riding loose between boxes."
+      },
+      {
+        "title": "Awkward Pieces Change the Plan Early",
+        "text": "A manager asks about stairs, access and inventory, then sets crew size. Large or awkward items are planned for up front."
+      },
+      {
+        "title": "Taken Apart and Rebuilt",
+        "text": "Beds and large furniture are disassembled and reassembled in your new home, so you are not left with hardware in a bag."
+      }
+    ]
+  },
+  "faqHeading": "Lexington Specialty Moving Questions",
+  "faq": [
+    {
+      "q": "Can you move a grand piano in Lexington?",
+      "a": "Yes. We move uprights and grands with proper equipment and protect floors and walls along the route. Tell us the piano type and the stairs when you request a quote."
+    },
+    {
+      "q": "How do you protect antiques during a Lexington move?",
+      "a": "Each antique is wrapped on its own before it moves and planned into the load at the quote stage. Mention every high-value piece when you book."
+    },
+    {
+      "q": "Does my homeowner's policy cover items during a Lexington move?",
+      "a": "Check with your insurer before moving day. Ask what your homeowner's or renter's policy covers for items in transit. Knowing that before the truck arrives saves a phone call in the middle of the move."
+    },
+    {
+      "q": "How do you decide crew size for a Lexington move with a piano?",
+      "a": "From the stairs, the access and the inventory. A piano or other heavy piece changes the crew plan before the day, never on it."
+    },
+    {
+      "q": "Can you store antiques between Lexington homes?",
+      "a": "Yes. We hold furniture and collections between homes, then deliver to your door. Storage is priced by the cubic feet your items take up."
+    }
+  ],
+  "faqClosing": "For deposits and payment terms, see the FAQ page.",
+  "closing": {
+    "h2": "Plan Your Lexington Piano or Antique Move",
+    "body": "List the special pieces along with the home size, both addresses and the date. A manager plans the crew and the equipment, then sends a quote that separates the specialty pieces from the rest of the household. Photos of the piano and the stairs it has to travel make that plan more precise."
+  }
+}

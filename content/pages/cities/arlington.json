@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Arlington movers for students, graduates and renters: small loads, storage between leases and hourly billing with a 2-hour minimum. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Moving out of a shared apartment in Arlington, or into your first place after graduation? We handle small student loads as well as full apartments.",
+      "Our crews come from the head office in Brighton, Boston, and storage is there if one lease ends before the next one starts."
+    ],
+    "sellingPoints": [
+      "Dorm and apartment loads of any size",
+      "Storage between leases or semesters",
+      "Billing explained before you book"
+    ],
+    "ctaLabel": "Get an Arlington Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Arlington Moves for Students and Renters",
+    "intro": "College moving sits next to residential, furniture-only and storage moves in the list below. Pair a small move with a few months of storage if your dates don't line up, or book the move by itself if they do. If you're splitting an apartment with roommates, each person's things can be labeled and dropped at a separate address. A manager walks through the stairs, the parking and the size of the load before setting the crew."
+  },
+  "whyChoose": {
+    "h2": "Why Arlington Students and Renters Pick Us",
+    "cards": [
+      {
+        "title": "Sized for Small Loads",
+        "text": "A studio or a shared room makes for a short job. Small moves have a 2-hour minimum that includes travel time."
+      },
+      {
+        "title": "Storage Over the Summer",
+        "text": "Leaving for the summer or stuck between leases? We hold your things and deliver when you're back. Storage is priced by the cubic feet your items take up."
+      },
+      {
+        "title": "September 1 Planning",
+        "text": "Late August and early September are the busiest weeks of the year around Boston. If your lease turns over then, book well ahead."
+      },
+      {
+        "title": "Roommates on One Booking",
+        "text": "Two roommates heading to different places can share a booking with two drop-offs. Give us both addresses when you ask for a price."
+      }
+    ]
+  },
+  "faqHeading": "Arlington Student and Renter FAQ",
+  "faq": [
+    {
+      "q": "Do you move students out of Arlington apartments?",
+      "a": "Yes. College moving covers dorms and apartments, and a load of a few boxes and a desk is welcome. Tell us the floor and whether there's an elevator so the crew size fits."
+    },
+    {
+      "q": "Is there storage for an Arlington renter between two leases?",
+      "a": "Yes. We pick up, store your belongings and bring them to the new apartment once it opens."
+    },
+    {
+      "q": "How much is a small Arlington move?",
+      "a": "Local moves are billed hourly, with travel time from our yard added. The total depends on how much you own, the stairs and where the truck can park."
+    },
+    {
+      "q": "When should I book movers for a September 1 lease in Arlington?",
+      "a": "Book as early as you can. Late August and the first days of September fill up before any other dates in the Boston area."
+    },
+    {
+      "q": "Can you move me from Arlington to a new job in another state?",
+      "a": "Yes. Out-of-state moves get one price up front, since long distance moves are quoted at a flat rate."
+    }
+  ],
+  "faqClosing": "Have a question about leases, storage or a first apartment? The FAQ page goes further on billing and booking.",
+  "closing": {
+    "h2": "Reserve an Arlington Moving Date",
+    "body": "Send your move date, what you're bringing and both addresses. If you need storage over the gap, add those dates too, and we'll price it all at once. Students heading home for the summer can also send the date they'll be back so the delivery is planned before they leave."
+  }
+}

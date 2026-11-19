@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Westwood movers for renovations and home sales: rooms emptied, furniture stored by the cubic foot and brought back when the work is done. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Renovating a Westwood house, or selling one while you build? Those moves often happen in stages: furniture out before the work starts, then back in when it's finished.",
+      "We pack, move and store your things, then deliver when the house is ready. Crews come from our head office in Brighton, Boston."
+    ],
+    "sellingPoints": [
+      "Furniture out before a renovation, back after",
+      "Storage priced by volume, not by unit",
+      "Whole-house packing available"
+    ],
+    "ctaLabel": "Get a Westwood Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Westwood Moves Around a Renovation or Sale",
+    "intro": "These are all the services available for a Westwood move. A renovation usually calls for residential moving, packing and storage together, so the house can be emptied, worked on and filled again without you renting a unit yourself. A manager asks which rooms are being worked on and what has to stay in the house, then sizes the crew and the storage space to match. If you're selling, the same plan works around showings and the closing date."
+  },
+  "whyChoose": {
+    "h2": "Why Westwood Homeowners Store With Their Movers",
+    "cards": [
+      {
+        "title": "Out and Back With One Company",
+        "text": "The crew that empties the rooms brings everything back. You don't have to coordinate a storage company and a mover separately."
+      },
+      {
+        "title": "Room-by-Room Labels",
+        "text": "Boxes are marked by room before they go into storage, so the return trip puts things back where they belong."
+      },
+      {
+        "title": "Pay for the Space You Use",
+        "text": "Storage is priced by the cubic feet your items take up. Store one room's worth or the whole house."
+      },
+      {
+        "title": "Delivery When the Contractor Finishes",
+        "text": "Work runs late. Give us the new date when you have it, and we schedule the return trip then."
+      }
+    ]
+  },
+  "faqHeading": "Westwood Renovation and Storage Questions",
+  "faq": [
+    {
+      "q": "Can you empty a few rooms of our Westwood house before a renovation?",
+      "a": "Yes. We can move out one room, one floor or the whole house, and store everything until the work is finished."
+    },
+    {
+      "q": "How long can our furniture stay in storage?",
+      "a": "Short-term and long-term storage are both available. Tell us the expected end date, and change it if the project runs over. Storage is priced by the cubic feet your items take up, whatever the length of the stay."
+    },
+    {
+      "q": "What does the move back after a renovation cost?",
+      "a": "Each local leg is its own job. Local moves are billed hourly, with travel time from our yard added."
+    },
+    {
+      "q": "Can you pack fragile things before the contractors arrive?",
+      "a": "Yes. Full or partial packing is available, and fragile items are wrapped one at a time before they go into storage."
+    },
+    {
+      "q": "We're selling in Westwood and buying out of state. Can you handle both?",
+      "a": "Yes. We can store your things after the sale and deliver to the new state later. Long distance moves are quoted at a flat rate."
+    }
+  ],
+  "faqClosing": "The FAQ page has more on scheduling, payment and the moving day itself.",
+  "closing": {
+    "h2": "Plan Your Westwood Move Out and Back In",
+    "body": "Tell us which rooms are being emptied, when the work starts and roughly when it ends. We'll price the move out, the storage and the return together. If the schedule changes halfway through, call us and we'll move the return date to match."
+  }
+}

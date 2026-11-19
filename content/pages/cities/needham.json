@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Needham movers who pack the whole house or just the kitchen, then load, move and unpack. Hourly local billing with wrap included. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Packing is the part of a Needham move most people underestimate. Our crews can pack the whole house, or only the kitchen and the breakables, then load, drive and unpack at the new address.",
+      "Local moves are billed by the hour, and the crew comes out from our Brighton base in Boston."
+    ],
+    "sellingPoints": [
+      "Full or partial packing on one quote",
+      "Dishes and glassware wrapped piece by piece",
+      "Unpacking at the new home if you want it"
+    ],
+    "ctaLabel": "Get a Needham Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Packing and Moving Help in Needham",
+    "intro": "Needham customers can book packing on its own or as part of a full move, with storage if the new house isn't ready yet. Below is every service our Boston office runs, and the packing crew can be the same people who carry the boxes out. Packing is booked on the same quote as the move, so one manager keeps track of both."
+  },
+  "whyChoose": {
+    "h2": "Why Needham Households Hand Us the Packing",
+    "cards": [
+      {
+        "title": "Kitchens Packed With Care",
+        "text": "Plates and glasses are wrapped one at a time and boxed so they don't shift on the drive. The kitchen is usually the slowest room to pack on your own."
+      },
+      {
+        "title": "Labeled by Room",
+        "text": "Every box is marked with the room it belongs in, so the unload at the new house happens in the order you need."
+      },
+      {
+        "title": "Partial Packing Counts Too",
+        "text": "Pack your clothes and books yourself and leave the fragile pieces to us. Tell us which rooms are yours and which are ours when you book."
+      },
+      {
+        "title": "Furniture Wrapped at No Extra Line",
+        "text": "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate, so wrapping the sofa and the dresser isn't billed separately."
+      }
+    ]
+  },
+  "faqHeading": "Needham Packing and Moving Questions",
+  "faq": [
+    {
+      "q": "Can your crew pack my entire Needham house?",
+      "a": "Yes. Full packing covers every room. If you'd rather keep some rooms for yourself, choose partial packing instead. The crew brings the materials and labels each box by room as it goes."
+    },
+    {
+      "q": "Do you unpack at the new home too?",
+      "a": "Yes, unpacking is available. Tell us which rooms you want unpacked so the crew size and the hours fit the job."
+    },
+    {
+      "q": "Are boxes part of the Needham hourly rate?",
+      "a": "Not automatically. The hourly rate covers blankets, shrink wrap, tape and truck costs, so ask the manager how boxes and packing materials are priced for your move."
+    },
+    {
+      "q": "How early should I book a Needham packing crew?",
+      "a": "As early as you can, especially for late summer and the first days of any month. Those dates fill before the rest of the calendar."
+    },
+    {
+      "q": "Can you pack us now and deliver after our closing?",
+      "a": "Yes. We pack, load and hold your things in storage, then deliver once you have the keys. Storage is priced by the cubic feet your items take up."
+    }
+  ],
+  "faqClosing": "Something else on your mind about packing? Our FAQ page also covers billing and how the day itself runs.",
+  "closing": {
+    "h2": "Hand Off the Packing for Your Needham Move",
+    "body": "List the rooms you want packed and the ones you'll handle yourself, then send the date and both addresses. We'll price the packing and the move together. If you're not sure how many rooms to hand over, start with the kitchen and decide on the rest after you see the plan."
+  }
+}

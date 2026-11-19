@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Concord movers for pianos and heavy furniture: equipment on the truck, floors protected, crew sized for the weight. Full home moves too. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "A piano, a stone-topped table, a solid wood armoire: heavy pieces are where a Concord move goes wrong if the crew isn't ready for them.",
+      "Tell us about them when you book. We bring the equipment, protect the floors and send enough movers for the weight."
+    ],
+    "sellingPoints": [
+      "Uprights and grands moved with proper equipment",
+      "Floors protected along the path out",
+      "Heavy furniture planned before moving day"
+    ],
+    "ctaLabel": "Get a Concord Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Piano and Heavy-Item Moving in Concord",
+    "intro": "Piano moving is one of the services below, and it can be booked alone or added to a full house move. Everything else we do in Concord is on the same list, from packing to long distance. A manager asks about each heavy piece, the stairs and the doorways before setting the crew size. Photos of the piano and the path out of the house help with that."
+  },
+  "whyChoose": {
+    "h2": "How We Approach Heavy Pieces in Concord",
+    "cards": [
+      {
+        "title": "The Equipment Comes on the Truck",
+        "text": "Pianos need dollies, straps and padding sized for them. We load what the job calls for once you tell us the type and the stairs."
+      },
+      {
+        "title": "Floors Covered First",
+        "text": "Before the piano rolls anywhere, the path from its room to the door is protected."
+      },
+      {
+        "title": "Enough Hands for the Weight",
+        "text": "A manager sets the crew size from the piece itself, the stairs and the turns along the way."
+      },
+      {
+        "title": "One Booking With Everything Else",
+        "text": "Add the piano to your full move instead of hiring a separate company. Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate."
+      }
+    ]
+  },
+  "faqHeading": "Concord Piano and Heavy Furniture Questions",
+  "faq": [
+    {
+      "q": "Do you move pianos in Concord?",
+      "a": "Yes, both uprights and grands. Tell us the type, the floor it's on and any stairs, so we bring the matching equipment and crew."
+    },
+    {
+      "q": "Can a piano go with the rest of my Concord house move?",
+      "a": "Yes. It can ride on the same truck, on the same day, as the rest of your belongings."
+    },
+    {
+      "q": "What should I measure before my Concord move?",
+      "a": "Measure doorways, tight turns and the stairwell for your largest pieces. Send those numbers with your quote request so the crew knows what to expect. A photo of the narrowest spot on the way out is often more useful than a measurement."
+    },
+    {
+      "q": "How does a piano affect the cost of a Concord move?",
+      "a": "Mostly through the crew size and the time. Local moves are billed hourly, with travel time from our yard added, and a piano can add movers and hours to the job. The manager explains this when quoting."
+    },
+    {
+      "q": "Can you move antiques along with the piano?",
+      "a": "Yes. White glove service covers antiques and art, wrapped one item at a time. List the pieces when you book so the crew brings enough blankets and wrap."
+    }
+  ],
+  "faqClosing": "Have another question about heavy or valuable furniture? Our FAQ page also goes through billing and booking.",
+  "closing": {
+    "h2": "Get Your Concord Piano Move Quoted",
+    "body": "Tell us the piece, the floor it's on and where it's going. We'll plan the equipment and the crew, and explain how the hours add up. If the rest of the house is moving the same day, add it to the quote so one crew handles everything."
+  }
+}

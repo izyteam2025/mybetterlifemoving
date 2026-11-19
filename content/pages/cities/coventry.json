@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Coventry movers for family houses: full home moves with every piece wrapped and strapped, packing on request and hourly local billing. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "A Coventry family house move usually means a full truck, a garage to empty and a day that runs from morning to evening. We size the crew for that from the start.",
+      "Wrapping, loading order and the drive are all part of the quote."
+    ],
+    "sellingPoints": [
+      "Full house moves with a matched crew",
+      "Every piece wrapped and strapped",
+      "Packing by the room on request"
+    ],
+    "ctaLabel": "Get a Coventry House Move Quote"
+  },
+  "servicesBlock": {
+    "h2": "House Moving Services in Coventry",
+    "intro": "This page is written for whole-house residential moves. Packing, storage while a sale closes and long distance moves for families heading out of state are also available, along with piano and furniture-only jobs. If the house has a basement or attic full of stored things, count those spaces when you list what's moving, because they often take longer to clear than the bedrooms."
+  },
+  "whyChoose": {
+    "h2": "How We Run a Coventry Family Move",
+    "cards": [
+      {
+        "title": "Crew Sized to the House",
+        "text": "Before the date is set, the manager goes over the room count and big items to decide how many movers to send. Too few people makes a long day longer."
+      },
+      {
+        "title": "Wrapped Room by Room",
+        "text": "Every piece of furniture is wrapped before it leaves its room. Mattresses, tables and dressers each get their own protection."
+      },
+      {
+        "title": "Strapped for the Drive",
+        "text": "Once everything is loaded, the crew straps the furniture in place. Heavy pieces go in first and boxes fill the space around them."
+      },
+      {
+        "title": "Materials Inside the Rate",
+        "text": "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate. Packing boxes are charged separately, per item."
+      }
+    ]
+  },
+  "faqHeading": "What Coventry Families Ask Before Moving Day",
+  "faq": [
+    {
+      "q": "How many movers will you send for a Coventry house?",
+      "a": "That depends on the size of the house and what's in it. The manager sets the crew size from your inventory, stairs and access before the date is booked."
+    },
+    {
+      "q": "How long does a full house move in Coventry take?",
+      "a": "Most of the time goes into loading and unloading, plus travel from our yard. Your quote gives an estimate of hours once the manager has your inventory."
+    },
+    {
+      "q": "Do you empty garages, sheds and basements too?",
+      "a": "Yes. Put them on your inventory, especially tools, bikes and outdoor furniture, so the truck has room for everything."
+    },
+    {
+      "q": "Can you pack our kitchen and leave the rest to us?",
+      "a": "Yes. You can hand us any single room. Boxes and supplies are charged per item for what the crew uses."
+    },
+    {
+      "q": "What if our Coventry closing date gets pushed?",
+      "a": "Your belongings can go into storage until the new house is ready. Storage is priced by the cubic feet your items take up."
+    }
+  ],
+  "faqClosing": "Our FAQ page has more on travel time, minimums and payment.",
+  "closing": {
+    "h2": "Book Your Coventry House Move",
+    "body": "Send the room count, the big items and both addresses. A manager will size the crew and give you the price before anything is booked."
+  }
+}

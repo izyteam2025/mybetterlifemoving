@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Westerly movers for long distance and out-of-state relocations. Flat-rate long distance quotes, our own trucks and crews, USDOT 3866930. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Leaving Westerly for another state? Our crew packs and loads the house, and the same company drives it to your new address.",
+      "Long distance moves are quoted at a flat rate, so the price is set once the manager has reviewed your inventory and the route."
+    ],
+    "sellingPoints": [
+      "Flat-rate long distance quotes",
+      "One carrier from loading to delivery",
+      "Packing and storage if you need them"
+    ],
+    "ctaLabel": "Get a Westerly Long Distance Quote"
+  },
+  "servicesBlock": {
+    "h2": "From Westerly to Anywhere in the Country",
+    "intro": "This page is mostly about out-of-state relocations, though we also take shorter moves within Rhode Island. Full packing, storage between homes and careful handling of art or antiques can all sit on the same quote. Pick what you need from the services below."
+  },
+  "whyChoose": {
+    "h2": "What a Westerly Long Distance Move Looks Like With Us",
+    "cards": [
+      {
+        "title": "One Price, Set Early",
+        "text": "The flat rate is based on how much you're moving, the distance and the truck and labor costs. Hourly rates and travel time don't apply to long distance jobs."
+      },
+      {
+        "title": "Your Goods Stay With Us",
+        "text": "We're a carrier, so your furniture rides in our truck with our crew. It isn't handed to another company halfway down the highway."
+      },
+      {
+        "title": "Packed for the Distance",
+        "text": "A long trip calls for more protection. The crew can fully pack fragile rooms and wraps every piece of furniture before it goes on the truck."
+      },
+      {
+        "title": "Storage If the Dates Split",
+        "text": "If the new home isn't ready when you arrive, your things can wait in storage. Storage is priced by the cubic feet your items take up."
+      }
+    ]
+  },
+  "faqHeading": "Questions Before a Move Out of Westerly",
+  "faq": [
+    {
+      "q": "How is a long distance move from Westerly priced?",
+      "a": "With a single flat price. Long distance moves are quoted at a flat rate, worked out from your items, the distance between addresses and the truck and labor costs."
+    },
+    {
+      "q": "Do hourly charges or travel time apply to an interstate move?",
+      "a": "No. The hourly system and travel time are only for local moves. Your long distance quote is one figure."
+    },
+    {
+      "q": "Who drives my belongings to the new state?",
+      "a": "Our own crew, in our own truck. Better Life Moving is a registered interstate carrier, USDOT 3866930, MC 1414489."
+    },
+    {
+      "q": "What do you need from me to quote a Westerly relocation?",
+      "a": "Both addresses, your preferred dates and an inventory of what's going. Photos of large or unusual items help the manager price it accurately the first time."
+    },
+    {
+      "q": "Can you pack up the whole house before we leave Westerly?",
+      "a": "Yes. Choose full packing or just the kitchen and breakables, and it goes on the same quote as the move."
+    }
+  ],
+  "faqClosing": "Planning further out? Our FAQ page explains booking, deposits and payment.",
+  "closing": {
+    "h2": "Get a Flat Rate for Your Westerly Relocation",
+    "body": "Send the inventory and where you're headed. You'll get one flat price from the people who will drive your things there."
+  }
+}

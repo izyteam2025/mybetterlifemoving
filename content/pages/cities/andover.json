@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Andover movers for family homes and small offices, using our own crews and trucks. Hourly local billing with wrap and truck costs included. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "We move Andover households and small Andover offices with our own crews and trucks, sent up from our head office in Brighton, Boston.",
+      "For an office, the crew lead plans the order of desks, files and equipment before the truck arrives, so the new space works on the first morning."
+    ],
+    "sellingPoints": [
+      "Homes and small offices moved by our own crews",
+      "Desks, files and electronics wrapped and labeled",
+      "Ask about a weekend date for an office move"
+    ],
+    "ctaLabel": "Get an Andover Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Andover Moving Services for Homes and Offices",
+    "intro": "Residential moves are most of what we do, from one-bedroom apartments to four-bedroom houses. Office and commercial moves follow the same habits: everything wrapped, loaded in a planned order and set down where you point. Pick one service below or combine several on the same quote, for example a house move plus storage for the furniture that won't fit. Families moving within town and offices relocating to a new suite both get a manager who asks about stairs, elevators and parking before setting the crew size."
+  },
+  "whyChoose": {
+    "h2": "Reasons Andover Offices and Families Call Us",
+    "cards": [
+      {
+        "title": "A Carrier, Not a Broker",
+        "text": "Your move is done by Better Life Moving crews on Better Life Moving trucks, under USDOT 3866930, MC 1414489. Nobody resells your Andover job to a company you've never heard of."
+      },
+      {
+        "title": "Labeled for the New Floor Plan",
+        "text": "Before an office move, tell us which desk goes where. Boxes and equipment are tagged to match, so the unload follows your layout."
+      },
+      {
+        "title": "The Clock Covers the Basics",
+        "text": "Local jobs are billed by the hour. Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate."
+      },
+      {
+        "title": "Small Jobs Welcome",
+        "text": "Moving a few filing cabinets or a single conference table? Smaller jobs fall under a 2-hour minimum that includes travel time."
+      }
+    ]
+  },
+  "faqHeading": "Andover Home and Office Moving Questions",
+  "faq": [
+    {
+      "q": "Do you move small offices in Andover?",
+      "a": "Yes. We move small offices and commercial spaces, and we plan the load with you before moving day. Ask about weekend dates if you can't close during the week."
+    },
+    {
+      "q": "How is a household move in Andover billed?",
+      "a": "Local moves are billed hourly, with travel time from our yard added. The crew's drive from Brighton to your Andover door is part of that travel time, on top of the hours spent loading and unloading. The manager gives you a sense of those hours before you book."
+    },
+    {
+      "q": "Can we move the house and the office on separate days?",
+      "a": "Yes. Book them as two jobs on one quote, and a manager schedules a crew for each date so neither move holds up the other."
+    },
+    {
+      "q": "How do I check that you're a registered carrier?",
+      "a": "Look up USDOT 3866930 or MC 1414489 on the FMCSA website. The public record shows Better Life Moving under its own name."
+    },
+    {
+      "q": "Can you store office furniture while a new Andover space is fitted out?",
+      "a": "Yes. We pick it up, keep it in storage and deliver when the space is ready. Storage is priced by the cubic feet your items take up."
+    }
+  ],
+  "faqClosing": "Have a question about your Andover home or office move that isn't covered here? Our FAQ page goes through billing, booking and the moving day.",
+  "closing": {
+    "h2": "Get Your Andover Move Priced",
+    "body": "Tell us whether it's a house, an office or both, plus the date and both addresses. A manager explains how the hours are likely to add up before anything is booked."
+  }
+}

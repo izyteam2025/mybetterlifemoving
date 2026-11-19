@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Easton movers for family houses: crew size set before move day, every piece wrapped and beds rebuilt at the new place. Hourly local billing. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Moving a family out of an Easton house means a full truck: bedrooms, a playroom, the garage and whatever has been living in the basement.",
+      "We size the crew to all of it before the day, so the move does not drag on because two people were sent to do a four-person job."
+    ],
+    "sellingPoints": [
+      "Full house moves for families",
+      "Crew size planned ahead",
+      "Beds rebuilt before we leave"
+    ],
+    "ctaLabel": "Get an Easton Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Residential Moving Services for Easton Families",
+    "intro": "Our residential service covers houses of every size in Easton, and packing, storage and long distance moves can be added to it. Outdoor furniture, a swing set taken apart or a basement full of bins all count as part of the household. The full list is below."
+  },
+  "whyChoose": {
+    "h2": "What Easton Families Can Expect on Moving Day",
+    "cards": [
+      {
+        "title": "Crew Sized in Advance",
+        "text": "We count bedrooms, check the stairs and ask about the garage and basement, then pick how many movers to send."
+      },
+      {
+        "title": "Beds Ready by Night",
+        "text": "The crew takes beds apart at the old house and puts them together at the new one, so everyone has somewhere to sleep."
+      },
+      {
+        "title": "Furniture Protected",
+        "text": "Dressers, tables and sofas are wrapped in blankets and shrink wrap, and the truck load is strapped in place. The kids' furniture gets the same treatment as the dining set."
+      },
+      {
+        "title": "Rooms You Choose",
+        "text": "Tell the crew which room each piece goes to, and that is where it gets set down. Labeling boxes by room saves the most time at the new house."
+      }
+    ]
+  },
+  "faqHeading": "Easton Family Moving Questions",
+  "faq": [
+    {
+      "q": "How many movers will you send to my Easton house?",
+      "a": "It depends on the size of the house, the stairs and the amount of furniture. The manager decides before move day, not when the truck pulls up."
+    },
+    {
+      "q": "Do you reassemble beds after an Easton move?",
+      "a": "Yes. Beds and other furniture taken apart for the move are put back together in the new home. Cribs and bunk beds are part of that, so tell us about them at the quote stage."
+    },
+    {
+      "q": "How is an Easton house move billed?",
+      "a": "By the hour: local moves are billed hourly, with travel time from our yard added. A house in Easton usually takes longer than an apartment, so the number of rooms and how much is boxed decide the total."
+    },
+    {
+      "q": "Can you pack part of our Easton home?",
+      "a": "Yes. Choose the rooms you want packed, and the crew boxes those while you handle the rest. The kitchen and the garage are good rooms to hand over."
+    },
+    {
+      "q": "Can we move from Easton to another state with you?",
+      "a": "Yes. Long distance moves are quoted at a flat rate, and our own truck carries the load the whole way. Packing and storage can be part of the same booking."
+    }
+  ],
+  "faqClosing": "Booking, deposit and payment details are on the FAQ page.",
+  "closing": {
+    "h2": "Start Your Easton Family Move",
+    "body": "Tell us how many bedrooms, the move date and both addresses. A manager will plan the crew and send an hourly quote. Flag the big items, like a piano or a gym set, so they are counted from the start."
+  }
+}

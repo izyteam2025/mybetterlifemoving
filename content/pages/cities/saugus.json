@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Saugus movers for couples and families combining homes: two pickups, one delivery, storage for the duplicates and hourly local billing. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Moving in together usually means two apartments going into one home in Saugus, and more furniture than the new place can hold.",
+      "We can pick up from both addresses on one job, deliver to the new home and put the extras in storage. The crew starts out from our Brighton head office."
+    ],
+    "sellingPoints": [
+      "Two pickups, one delivery",
+      "Extra furniture held in storage",
+      "Hourly billing with wrap included"
+    ],
+    "ctaLabel": "Get a Saugus Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Moving Two Households Into One in Saugus",
+    "intro": "Combining homes is mostly a residential move with an extra stop, sometimes with storage for the duplicates. Every service below is available in Saugus, and you can put several on one quote. A manager reviews both apartments, the stairs at each and the new home, then sets the crew size and the order of the stops."
+  },
+  "whyChoose": {
+    "h2": "How We Help Saugus Couples and Families Combine Homes",
+    "cards": [
+      {
+        "title": "Both Pickups on One Plan",
+        "text": "Give us both current addresses. The manager plans the order, and on a local move the drive between stops is part of the hourly time."
+      },
+      {
+        "title": "Decide on Duplicates Later",
+        "text": "Two couches, two beds? Keep the spare in storage until you know which one stays. Storage is priced by the cubic feet your items take up."
+      },
+      {
+        "title": "Labeled for Whose Room",
+        "text": "Boxes can be marked by owner and by room, so the unload doesn't turn into a sorting session in the hallway."
+      },
+      {
+        "title": "Our Own Crew at Every Stop",
+        "text": "Better Life Moving is a registered carrier, USDOT 3866930, MC 1414489, and the same crew handles both pickups and the delivery."
+      }
+    ]
+  },
+  "faqHeading": "Questions About Combining Homes in Saugus",
+  "faq": [
+    {
+      "q": "Can you pick up from two apartments and deliver to one Saugus home?",
+      "a": "Yes. We plan both pickups and the delivery as one job. List every address when you request a quote."
+    },
+    {
+      "q": "How is a two-pickup move billed?",
+      "a": "Local moves are billed hourly, with travel time from our yard added. The time spent driving between the two pickups is part of the hours worked. The manager estimates the hours for both pickups together before you book."
+    },
+    {
+      "q": "What can we do with furniture we don't have room for?",
+      "a": "Put it in storage with us and decide later. We deliver it when you want it back, to Saugus or to another address we serve. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "Can you pack one apartment while we pack the other?",
+      "a": "Yes. Partial packing lets you hand us one home, or only its kitchen, while you do the rest."
+    },
+    {
+      "q": "Is wrapping included when we move into Saugus?",
+      "a": "Yes. On a local move, blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate."
+    }
+  ],
+  "faqClosing": "Still working out who keeps which couch? The FAQ page can help with the billing and booking side.",
+  "closing": {
+    "h2": "Plan a Two-Address Move to Saugus",
+    "body": "Send both pickup addresses, the new home and your date. We'll plan the stops, price the job and set aside storage if you need it. If one of you is moving out of a place with a strict move-out time, mention it so that pickup goes first."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Marlborough movers for local hourly moves and flat-rate interstate moves. Check USDOT 3866930 and MC 1414489 at FMCSA, then get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Many Marlborough moves cross a state line. Long distance moves are quoted at a flat rate, built from your inventory, the distance, the truck and the labor.",
+      "Local moves inside Massachusetts stay hourly. Either way, our own crew and our own truck do the job."
+    ],
+    "sellingPoints": [
+      "Flat-rate quotes for out-of-state moves",
+      "USDOT and MC numbers you can verify",
+      "Storage if delivery comes later than pickup"
+    ],
+    "ctaLabel": "Get a Marlborough Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Local and Interstate Moves From Marlborough",
+    "intro": "Everything below is available for a Marlborough move. Interstate jobs often pair the long distance service with packing, and sometimes with storage when the delivery date lands later than pickup. A manager reviews your inventory and the destination, then explains each part of the long distance price before you book. Local moves around Marlborough are quoted differently, by the hour, and the manager will tell you which applies."
+  },
+  "whyChoose": {
+    "h2": "What Makes a Marlborough Long Distance Move Predictable",
+    "cards": [
+      {
+        "title": "A Flat Price With Named Parts",
+        "text": "Your long distance quote comes from inventory volume, distance, truck costs and labor. The manager shows you what went into it."
+      },
+      {
+        "title": "Authority You Can Look Up",
+        "text": "USDOT 3866930, MC 1414489 are public records. Search them at FMCSA before you book with us or with anyone else."
+      },
+      {
+        "title": "Storage Between Legs",
+        "text": "If your new home isn't ready when we pick up, we hold your goods and deliver on the date you give us."
+      },
+      {
+        "title": "Mid-Month Pickups Open Up",
+        "text": "The first of the month fills fastest. A mid-month pickup date gives you more choice and more room to plan."
+      }
+    ]
+  },
+  "faqHeading": "Marlborough Interstate Moving Questions",
+  "faq": [
+    {
+      "q": "Can you take our Marlborough household to a new state?",
+      "a": "Yes. Long distance moves from Marlborough run under Better Life Moving's FMCSA registration. Send us the destination and your inventory for a quote. Packing and storage can be added to the same quote."
+    },
+    {
+      "q": "Is a long distance move charged by the hour?",
+      "a": "No. Long distance moves are quoted at a flat rate, so the price doesn't run with the clock. It's worked out from inventory volume, distance, truck and labor."
+    },
+    {
+      "q": "How do I check a mover's FMCSA record?",
+      "a": "Go to the FMCSA website and enter USDOT 3866930 or MC 1414489. The record should show Better Life Moving by name."
+    },
+    {
+      "q": "How are moves within Massachusetts billed from Marlborough?",
+      "a": "Local moves are billed hourly, with travel time from our yard added. There's also a 2-hour minimum that includes travel time."
+    },
+    {
+      "q": "What if our new home isn't ready on delivery day?",
+      "a": "We keep your goods in storage and deliver on the date you choose. Storage is priced by the cubic feet your items take up. One company handles pickup, storage and delivery, so you have one number to call when the date moves."
+    }
+  ],
+  "faqClosing": "Planning an out-of-state move and need more detail? Our FAQ page covers the booking steps and moving day.",
+  "closing": {
+    "h2": "Price Your Move Out of Marlborough",
+    "body": "Send your inventory and destination, and we'll quote a flat rate for the long distance move. Check our numbers at FMCSA first if you like. We'd rather you did. A rough inventory by room is enough to start the conversation."
+  }
+}

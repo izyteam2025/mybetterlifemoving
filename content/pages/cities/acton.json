@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Acton movers for long distance and interstate moves: flat-rate quotes, our own trucks and FMCSA authority under USDOT 3866930. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "If your Acton move crosses a state line, the pricing works differently. Long distance moves are quoted at a flat rate, so hourly billing and travel time stay out of it.",
+      "Our own crews load in Acton and our own truck makes the drive, including to the cities where we also run crews: Raleigh, Charlotte, Chicago and Los Angeles."
+    ],
+    "sellingPoints": [
+      "Flat-rate long distance quotes",
+      "Our own trucks, no hand-offs",
+      "Packing and storage on request"
+    ],
+    "ctaLabel": "Get an Acton Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Long Distance and Local Moving From Acton",
+    "intro": "Interstate moves are the focus of this page, but Acton households also book us for local moves, packing and storage. Our long distance crews wrap, load and drive the same way they do on a local job. Military families on a PCS move and anyone shipping a piano or antiques across state lines will find those services on the list too."
+  },
+  "whyChoose": {
+    "h2": "What Acton Families Get on a Long Move",
+    "cards": [
+      {
+        "title": "A Flat Price for the Trip",
+        "text": "Your quote is built from how much you are moving, the distance and the truck and labor involved, then given as one number. Add something to the inventory later and the manager updates the quote."
+      },
+      {
+        "title": "Authority You Can Look Up",
+        "text": "We are an FMCSA-registered carrier, USDOT 3866930, MC 1414489. Check the public record before you sign anything, and compare it with any other mover you are considering."
+      },
+      {
+        "title": "Carried on Our Own Truck",
+        "text": "Your load stays with the company you booked. We do not broker it out to another carrier halfway through the trip."
+      },
+      {
+        "title": "Crews in Other Markets",
+        "text": "Because we also work in North Carolina, Chicago and Los Angeles, a move from Acton to one of those places ends in a market we already know."
+      }
+    ]
+  },
+  "faqHeading": "Acton Long Distance Move Questions",
+  "faq": [
+    {
+      "q": "What goes into the flat price for a move out of Acton?",
+      "a": "As one flat price. The manager works it out from your inventory, the distance and the truck and labor costs, and travel time is not added on top."
+    },
+    {
+      "q": "Can you pack our Acton house before the long move?",
+      "a": "Yes. Packing can be booked with any long distance move, for the whole house or only the rooms you pick."
+    },
+    {
+      "q": "What if our new home is not ready when we leave Acton?",
+      "a": "We can hold your things in storage and deliver when the house is ready. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "Is the company moving my Acton house a broker or a carrier?",
+      "a": "A carrier. We run our own crews and trucks under USDOT 3866930, MC 1414489, and that record is public on the FMCSA site."
+    },
+    {
+      "q": "Do you move Acton residents within Massachusetts too?",
+      "a": "Yes. Local moves are billed hourly, with travel time from our yard added, and they are quoted the same way as any other local job."
+    }
+  ],
+  "faqClosing": "Deposits, payment and booking terms are explained on our FAQ page.",
+  "closing": {
+    "h2": "Get a Flat Quote for Your Move Out of Acton",
+    "body": "Send your move date, home size and where you are headed. A manager reviews the inventory and comes back with one flat price for the trip. The more complete the inventory, the closer that price sits to the job you actually have."
+  }
+}

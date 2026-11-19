@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Barrington movers for homes with antiques, art and fragile pieces. White glove handling, full packing and our own crews and trucks. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Some Barrington moves are really about a few things that can't be replaced: an old dresser, framed art, a piano. Those set the pace for the whole job.",
+      "We plan the packing around them first and fit the rest of the house in after."
+    ],
+    "sellingPoints": [
+      "White glove handling for fragile pieces",
+      "Full or partial packing",
+      "Pianos and heavy antiques"
+    ],
+    "ctaLabel": "Get a Barrington Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Careful Moving Services for Barrington Homes",
+    "intro": "White glove handling and full packing are where Barrington moves tend to need extra care. The same crew covers the residential move itself, piano moving, storage while a house is being finished, and long distance moves if you're relocating out of state. Not sure whether a piece needs special handling? Photograph it and send it with your quote request."
+  },
+  "whyChoose": {
+    "h2": "What Barrington Homes With Heirlooms Get From Us",
+    "cards": [
+      {
+        "title": "Fragile Pieces First",
+        "text": "We ask about antiques, art and glass when we quote, so the crew arrives with the materials it needs instead of improvising on the day."
+      },
+      {
+        "title": "Every Piece Wrapped",
+        "text": "Each item of furniture is wrapped before it leaves the room, then strapped inside the truck so nothing shifts on the road."
+      },
+      {
+        "title": "Packing by the Room",
+        "text": "Choose full packing or just the china cabinet and the bookshelves. Boxes and packing supplies are charged per item used."
+      },
+      {
+        "title": "Pianos Planned Ahead",
+        "text": "A piano needs a plan for stairs and doorways. Tell us the type and the route out of the house, and we'll quote it with the rest."
+      }
+    ]
+  },
+  "faqHeading": "Barrington Questions About Moving Valuable Items",
+  "faq": [
+    {
+      "q": "What does white glove moving include for a Barrington home?",
+      "a": "Extra care for fragile, valuable or awkward pieces: more wrapping, careful carrying and placement in the new room. Ask the manager to list exactly what applies to your items."
+    },
+    {
+      "q": "How should I prepare antiques before the crew arrives?",
+      "a": "Empty the drawers and point out anything loose, cracked or already repaired. The crew wraps the piece, but knowing its weak spots helps them carry it."
+    },
+    {
+      "q": "Can you move framed art and large mirrors?",
+      "a": "Yes. Mention each large frame or mirror when you request the quote so the crew brings enough padding and plans how to carry them."
+    },
+    {
+      "q": "Do you charge for the wrapping on a Barrington move?",
+      "a": "Not separately on a local move. Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate, while boxes are charged per item."
+    },
+    {
+      "q": "The new house is still being finished. Can you hold our furniture?",
+      "a": "Yes. Your things go into storage and are delivered once the house is ready. Storage is priced by the cubic feet your items take up."
+    }
+  ],
+  "faqClosing": "More detail on handling, booking and payment is on our FAQ page.",
+  "closing": {
+    "h2": "Plan a Careful Barrington Move",
+    "body": "Tell us about the pieces you care about most, along with the addresses and date. The quote will show how each one gets handled."
+  }
+}

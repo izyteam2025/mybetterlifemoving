@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Stoneham movers with storage for capes, colonials and condos. Tight stairs and building rules planned ahead, hourly local billing. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Stoneham fits a lot of housing into a small town, from older capes and colonials to condo buildings and newer apartment communities. Each one moves a little differently, so we ask about the stairs and the building before we price the job.",
+      "If the new place is not ready yet, your things can wait in our storage and come back on the date you pick."
+    ],
+    "sellingPoints": [
+      "Older homes with tight stairs",
+      "Condo and apartment building rules",
+      "Moving and storage from one company"
+    ],
+    "ctaLabel": "Get a Stoneham Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Moving and Storage Across Stoneham",
+    "intro": "We cover all of Stoneham, ZIP code 02180, from the Melrose line to the edge of the Middlesex Fells. That takes in the capes and colonials around Stoneham Square, family homes near Bear Hill and Colonial Park, condos off Main Street and the apartment communities along Route 28. Every service we offer is below."
+  },
+  "whyChoose": {
+    "h2": "Why Stoneham Moves Need Planning",
+    "cards": [
+      {
+        "title": "Tight Stair Turns",
+        "text": "Many older Stoneham homes have narrow staircases, low basement ceilings and doorways a modern sofa will not clear. We take apart what has to come apart and rebuild it at the other end."
+      },
+      {
+        "title": "Timed Around I-93",
+        "text": "Stoneham sits on the I-93 corridor, and commuter traffic spills onto Main Street and Route 28. We set start times and routes with that in mind."
+      },
+      {
+        "title": "Parking Near the Square",
+        "text": "Street parking near Stoneham Square is limited, so we stage the truck as close to your door as the street allows and plan the carry path first."
+      },
+      {
+        "title": "Condo Rules Collected at Booking",
+        "text": "Condo associations and newer apartment buildings often want a Certificate of Insurance, a reserved elevator or loading window and notice to management. Send us those rules when you book."
+      }
+    ]
+  },
+  "faqHeading": "What Stoneham Customers Ask About Stairs and Storage",
+  "faq": [
+    {
+      "q": "Do Stoneham condo buildings limit which days I can move?",
+      "a": "Some do. Certain condo associations allow moves only on weekdays during set hours, so check with management before you pick a date and pass the window to us."
+    },
+    {
+      "q": "Will the crew manage the narrow stairs in my Stoneham cape?",
+      "a": "Yes. The manager asks about stairs and access at both addresses, sets the crew size from that and sends the equipment the house calls for."
+    },
+    {
+      "q": "Can you store my things between two Stoneham homes?",
+      "a": "Yes. The crew picks up, holds everything in storage and delivers on your date. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "How much do movers cost in Stoneham?",
+      "a": "Local Stoneham moves are billed by the hour, with a 2-hour minimum that includes travel time. Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate."
+    },
+    {
+      "q": "Can you move me from Stoneham to another state?",
+      "a": "Yes. We hold federal operating authority, USDOT 3866930, MC 1414489, and long distance moves are quoted at a flat rate."
+    }
+  ],
+  "faqClosing": "For deposits, payment and booking terms, the main FAQ page has the answers.",
+  "closing": {
+    "h2": "Book Stoneham Movers With Storage on Hand",
+    "body": "Send both addresses, your home size and a target date, and mention any building rules you already know. A manager prices the move, plus storage if you need it."
+  }
+}

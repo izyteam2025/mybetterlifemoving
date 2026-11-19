@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Lynn movers for a single sofa, a few pieces or a full apartment or house. Hourly billing with a 2-hour minimum that includes travel. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Not every Lynn move fills a truck. A sofa from a sale, a bed going to a new apartment, a dresser headed to a relative: we take small jobs, and they fall under a 2-hour minimum that includes travel time.",
+      "Bigger moves get the same crew and the same care, sent from our head office in Brighton, Boston."
+    ],
+    "sellingPoints": [
+      "Single pieces and small loads accepted",
+      "Every item wrapped before it's carried",
+      "Whole apartments and houses too"
+    ],
+    "ctaLabel": "Get a Lynn Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Small and Full-Size Moves in Lynn",
+    "intro": "Furniture-only moves sit on the list below with everything else we do in Lynn, from full residential moves to piano moving and storage. Small load or large, you get one quote and one crew, and the billing works the same way. Tell us what's going and where, and a manager decides how many movers it takes before anyone is scheduled."
+  },
+  "whyChoose": {
+    "h2": "Why Lynn Customers Book Us for Small Jobs",
+    "cards": [
+      {
+        "title": "A Minimum That Fits Small Moves",
+        "text": "Because the minimum is two hours and the drive counts toward it, moving one or two pieces doesn't cost what a whole apartment does."
+      },
+      {
+        "title": "Wrapped Even for a Short Trip",
+        "text": "A single couch still leaves wrapped in blankets and shrink wrap. A short trip across town gets the same protection as a long one."
+      },
+      {
+        "title": "Set Up Where You Want It",
+        "text": "The crew places furniture in the room you choose and puts bed frames back together, so you aren't left with parts on the floor."
+      },
+      {
+        "title": "Our Own Truck Arrives",
+        "text": "Better Life Moving is a carrier with its own trucks and crews. The people you book with are the people who turn up at your door."
+      }
+    ]
+  },
+  "faqHeading": "What Lynn Customers Ask Before Booking",
+  "faq": [
+    {
+      "q": "Will you move a single piece of furniture in Lynn?",
+      "a": "Yes. One piece or a few, the job is billed hourly and our 2-hour minimum applies, with the drive counted inside it."
+    },
+    {
+      "q": "Can you pick up a furniture purchase and bring it to my Lynn home?",
+      "a": "Usually, yes. Give us the pickup address, the item and any stairs at your end, and the manager will confirm the crew and the time."
+    },
+    {
+      "q": "How is a full apartment move in Lynn billed?",
+      "a": "Local moves are billed hourly, with travel time from our yard added. Blankets, shrink wrap, tape and the truck are already counted in that rate. On a full apartment, the stairs and the distance from the door to the truck usually decide how long the job runs."
+    },
+    {
+      "q": "Do you take apart and rebuild beds and tables?",
+      "a": "Yes. The crew takes apart what needs it to fit through doors and puts it back together at the new place. Mention large pieces when you book."
+    },
+    {
+      "q": "Can I move out of Lynn to another state with you?",
+      "a": "Yes. Interstate jobs run on our own trucks, and long distance moves are quoted at a flat rate."
+    }
+  ],
+  "faqClosing": "Want to know more about how a small Lynn job is booked? The FAQ page walks through billing, scheduling and moving day.",
+  "closing": {
+    "h2": "Book a Lynn Move, Big or Small",
+    "body": "Tell us what's moving, even if it's one item, plus both addresses and a date. We'll tell you how many movers it needs and how the hours are counted."
+  }
+}

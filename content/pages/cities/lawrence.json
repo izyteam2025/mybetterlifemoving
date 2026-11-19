@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Lawrence movers from our Brighton office: travel time and the 2-hour minimum explained on the first call, wrap included in the hourly rate. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Lawrence is a longer drive from our Brighton yard than most towns we serve, so it helps to know how that drive shows up on the bill.",
+      "Local moves are billed hourly, with travel time from our yard added. A manager walks you through that number before you book."
+    ],
+    "sellingPoints": [
+      "Travel time explained on the first call",
+      "Own crews and trucks from Brighton",
+      "Apartments, houses and small offices"
+    ],
+    "ctaLabel": "Get a Lawrence Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Moving Services Available in Lawrence",
+    "intro": "Every service we run from the Boston office reaches Lawrence, from apartment and house moves to packing, storage and long distance. Combine what you need on one quote, and the manager will lay out how each part is billed. The manager also asks about stairs, elevators and parking at both ends, since those affect the hours more than the drive does."
+  },
+  "whyChoose": {
+    "h2": "What Lawrence Customers Should Know About Our Billing",
+    "cards": [
+      {
+        "title": "Travel Time, Spelled Out",
+        "text": "It's the drive from our yard to your first address plus the drive back from the last one. Your hourly rate applies to that time."
+      },
+      {
+        "title": "The Minimum Includes the Drive",
+        "text": "There's a 2-hour minimum that includes travel time, so the trip up from Brighton counts toward it."
+      },
+      {
+        "title": "Materials Already Counted",
+        "text": "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate. Fuel for the drive north is part of that."
+      },
+      {
+        "title": "Flat Rate if You're Leaving the State",
+        "text": "Long distance moves are quoted at a flat rate, so the clock stops mattering once your destination is outside Massachusetts."
+      }
+    ]
+  },
+  "faqHeading": "Billing and Booking Questions From Lawrence",
+  "faq": [
+    {
+      "q": "Do you serve Lawrence from Brighton?",
+      "a": "Yes. Lawrence moves are run by our Boston office at 20 Presentation Rd in Brighton, with our own crews and trucks. The same crews handle moves across the Boston area."
+    },
+    {
+      "q": "How much travel time does a Lawrence move add?",
+      "a": "That depends on your exact addresses. The manager works it out from the drive between our yard and your first and last stops, and tells you before you book."
+    },
+    {
+      "q": "Is a small Lawrence job worth booking with a 2-hour minimum?",
+      "a": "Often, yes. Since the minimum covers the drive as well as the work, a short job is usually counted inside those two hours."
+    },
+    {
+      "q": "Can you pack my Lawrence apartment before the move?",
+      "a": "Yes. Choose full packing for every room or partial packing for the kitchen and fragile items. Packing goes on the same quote as the move itself."
+    },
+    {
+      "q": "Can you store things for a Lawrence customer between homes?",
+      "a": "Yes. We pick up, store and deliver on your date. Storage is priced by the cubic feet your items take up."
+    }
+  ],
+  "faqClosing": "If something about billing still isn't clear, the FAQ page explains travel time, minimums and long distance pricing.",
+  "closing": {
+    "h2": "Ask for a Lawrence Moving Quote",
+    "body": "Send both addresses, the date and the size of the move. We'll tell you how the travel time is counted and what drives the hours. If you're comparing quotes, ask every company how they count travel time. It's one of the biggest differences between them."
+  }
+}

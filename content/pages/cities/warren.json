@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Warren movers for a few pieces of furniture, downsizing or a small apartment. Hourly billing with a 2-hour minimum that includes travel time. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Not every Warren move fills a truck. Sometimes it's a sofa, a dresser and a bed frame going to a smaller place, and that's a job we take.",
+      "The crew takes apart what needs it, wraps each piece and puts it back together at the other end."
+    ],
+    "sellingPoints": [
+      "Single pieces and partial loads",
+      "Disassembly and reassembly",
+      "Downsizing to a smaller home"
+    ],
+    "ctaLabel": "Quote My Warren Furniture Move"
+  },
+  "servicesBlock": {
+    "h2": "Furniture and Small Moves in Warren",
+    "intro": "Furniture-only jobs and downsizing moves are what this page covers. If the job grows, the same crew can add packing, a full residential move or storage for pieces that won't fit the new place. The service list below has the details on each one."
+  },
+  "whyChoose": {
+    "h2": "Why Warren Downsizers Book a Small Crew With Us",
+    "cards": [
+      {
+        "title": "Sized to the Job",
+        "text": "The manager asks what is moving and sends a crew to match: two movers for a few pieces, more for a full home."
+      },
+      {
+        "title": "Taken Apart, Put Back",
+        "text": "Bed frames, tables and desks are taken apart where needed, with the hardware bagged together so no screw goes missing."
+      },
+      {
+        "title": "Pieces You're Not Keeping",
+        "text": "Downsizing often leaves furniture with nowhere to go. We can hold it while you decide, and storage is priced by the cubic feet your items take up."
+      },
+      {
+        "title": "Billing for Small Moves",
+        "text": "Local moves are billed hourly, with travel time from our yard added. A short furniture run still has a 2-hour minimum that includes travel time."
+      }
+    ]
+  },
+  "faqHeading": "Warren Furniture Moving Questions",
+  "faq": [
+    {
+      "q": "Will you come to Warren for just two or three pieces of furniture?",
+      "a": "Yes. Small furniture moves are welcome, and they're billed with a 2-hour minimum that includes travel time."
+    },
+    {
+      "q": "Do your movers take apart beds and tables?",
+      "a": "Yes. The crew disassembles anything that won't fit through doors or stairways in one piece and rebuilds it in the new room."
+    },
+    {
+      "q": "How do you protect a single antique or heirloom piece?",
+      "a": "It's wrapped in blankets and shrink wrap, then strapped in the truck. For very fragile pieces, ask about white glove handling when you book."
+    },
+    {
+      "q": "We're moving to a smaller home in Warren. Where should the extra furniture go?",
+      "a": "Storage is one option while you decide. The crew can split the load, delivering some pieces to the new home and taking the rest to storage."
+    },
+    {
+      "q": "Can you shift furniture between floors of the same building?",
+      "a": "Often, and without a truck at all. Whether it works depends on the items and the building, so describe the job when you ask for a quote."
+    }
+  ],
+  "faqClosing": "Have a different small-job question? Check our FAQ page or ask the manager when you request a quote.",
+  "closing": {
+    "h2": "Book a Warren Furniture Move",
+    "body": "List the pieces, the floors and both addresses. We'll tell you how many movers it takes and roughly how long it should run."
+  }
+}

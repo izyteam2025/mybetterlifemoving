@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Reading movers for short local hops: across town, a few streets over or between floors. 2-hour minimum with travel included. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Not every Reading move needs a long drive. Some go across town, some go a few streets over, and some never leave the property at all.",
+      "Short jobs like these are billed by the hour, and a 2-hour minimum that includes travel time keeps them in proportion."
+    ],
+    "sellingPoints": [
+      "Moves across town or down the street",
+      "Heavy pieces shifted between floors",
+      "Hourly billing for short jobs"
+    ],
+    "ctaLabel": "Get a Reading Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Short-Distance Moving in Reading",
+    "intro": "Local moves inside Reading are the usual work here, along with furniture-only jobs and storage. A short move still gets the full crew treatment: wrapped furniture, a strapped load and beds rebuilt at the other end. If your move turns out to be longer, the long distance service on the list below covers it."
+  },
+  "whyChoose": {
+    "h2": "Why Reading Residents Call Us for Short Moves",
+    "cards": [
+      {
+        "title": "A Minimum That Fits",
+        "text": "A move a few streets over might take an hour of work. The minimum is two hours with travel included, so you know the floor of the bill before you book."
+      },
+      {
+        "title": "Basement to Bedroom",
+        "text": "Need a treadmill out of the basement or a dresser up to the second floor? Moving heavy pieces between floors of the same house is a job we take."
+      },
+      {
+        "title": "Short Trip, Same Wrapping",
+        "text": "A dresser going a quarter mile gets the same blankets and shrink wrap as one heading across the state."
+      },
+      {
+        "title": "Storage for In-Between Weeks",
+        "text": "When the dates do not line up, your things can sit in storage for a few weeks and come back to the new address on the day you pick."
+      }
+    ]
+  },
+  "faqHeading": "Reading Short-Move FAQ",
+  "faq": [
+    {
+      "q": "Do you take moves that stay inside Reading?",
+      "a": "Yes. Moves within town are local moves billed by the hour. Send both addresses and the size of the home, and the manager prices it the same day you ask."
+    },
+    {
+      "q": "How are short Reading moves billed when the addresses are close together?",
+      "a": "Local moves are billed hourly, with travel time from our yard added, however short the gap between your two addresses. The minimum keeps a tiny job from costing less than the trip to reach you."
+    },
+    {
+      "q": "Can you carry heavy items between floors of my Reading house?",
+      "a": "Yes. Shifting furniture or equipment between the basement, the main floor and upstairs is work we take on, and it falls under the 2-hour minimum."
+    },
+    {
+      "q": "What does a two-hour minimum mean for a short Reading job?",
+      "a": "You pay for at least two hours, and the drive from our yard counts toward them. A one-hour job with a one-hour drive meets it."
+    },
+    {
+      "q": "Does the truck need a parking spot for a Reading move?",
+      "a": "It helps a lot. Tell us where the truck can stop at both addresses, and the crew plans the carry from there."
+    }
+  ],
+  "faqClosing": "Anything else on booking or payment is answered on the FAQ page.",
+  "closing": {
+    "h2": "Tell Us About Your Reading Move",
+    "body": "Even a short move needs a few details: what is moving, from where to where and the date. Send them over and a manager will price the job. If it is only a few pieces, list them, since that changes the crew size."
+  }
+}

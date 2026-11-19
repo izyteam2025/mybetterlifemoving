@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Johnston movers for apartments, condos and short local hops, including help moving furniture within the same building. Hourly billing. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Plenty of Johnston jobs are short: across town, down the hall, or one floor up. Short doesn't mean we take it less seriously.",
+      "Tell us what's moving and how the building is laid out, and we'll price the help you actually need."
+    ],
+    "sellingPoints": [
+      "Apartment and condo moves",
+      "Furniture moved within the same building",
+      "Short local moves billed by the hour"
+    ],
+    "ctaLabel": "Get a Johnston Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Johnston Apartment, Condo and Short-Distance Moves",
+    "intro": "Apartment and condo moves inside Johnston are the core of this page, along with jobs that never leave the building. If you need packing, a spot in storage, or a longer move later on, those services are listed below too. Condo owners should check whether the association wants notice before a move and pass any rules on to us."
+  },
+  "whyChoose": {
+    "h2": "Why Johnston Renters and Owners Book Better Life Moving",
+    "cards": [
+      {
+        "title": "Sometimes No Truck Needed",
+        "text": "Moving to another unit or floor in the same building? We can often carry it without bringing a truck at all."
+      },
+      {
+        "title": "Stairs and Elevators Planned",
+        "text": "Walk-ups and elevator bookings change how long a job takes. Share the details and the crew size is set to match."
+      },
+      {
+        "title": "A Minimum That Fits Small Jobs",
+        "text": "Small jobs are billed with a 2-hour minimum that includes travel time, so a short hop doesn't turn into a half-day charge."
+      },
+      {
+        "title": "Wrapping Already in the Price",
+        "text": "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate."
+      }
+    ]
+  },
+  "faqHeading": "Johnston Moving Questions We Get",
+  "faq": [
+    {
+      "q": "Can you move furniture to another unit in my Johnston building?",
+      "a": "Often, yes, and without a truck. It depends on what's moving and how the building is set up, so describe the job when you request a quote."
+    },
+    {
+      "q": "My Johnston building needs the elevator reserved. What should I do?",
+      "a": "Book the elevator with building management for a window that covers the whole job, then send us the times. The crew plans its arrival inside that window."
+    },
+    {
+      "q": "Do walk-up stairs change the price of a Johnston move?",
+      "a": "Stairs can add time, and time is what local jobs are billed on. Tell us the floors at both ends so the manager can plan the crew and the hours."
+    },
+    {
+      "q": "Is a move across Johnston billed differently from a longer local move?",
+      "a": "No, the method is the same. Local moves are billed hourly, with travel time from our yard added."
+    },
+    {
+      "q": "Can you help rearrange heavy furniture inside my home?",
+      "a": "Yes, rearranging rooms is a job we take. It's billed like other local work, with a 2-hour minimum that includes travel time."
+    }
+  ],
+  "faqClosing": "Not sure if your job is too small? Ask when you request a quote, or browse our FAQ page.",
+  "closing": {
+    "h2": "Get Help With Your Johnston Move",
+    "body": "Send the addresses, floors and a list of what's moving. We'll reply with the crew size and how the price works."
+  }
+}

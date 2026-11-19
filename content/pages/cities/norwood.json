@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Norwood movers for downsizing and senior moves: several drop-offs on one job, storage for what won't fit, and a crew that works at your pace. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Leaving a house you've lived in for decades is a different kind of move. In Norwood the load often splits three ways: some pieces go to the new place, some go to storage and a few go to a family member's home.",
+      "You set the pace. The crew asks before touching anything you've marked to stay."
+    ],
+    "sellingPoints": [
+      "Several drop-offs planned on one job",
+      "Nothing you've flagged moves without asking",
+      "Storage for what won't fit the new place"
+    ],
+    "ctaLabel": "Get a Norwood Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Downsizing and Senior Moves in Norwood",
+    "intro": "Senior moves, downsizing and two households merging into one usually involve more than one destination. We plan the stops with you before the crew is booked, so nobody is improvising in the driveway. Every service below can be part of that plan, including packing for the rooms you'd rather not face alone. If some furniture is going to a grandchild's first apartment, we can fit that drop-off into the same day."
+  },
+  "whyChoose": {
+    "h2": "How We Run a Norwood Downsizing Move",
+    "cards": [
+      {
+        "title": "Stops Planned in Advance",
+        "text": "Tell us what goes to the new home, what goes to storage and what goes to relatives. The manager writes each stop into your plan before a crew is scheduled."
+      },
+      {
+        "title": "Your Pace Sets the Day",
+        "text": "Nobody rushes through the rooms that matter. Point out the pieces that need extra care, and the crew handles them the way you ask."
+      },
+      {
+        "title": "Family Can Run the Planning",
+        "text": "If a son or daughter is organizing the move from another state, they can be our contact for dates, stops and questions."
+      },
+      {
+        "title": "Stored Pieces Come Back When You Call",
+        "text": "Storage is priced by the cubic feet your items take up, and we deliver stored furniture whenever you or your family are ready for it."
+      }
+    ]
+  },
+  "faqHeading": "Questions From Norwood Families Planning a Downsize",
+  "faq": [
+    {
+      "q": "Can you help a parent move out of a long-time Norwood home?",
+      "a": "Yes. We plan each destination with the family, work at the pace your parent sets and ask before moving anything that's been flagged."
+    },
+    {
+      "q": "Can one Norwood move drop furniture at more than one address?",
+      "a": "Yes. Give us every address when you request a quote, and the manager builds the stops into the plan. On a local move, the time between stops counts toward the hourly bill."
+    },
+    {
+      "q": "What happens to the furniture that won't fit the new place?",
+      "a": "It can go into our storage until you decide what to do with it. Later we deliver it to you or to another relative. Nothing gets thrown away or donated by us; those decisions stay with the family."
+    },
+    {
+      "q": "Do you pack fragile things like china and framed photos?",
+      "a": "Yes. We offer full and partial packing, and fragile pieces get wrapped one at a time. Choose partial packing if your parent would rather pack the personal items themselves."
+    },
+    {
+      "q": "What does a downsizing move in Norwood cost?",
+      "a": "Local moves are billed hourly, with travel time from our yard added. There's a 2-hour minimum that includes travel time, which keeps a small downsizing job within reach."
+    }
+  ],
+  "faqClosing": "If your family has a question we haven't covered, the FAQ page explains booking, billing and what to expect from the crew.",
+  "closing": {
+    "h2": "Start Planning a Norwood Downsizing Move",
+    "body": "Tell us what's leaving, what's staying and where each piece should end up. We'll map out the stops with you and price the whole day before anyone lifts a box."
+  }
+}
