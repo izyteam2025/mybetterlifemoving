@@ -1,286 +1,217 @@
 {
-  "_comment": "DEMO CLIENT. Replace every value from the client's project files (persona, market research, site map, GBP). Nothing here is real.",
-  "name": "Northline Appliance Repair",
-  "legalName": "Northline Appliance Repair LLC",
-  "logoText": "Northline",
-  "url": "https://www.northline-demo.com",
-  "umbrellaKeyword": "appliance repair",
-  "targetCity": "Austin",
-  "phone": "(512) 555-0142",
-  "phoneE164": "+15125550142",
-  "email": "service@northline-demo.com",
+  "_comment": "Better Life Moving. Facts from docs/market-research.md, docs/writing-persona.md, the live site and GBP (19 Nov 2026). CONFIRM notes mark facts still waiting on the client.",
+  "name": "Better Life Moving",
+  "legalName": "Better Life Moving LLC",
+  "logoText": "Better Life Moving",
+  "url": "https://mybetterlifemoving.com",
+  "umbrellaKeyword": "movers",
+  "targetCity": "Boston",
+  "phone": "(617) 668-1807",
+  "phoneE164": "+16176681807",
+  "email": "betterlifemoving@gmail.com",
   "address": {
-    "street": "1200 Example Blvd, Suite 4",
-    "city": "Austin",
-    "region": "TX",
-    "postalCode": "78701",
+    "street": "20 Presentation Rd",
+    "city": "Brighton",
+    "region": "MA",
+    "postalCode": "02135",
     "country": "US"
   },
   "geo": {
-    "lat": 30.2672,
-    "lng": -97.7431
+    "lat": 42.3471,
+    "lng": -71.1627
   },
-  "hours": [
-    {
-      "days": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "08:00",
-      "closes": "19:00"
-    },
-    {
-      "days": [
-        "Saturday"
-      ],
-      "opens": "09:00",
-      "closes": "15:00"
-    }
-  ],
   "priceRange": "$$",
-  "foundingYear": 2012,
+  "foundingYear": 2022,
   "rating": {
     "value": 4.9,
-    "count": 620
+    "count": 563
   },
-  "gbpUrl": "https://maps.google.com/?cid=0000000000000000000",
+  "gbpUrl": "https://maps.app.goo.gl/LTc9UKFzjfpjhBZ19",
   "sameAs": [
-    "https://www.facebook.com/example",
-    "https://www.yelp.com/biz/example"
+    "https://www.thumbtack.com/ma/waltham/movers/better-life-moving/service/451258770481864705",
+    "https://www.trustpilot.com/review/mybetterlifemoving.com",
+    "https://www.youtube.com/@betterlifemoving"
   ],
   "schema": {
     "types": [
       "LocalBusiness",
-      "HomeAndConstructionBusiness"
+      "MovingCompany"
     ],
     "additionalType": [
-      "https://en.wikipedia.org/wiki/Home_appliance",
-      "http://www.productontology.org/id/Home_appliance"
+      "https://en.wikipedia.org/wiki/Moving_company",
+      "http://www.productontology.org/id/Moving_company"
     ]
   },
   "cta": {
     "path": "/contact/",
-    "label": "Book Your Repair"
+    "label": "Get a Free Quote"
   },
-  "eyebrow": "Family-run appliance repair, based in Austin",
+  "eyebrow": "Licensed interstate carrier based in Brighton, Boston",
   "supportLine": [
-    "Licensed and insured",
-    "Same-day visits across Austin"
+    "USDOT 3866930 · MC 1414489",
+    "Our own crews and trucks"
   ],
-  "slogan": "Northline. Fixed right the first time.",
+  "slogan": "Better Life Moving. Your move, planned in plain numbers.",
   "stats": [
     {
       "value": "4.9",
       "label": "Google rating"
     },
     {
-      "value": "620+",
+      "value": "563",
       "label": "Google reviews"
     },
     {
-      "value": "9,000+",
-      "label": "Repairs completed"
+      "value": "352",
+      "label": "Thumbtack reviews"
     },
     {
-      "value": "Since 2012",
-      "label": "Local and family owned"
+      "value": "USDOT 3866930",
+      "label": "Licensed interstate carrier"
     }
   ],
   "offers": [
     {
-      "title": "$25 Off Any Repair",
-      "detail": "Mention the website when you book. One offer per visit.",
+      "title": "Free Moving Quote",
+      "detail": "Send your move date, home size and both addresses and we price it.",
       "featured": true
     },
     {
-      "title": "Service Call Waived",
-      "detail": "Your service call fee is waived when you approve the repair."
+      "title": "Materials in the Rate",
+      "detail": "Blankets, shrink wrap, tape and truck costs are already in the hourly rate."
     },
     {
-      "title": "90-Day Warranty",
-      "detail": "90 days on parts and labor. If the same problem returns, so do we."
+      "title": "2-Hour Minimum",
+      "detail": "Small moves are welcome: the minimum is two hours, travel time included."
     }
   ],
-  "offersHeading": "Save on Your Repair Today",
+  "offersHeading": "What Every Quote Includes",
   "fixedFacts": {
-    "_comment": "One wording per fact, used everywhere (AEO: state the same fact the same way on every page).",
-    "warranty": "90-day warranty on parts and labor",
-    "serviceCall": "a service call fee, waived when you approve the repair",
-    "hours": "Monday to Friday 8 AM to 7 PM, Saturday 9 AM to 3 PM"
+    "_comment": "One wording per fact, used everywhere.",
+    "localPricing": "local moves are billed hourly, with travel time from our yard added",
+    "minimum": "a 2-hour minimum that includes travel time",
+    "included": "blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate",
+    "longDistance": "long distance moves are quoted at a flat rate",
+    "storage": "storage is priced by the cubic feet your items take up",
+    "license": "USDOT 3866930, MC 1414489"
   },
   "competitors": [
-    "example-competitor-repair.com",
-    "example-national-repair-network.com"
+    "bostonbestratemovers.com",
+    "saferesponsiblemovers.com",
+    "stairhoppermovers.com",
+    "wellknownmoving.com",
+    "athensmovingexperts.com"
   ],
   "compliance": {
     "_comment": "personNames may appear only on /about/ and in blog author bylines. bannedPhrases fail the build anywhere on the site.",
-    "personNames": [],
+    "personNames": [
+      "Nick",
+      "Vlad",
+      "Georgie",
+      "Bek",
+      "Aziz",
+      "Yehor"
+    ],
     "bannedPhrases": [
-      "factory-trained",
-      "factory authorized",
-      "certified by",
-      "authorized dealer",
-      "authorized service center"
+      "as seen on",
+      "featured on NBC",
+      "decades of experience",
+      "family-owned",
+      "family owned",
+      "1,200+",
+      "flat rate local",
+      "same-day guaranteed",
+      "guaranteed same-day",
+      "top-rated",
+      "#1 moving company",
+      "binding estimate",
+      "authorized agent"
     ]
   },
   "theme": {
-    "primary": "#13294B",
-    "accent": "#E8721C",
-    "surface": "#F6F7F9",
-    "text": "#1B1F24",
-    "muted": "#5B6470",
-    "radius": "10px"
+    "_source": "Live site computed CSS, 19 Nov 2026 (docs/brand.md)",
+    "primary": "#463C84",
+    "heading": "#1B0B2B",
+    "accent": "#7464DC",
+    "surface": "#F6F4FF",
+    "text": "#111111",
+    "muted": "#5B5670",
+    "footer": "#1B0B2B",
+    "radius": "15px",
+    "buttonRadius": "999px",
+    "h2Transform": "none",
+    "fontBody": "Avenir, 'Nunito Sans', sans-serif",
+    "fontHeading": "Avenir, 'Nunito Sans', sans-serif",
+    "fontHref": "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap",
+    "_fontNote": "Avenir licence CONFIRM; Nunito Sans loads as the fallback"
   },
   "ogImage": "/og-default.png",
   "tracking": {
-    "gtmId": "",
-    "whatconvertsScriptUrl": ""
+    "gtmId": "GTM-DR5PLZ2G",
+    "whatconvertsScriptUrl": "https://ksrndkehqnwntyxlhgto.com/157455.js",
+    "_note": "GA4 G-D5X2G48E6W, Google Ads AW-17275011516 and Clarity vyvr9ek36e load inside GTM, so only gtmId is set (read from live site 19 Nov 2026, confirmed by user)"
   },
   "form": {
     "ghlEmbedUrl": "",
     "fallbackAction": "",
-    "heading": "Get Your Free Quote",
-    "submitLabel": "Request Service"
+    "heading": "Get Your Free Moving Quote",
+    "submitLabel": "Get My Quote",
+    "_note": "CONFIRM destination: SmartMoving or GHL"
   },
   "aiCrawlers": "allow",
-  "summary": "Northline Appliance Repair is a family-owned appliance repair company in Austin, Texas, fixing refrigerators, washers and dryers since 2012, with same-day visits and a 90-day warranty on parts and labor.",
-  "brandsHub": {
-    "slug": "premium-appliance-repair",
-    "label": "Premium Appliance Repair"
-  },
+  "summary": "Better Life Moving is a licensed interstate moving carrier (USDOT 3866930) founded in 2022 and based in Brighton, Boston, with its own crews and trucks for local, long distance, office and specialty moves, plus packing and storage, and crews in Raleigh, Charlotte, Chicago and Los Angeles.",
   "reviewsWidget": {
     "provider": "trustindex",
     "id": "",
-    "_note": "Widget id from cdn.trustindex.io/loader.js?<id> (Trustindex Google widget for a static site)."
+    "_note": "CONFIRM: cloud widget id needed; the live site uses the WP plugin, which cannot be reused"
   },
-  "googleReviewsUrl": "https://maps.google.com/?cid=0000000000000000000",
+  "googleReviewsUrl": "https://maps.app.goo.gl/LTc9UKFzjfpjhBZ19",
   "media": {
-    "_comment": "SAMPLE STOCK PHOTOS so the layout can be shown before the client's real photos arrive. Real photos go in public/photos/. The build fails on a live domain (SITE_LIVE=1) while any placeholder:true remains.",
+    "_comment": "Stock placeholders until the client's photos arrive via Drive (many real photos exist on the live site: import them to Drive 3 Jobs).",
     "hero": {
-      "src": "https://images.pexels.com/photos/32391499/pexels-photo-32391499.jpeg",
-      "alt": "Appliance technician repairing a refrigerator",
+      "src": "https://images.pexels.com/photos/7464689/pexels-photo-7464689.jpeg",
+      "alt": "Two movers loading furniture into a van",
       "placeholder": true,
       "width": 1200,
       "height": 900
     },
     "about": {
-      "src": "https://images.pexels.com/photos/38291060/pexels-photo-38291060.jpeg",
-      "alt": "Technician repairing a kitchen appliance",
+      "src": "https://images.pexels.com/photos/7464244/pexels-photo-7464244.jpeg",
+      "alt": "Two movers carrying cardboard boxes",
       "placeholder": true,
       "width": 1200,
       "height": 900
     }
   },
-  "team": [
-    {
-      "name": "Dana",
-      "role": "Lead Appliance Technician",
-      "photo": {
-        "src": "https://images.pexels.com/photos/8642041/pexels-photo-8642041.jpeg",
-        "alt": "Dana, appliance technician",
-        "placeholder": true
-      }
-    },
-    {
-      "name": "Sam",
-      "role": "Appliance Technician",
-      "photo": {
-        "src": "https://images.pexels.com/photos/7285930/pexels-photo-7285930.jpeg",
-        "alt": "Sam, appliance technician",
-        "placeholder": true
-      }
-    },
-    {
-      "name": "Alex",
-      "role": "Appliance Technician",
-      "photo": {
-        "src": "https://images.pexels.com/photos/1139743/pexels-photo-1139743.jpeg",
-        "alt": "Alex, appliance technician",
-        "placeholder": true
-      }
-    }
-  ],
+  "team": [],
   "video": {
     "placeholder": true,
-    "heading": "What a Visit Looks Like",
-    "intro": "Replace with a 20 to 40 second phone video of a real visit (youtubeId or mp4).",
-    "title": "A repair visit",
+    "heading": "A Move With Our Crew",
+    "intro": "Replace with a 20 to 40 second phone video of a real move.",
+    "title": "A move with our crew",
     "poster": {
-      "src": "https://images.pexels.com/photos/38291060/pexels-photo-38291060.jpeg",
-      "alt": "Technician at work"
+      "src": "https://images.pexels.com/photos/7464244/pexels-photo-7464244.jpeg",
+      "alt": "Moving crew at work"
     }
   },
-  "gallery": [
+  "gallery": [],
+  "brandsWeRepair": [],
+  "brandsNote": "",
+  "_trustComment": "Trust sections, requested from the client at kickoff. credentials: [{name, issuer, issuerUrl?, number?, verifyUrl? (public record), image? {src (in public/), alt}}], real ones only, each with proof. partners: [{name, logo? {src, alt}, url?, note?}], companies the client works with (home warranty, property managers, suppliers, associations), logos only with permission; manufacturers stay in brandsWeRepair. Each block stays hidden while its list is empty.",
+  "credentials": [
     {
-      "src": "https://images.pexels.com/photos/32391499/pexels-photo-32391499.jpeg",
-      "alt": "Technicians repairing a freezer",
-      "placeholder": true,
-      "caption": "Freezer repair",
-      "services": [
-        "refrigerator-repair"
-      ]
-    },
-    {
-      "src": "https://images.pexels.com/photos/37174868/pexels-photo-37174868.jpeg",
-      "alt": "Technician repairing a microwave",
-      "placeholder": true,
-      "caption": "Microwave repair"
-    },
-    {
-      "src": "https://images.unsplash.com/photo-1632923565835-6582b54f2105",
-      "alt": "Washer and dryer",
-      "placeholder": true,
-      "caption": "Washer and dryer repair",
-      "services": [
-        "washer-repair",
-        "dryer-repair"
-      ]
+      "name": "FMCSA interstate operating authority",
+      "issuer": "Federal Motor Carrier Safety Administration",
+      "issuerUrl": "https://www.fmcsa.dot.gov/",
+      "number": "USDOT 3866930 / MC 1414489",
+      "verifyUrl": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=3866930"
     }
   ],
-  "brandsWeRepair": [
-    "Whirlpool",
-    "Samsung",
-    "LG",
-    "GE",
-    "Frigidaire",
-    "Maytag",
-    "KitchenAid",
-    "Sub-Zero"
-  ],
-  "brandsNote": "We are independent: we repair these brands, but we are not part of any manufacturer's factory service network.",
-  "_trustComment": "Trust sections, requested from the client at kickoff. credentials: [{name, issuer, issuerUrl?, number?, verifyUrl? (public record), image? {src (in public/), alt}}], real ones only, each with proof. partners: [{name, logo? {src, alt}, url?, note?}], companies the client works with (home warranty, property managers, suppliers, associations), logos only with permission; manufacturers stay in brandsWeRepair. Each block stays hidden while its list is empty.",
-  "credentials": [],
   "partners": [],
   "booking": {
     "url": "",
     "overlay": true,
-    "_note": "Client's online scheduler URL (Housecall Pro, ServiceTitan, GHL): every Book button opens it in an overlay."
-  },
-  "pricing": {
-    "_note": "What a visit costs: client-confirmed numbers only. Renders after the offers on money pages.",
-    "heading": "What a Visit Costs",
-    "intro": "The price is agreed in your home before any work starts.",
-    "items": [
-      {
-        "label": "Service call",
-        "value": "$89",
-        "note": "Diagnosis in your home.",
-        "highlight": true
-      },
-      {
-        "label": "Approve the repair",
-        "value": "$0",
-        "note": "Service call waived when you go ahead."
-      },
-      {
-        "label": "Warranty",
-        "value": "90 days",
-        "note": "Parts and labor."
-      }
-    ]
+    "_note": "CONFIRM SmartMoving quote link"
   },
   "callback": {
     "_note": "Two-field call-back form (name + phone). webhookUrl = the client's GoHighLevel inbound webhook; the form only renders when it is set.",
@@ -294,5 +225,10 @@
     "_note": "Text-us button in the mobile bar: the client's texting number (Housecall Pro or GHL). Empty = no button.",
     "e164": "",
     "label": "Text"
-  }
+  },
+  "targetCityPages": false,
+  "_hoursNote": "CONFIRM from GBP; demo hours removed",
+  "_sameAsNote": "CONFIRM: Yelp (better-life-moving-waltham-2), Facebook, Instagram, Pinterest not yet confirmed by client",
+  "_offersNote": "No discount offer until the client confirms one (Raleigh 5% ended Nov 30)",
+  "timezone": "America/New_York"
 }

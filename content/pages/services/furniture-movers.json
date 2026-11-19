@@ -1,0 +1,131 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Furniture movers in Boston for a few pieces, not a whole home: a couch, a bed, a dresser. 2-hour minimum including travel, our own crews. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "You bought a couch on Marketplace, or you're giving your old dresser to a friend across town. Better Life Moving sends furniture movers in Boston for exactly those jobs: a crew and a truck for the pieces you need moved, nothing more."
+    ],
+    "sellingPoints": [
+      "One piece or a handful",
+      "Wrapped in blankets and shrink wrap",
+      "A 2-hour minimum with travel included"
+    ],
+    "ctaLabel": "Get a Free Furniture Moving Quote"
+  },
+  "serviceBlock": {
+    "h2": "Our Furniture Movers Services in Boston",
+    "intro": "Small furniture jobs we do every week.",
+    "cards": [
+      {
+        "title": "Marketplace Pickups",
+        "text": "Bought a piece from a seller across town? We pick it up and bring it home."
+      },
+      {
+        "title": "Couches and Sectionals",
+        "text": "Big, awkward and hard to get through a door. The crew plans the angle before carrying."
+      },
+      {
+        "title": "Beds and Mattresses",
+        "text": "Bed frames taken apart, mattresses wrapped and everything rebuilt at the other end."
+      },
+      {
+        "title": "Dressers and Cabinets",
+        "text": "Drawers secured, piece wrapped, carried down the stairs and into the truck."
+      },
+      {
+        "title": "Moving Furniture to Storage",
+        "text": "A few pieces into storage, priced by the cubic feet they take up."
+      },
+      {
+        "title": "Moving Within the Home",
+        "text": "Heavy pieces between floors or rooms when you're rearranging or renovating."
+      }
+    ],
+    "ctaLabel": "Price My Furniture Move"
+  },
+  "areas": {
+    "intro": "Boston is home base, so small furniture jobs in the city are a regular part of our week, from Brighton apartments to houses across town. Our crews also move furniture in the nearby cities below."
+  },
+  "process": {
+    "h2": "How Furniture Movers Work in Boston",
+    "steps": [
+      {
+        "title": "List the Pieces",
+        "text": "What's moving, both addresses and any stairs on either end. A photo helps for unusual pieces, and so does a note about elevators or a long walk from the street."
+      },
+      {
+        "title": "Get the Price Explained",
+        "text": "Furniture moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time."
+      },
+      {
+        "title": "Wrap and Carry",
+        "text": "The crew wraps each piece in blankets and shrink wrap and carries it to the truck."
+      },
+      {
+        "title": "Deliver and Place",
+        "text": "Pieces go into the room you choose, with anything taken apart put back together."
+      }
+    ],
+    "ctaLabel": "Book Furniture Movers"
+  },
+  "whyChoose": {
+    "h2": "Why Choose Better Life Moving for Furniture Movers in Boston?",
+    "intro": "Moving one couch shouldn't cost like moving a whole home. Our 2-hour minimum includes travel time, so a small job is billed like a small job. And the crew still wraps every piece and plans the carry the same way it would for a full home.",
+    "cards": [
+      {
+        "title": "A Minimum Built for Small Jobs",
+        "text": "Furniture-only moves have a 2-hour minimum that includes travel time. One dresser doesn't cost like a house."
+      },
+      {
+        "title": "Wrapping in the Rate",
+        "text": "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate."
+      },
+      {
+        "title": "Careful on Stairs",
+        "text": "Customers often mention how our crews handle tough staircases. Boston walk-ups give them plenty of practice."
+      },
+      {
+        "title": "A Real Moving Company",
+        "text": "Our own crews and trucks, with interstate operating authority under USDOT 3866930, MC 1414489."
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "What Customers Say About Our Furniture Movers in Boston"
+  },
+  "faqHeading": "Furniture Movers FAQ for Boston Customers",
+  "faq": [
+    {
+      "q": "Do furniture movers in Boston take single-item jobs?",
+      "a": "Yes. A single couch, bed or dresser is a normal job for us, billed under the 2-hour minimum that includes travel time."
+    },
+    {
+      "q": "Can you pick up furniture I bought online?",
+      "a": "Yes. Give us the seller's address and yours, and the crew picks it up, wraps it and delivers it."
+    },
+    {
+      "q": "Will a couch fit through my door?",
+      "a": "Measure the door and the tightest turn on the way in, and send the couch's size when you request a quote. The crew plans the angle and takes legs off where needed."
+    },
+    {
+      "q": "Do you take furniture apart?",
+      "a": "Yes. Bed frames, tables and other pieces that won't fit whole are taken apart and rebuilt at the other end."
+    },
+    {
+      "q": "Can you move furniture between floors of my house?",
+      "a": "Yes. Moving heavy pieces between rooms or floors is billed the same way as any local move."
+    },
+    {
+      "q": "How long does a small furniture move usually take?",
+      "a": "It depends on the distance, the stairs and how many pieces there are. Many single-piece jobs in Boston fit inside the 2-hour minimum, and the manager tells you when yours is likely to run longer."
+    }
+  ],
+  "faqClosing": "Still have a question about moving a few pieces? Our FAQ page covers billing, booking and moving day.",
+  "closing": {
+    "h2": "Start Your Furniture Move in Boston",
+    "body": "Tell us what's moving and both addresses. You'll pay for a small job, not a full house move. Add a photo of anything unusually large and the manager can tell you how long it's likely to take.",
+    "ctaLabel": "Book Furniture Movers in Boston"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Office movers in Boston for offices, retail and multi-location moves, planned around your business hours. Our own crews and trucks. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Every hour your office is in boxes is an hour your team isn't working. Better Life Moving sends office movers in Boston who plan the move around your business hours, with our own crews and trucks."
+    ],
+    "sellingPoints": [
+      "Moves planned around your opening hours",
+      "Offices, retail and multi-location moves",
+      "Desks and furniture wrapped and labeled"
+    ],
+    "ctaLabel": "Get a Free Office Moving Quote"
+  },
+  "serviceBlock": {
+    "h2": "Our Office Movers Services in Boston",
+    "intro": "Commercial moves we take on most often.",
+    "cards": [
+      {
+        "title": "Small Office Moves",
+        "text": "A few desks, chairs and file cabinets, moved without shutting the business for days."
+      },
+      {
+        "title": "Retail Store Moves",
+        "text": "Fixtures, stock and back-room furniture moved to a new storefront on the schedule you set."
+      },
+      {
+        "title": "Multi-Location Moves",
+        "text": "Consolidating two offices into one, or opening a second site. One plan covers both addresses."
+      },
+      {
+        "title": "Office Furniture Moves",
+        "text": "Desks, conference tables and shelving taken apart where needed, wrapped and rebuilt on arrival."
+      },
+      {
+        "title": "Packing for the Office",
+        "text": "Have the crew pack files and supplies so your staff keep working until moving day."
+      },
+      {
+        "title": "Storage Between Leases",
+        "text": "Old lease ending before the new space is ready? We store furniture until it's time to deliver."
+      }
+    ],
+    "ctaLabel": "Price My Office Move"
+  },
+  "areas": {
+    "intro": "Boston is our home market and where most of our office moves happen. Our crews also handle commercial moves in the nearby cities below."
+  },
+  "process": {
+    "h2": "How Office Movers Work in Boston",
+    "steps": [
+      {
+        "title": "Share the Plan",
+        "text": "Your move date, both addresses, the size of the space and when the business can close."
+      },
+      {
+        "title": "Set the Schedule",
+        "text": "A manager prices the move and fits it around your business hours and building rules."
+      },
+      {
+        "title": "Wrap, Label and Load",
+        "text": "The crew wraps furniture, keeps each area's items together and loads in an order that makes unloading simple."
+      },
+      {
+        "title": "Unload by Room",
+        "text": "Everything goes to the room or desk area you've marked, with furniture rebuilt where it was taken apart."
+      }
+    ],
+    "ctaLabel": "Book Office Movers"
+  },
+  "whyChoose": {
+    "h2": "Why Choose Better Life Moving for Office Movers in Boston?",
+    "intro": "Businesses worry most about downtime and about a crew that doesn't show. We plan the move around your hours and send our own crew and truck, so the plan you agreed is the one that happens.",
+    "cards": [
+      {
+        "title": "Your Hours Set the Schedule",
+        "text": "We plan office and retail moves around the hours your business can close. Tell us the window and we work inside it."
+      },
+      {
+        "title": "Our Own Crew, Our Own Truck",
+        "text": "We're a licensed carrier, USDOT 3866930, MC 1414489. The crew in your office works for us, not a subcontractor."
+      },
+      {
+        "title": "Hourly Billing You Can Follow",
+        "text": "Local office moves are billed by the hour, with blankets, shrink wrap, tape and truck costs already in the rate."
+      },
+      {
+        "title": "Moves Between Our Markets",
+        "text": "Opening in Raleigh, Charlotte, Chicago or Los Angeles? We have crews there and run the long distance leg ourselves."
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "What Customers Say About Our Office Movers in Boston"
+  },
+  "faqHeading": "Office Movers FAQ for Boston Businesses",
+  "faq": [
+    {
+      "q": "Can office movers in Boston work around our business hours?",
+      "a": "Yes. We plan office and retail moves around the hours your business can close, and fit the crew's time inside that window."
+    },
+    {
+      "q": "How is an office move priced?",
+      "a": "A local office move is billed hourly, with travel time from our yard added. A move to another state is quoted at a flat rate."
+    },
+    {
+      "q": "Do you move retail stores?",
+      "a": "Yes. Retail fixtures, stock and back-room furniture are part of our commercial moving work."
+    },
+    {
+      "q": "Can you move two offices into one?",
+      "a": "Yes. Multi-location moves are planned as one job, with both pickup addresses on the same quote."
+    },
+    {
+      "q": "What should we prepare before the crew arrives?",
+      "a": "Mark each desk and room on a floor plan of the new space, and have files packed or ready for the crew to pack. Clear labels keep the unload short."
+    },
+    {
+      "q": "Do you move office furniture that needs to be taken apart?",
+      "a": "Yes. The crew takes apart desks, conference tables and shelving where they won't fit through doors or into the truck whole, wraps the parts and rebuilds each piece in the new space. Mention large or built-up pieces in your quote request so the crew plans the time."
+    }
+  ],
+  "faqClosing": "Still have a question about your office move? Our FAQ page covers billing, booking and moving day.",
+  "closing": {
+    "h2": "Start Your Office Move in Boston",
+    "body": "Tell us both addresses and when your business can close. We'll build the move around that window, and a manager walks you through the hourly billing before anything is booked.",
+    "ctaLabel": "Book Office Movers in Boston"
+  }
+}

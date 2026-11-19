@@ -1,0 +1,131 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Packing services in Boston: full or partial packing, fragile items, furniture wrapping and unpacking, on the same quote as your move. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Packing is the part of a move that eats your evenings for two weeks. Our packing services in Boston take it off your hands: the crew packs the home, or just the rooms you don't want to touch, on the same quote as the move."
+    ],
+    "sellingPoints": [
+      "Full or partial packing, your choice",
+      "Fragile items wrapped and boxed by the crew",
+      "Unpacking at the new place if you want it"
+    ],
+    "ctaLabel": "Get a Free Packing Quote"
+  },
+  "serviceBlock": {
+    "h2": "Our Packing Services in Boston",
+    "intro": "Pick how much you want us to pack.",
+    "cards": [
+      {
+        "title": "Full Home Packing",
+        "text": "Every room boxed, taped and labeled by the crew, ready to load on moving day."
+      },
+      {
+        "title": "Partial Packing",
+        "text": "Just the kitchen, the books or the closets. You pack the rest at your own pace."
+      },
+      {
+        "title": "Fragile Item Packing",
+        "text": "Glassware, dishes, mirrors and framed pieces wrapped and boxed so they travel safely."
+      },
+      {
+        "title": "Furniture Wrapping",
+        "text": "Blankets and shrink wrap on every piece, already included in the hourly rate of a local move."
+      },
+      {
+        "title": "Unpacking",
+        "text": "Boxes emptied and put away at the new home, so you're not living out of cartons for a month."
+      },
+      {
+        "title": "Packing Supplies",
+        "text": "Boxes, tape and wrapping materials for the rooms you're packing yourself."
+      }
+    ],
+    "ctaLabel": "Add Packing to My Move"
+  },
+  "areas": {
+    "intro": "Boston is our home market, and our packing crews work in the city most days. We also pack homes in the nearby cities below."
+  },
+  "process": {
+    "h2": "How Packing Services Work in Boston",
+    "steps": [
+      {
+        "title": "Tell Us What to Pack",
+        "text": "The whole home or specific rooms. Mention anything fragile, heavy or valuable when you request a quote."
+      },
+      {
+        "title": "Get It on One Quote",
+        "text": "A manager prices packing and the move together and explains the booking terms."
+      },
+      {
+        "title": "Pack and Label",
+        "text": "The crew wraps fragile items, boxes each room and labels every box with the room it belongs to."
+      },
+      {
+        "title": "Move and Unpack",
+        "text": "Boxes go to the matching rooms at the new home, and the crew unpacks if you've asked for it."
+      }
+    ],
+    "ctaLabel": "Book Packing Services"
+  },
+  "whyChoose": {
+    "h2": "Why Choose Better Life Moving for Packing Services in Boston?",
+    "intro": "Boxes packed by a hurried crew are where most breakage starts. Our crews pack the way they'd want to unload: wrapped, filled, taped and labeled by room, by the same company that carries them.",
+    "cards": [
+      {
+        "title": "Packed by the Movers Who Load",
+        "text": "The crew that packs your home works for Better Life Moving, the same company that loads and drives it."
+      },
+      {
+        "title": "Wrapping Already in the Rate",
+        "text": "Blankets, shrink wrap and tape are included in the hourly rate of a local move, so furniture never goes unwrapped."
+      },
+      {
+        "title": "Rooms Labeled for Unloading",
+        "text": "Every box carries its room, so the crew drops it where it belongs and you don't hunt for the kettle."
+      },
+      {
+        "title": "One Quote for Everything",
+        "text": "Packing, the move and storage if needed are priced together, with a manager explaining each part."
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "What Customers Say About Our Packing Services in Boston"
+  },
+  "faqHeading": "Packing Services FAQ for Boston Customers",
+  "faq": [
+    {
+      "q": "Can you pack only part of my home in Boston?",
+      "a": "Yes. Partial packing is common: many customers have us pack the kitchen and fragile items and do the rest themselves."
+    },
+    {
+      "q": "Do you unpack at the new home?",
+      "a": "Yes. Add unpacking to your quote and the crew empties boxes and puts things away at the new place."
+    },
+    {
+      "q": "Do you bring boxes and packing supplies?",
+      "a": "Yes. Packing supplies are part of our packing service, and blankets, shrink wrap and tape for furniture are included in the hourly rate of a local move."
+    },
+    {
+      "q": "How do you pack dishes and glassware?",
+      "a": "Each piece is wrapped on its own and packed tight in a box marked fragile, so nothing shifts on the truck."
+    },
+    {
+      "q": "When does packing happen?",
+      "a": "A manager sets the packing day and time with you when they price your move, based on how much there is to pack."
+    },
+    {
+      "q": "Is packing worth it for a small apartment?",
+      "a": "Often, yes, for the kitchen and fragile items at least. Those rooms take the longest to pack well, and boxes packed by the crew go onto the truck quickly. You can pack clothes and books yourself and leave the rest to us, all on one quote."
+    }
+  ],
+  "faqClosing": "Still have a question about packing? Our FAQ page covers billing, booking and moving day.",
+  "closing": {
+    "h2": "Start Your Packing in Boston",
+    "body": "Tell us which rooms to pack and both addresses. Packing and the move go on one quote, and the crew that boxes your home is the crew that carries it.",
+    "ctaLabel": "Book Packing Services in Boston"
+  }
+}

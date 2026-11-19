@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Durham movers for apartments, houses and moves between Durham and Raleigh, plus interstate moves on our own trucks. Hourly local billing. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Plenty of Durham moves start with a choice between Durham and Raleigh, and some people make that move twice. Whichever way you go, our Triangle crews do the carrying and the bill runs by the hour.",
+      "Coming from another state? We carry that too."
+    ],
+    "sellingPoints": [
+      "Apartments and houses across Durham",
+      "Durham to Raleigh and back",
+      "Long distance moves on our own trucks"
+    ],
+    "ctaLabel": "Get a Durham Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Durham Moving Services",
+    "intro": "Residential and apartment moves are the core of our Durham work, and packing or a long distance leg can be added. Pick what you need from the list."
+  },
+  "whyChoose": {
+    "h2": "Why Durham Customers Book Better Life Moving",
+    "cards": [
+      {
+        "title": "One Crew for the Whole Triangle",
+        "text": "Durham, Raleigh, Cary and Chapel Hill are all covered by the same Triangle team, so a cross-Triangle move is one local job."
+      },
+      {
+        "title": "Hours, Not Surprises",
+        "text": "Local moves are billed hourly, with travel time from our yard added. A manager explains the total before booking."
+      },
+      {
+        "title": "Packing Done for You",
+        "text": "Add full or partial packing and the crew boxes and labels the home before loading."
+      },
+      {
+        "title": "Owned Trucks for Long Hauls",
+        "text": "Moving to or from another state, your things ride in our truck, driven by our crew."
+      }
+    ]
+  },
+  "faqHeading": "What People Ask Before a Durham Move",
+  "faq": [
+    {
+      "q": "Do Durham movers from Better Life Moving go to Raleigh?",
+      "a": "Yes. A Durham to Raleigh move is a local move for our Triangle crews, billed by the hour."
+    },
+    {
+      "q": "Is there a minimum charge for a Durham move?",
+      "a": "Yes, a 2-hour minimum that includes travel time, so smaller apartment moves stay reasonable."
+    },
+    {
+      "q": "Can you pack my Durham apartment?",
+      "a": "Yes. Choose full packing or just the kitchen and fragile pieces, priced on the same quote as the move."
+    },
+    {
+      "q": "Are Durham long distance moves quoted differently?",
+      "a": "Yes. Long distance moves are quoted at a flat rate, based on the date, home size and both addresses."
+    },
+    {
+      "q": "Should I compare Durham and Raleigh before I move?",
+      "a": "It helps. Our blog has a Durham vs Raleigh guide, and either way the move itself is handled by the same crews."
+    }
+  ],
+  "faqClosing": "More questions? Our FAQ page explains booking, billing and what the crew does on the day.",
+  "closing": {
+    "h2": "Move In or Out of Durham With Us",
+    "body": "Send the date and both addresses, and a manager will walk you through the price."
+  }
+}

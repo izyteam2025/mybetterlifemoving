@@ -1,5 +1,385 @@
 [
-  { "_comment": "Old URL -> new URL (301). Required when replacing a live site: every old URL with traffic or links. City and county folder roots (/austin/ -> /austin/appliance-repair/) are added automatically." },
-  { "from": "/services/refrigerator-repair/", "to": "/refrigerator-repair/", "status": 301 },
-  { "from": "/fridge-repair-austin/", "to": "/refrigerator-repair/", "status": 301 }
+  {
+    "_comment": "Old URL -> new URL (301), approved site map 19 Nov 2026 (Mode A). One hop each. Town-page rows: verify in GSC before launch; any with clicks or backlinks gets its own page instead (migration.md rule). /blogs/* duplicates: add one explicit row per URL found in the Phase 1 crawl (the gate rejects wildcards)."
+  },
+  {
+    "from": "/services/local-moving/",
+    "to": "/local-movers/",
+    "status": 301
+  },
+  {
+    "from": "/services/long-distance-movers/",
+    "to": "/long-distance-movers/",
+    "status": 301
+  },
+  {
+    "from": "/services/residential-movers/",
+    "to": "/residential-movers/",
+    "status": 301
+  },
+  {
+    "from": "/services/office-commercial-moves/",
+    "to": "/office-movers/",
+    "status": 301
+  },
+  {
+    "from": "/services/packing-services/",
+    "to": "/packing-services/",
+    "status": 301
+  },
+  {
+    "from": "/services/storage-services/",
+    "to": "/moving-and-storage/",
+    "status": 301
+  },
+  {
+    "from": "/services/white-glove-movers/",
+    "to": "/white-glove-movers/",
+    "status": 301
+  },
+  {
+    "from": "/services/last-minute-movers/",
+    "to": "/last-minute-movers/",
+    "status": 301
+  },
+  {
+    "from": "/services/college-moving/",
+    "to": "/college-movers/",
+    "status": 301
+  },
+  {
+    "from": "/services/military-moving/",
+    "to": "/military-movers/",
+    "status": 301
+  },
+  {
+    "from": "/services/piano-moving/",
+    "to": "/piano-movers/",
+    "status": 301
+  },
+  {
+    "from": "/services/furniture-movers/",
+    "to": "/furniture-movers/",
+    "status": 301
+  },
+  {
+    "from": "/services/white-glove-movers-boston/",
+    "to": "/white-glove-movers/",
+    "status": 301
+  },
+  {
+    "from": "/services/last-minute-movers-in-boston/",
+    "to": "/last-minute-movers/",
+    "status": 301
+  },
+  {
+    "from": "/contact-us/",
+    "to": "/contact/",
+    "status": 301
+  },
+  {
+    "from": "/locations/",
+    "to": "/service-area/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-boston-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-brighton-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-boston-ma/last-minute-movers/",
+    "to": "/last-minute-movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-boston-ma/last-minute-moving/",
+    "to": "/last-minute-movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-boston-ma/college-moving-services/",
+    "to": "/college-movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-boston-ma/residential-movers-in-boston-2/",
+    "to": "/residential-movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-massachusetts/",
+    "to": "/service-area/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-north-carolina/",
+    "to": "/service-area/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-rhode-island/",
+    "to": "/service-area/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-raleigh/",
+    "to": "/raleigh/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-brookline-ma/",
+    "to": "/brookline/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-cambridge-ma/",
+    "to": "/cambridge/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-newton-ma/",
+    "to": "/newton/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-quincy-ma/",
+    "to": "/quincy/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-waltham-ma/",
+    "to": "/waltham/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-raleigh-nc/",
+    "to": "/raleigh/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-charlotte-nc/",
+    "to": "/charlotte/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-chicago-il/",
+    "to": "/chicago/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-los-angeles-ca/",
+    "to": "/los-angeles/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-nyc/",
+    "to": "/boston-to-new-york-movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-philadelphia-pa/",
+    "to": "/boston-to-philadelphia-movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-washington-dc/",
+    "to": "/boston-to-washington-dc-movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-acton-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-andover-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-arlington-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-ashland-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-belmont-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-billerica-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-braintree-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-canton-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-concord-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-dedham-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-easton-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-foxborough-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-framingham-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-lawrence-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-lexington-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-lincoln-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-lynn-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-malden-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-marlborough-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-medford-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-melrose-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-needham-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-norwood-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-reading-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-revere-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-salem-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-saugus-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-sharon-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-stoneham-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-sudbury-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-wakefield-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-walpole-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-watertown-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-wayland-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-wellesley-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-weston-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-westwood-ma/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-winthrop-ma/",
+    "to": "/",
+    "status": 301
+  }
 ]

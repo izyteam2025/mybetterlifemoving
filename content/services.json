@@ -1,43 +1,169 @@
 [
   {
-    "slug": "refrigerator-repair",
-    "name": "Refrigerator Repair",
-    "summary": "Warm fridge, leaks, noisy compressor or an ice maker that quit.",
+    "slug": "local-movers",
+    "name": "Local Movers",
+    "summary": "Hourly moves across town: apartments, condos and houses, with materials and the truck in the rate.",
     "additionalType": [
-      "https://en.wikipedia.org/wiki/Refrigerator",
-      "http://www.productontology.org/id/Refrigerator"
+      "https://en.wikipedia.org/wiki/Relocation_(personal)",
+      "http://www.productontology.org/id/Relocation_(personal)"
     ],
     "image": {
-      "src": "https://images.unsplash.com/photo-1588854337115-1c67d9247e4d",
-      "alt": "Kitchen with a refrigerator",
+      "src": "https://images.pexels.com/photos/7464689/pexels-photo-7464689.jpeg",
+      "alt": "Movers loading furniture into a van",
       "placeholder": true
     }
   },
   {
-    "slug": "washer-repair",
-    "name": "Washer Repair",
-    "summary": "Won't drain, won't spin, leaks or a loud cycle on top and front loaders.",
+    "slug": "long-distance-movers",
+    "name": "Long Distance Movers",
+    "summary": "Interstate moves on a flat-rate quote, carried by our own crews and trucks.",
     "additionalType": [
-      "https://en.wikipedia.org/wiki/Washing_machine",
-      "http://www.productontology.org/id/Washing_machine"
+      "https://en.wikipedia.org/wiki/Moving_company",
+      "http://www.productontology.org/id/Moving_company"
     ],
     "image": {
-      "src": "https://images.unsplash.com/photo-1632923565835-6582b54f2105",
-      "alt": "Washer and dryer",
+      "src": "https://images.pexels.com/photos/7464689/pexels-photo-7464689.jpeg",
+      "alt": "Moving van loaded for a long distance move",
       "placeholder": true
     }
   },
   {
-    "slug": "dryer-repair",
-    "name": "Dryer Repair",
-    "summary": "No heat, long dry times, a squealing drum or a tripped breaker.",
+    "slug": "residential-movers",
+    "name": "Residential Movers",
+    "summary": "Apartments, condos, houses and senior moves, with every piece wrapped before it leaves.",
     "additionalType": [
-      "https://en.wikipedia.org/wiki/Clothes_dryer",
-      "http://www.productontology.org/id/Clothes_dryer"
+      "https://en.wikipedia.org/wiki/Relocation_(personal)",
+      "http://www.productontology.org/id/Relocation_(personal)"
     ],
     "image": {
-      "src": "https://images.unsplash.com/photo-1778731660248-044f78e8c1fb",
-      "alt": "Laundry room",
+      "src": "https://images.pexels.com/photos/7464244/pexels-photo-7464244.jpeg",
+      "alt": "Movers carrying boxes out of a home",
+      "placeholder": true
+    }
+  },
+  {
+    "slug": "office-movers",
+    "name": "Office Movers",
+    "summary": "Office, retail and multi-location moves planned around your business hours.",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/Office",
+      "http://www.productontology.org/id/Office"
+    ],
+    "image": {
+      "src": "https://images.pexels.com/photos/7464244/pexels-photo-7464244.jpeg",
+      "alt": "Movers carrying boxes for an office move",
+      "placeholder": true
+    }
+  },
+  {
+    "slug": "packing-services",
+    "name": "Packing Services",
+    "summary": "Full or partial packing, fragile items, furniture wrapping and unpacking.",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/Packaging_and_labeling",
+      "http://www.productontology.org/id/Packaging_and_labeling"
+    ],
+    "image": {
+      "src": "https://images.pexels.com/photos/7464690/pexels-photo-7464690.jpeg",
+      "alt": "Mover packing a fragile item into a box",
+      "placeholder": true
+    }
+  },
+  {
+    "slug": "moving-and-storage",
+    "name": "Moving and Storage",
+    "summary": "Short or long-term storage between pickup and delivery, priced by the cubic foot.",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/Self_storage",
+      "http://www.productontology.org/id/Self_storage"
+    ],
+    "image": {
+      "src": "https://images.pexels.com/photos/7464682/pexels-photo-7464682.jpeg",
+      "alt": "Mover handling boxes on moving day",
+      "placeholder": true
+    }
+  },
+  {
+    "slug": "white-glove-movers",
+    "name": "White Glove Movers",
+    "summary": "Antiques, artwork, designer and oversized pieces handled with extra protection.",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/Antique",
+      "http://www.productontology.org/id/Antique"
+    ],
+    "image": {
+      "src": "https://images.pexels.com/photos/7464690/pexels-photo-7464690.jpeg",
+      "alt": "Mover packing a delicate item",
+      "placeholder": true
+    }
+  },
+  {
+    "slug": "last-minute-movers",
+    "name": "Last Minute Movers",
+    "summary": "Lease changes and late closings: we fit urgent moves in when a crew is free.",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/Moving_company",
+      "http://www.productontology.org/id/Moving_company"
+    ],
+    "image": {
+      "src": "https://images.pexels.com/photos/7464682/pexels-photo-7464682.jpeg",
+      "alt": "Mover carrying boxes on short notice",
+      "placeholder": true
+    }
+  },
+  {
+    "slug": "college-movers",
+    "name": "College Movers",
+    "summary": "Dorms, apartments and storage drops, including the September 1 lease cycle.",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/Student_housing",
+      "http://www.productontology.org/id/Student_housing"
+    ],
+    "image": {
+      "src": "https://images.pexels.com/photos/7464244/pexels-photo-7464244.jpeg",
+      "alt": "Movers carrying boxes for a student move",
+      "placeholder": true
+    }
+  },
+  {
+    "slug": "military-movers",
+    "name": "Military Movers",
+    "summary": "Moves planned around your PCS orders, timelines and paperwork.",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/Permanent_change_of_station",
+      "http://www.productontology.org/id/Permanent_change_of_station"
+    ],
+    "image": {
+      "src": "https://images.pexels.com/photos/7464689/pexels-photo-7464689.jpeg",
+      "alt": "Movers loading a van for a military move",
+      "placeholder": true
+    }
+  },
+  {
+    "slug": "piano-movers",
+    "name": "Piano Movers",
+    "summary": "Upright and grand pianos moved with the equipment they need, floors and walls protected.",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/Piano",
+      "http://www.productontology.org/id/Piano"
+    ],
+    "image": {
+      "src": "https://images.pexels.com/photos/7464690/pexels-photo-7464690.jpeg",
+      "alt": "Mover protecting an instrument for transport",
+      "placeholder": true
+    }
+  },
+  {
+    "slug": "furniture-movers",
+    "name": "Furniture Movers",
+    "summary": "A few pieces, not a whole home: a crew for exactly what you need.",
+    "additionalType": [
+      "https://en.wikipedia.org/wiki/Furniture",
+      "http://www.productontology.org/id/Furniture"
+    ],
+    "image": {
+      "src": "https://images.pexels.com/photos/7464689/pexels-photo-7464689.jpeg",
+      "alt": "Movers loading furniture into a van",
       "placeholder": true
     }
   }

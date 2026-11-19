@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Brookline movers for apartments, condos and family homes, sent from our Brighton base. Hourly billing with wrap and truck costs included. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Most Brookline moves we're asked to quote are apartments and condos, often with stairs and a tight spot to park the truck. Our crews come from our head office in Brighton, the Boston neighborhood that borders Brookline.",
+      "Before you book, a manager walks you through the hourly billing, so you know what drives the total."
+    ],
+    "sellingPoints": [
+      "Crews from our Brighton base next door",
+      "Stairwells and elevator windows planned ahead",
+      "Wrap, tape and truck costs counted in the rate"
+    ],
+    "ctaLabel": "Get a Brookline Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Moving Help We Bring to Brookline",
+    "intro": "We plan Brookline moves for renters on the September 1 cycle and for young families moving into more space. Every service below is available here, and most people combine two or three of them on one quote."
+  },
+  "whyChoose": {
+    "h2": "What Brookline Customers Get From Better Life Moving",
+    "cards": [
+      {
+        "title": "Head Office Over the Line in Brighton",
+        "text": "We're based at 20 Presentation Rd in Brighton, which borders Brookline. Your move is run by the Boston office, not a call center somewhere else."
+      },
+      {
+        "title": "Ready for the Lease Turnover",
+        "text": "Late August and September are our busiest weeks. Brookline renters moving on September 1 should lock in a date as early as they can."
+      },
+      {
+        "title": "Third Floors Are Routine",
+        "text": "Narrow stairwells and long carries are everyday work for our crews. Reviewers often bring up tough staircases handled with care."
+      },
+      {
+        "title": "Your Movers Work for Us",
+        "text": "Better Life Moving is a carrier. The crew carrying your sofa is ours, under USDOT 3866930, MC 1414489."
+      }
+    ]
+  },
+  "faqHeading": "Questions From Brookline Customers",
+  "faq": [
+    {
+      "q": "How much do Brookline movers from Better Life Moving cost?",
+      "a": "Local moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time. In a Brookline apartment, the stairs and the walk from the truck to your door decide most of the hours."
+    },
+    {
+      "q": "Can your crew handle a Brookline walk-up with no elevator?",
+      "a": "Yes. Tell us the floor and the stairwell when you book, and the crew plans which pieces come down first and how."
+    },
+    {
+      "q": "Who arranges parking for the moving truck in Brookline?",
+      "a": "You know your street best, so check what the town requires for a moving truck and tell us what you've set up. The crew parks where you've reserved space."
+    },
+    {
+      "q": "Can you store my things between two Brookline leases?",
+      "a": "Yes. We pick up, hold your belongings and deliver on the date the new place opens. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "Do you move people from Brookline to other states?",
+      "a": "Yes. Out-of-state moves from Brookline are long distance moves, quoted at a flat rate and driven on our own trucks."
+    }
+  ],
+  "faqClosing": "Have another question before your Brookline move? The FAQ page covers billing, booking and the moving day itself.",
+  "closing": {
+    "h2": "Book Your Brookline Move",
+    "body": "Tell us the floor, the date and where you're headed. A manager explains how the hours add up before the crew is scheduled."
+  }
+}

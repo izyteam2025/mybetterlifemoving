@@ -1,0 +1,38 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Movers from Boston to Philadelphia: a flat-rate quote, our own truck and crew, and packing or storage if you need it. Licensed carrier, USDOT 3866930."
+  },
+  "hero": {
+    "h1": "Movers From Boston to Philadelphia",
+    "overview": [
+      "Customers have moved from Boston to Philadelphia with Better Life Moving, and the route works like every long distance move we do: a flat-rate quote up front, then our own crew and truck from your Boston door to your Philadelphia one."
+    ],
+    "ctaLabel": "Get a Boston to Philadelphia Quote"
+  },
+  "intro": [
+    "You'll know the price before the crew wraps the first piece, and you'll deal with one company the whole way, not a broker who hands your move to someone else."
+  ],
+  "sections": [
+    {
+      "h2": "Pricing a Move From Boston to Philadelphia",
+      "body": [
+        "We quote long distance moves at a flat rate, worked out from your date, the size of your home and both addresses. A manager walks you through the quote and the booking terms before you commit.",
+        "If you want the crew to pack, or need your things held for a while before delivery, both go on the same quote."
+      ]
+    },
+    {
+      "h2": "Who Carries Your Things",
+      "body": [
+        "Our own crew packs and loads in Boston, and our own truck makes the drive. Better Life Moving holds interstate operating authority under USDOT 3866930, MC 1414489, and you can check it on the FMCSA's public record before you book.",
+        "Every piece of furniture is wrapped in blankets and shrink wrap before it leaves your home, because a few hundred miles of highway is harder on furniture than a trip across town."
+      ]
+    },
+    {
+      "h2": "When to Book",
+      "body": [
+        "As soon as you have a date. Late August and September are our busiest weeks because of the Boston lease turnover, so moves around then should be booked early. Outside that window, there's usually more choice of dates."
+      ]
+    }
+  ]
+}

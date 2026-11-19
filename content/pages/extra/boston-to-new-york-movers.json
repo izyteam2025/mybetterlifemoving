@@ -1,0 +1,44 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Movers from Boston to New York with a flat-rate quote, our own crews and our own truck from pickup to delivery. Packing and storage available. Free quote."
+  },
+  "hero": {
+    "h1": "Movers From Boston to New York",
+    "overview": [
+      "Moving from Boston to New York is a long distance move, so Better Life Moving quotes it at a flat rate. Our crew packs and loads in Boston, and our truck carries everything to your new address."
+    ],
+    "ctaLabel": "Get a Boston to New York Quote"
+  },
+  "intro": [
+    "Most people making this move are going from one apartment to another, often with an elevator booking or a narrow stairwell at one end or both. Send us those details with your date and both addresses, and a manager prices the move before anything is booked."
+  ],
+  "sections": [
+    {
+      "h2": "How a Boston to New York Move Is Priced",
+      "body": [
+        "Long distance moves are quoted at a flat rate. The figure comes from your move date, the size of your home and both addresses, and a manager explains the booking terms, including any deposit, when they go over it with you.",
+        "Packing and storage can go on the same quote. Storage is priced by the cubic feet your items take up, which helps when your New York lease starts a week or two after the Boston one ends."
+      ]
+    },
+    {
+      "h2": "One Carrier From Boston to Your New York Door",
+      "body": [
+        "Better Life Moving is a carrier, not a broker. We hold interstate operating authority under USDOT 3866930, MC 1414489, and the crew that loads your things in Boston works for the same company that delivers them in New York.",
+        "That matters on a route this busy, where many moves are sold by one company and carried by another you've never heard of."
+      ]
+    },
+    {
+      "h2": "What to Send Us for a New York Move",
+      "body": [
+        "Building rules at both ends decide a lot about the day. Tell us the elevator reservation windows, any certificate or loading requirements your New York building has, and how far the truck can park from the door."
+      ],
+      "list": [
+        "Your move date and how flexible it is",
+        "The size of your Boston home and anything unusually large",
+        "Both addresses, with floor numbers and elevator details",
+        "Whether you want packing, storage or both"
+      ]
+    }
+  ]
+}

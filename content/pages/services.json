@@ -1,23 +1,58 @@
 {
-  "updated": "2026-10-28",
-  "meta": { "description": "Refrigerator, washer and dryer repair across Austin and nearby cities. Upfront pricing, same-day visits and a 90-day warranty on every appliance repair service." },
-  "hero": {
-    "h1": "Appliance Repair Services in Austin",
-    "overview": ["One local team for the appliances your household depends on. Find yours below and see how we fix it."],
-    "sellingPoints": ["Written price before any work", "Same-day visits across Austin", "90-day warranty on parts and labor"],
-    "ctaLabel": "Book a Repair"
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Moving services from Better Life Moving: local, long distance, packing, storage, office, piano and white glove moves, with our own crews and trucks."
   },
-  "servicesBlock": { "h2": "Choose Your Appliance", "intro": "Every service page covers the problems we fix, how a visit works and what it costs." },
-  "locationsBlock": { "h2": "Where We Repair Appliances", "intro": "Our technicians cover these counties and cities from our Austin shop.", "closing": "Don't see your city? Send us your address and we will confirm coverage the same day." },
-  "reviews": { "heading": "Reviews From Our Customers" },
-  "faqHeading": "Questions About Our Appliance Repair Services",
+  "hero": {
+    "h1": "Moving Services From Better Life Moving",
+    "overview": [
+      "Twelve moving services, one company doing all of them. Find the job you're planning below and see how it's priced and what the crew brings."
+    ],
+    "sellingPoints": [
+      "Our own crews and trucks on every job",
+      "Materials and truck costs in the hourly rate",
+      "Flat-rate quotes for long distance moves"
+    ],
+    "ctaLabel": "Get a Free Quote"
+  },
+  "servicesBlock": {
+    "h2": "Pick the Move You're Planning",
+    "intro": "Most moves are a mix of two or three of these, a local move with packing, say, or a long distance move with a few weeks of storage in between. One quote can cover all of it."
+  },
+  "locationsBlock": {
+    "h2": "Where Our Crews Work",
+    "intro": "Boston is our home market. We also run crews in Raleigh and the Triangle, Charlotte, Chicago and Los Angeles.",
+    "closing": "Moving between two of these cities, or to somewhere else entirely? That's a long distance move, and it gets a flat-rate quote."
+  },
+  "reviews": {
+    "heading": "What Customers Say About Our Moving Services"
+  },
+  "faqHeading": "Questions About Our Moving Services",
   "faq": [
-    { "q": "Which appliances do you repair?", "a": "We repair refrigerators, washers and dryers, including built-in and premium refrigerators." },
-    { "q": "Can one visit cover two appliances?", "a": "Yes. Tell us about both when you book so we plan enough time." },
-    { "q": "Do you install new appliances?", "a": "No. We repair appliances only, so our advice on repair versus replacement has no sales angle." },
-    { "q": "What does a visit cost?", "a": "There is a service call fee, waived when you approve the repair, and you get the repair price in writing first." },
-    { "q": "Is it worth repairing an older appliance?", "a": "Often it is. The technician compares the repair price with replacement so you can decide." }
+    {
+      "q": "Can one quote cover packing, the move and storage?",
+      "a": "Yes. Tell us everything you need when you ask for a quote, and the manager prices the whole job together."
+    },
+    {
+      "q": "Do you move just a few pieces of furniture?",
+      "a": "Yes. Small jobs fall under our 2-hour minimum that includes travel time, which is why furniture-only moves make sense with us."
+    },
+    {
+      "q": "Which moves are priced by the hour and which at a flat rate?",
+      "a": "Local moves are billed hourly, with travel time from our yard added. Long distance moves are quoted at a flat rate."
+    },
+    {
+      "q": "How is storage priced?",
+      "a": "Storage is priced by the cubic feet your items take up, so you pay for the space your things fill, not a fixed unit size."
+    },
+    {
+      "q": "Are there moves you don't take on?",
+      "a": "We haven't listed junk removal, car shipping or international moves as services. Ask when you request a quote and we'll tell you plainly whether we can help."
+    }
   ],
-  "faqClosing": "Still have a question? Our FAQ page covers scheduling, pricing and warranty.",
-  "closing": { "h2": "Get Your Appliance Working Again", "body": "Appliance repair in Austin and nearby cities, priced before we start and backed for 90 days." }
+  "faqClosing": "Need more detail on billing or moving day? The FAQ page goes through both.",
+  "closing": {
+    "h2": "Tell Us the Move, We'll Price It",
+    "body": "Send your move date, home size and both addresses. A manager explains how the job is billed before anything is booked."
+  }
 }

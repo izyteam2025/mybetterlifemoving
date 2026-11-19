@@ -1,104 +1,240 @@
 {
-  "_comment": "Page path -> keyword mapping, built with DataForSEO (volume, KD, SERP). One primary per page; the build fails if two pages share one. Title tag = 'Primary Keyword | Company' (service pages add the target city when it fits 60 chars) unless 'title' is set.",
+  "_comment": "Better Life Moving keyword map (DataForSEO Google Ads volume, Nov 2026; GSC check 19 Nov). One primary per page. Mode A: homepage and main service pages target Boston; no Boston city or city service pages.",
   "/": {
-    "primary": "appliance repair Austin TX",
+    "primary": "boston movers",
     "secondary": [
-      "appliance repair near me",
-      "same day appliance repair Austin"
-    ]
+      "boston moving company",
+      "moving companies boston",
+      "movers in boston",
+      "brighton movers",
+      "cheap movers boston"
+    ],
+    "title": "Boston Movers: Local & Long Distance | Better Life Moving"
   },
   "/services/": {
-    "primary": "appliance repair services",
+    "primary": "moving services",
     "secondary": [
-      "home appliance repair"
-    ]
-  },
-  "/refrigerator-repair/": {
-    "primary": "refrigerator repair",
-    "secondary": [
-      "fridge repair",
-      "refrigerator repair near me"
-    ]
-  },
-  "/washer-repair/": {
-    "primary": "washer repair",
-    "secondary": [
-      "washing machine repair"
-    ]
-  },
-  "/dryer-repair/": {
-    "primary": "dryer repair",
-    "secondary": [
-      "dryer repair near me",
-      "dryer not heating repair"
+      "moving company services"
     ]
   },
   "/service-area/": {
-    "primary": "appliance repair service area",
-    "secondary": []
-  },
-  "/travis-county/appliance-repair/": {
-    "primary": "appliance repair Travis County",
+    "primary": "better life moving locations",
     "secondary": [
-      "appliance repair Travis County TX"
+      "movers raleigh charlotte chicago los angeles"
+    ],
+    "title": "Service Area | Better Life Moving"
+  },
+  "/local-movers/": {
+    "primary": "local movers",
+    "secondary": [
+      "local movers boston",
+      "local moving company"
     ]
   },
-  "/pflugerville/appliance-repair/": {
-    "primary": "appliance repair in Pflugerville",
+  "/long-distance-movers/": {
+    "primary": "long distance movers",
     "secondary": [
-      "Pflugerville appliance repair"
+      "long distance movers boston",
+      "interstate movers"
     ]
   },
-  "/pflugerville/dryer-repair/": {
-    "primary": "dryer repair in Pflugerville, TX",
+  "/residential-movers/": {
+    "primary": "residential movers",
     "secondary": [
-      "dryer repair Pflugerville"
+      "apartment movers boston",
+      "house movers"
     ]
   },
-  "/premium-appliance-repair/": {
-    "primary": "premium appliance repair",
+  "/office-movers/": {
+    "primary": "office movers",
     "secondary": [
-      "luxury appliance repair Austin"
+      "office movers boston",
+      "commercial movers"
     ]
   },
-  "/sub-zero-appliance-repair/": {
-    "primary": "Sub-Zero appliance repair",
+  "/packing-services/": {
+    "primary": "packing services",
     "secondary": [
-      "Sub-Zero refrigerator repair Austin"
+      "packing services boston",
+      "packing and moving services"
+    ]
+  },
+  "/moving-and-storage/": {
+    "primary": "moving and storage",
+    "secondary": [
+      "moving and storage boston",
+      "storage movers"
+    ]
+  },
+  "/white-glove-movers/": {
+    "primary": "white glove movers",
+    "secondary": [
+      "white glove movers boston",
+      "antique movers boston"
+    ]
+  },
+  "/last-minute-movers/": {
+    "primary": "last minute movers",
+    "secondary": [
+      "last minute movers boston",
+      "same day movers"
+    ]
+  },
+  "/college-movers/": {
+    "primary": "college movers",
+    "secondary": [
+      "college movers boston",
+      "student movers boston"
+    ]
+  },
+  "/military-movers/": {
+    "primary": "military movers",
+    "secondary": [
+      "PCS movers"
+    ]
+  },
+  "/piano-movers/": {
+    "primary": "piano movers",
+    "secondary": [
+      "piano movers boston"
+    ]
+  },
+  "/furniture-movers/": {
+    "primary": "furniture movers",
+    "secondary": [
+      "furniture movers boston"
+    ]
+  },
+  "/brookline/movers/": {
+    "primary": "brookline movers",
+    "secondary": [
+      "moving companies brookline"
+    ]
+  },
+  "/cambridge/movers/": {
+    "primary": "cambridge movers",
+    "secondary": [
+      "moving companies cambridge"
+    ]
+  },
+  "/newton/movers/": {
+    "primary": "newton movers",
+    "secondary": [
+      "moving companies newton"
+    ]
+  },
+  "/quincy/movers/": {
+    "primary": "quincy movers",
+    "secondary": [
+      "moving companies quincy"
+    ]
+  },
+  "/waltham/movers/": {
+    "primary": "waltham movers",
+    "secondary": [
+      "moving companies waltham"
+    ]
+  },
+  "/raleigh/movers/": {
+    "primary": "raleigh movers",
+    "secondary": [
+      "moving companies raleigh",
+      "apex movers",
+      "wake forest movers"
+    ]
+  },
+  "/cary/movers/": {
+    "primary": "cary movers",
+    "secondary": [
+      "moving companies cary"
+    ]
+  },
+  "/chapel-hill/movers/": {
+    "primary": "chapel hill movers",
+    "secondary": [
+      "moving companies chapel hill"
+    ]
+  },
+  "/durham/movers/": {
+    "primary": "durham movers",
+    "secondary": [
+      "moving companies durham"
+    ]
+  },
+  "/charlotte/movers/": {
+    "primary": "charlotte movers",
+    "secondary": [
+      "moving companies charlotte"
+    ]
+  },
+  "/chicago/movers/": {
+    "primary": "chicago movers",
+    "secondary": [
+      "moving companies chicago"
+    ]
+  },
+  "/los-angeles/movers/": {
+    "primary": "los angeles movers",
+    "secondary": [
+      "moving companies los angeles"
+    ]
+  },
+  "/raleigh/long-distance-movers/": {
+    "primary": "long distance movers raleigh",
+    "secondary": [
+      "long distance moving company raleigh"
+    ]
+  },
+  "/boston-to-new-york-movers/": {
+    "primary": "movers boston to new york",
+    "secondary": [
+      "moving from boston to new york"
+    ]
+  },
+  "/boston-to-philadelphia-movers/": {
+    "primary": "movers boston to philadelphia",
+    "secondary": [
+      "moving from boston to philadelphia"
+    ]
+  },
+  "/boston-to-washington-dc-movers/": {
+    "primary": "movers boston to washington dc",
+    "secondary": [
+      "moving from boston to washington dc"
     ]
   },
   "/about/": {
-    "primary": "about Northline Appliance Repair",
-    "title": "About Us | Northline Appliance Repair",
-    "secondary": []
+    "primary": "about better life moving",
+    "secondary": [],
+    "title": "About Us | Better Life Moving"
   },
   "/faq/": {
-    "primary": "appliance repair FAQ",
-    "secondary": []
-  },
-  "/reviews/": {
-    "primary": "Northline Appliance Repair reviews",
-    "title": "Reviews | Northline Appliance Repair",
-    "secondary": []
+    "primary": "moving company faq",
+    "secondary": [],
+    "title": "Moving FAQ | Better Life Moving"
   },
   "/blog/": {
-    "primary": "appliance repair tips",
-    "title": "Appliance Repair Tips | Northline Appliance Repair",
-    "secondary": []
+    "primary": "moving tips",
+    "secondary": [
+      "moving guides"
+    ],
+    "title": "Moving Tips and Guides | Better Life Moving"
   },
   "/contact/": {
-    "primary": "contact us",
-    "title": "Contact Us | Northline Appliance Repair",
-    "secondary": []
+    "primary": "free moving quote",
+    "secondary": [
+      "moving quote boston"
+    ],
+    "title": "Get a Free Moving Quote | Better Life Moving"
   },
   "/privacy-policy/": {
-    "primary": "privacy policy",
-    "title": "Privacy Policy | Northline Appliance Repair",
-    "secondary": []
+    "primary": "better life moving privacy policy",
+    "secondary": [],
+    "title": "Privacy Policy | Better Life Moving"
   },
   "/terms-of-service/": {
-    "primary": "terms of service",
-    "title": "Terms of Service | Northline Appliance Repair",
-    "secondary": []
+    "primary": "better life moving terms of service",
+    "secondary": [],
+    "title": "Terms of Service | Better Life Moving"
   }
 }

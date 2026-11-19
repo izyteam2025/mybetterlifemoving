@@ -1,0 +1,131 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Military movers in Boston for PCS moves, planned around your orders and report date. Flat-rate long distance quotes and our own trucks. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "PCS orders come with a report date that doesn't move, even when everything else does. Better Life Moving works as military movers in Boston, planning your move around your orders, your timeline and the paperwork that comes with them."
+    ],
+    "sellingPoints": [
+      "Moves planned around your PCS orders",
+      "Flat-rate quotes for moves out of state",
+      "Storage when housing isn't ready yet"
+    ],
+    "ctaLabel": "Get a Free Military Moving Quote"
+  },
+  "serviceBlock": {
+    "h2": "Our Military Movers Services in Boston",
+    "intro": "What service members and their families ask us for most.",
+    "cards": [
+      {
+        "title": "PCS Moves Out of State",
+        "text": "A permanent change of station to another state, quoted at a flat rate and driven by our own trucks."
+      },
+      {
+        "title": "Local Moves Before Orders",
+        "text": "Moving across Boston while you wait for orders, billed hourly with materials in the rate."
+      },
+      {
+        "title": "Full Packing",
+        "text": "The crew packs the home so you can deal with out-processing instead of boxes."
+      },
+      {
+        "title": "Storage During Transition",
+        "text": "Housing at the new station not ready? We store your things and deliver when it is."
+      },
+      {
+        "title": "Partial Moves",
+        "text": "Moving part of the household now and the rest later. Each leg is priced on its own terms."
+      },
+      {
+        "title": "Moves to Our Other Markets",
+        "text": "Heading to North Carolina, Chicago or Los Angeles? We run crews there as well."
+      }
+    ],
+    "ctaLabel": "Price My Military Move"
+  },
+  "areas": {
+    "intro": "Boston is home base for our military moves. Our crews also move service members and families in the nearby cities below."
+  },
+  "process": {
+    "h2": "How Military Movers Work in Boston",
+    "steps": [
+      {
+        "title": "Share Your Orders Timeline",
+        "text": "Your report date, pickup window, both addresses and the size of the household."
+      },
+      {
+        "title": "Get Your Quote",
+        "text": "A manager prices the move and explains the booking terms. Out-of-state moves get a flat-rate quote."
+      },
+      {
+        "title": "Pack and Load",
+        "text": "The crew packs if you've asked, wraps furniture and loads the truck for the distance."
+      },
+      {
+        "title": "Deliver or Store",
+        "text": "Delivery to the new home, or storage until housing at the new station is ready."
+      }
+    ],
+    "ctaLabel": "Book Military Movers"
+  },
+  "whyChoose": {
+    "h2": "Why Choose Better Life Moving for Military Movers in Boston?",
+    "intro": "A military move works to a deadline set by someone else. You need a mover whose plan holds, which is easier when the company quoting you also owns the truck and employs the crew.",
+    "cards": [
+      {
+        "title": "A Licensed Interstate Carrier",
+        "text": "Better Life Moving holds interstate operating authority under USDOT 3866930, MC 1414489, which you can check on the FMCSA record."
+      },
+      {
+        "title": "A Fixed Price for the Long Haul",
+        "text": "Long distance moves are quoted at a flat rate, so the cost of a PCS move is set before the truck leaves."
+      },
+      {
+        "title": "Storage Without a Second Company",
+        "text": "Storage is priced by the cubic feet your items take up, and the same company delivers when you're ready."
+      },
+      {
+        "title": "Our Own Crews on Every Leg",
+        "text": "The crew that packs and loads in Boston works for us. Your household isn't handed to another outfit midway."
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "What Customers Say About Our Military Movers in Boston"
+  },
+  "faqHeading": "Military Movers FAQ for Boston Service Members",
+  "faq": [
+    {
+      "q": "Do military movers in Boston handle PCS moves?",
+      "a": "Yes. We plan PCS moves around your orders and report date, with out-of-state moves quoted at a flat rate."
+    },
+    {
+      "q": "Can you store my household goods until base housing is ready?",
+      "a": "Yes. We store your things and deliver once housing at the new station is ready. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "How far ahead should I book a PCS move?",
+      "a": "As soon as you have orders. Moves in late August and September compete with the Boston lease season, so the earlier you book, the more dates are open."
+    },
+    {
+      "q": "Can you pack the whole house before we leave?",
+      "a": "Yes. Full packing can be added to the quote, so the crew boxes the home while you handle out-processing."
+    },
+    {
+      "q": "Is Better Life Moving a broker or a carrier?",
+      "a": "A carrier. We move you with our own crews and trucks under USDOT 3866930, MC 1414489."
+    },
+    {
+      "q": "What paperwork should I have ready for the quote?",
+      "a": "Your report date, the pickup window you're allowed and both addresses are enough to price the move. Mention any rules your orders set for packing or storage, and the manager plans the move around them."
+    }
+  ],
+  "faqClosing": "Still have a question about a PCS move? Our FAQ page covers billing, booking and moving day.",
+  "closing": {
+    "h2": "Start Your Military Move From Boston",
+    "body": "Send your report date and both addresses. You'll get a plan built around your orders and a price set before moving day.",
+    "ctaLabel": "Book Military Movers in Boston"
+  }
+}

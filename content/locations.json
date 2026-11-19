@@ -1,21 +1,100 @@
 {
-  "_comment": "Approved service-area breakdown from the site map: counties and the exact cities in each. Set countyPages to false for a cities-only site map (no county pages are planned then).",
-  "countyPages": true,
+  "_comment": "Cities-only map (approved site map 19 Nov 2026). Groups are markets, not counties. Boston is the target city: the homepage. Pending (not built until confirmed): Providence, Somerville.",
+  "countyPages": false,
   "counties": [
     {
-      "slug": "travis-county",
-      "name": "Travis County",
+      "slug": "greater-boston",
+      "name": "Greater Boston",
       "cities": [
-        { "slug": "austin", "name": "Austin" },
-        { "slug": "pflugerville", "name": "Pflugerville" }
+        {
+          "slug": "boston",
+          "name": "Boston",
+          "region": "MA"
+        },
+        {
+          "slug": "brookline",
+          "name": "Brookline",
+          "region": "MA"
+        },
+        {
+          "slug": "cambridge",
+          "name": "Cambridge",
+          "region": "MA"
+        },
+        {
+          "slug": "newton",
+          "name": "Newton",
+          "region": "MA"
+        },
+        {
+          "slug": "quincy",
+          "name": "Quincy",
+          "region": "MA"
+        },
+        {
+          "slug": "waltham",
+          "name": "Waltham",
+          "region": "MA"
+        }
       ]
     },
     {
-      "slug": "williamson-county",
-      "name": "Williamson County",
+      "slug": "the-triangle",
+      "name": "The Triangle",
       "cities": [
-        { "slug": "round-rock", "name": "Round Rock" },
-        { "slug": "georgetown", "name": "Georgetown" }
+        {
+          "slug": "raleigh",
+          "name": "Raleigh",
+          "region": "NC"
+        },
+        {
+          "slug": "cary",
+          "name": "Cary",
+          "region": "NC"
+        },
+        {
+          "slug": "chapel-hill",
+          "name": "Chapel Hill",
+          "region": "NC"
+        },
+        {
+          "slug": "durham",
+          "name": "Durham",
+          "region": "NC"
+        }
+      ]
+    },
+    {
+      "slug": "charlotte-area",
+      "name": "Charlotte",
+      "cities": [
+        {
+          "slug": "charlotte",
+          "name": "Charlotte",
+          "region": "NC"
+        }
+      ]
+    },
+    {
+      "slug": "chicago-area",
+      "name": "Chicago",
+      "cities": [
+        {
+          "slug": "chicago",
+          "name": "Chicago",
+          "region": "IL"
+        }
+      ]
+    },
+    {
+      "slug": "los-angeles-area",
+      "name": "Los Angeles",
+      "cities": [
+        {
+          "slug": "los-angeles",
+          "name": "Los Angeles",
+          "region": "CA"
+        }
       ]
     }
   ]

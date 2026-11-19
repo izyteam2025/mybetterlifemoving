@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Newton movers for family homes: full packing, furniture wrapped, basements and attics planned in. Hourly local billing, flat-rate long distance. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Family moves in Newton tend to be whole households: kids' rooms, a basement full of seasonal gear, furniture that came with you from two homes ago. Our crews pack, wrap and load all of it.",
+      "Moving out of Massachusetts? That part gets a flat-rate quote."
+    ],
+    "sellingPoints": [
+      "Whole-home packing on request",
+      "Basements, attics and garages included",
+      "Beds and tables rebuilt at the new house"
+    ],
+    "ctaLabel": "Get a Newton Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Family Moving Services Around Newton",
+    "intro": "Newton households usually ask for residential moving with packing, and sometimes storage while a new house is finished or a closing date settles. Here's everything we offer."
+  },
+  "whyChoose": {
+    "h2": "How We Handle a Newton Family Move",
+    "cards": [
+      {
+        "title": "Packing So You Can Parent",
+        "text": "Hand the kitchen and the fragile pieces to the crew and keep your evenings for the family. Packing goes on the same quote as the move."
+      },
+      {
+        "title": "Loaded Room by Room",
+        "text": "Boxes are labeled by room and loaded in order, so the unload at the new house goes where it should."
+      },
+      {
+        "title": "No Separate Line for Wrap or Fuel",
+        "text": "On a local move, blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate."
+      },
+      {
+        "title": "Storage If the Dates Don't Line Up",
+        "text": "Closing a week late? We keep your household in storage and deliver when the keys are yours."
+      }
+    ]
+  },
+  "faqHeading": "What Newton Families Ask Before Moving",
+  "faq": [
+    {
+      "q": "How long does a family move in Newton usually take?",
+      "a": "It comes down to the number of rooms, how much is already packed and the stairs at both ends. A manager estimates the hours when they price your move."
+    },
+    {
+      "q": "Can Newton movers pack our whole house?",
+      "a": "Yes. Full packing covers every room, and you can choose partial packing for just the kitchen or fragile items instead."
+    },
+    {
+      "q": "Do you move things out of basements and attics?",
+      "a": "Yes. List basements, attics and garages in the quote request so the crew size and hours match the house."
+    },
+    {
+      "q": "Can you hold our furniture while a closing date moves?",
+      "a": "Yes. We store your household and deliver once you have the keys. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "We're relocating from Newton to another state. How is that priced?",
+      "a": "Long distance moves are quoted at a flat rate, worked out from the date, the size of the house and both addresses."
+    }
+  ],
+  "faqClosing": "More questions about a family move? Our FAQ page covers deposits, timing and the moving day itself.",
+  "closing": {
+    "h2": "Plan Your Newton Move With Us",
+    "body": "Tell us the size of the house and both addresses. You'll get the price worked out with you before the packing starts."
+  }
+}

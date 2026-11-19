@@ -1,58 +1,58 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-11-19",
   "meta": {
-    "description": "See every county and city Northline Appliance Repair serves from Austin. Same-day appliance repair, upfront pricing and a 90-day warranty in each service area."
+    "description": "Better Life Moving locations: Boston and Greater Boston, Raleigh and the Triangle, Charlotte, Chicago and Los Angeles, with long distance moves between states."
   },
   "hero": {
-    "h1": "Appliance Repair Service Area",
+    "h1": "Better Life Moving Locations",
     "overview": [
-      "Local technicians across Travis and Williamson counties, close enough for same-day visits."
+      "We started in Brighton, Boston, in 2022 and now run crews in five metro areas. Find your city to see how moves work there."
     ],
     "sellingPoints": [
-      "Same price in every listed city",
-      "No travel surcharge",
-      "Same-day visits in Austin"
+      "Five metros with our own crews",
+      "Interstate moves between any of them",
+      "One quote form for every location"
     ],
-    "ctaLabel": "Check Your Address"
+    "ctaLabel": "Get a Free Quote"
   },
   "locationsBlock": {
-    "h2": "Counties and Cities We Serve",
-    "intro": "Find your city to see local details and every service available there.",
-    "closing": "Don't see your city? Send us your address and we will confirm coverage."
+    "h2": "Cities We Serve",
+    "intro": "Boston is where most of our moves happen, and the Boston crews also cover the nearby cities below. The Triangle, Charlotte, Chicago and Los Angeles each have their own page.",
+    "closing": "Don't see your city? If it's on the way between two of our markets, or you're moving out of state, ask for a long distance quote."
   },
   "servicesBlock": {
-    "h2": "Services Available in Every Area",
-    "intro": "Every service below is offered in each city we cover."
+    "h2": "Moving Services in Every Market",
+    "intro": "The services below are what we offer. Your city page and your quote confirm what's available for your date."
   },
   "reviews": {
-    "heading": "Reviews From Across Our Service Area"
+    "heading": "Reviews From Customers Across Our Locations"
   },
-  "faqHeading": "Questions About Our Service Area",
+  "faqHeading": "Questions About Where We Move",
   "faq": [
     {
-      "q": "Do you charge extra for travel?",
-      "a": "No. The price is the same in every city listed on this page."
+      "q": "Do you move people between Boston and your other cities?",
+      "a": "Yes. Moves between our markets are long distance moves, quoted at a flat rate and carried by our own trucks."
     },
     {
-      "q": "How do I know if you cover my street?",
-      "a": "Send your address when you book and we confirm coverage before scheduling."
+      "q": "Is the hourly billing the same in every location?",
+      "a": "The method is the same everywhere: local moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time. Your quote gives the rate for your market."
     },
     {
-      "q": "Which city is your shop in?",
-      "a": "Our shop is in Austin, which is why Austin calls get the fastest same-day slots."
+      "q": "Where is Better Life Moving based?",
+      "a": "Our head office is at 20 Presentation Rd in Brighton, Boston. The company was founded there in 2022."
     },
     {
-      "q": "Do you plan to add more cities?",
-      "a": "When we add a city it appears on this page with its own city page."
+      "q": "Do you serve New York, Philadelphia or Washington DC?",
+      "a": "We move people from Boston to those cities as long distance moves. We don't run local crews based there."
     },
     {
-      "q": "Do you serve both Travis and Williamson counties?",
-      "a": "Yes. We cover cities in both counties from our Austin shop."
+      "q": "How do I check whether you cover my address?",
+      "a": "Put both addresses in the quote form. The manager who reviews it confirms coverage before anything is booked."
     }
   ],
-  "faqClosing": "More questions about coverage? Our FAQ page has the rest.",
+  "faqClosing": "More questions about booking or billing? The FAQ page covers them.",
   "closing": {
-    "h2": "Local Repair, Wherever You Are",
-    "body": "Austin, Pflugerville, Round Rock and Georgetown, served by one local team."
+    "h2": "Five Cities, One Way of Moving",
+    "body": "Same carrier, same billing method, same crews who wrap every piece before it leaves. Send your addresses and we'll price the move."
   }
 }
