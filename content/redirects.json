@@ -381,5 +381,115 @@
     "from": "/locations/movers-in-winthrop-ma/",
     "to": "/",
     "status": 301
+  },
+  {
+    "from": "/services/college-movers-boston/",
+    "to": "/college-movers/",
+    "status": 301
+  },
+  {
+    "from": "/services/military-moving-solutions-in-boston/",
+    "to": "/military-movers/",
+    "status": 301
+  },
+  {
+    "from": "/services/furniture-movers-in-boston-ma/",
+    "to": "/furniture-movers/",
+    "status": 301
+  },
+  {
+    "from": "/movers-in-raleigh-nc/",
+    "to": "/raleigh/movers/",
+    "status": 301
+  },
+  {
+    "from": "/articles/movers-boston-to-new-york/",
+    "to": "/boston-to-new-york-movers/",
+    "status": 301
+  },
+  {
+    "from": "/articles/movers-from-boston-to-washington-dc/",
+    "to": "/boston-to-washington-dc-movers/",
+    "status": 301
+  },
+  {
+    "from": "/blog/movers-from-boston-to-washington-dc/",
+    "to": "/boston-to-washington-dc-movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-durham-nc/",
+    "to": "/durham/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-apex-nc/",
+    "to": "/raleigh/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-angier-nc/",
+    "to": "/raleigh/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-raleigh-nc/local-moving/",
+    "to": "/raleigh/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-raleigh-nc/office-moving/",
+    "to": "/raleigh/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-charlotte-nc/piano-moving/",
+    "to": "/charlotte/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-charlotte-nc/college-moving/",
+    "to": "/charlotte/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-charlotte-nc/local-moving/",
+    "to": "/charlotte/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-charlotte-nc/military-moving/",
+    "to": "/charlotte/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-charlotte-nc/military-moving-services/",
+    "to": "/charlotte/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-charlotte-nc/residential-moving/",
+    "to": "/charlotte/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-cambridge-ma/college-moving-services/",
+    "to": "/cambridge/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-newton-ma/premium-white-glove-movers/",
+    "to": "/newton/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-newton-ma/safe-piano-moving-services/",
+    "to": "/newton/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-boston-ma/storage/",
+    "to": "/moving-and-storage/",
+    "status": 301
   }
 ]
