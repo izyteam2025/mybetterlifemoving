@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Wakefield movers for offices, shops and homes, using our own crews and trucks. Business moves planned around your closing hours. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Wakefield offices and shops move with us too, and planning a business move starts with one question: when can you close the doors?",
+      "We fit the crew and the truck around those hours, then put desks, files and fixtures back where your team expects to find them."
+    ],
+    "sellingPoints": [
+      "Office and retail moves",
+      "Scheduled around business hours",
+      "Home moves on the same crews"
+    ],
+    "ctaLabel": "Get a Wakefield Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Commercial and Home Moving in Wakefield",
+    "intro": "Our office and commercial service covers desks, filing cabinets, shelving and the boxes that go with them. Households in town get the same crews for local, long distance and storage jobs. If the business is relocating and the owner's home is moving too, both can sit on one plan."
+  },
+  "whyChoose": {
+    "h2": "Why Wakefield Businesses Hire Better Life Moving",
+    "cards": [
+      {
+        "title": "Planned Around Closing Time",
+        "text": "Give us the hours the business can be shut, and the move is booked inside them so staff are not standing around waiting for their desks."
+      },
+      {
+        "title": "Office Furniture Wrapped",
+        "text": "Desks, monitors and cabinets get blankets and shrink wrap before they leave the building, then straps once they are on the truck. Label the boxes by department and the crew unloads them that way."
+      },
+      {
+        "title": "Landlord Paperwork Sorted Early",
+        "text": "If the property manager needs a Certificate of Insurance, mention it with your quote request so it is ready before moving day."
+      },
+      {
+        "title": "Our Own Crews Do the Work",
+        "text": "We run our own movers and trucks, so the company you book for the office is the company that turns up at the loading door."
+      }
+    ]
+  },
+  "faqHeading": "Wakefield Office Move Questions",
+  "faq": [
+    {
+      "q": "How do you schedule a Wakefield office move?",
+      "a": "Around the hours your business can close. Share those hours with the quote request and the manager builds the crew and truck plan to fit inside them."
+    },
+    {
+      "q": "Is a Wakefield office move billed by the hour?",
+      "a": "Yes, a local office move is billed like any local job. Local moves are billed hourly, with travel time from our yard added, and wrap and truck costs are already in the rate."
+    },
+    {
+      "q": "Our Wakefield landlord wants a Certificate of Insurance. What do we do?",
+      "a": "Mention it when you request a quote. The manager arranges it ahead of moving day so the building lets the crew in without a delay at the door."
+    },
+    {
+      "q": "Do you take apart office furniture for a Wakefield move?",
+      "a": "Yes. The crew disassembles desks and shelving that will not fit through doors whole and rebuilds them at the new space, so your team can sit down and work the next morning."
+    },
+    {
+      "q": "Can you also move my house or apartment in Wakefield?",
+      "a": "Yes. Apartments, condos and houses move on the same crews, billed by the hour for local moves. Packing and storage can be added to a home move the same way."
+    }
+  ],
+  "faqClosing": "Need detail on deposits or how payment works? The FAQ page covers both.",
+  "closing": {
+    "h2": "Get a Quote for Your Wakefield Business Move",
+    "body": "Send the current address, the new one and the hours you can close. Add a rough count of desks and cabinets if you have it. A manager comes back with a crew plan and an hourly quote for the office."
+  }
+}

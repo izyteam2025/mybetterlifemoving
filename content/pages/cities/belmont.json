@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Belmont movers who pack as much or as little as you want: the kitchen, fragile pieces or the whole home. Own crews, hourly local billing. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Packing is where most Belmont moves stall. Furniture is the part people plan for, while the kitchen cabinets, the glassware and the bookshelves are what keep them up the night before.",
+      "Hand us as much of it as you like. Our crew packs, then loads the same boxes onto our own truck."
+    ],
+    "sellingPoints": [
+      "Full or partial packing",
+      "Kitchen and fragile packing",
+      "Packed and moved by one crew"
+    ],
+    "ctaLabel": "Get a Belmont Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Packing and Moving Services in Belmont",
+    "intro": "Packing can be added to any local or long distance move in Belmont, for the whole house or a few rooms. Storage and unpacking are available as well, and the crew brings the wrap and tape for the furniture. Some people book packing alone for the hard rooms and do the closets themselves; the list below shows every piece you can combine."
+  },
+  "whyChoose": {
+    "h2": "Reasons to Let Us Pack Your Belmont Home",
+    "cards": [
+      {
+        "title": "Kitchen and Glassware",
+        "text": "Dishes and glasses are the slowest thing in a house to pack well. Our crew can take the kitchen alone while you deal with everything else, and the boxes are marked so the plates do not end up under the books."
+      },
+      {
+        "title": "Fragile Pieces Flagged Early",
+        "text": "Point out the lamps, mirrors and framed art at the quote stage, and they get packed apart from the everyday boxes."
+      },
+      {
+        "title": "No Truck Waiting on Boxes",
+        "text": "When the packing is ours, the truck is not sitting idle while the last closet gets finished, and you are not paying for that idle time."
+      },
+      {
+        "title": "One Crew, Start to Finish",
+        "text": "The people who pack your Belmont rooms work for the company that moves them, so no instructions get lost between two outfits."
+      }
+    ]
+  },
+  "faqHeading": "Belmont Packing Questions",
+  "faq": [
+    {
+      "q": "Can you pack only the kitchen in my Belmont home?",
+      "a": "Yes. Partial packing is common, and the kitchen is the room most people hand over. The rest of the house stays yours to pack."
+    },
+    {
+      "q": "Are moving boxes part of the hourly rate for a Belmont move?",
+      "a": "No, packing supplies are priced apart from the hourly rate. Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate."
+    },
+    {
+      "q": "Do you unpack in the new home after a Belmont move?",
+      "a": "Yes, unpacking can be booked with the move. Tell the manager which rooms you want emptied and set up, and the crew starts there."
+    },
+    {
+      "q": "How is furniture protected on a Belmont move?",
+      "a": "Every piece is wrapped in blankets and shrink wrap before it leaves the house, and straps hold the load still on the truck. Drawers and loose parts are secured before the carry."
+    },
+    {
+      "q": "Can you pack a Belmont home that is moving out of state?",
+      "a": "Yes. Packing goes with long distance moves too, and long distance moves are quoted at a flat rate. The packing is priced into that same quote."
+    }
+  ],
+  "faqClosing": "Questions about deposits or payment are covered on the FAQ page.",
+  "closing": {
+    "h2": "Get Packing and Moving Priced for Belmont",
+    "body": "Tell us how much you would like packed, the home size and both addresses. A manager will quote the packing and the move together. A short list of fragile or valuable items helps the crew bring what it needs for them."
+  }
+}

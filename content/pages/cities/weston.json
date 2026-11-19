@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Weston movers for families relocating from another state: flat-rate long distance quotes, white glove care for art and storage on arrival. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Moving to Weston from another state often means juggling two calendars, the truck's and the closing's.",
+      "We carry the load on our own truck at a flat price, hold it in storage if the house is not ready and give framed art and fragile pieces white glove handling."
+    ],
+    "sellingPoints": [
+      "Inbound moves from other states",
+      "White glove care for art",
+      "Storage until the keys are yours"
+    ],
+    "ctaLabel": "Get a Weston Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Relocation Services for Families Moving to Weston",
+    "intro": "Long distance moves into Weston, white glove handling, storage and packing at your old home are the services that matter most here. Once you have settled in, the same crews handle local moves on our hourly rate. Every option is on the list below."
+  },
+  "whyChoose": {
+    "h2": "Why Families Relocating to Weston Book Us",
+    "cards": [
+      {
+        "title": "A Flat Price for the Drive In",
+        "text": "Long distance moves are quoted at a flat rate, so the hours on the road do not change the number you agreed to."
+      },
+      {
+        "title": "White Glove for Art",
+        "text": "Framed art, sculpture and fragile collectibles get individual wrapping and careful placement at the new house. Tell us which walls the larger pieces are going to."
+      },
+      {
+        "title": "Storage on Arrival",
+        "text": "If the closing slips, your things wait in our storage and come to the house on the day you choose. Storage is priced by the cubic feet your items take up."
+      },
+      {
+        "title": "Crews at Both Ends",
+        "text": "Coming from North Carolina, Chicago or Los Angeles? We run crews there too, so the move starts and ends with the same company."
+      }
+    ]
+  },
+  "faqHeading": "Questions About Relocating to Weston",
+  "faq": [
+    {
+      "q": "Can you move us to Weston from another state?",
+      "a": "Yes. We are an FMCSA-registered carrier, USDOT 3866930, MC 1414489, and long distance moves are quoted at a flat rate."
+    },
+    {
+      "q": "What happens if our Weston house is not ready when the truck arrives?",
+      "a": "Your things go into storage and are delivered on the date you set. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "Do you offer white glove moving for art in Weston?",
+      "a": "Yes. White glove handling covers individual wrapping and careful placement of art and fragile pieces. List them when you ask for a quote so they are planned apart from the boxes."
+    },
+    {
+      "q": "Can you pack our old home before the move to Weston?",
+      "a": "Yes, if the old home is in an area we serve. Packing can be booked together with the long distance move, and it is priced into the same flat quote."
+    },
+    {
+      "q": "Do you handle local moves once we are settled in Weston?",
+      "a": "Yes. Local moves are billed hourly, with travel time from our yard added, and our crews come from the Brighton head office."
+    }
+  ],
+  "faqClosing": "Deposits, payment and other booking terms are on the FAQ page.",
+  "closing": {
+    "h2": "Price Your Relocation to Weston",
+    "body": "Tell us where you are moving from, the home size and the target date. A manager reviews the inventory and sends a flat quote for the move. If the closing date is still moving, give us your best estimate and we can plan storage around it."
+  }
+}

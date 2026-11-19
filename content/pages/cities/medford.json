@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Medford movers for moves that can't wait: short-notice jobs when a crew is free, every item still wrapped, crew size set first. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Some Medford moves can't wait for a convenient date. A pipe bursts, a lease dispute ends badly, or a closing moves up by two weeks.",
+      "We take short-notice moves whenever a crew is free, and we tell you plainly what's open when you call."
+    ],
+    "sellingPoints": [
+      "Short-notice moves when a crew is available",
+      "Crew size set after we hear about access",
+      "Packing for the rooms you can't get to"
+    ],
+    "ctaLabel": "Get a Medford Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Medford Moves on a Tight Timeline",
+    "intro": "Short notice doesn't change how the job is done. Every item still gets wrapped, and a manager sets the crew size after asking about stairs, access and how much you're moving. Any of the services below can be booked on a short timeline if the schedule has room. Tell us what's driving the deadline when you call. Knowing whether it's a closing, a lease or a repair helps the manager decide what can wait and what has to go first."
+  },
+  "whyChoose": {
+    "h2": "What to Expect From a Last-Minute Medford Move",
+    "cards": [
+      {
+        "title": "A Clear Answer on Availability",
+        "text": "We don't promise a date we can't cover. Call, and a manager checks the schedule and tells you what's possible."
+      },
+      {
+        "title": "The Crew Fits the Job",
+        "text": "Stairs, elevators and the walk from the truck all change how many movers you need. A manager asks first, then books the crew."
+      },
+      {
+        "title": "Packing Help When Time Runs Out",
+        "text": "If you can't finish packing, the crew can pack the rooms you haven't reached. Tell us which ones when you call."
+      },
+      {
+        "title": "Somewhere to Hold Your Things",
+        "text": "A rushed move often has a gap at the other end. We can hold your things until you're able to get in."
+      }
+    ]
+  },
+  "faqHeading": "Short-Notice Questions From Medford",
+  "faq": [
+    {
+      "q": "Can you move me out of Medford this week?",
+      "a": "Often, if a crew is free. Call as soon as you know your date, because we can't hold a slot or promise a same-day arrival until we check."
+    },
+    {
+      "q": "What do you need from me to quote a rushed Medford move?",
+      "a": "Your date, the size of the home, both addresses and a short note on stairs and access. A manager uses that to set the crew size before you book. Photos of the larger furniture help if you have a minute to take them."
+    },
+    {
+      "q": "How are local Medford moves charged?",
+      "a": "Local moves are billed hourly, with travel time from our yard added, and a tight timeline doesn't change that. Wrap, tape and the truck are part of the rate."
+    },
+    {
+      "q": "Can the crew finish my packing on moving day?",
+      "a": "Yes, if you tell us when you book. Packing can cover the whole home or only the rooms you haven't done."
+    },
+    {
+      "q": "My new place isn't ready yet. What are my options after leaving Medford?",
+      "a": "We can store your belongings and deliver once you have access. Storage is priced by the cubic feet your items take up."
+    }
+  ],
+  "faqClosing": "Short on time but still have questions? The FAQ page answers the billing and booking basics.",
+  "closing": {
+    "h2": "Call About Your Medford Move Date",
+    "body": "Tell us what's happening and the day you need to be out. We'll say whether we can take it, how many movers you'd need and how the hours are counted. If we can't cover your date, we'll say so on the call so you can keep looking."
+  }
+}

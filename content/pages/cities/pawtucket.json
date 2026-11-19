@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Pawtucket movers for apartments and walk-ups: narrow stairways, tight entries and truck parking planned before move day. Hourly billing. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Apartment moves in Pawtucket often come down to access: a narrow stairway, a tight front door or nowhere obvious to put the truck. We sort those out before move day.",
+      "The crew shows up already knowing the route out of your place."
+    ],
+    "sellingPoints": [
+      "Walk-ups and narrow stairways",
+      "Truck parking planned ahead",
+      "Plans for bad-weather move days"
+    ],
+    "ctaLabel": "Get a Pawtucket Apartment Quote"
+  },
+  "servicesBlock": {
+    "h2": "Apartment Moving Services Across Pawtucket",
+    "intro": "Apartment moves are the main subject here, from studios to larger units on upper floors. Packing, furniture-only jobs and storage between leases can be added, and long distance moves are available if you're leaving the state. If the building has a back entrance or a freight door, tell us, because it can make the carry much shorter than the front stairs."
+  },
+  "whyChoose": {
+    "h2": "Reasons Pawtucket Renters Book Us for Moving Day",
+    "cards": [
+      {
+        "title": "Access Checked First",
+        "text": "We ask about stairs, doorways and turns when we quote, so large pieces are planned before anyone lifts them."
+      },
+      {
+        "title": "A Spot for the Truck",
+        "text": "Where the truck parks affects how long every carry takes. Tell us what's allowed on your street and we'll plan around it."
+      },
+      {
+        "title": "Wet-Day Wrapping",
+        "text": "On a rainy or snowy day, furniture is wrapped in blankets and shrink wrap before it goes out the door, which keeps water off fabric and wood."
+      },
+      {
+        "title": "Billing You Can Read",
+        "text": "Local moves are billed hourly, with travel time from our yard added. The quote spells out both parts."
+      }
+    ]
+  },
+  "faqHeading": "Pawtucket Apartment Moving Questions",
+  "faq": [
+    {
+      "q": "Where will the truck park outside my Pawtucket apartment?",
+      "a": "That depends on your street. If your building or the city requires a reserved space, sort it out before the date and tell us where we can stop."
+    },
+    {
+      "q": "Can your crew get a couch up a narrow Pawtucket stairway?",
+      "a": "Often, if it's planned for. Send photos or measurements of the stairway and the couch, and the crew will decide whether to remove legs, take off a door or carry it another way."
+    },
+    {
+      "q": "What happens if it rains on moving day?",
+      "a": "Wrapped furniture handles light rain well. If conditions look unsafe, the manager will talk through the date with you."
+    },
+    {
+      "q": "How is a Pawtucket apartment move billed?",
+      "a": "By the hour. Local moves are billed hourly, with travel time from our yard added, and blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate."
+    },
+    {
+      "q": "My new Pawtucket lease starts a week after the old one ends. Can you help?",
+      "a": "Yes. We move your things out, keep them in storage for the gap and deliver when the new lease starts. Storage is priced by the cubic feet your items take up."
+    }
+  ],
+  "faqClosing": "More answers on deposits, payment and booking are on our FAQ page.",
+  "closing": {
+    "h2": "Plan Your Pawtucket Apartment Move",
+    "body": "Send the floors, the stairways and where a truck can stop at both addresses. We'll plan the crew and give you the price."
+  }
+}

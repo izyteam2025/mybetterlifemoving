@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Narragansett movers with storage built into the move: pickup, short or long term storage and delivery when your next home is ready. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Moving out of a Narragansett home before the next one is ready? We can pick everything up, keep it in storage and bring it back on the day you get the keys.",
+      "One company handles all three steps, so there is no second mover and no rented truck in the middle."
+    ],
+    "sellingPoints": [
+      "Pickup, storage and delivery in one plan",
+      "Short or long term storage",
+      "Priced by the space your things fill"
+    ],
+    "ctaLabel": "Plan My Narragansett Move"
+  },
+  "servicesBlock": {
+    "h2": "Narragansett Moves With Storage in the Middle",
+    "intro": "When dates don't line up, storage is usually what fills the gap. Beyond that, we handle residential moves, packing, furniture-only jobs and long distance moves to other states. Mix and match from the list below, and the manager will fold it all into one plan with one schedule."
+  },
+  "whyChoose": {
+    "h2": "Reasons to Let One Crew Hold Your Narragansett Things",
+    "cards": [
+      {
+        "title": "Gap Between Leases",
+        "text": "If one lease ends before the next begins, the crew loads on move-out day and holds your things until the new place opens up."
+      },
+      {
+        "title": "Closing Pushed Back",
+        "text": "Buyers and sellers both deal with dates that slip. Your belongings wait in storage while the paperwork catches up."
+      },
+      {
+        "title": "Renovation Under Way",
+        "text": "Clearing rooms for a renovation? We take what's in the way and deliver it back once the work is done."
+      },
+      {
+        "title": "Pay for the Space",
+        "text": "Storage is priced by the cubic feet your items take up, so holding a few rooms of furniture costs less than holding a full house."
+      }
+    ]
+  },
+  "faqHeading": "Storage and Moving Questions From Narragansett",
+  "faq": [
+    {
+      "q": "Can you hold everything from my Narragansett home until the next place is ready?",
+      "a": "Yes. The crew picks up, keeps your things in storage and delivers on the date you choose, short term or long term."
+    },
+    {
+      "q": "How much does storage cost with a Narragansett move?",
+      "a": "It depends on volume. Storage is priced by the cubic feet your items take up, and your quote lists it next to the move itself."
+    },
+    {
+      "q": "Do I need to rent a truck to get things out of storage?",
+      "a": "No. Our crew brings your belongings out of storage on our own truck and carries them into the new home."
+    },
+    {
+      "q": "What should I tell you when I ask for a quote that includes storage?",
+      "a": "Your move-out date, your best guess at the move-in date and roughly what you own. If the second date is still uncertain, say so and we'll plan around it."
+    },
+    {
+      "q": "Could my things go from storage to another state later?",
+      "a": "Yes. A long distance leg can follow the storage period. Long distance moves are quoted at a flat rate, worked out from your items and the distance."
+    }
+  ],
+  "faqClosing": "More on storage terms and booking is on our FAQ page.",
+  "closing": {
+    "h2": "Line Up Your Narragansett Move and Storage",
+    "body": "Send the dates you know and the ones you don't yet. We'll build a plan that covers pickup, storage and delivery, with a price for each part."
+  }
+}

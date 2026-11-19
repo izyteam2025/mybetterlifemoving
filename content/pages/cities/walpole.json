@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Walpole furniture movers for single pieces and full rooms: wrapped, carried, taken apart and rebuilt by our own crews. 2-hour minimum. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "A new sectional, a dining table from a relative, a bed that will not go up the stairs in one piece: plenty of Walpole jobs are about furniture rather than a whole household.",
+      "Our furniture movers wrap it, take it apart if it has to come apart and put it back together where it is going."
+    ],
+    "sellingPoints": [
+      "Single pieces and full rooms",
+      "Beds and tables taken apart and rebuilt",
+      "Wrapped before every carry"
+    ],
+    "ctaLabel": "Get a Walpole Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Single Pieces to Full Households in Walpole",
+    "intro": "Furniture-only jobs sit next to full local moves, packing and storage on the list below. A small job can grow into a bigger one if you need it to, and a heavy piece like a piano has its own service. Furniture-only moves are billed by the hour like any local move, so you only pay for the pieces on your list and the drive to reach them."
+  },
+  "whyChoose": {
+    "h2": "Why Walpole Customers Book Our Furniture Movers",
+    "cards": [
+      {
+        "title": "Taken Apart, Put Back",
+        "text": "Bed frames, tables and desks that will not fit through a doorway are disassembled for the carry and reassembled at the other end."
+      },
+      {
+        "title": "Wrapped and Strapped",
+        "text": "Each piece goes into blankets and shrink wrap first, and straps keep it from shifting in the truck. Glass tops and mirrors get wrapped on their own."
+      },
+      {
+        "title": "One or Two Pieces Is Fine",
+        "text": "A single armchair is still a job for us. It falls under a 2-hour minimum that includes travel time."
+      },
+      {
+        "title": "Store and Seller Pickups",
+        "text": "Bought something from a store or a private seller? Send the pickup address and the crew collects it for you, then carries it to the room you want."
+      }
+    ]
+  },
+  "faqHeading": "Questions About Moving Furniture in Walpole",
+  "faq": [
+    {
+      "q": "Can you deliver a sofa I bought to my Walpole home?",
+      "a": "Yes. Give us the pickup address and yours, and the crew collects it, wraps it and carries it in. Measure the doorways first if the piece is large."
+    },
+    {
+      "q": "Do you take beds apart in Walpole?",
+      "a": "Yes. The crew disassembles beds and other furniture that need it and puts them together in the new room. Bolts and brackets stay with the piece they came from."
+    },
+    {
+      "q": "How is a furniture-only move in Walpole billed?",
+      "a": "Like any local job. Local moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time."
+    },
+    {
+      "q": "Can you get heavy furniture up or down stairs in Walpole?",
+      "a": "Yes. Describe the stairs when you ask for a quote so the manager sends enough movers and the equipment for them."
+    },
+    {
+      "q": "Can a Walpole furniture job include a few boxes?",
+      "a": "Yes. Add the boxes to your list when you request a quote and they ride along on the same truck."
+    }
+  ],
+  "faqClosing": "For booking terms and payment, the FAQ page has the details.",
+  "closing": {
+    "h2": "Get Your Walpole Furniture Moved",
+    "body": "List the pieces, the pickup and drop-off addresses and a date. Photos of anything oversized help, along with a note about stairs or tight turns at either end. A manager sends back an hourly quote."
+  }
+}

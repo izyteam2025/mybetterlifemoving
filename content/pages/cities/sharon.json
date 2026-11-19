@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Sharon movers with storage for the gap between selling and buying, or during a renovation. Pickup, storage and delivery from one company. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Selling a Sharon house and buying the next one rarely line up to the day. A renovation can push the dates further apart.",
+      "We pick up your things, keep them in storage and deliver them when the new place is ready, all with our own crews."
+    ],
+    "sellingPoints": [
+      "Storage between closings",
+      "Pickup and delivery by our crews",
+      "Priced by the space you use"
+    ],
+    "ctaLabel": "Get a Sharon Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Moving and Storage for Sharon Homeowners",
+    "intro": "Storage pairs with a local or long distance move, and packing can go along with it. If you are staging the house for sale, moving part of the furniture out early is a storage job too. Each service is listed below if you need more than one."
+  },
+  "whyChoose": {
+    "h2": "Why Sharon Sellers Use Our Storage",
+    "cards": [
+      {
+        "title": "No Second Company",
+        "text": "The crew that loads the house also takes it to storage and brings it back later, so you are not renting a truck or hiring another mover."
+      },
+      {
+        "title": "Priced by Volume",
+        "text": "Storage is priced by the cubic feet your items take up. A half-empty unit you never fill is not part of the deal."
+      },
+      {
+        "title": "Short or Long Stays",
+        "text": "Short-term and long-term storage are both available, for a gap of two weeks or one of several months. If the end date moves, the delivery moves with it."
+      },
+      {
+        "title": "Renovation Gaps Covered",
+        "text": "Doing work on the new house before you move in? Storage keeps the furniture out of the way until the contractors are finished."
+      }
+    ]
+  },
+  "faqHeading": "Sharon Storage and Moving FAQ",
+  "faq": [
+    {
+      "q": "Can you store our Sharon furniture until the new house closes?",
+      "a": "Yes. We pick up, store and deliver once you have the keys, so a delayed closing does not leave your furniture with nowhere to go."
+    },
+    {
+      "q": "How is storage priced for a Sharon move?",
+      "a": "By volume. The manager adds storage to your quote once you share your dates, based on the space your belongings fill. The move itself is quoted alongside it."
+    },
+    {
+      "q": "Do I need my own truck to get things into storage from Sharon?",
+      "a": "No. Our crews load in Sharon, take everything to storage and bring it back on the date you choose. Every piece is wrapped before it goes onto the truck."
+    },
+    {
+      "q": "Can storage work with a long distance move from Sharon?",
+      "a": "Yes. Your things can wait in storage before the long trip, and long distance moves are quoted at a flat rate."
+    },
+    {
+      "q": "What should I tell you about my Sharon move dates?",
+      "a": "The move-out date, the earliest day you could take delivery and any renovation timeline. Those set how long storage runs, and you can push the delivery date if the closing slips. A rough range is enough to start the quote."
+    }
+  ],
+  "faqClosing": "Deposit and payment questions are answered on the FAQ page.",
+  "closing": {
+    "h2": "Plan Your Sharon Move Around the Closing Dates",
+    "body": "Share your move-out date and your best guess for the new home. A manager prices the move and the storage together. If you are staging the house for sale first, mention the pieces that should leave early."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Malden movers you can check before you book: own crews and trucks, public USDOT and MC numbers, hourly local billing with wrap included. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "If you're comparing movers for a Malden apartment or house, ask each one the same thing: who actually shows up? With us it's our own crew in our own truck, sent from the head office in Brighton, Boston.",
+      "Our USDOT and MC numbers are public, and you can look them up before you book."
+    ],
+    "sellingPoints": [
+      "Own crews and trucks, no broker in between",
+      "Billing explained on the first call",
+      "Wrap, tape and truck costs in the hourly rate"
+    ],
+    "ctaLabel": "Get a Malden Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Malden Moving Services, Apartment to House",
+    "intro": "We move Malden studios, multi-bedroom apartments and full houses, plus offices, pianos and single pieces of furniture. Put two or three services on one quote if your move needs them, for example packing plus a few weeks of storage. A manager reviews the details you send, explains the booking terms and tells you how the hours are likely to add up. If something in the quote isn't clear, ask before you agree to it."
+  },
+  "whyChoose": {
+    "h2": "What to Check Before Hiring Malden Movers",
+    "cards": [
+      {
+        "title": "Look Up the Numbers",
+        "text": "Search USDOT 3866930, MC 1414489 on the FMCSA site. A real carrier's record appears under its own business name."
+      },
+      {
+        "title": "Ask Who Does the Lifting",
+        "text": "A broker sells your move to another company. Better Life Moving is the carrier, so the quote and the crew come from one place."
+      },
+      {
+        "title": "Ask What the Hourly Rate Covers",
+        "text": "Ours spells it out: blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate. Travel time from our yard is added on top."
+      },
+      {
+        "title": "Ask About the Minimum",
+        "text": "Small apartment moves have a 2-hour minimum that includes travel time. You'll hear that number before you book, not on moving day."
+      }
+    ]
+  },
+  "faqHeading": "Malden Customers Ask Us",
+  "faq": [
+    {
+      "q": "Will a Better Life Moving crew do my Malden move, or a subcontractor?",
+      "a": "Our own crew does it. Better Life Moving is a registered carrier with its own trucks, and we don't hand Malden jobs to other companies."
+    },
+    {
+      "q": "How do I verify a mover before booking in Malden?",
+      "a": "Search the company's USDOT number on the FMCSA website and confirm the name matches the one on your quote. For us, that's USDOT 3866930, MC 1414489."
+    },
+    {
+      "q": "What does a Malden apartment move cost?",
+      "a": "Local moves are billed hourly, with travel time from our yard added. The size of the apartment, the stairs and how far the truck parks from your door decide most of the hours."
+    },
+    {
+      "q": "Can I get just a couch and a bed moved in Malden?",
+      "a": "Yes. Furniture-only moves are welcome, and a job that small falls under the 2-hour minimum."
+    },
+    {
+      "q": "Can your crew take my Malden household to another state?",
+      "a": "Yes. That becomes a long distance move, and long distance moves are quoted at a flat rate based on what you're moving and where it's going."
+    }
+  ],
+  "faqClosing": "Want more detail before you compare quotes? The FAQ page lays out billing, booking and the moving day.",
+  "closing": {
+    "h2": "Compare Us on Your Malden Move",
+    "body": "Send your date, the size of the place and both addresses. You'll get a quote with the billing spelled out, and you can check our federal record before you say yes. If another company quoted you, bring the numbers and we'll walk through how ours compare."
+  }
+}

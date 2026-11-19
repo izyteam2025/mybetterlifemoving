@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Ashland movers for apartment-to-house moves, sent from our Brighton yard. Hourly local billing, with drive time explained before you book. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "A lot of Ashland moves start somewhere else: a Boston apartment packed into one truck and unloaded into a house with a garage, a basement and more rooms than furniture.",
+      "Our own crews drive out from Brighton, and the manager explains how that drive is counted before you book anything."
+    ],
+    "sellingPoints": [
+      "Apartment-to-house moves",
+      "Drive time explained before booking",
+      "Own crews and trucks from Brighton"
+    ],
+    "ctaLabel": "Get an Ashland Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Moving Help for New Ashland Homeowners",
+    "intro": "Most Ashland jobs we price are local hourly moves. Some add packing for the kitchen, and some need a few weeks of storage while a closing settles. A first house often means a first piano or a sectional bought for the bigger living room, and furniture-only jobs like that are on the list too. Pick the pieces your move needs and skip the rest."
+  },
+  "whyChoose": {
+    "h2": "Why Ashland Buyers Book Our Crews",
+    "cards": [
+      {
+        "title": "Travel Time Spelled Out",
+        "text": "Local moves are billed hourly, with travel time from our yard added. Before you commit, the manager shows you how that applies to an Ashland address, so the drive is not a surprise on the invoice."
+      },
+      {
+        "title": "Basements and Garages Planned For",
+        "text": "Tell us what belongs in the basement or the garage, and the crew carries it there instead of stacking it in the front hall for you to deal with later."
+      },
+      {
+        "title": "Materials Already in the Rate",
+        "text": "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate. You are not buying wrap or renting a van on the side."
+      },
+      {
+        "title": "A Carrier With Its Own Trucks",
+        "text": "We are an FMCSA-registered carrier, USDOT 3866930, MC 1414489. The truck that loads your apartment is the one that backs up to the new house."
+      }
+    ]
+  },
+  "faqHeading": "Ashland Move Questions, Answered",
+  "faq": [
+    {
+      "q": "How is travel time counted on an Ashland move?",
+      "a": "Travel time is the drive from our yard to your first address plus the return from your last one, billed at your hourly rate. It sits on top of the hours spent loading, driving between addresses and unloading."
+    },
+    {
+      "q": "Can you move my Boston apartment into an Ashland house?",
+      "a": "Yes. That counts as a local move billed by the hour, and the crew sets each piece down in the room you name at the house. Walk-up stairs or an elevator booking at the apartment end should go on the quote request."
+    },
+    {
+      "q": "What if my Ashland job is only a few pieces?",
+      "a": "Small jobs fall under a 2-hour minimum that includes travel time. If loading takes one hour and the drive takes another, the minimum is covered."
+    },
+    {
+      "q": "Can you store our things until the Ashland closing happens?",
+      "a": "Yes. The crew picks everything up, keeps it in storage and delivers once you have the keys. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "Will you pack our apartment before the move to Ashland?",
+      "a": "Yes. We can pack the whole place or only the kitchen and the breakables, and the same crew loads those boxes onto the truck."
+    }
+  ],
+  "faqClosing": "Got a question about your Ashland house that isn't here? Our FAQ page goes through deposits, payment and booking.",
+  "closing": {
+    "h2": "Price Your Move to Ashland",
+    "body": "Send the move date, the size of your current home and both addresses. A manager reviews them and comes back with an hourly quote that shows how the drive is counted. If storage or packing belongs in the plan, say so and it goes into the same quote."
+  }
+}

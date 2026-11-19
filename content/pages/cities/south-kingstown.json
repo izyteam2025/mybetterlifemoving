@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "South Kingstown movers for students and young renters: dorm and apartment moves, summer storage and small loads. Hourly billing, our own crew. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Student moves in South Kingstown tend to be small, tightly timed and tied to a lease or a semester. We plan them that way.",
+      "Usually that means a couple of movers, one truck, and storage over the break if you need it."
+    ],
+    "sellingPoints": [
+      "Dorm and apartment moves",
+      "Storage between semesters",
+      "Small loads billed by the hour"
+    ],
+    "ctaLabel": "Get a South Kingstown Student Quote"
+  },
+  "servicesBlock": {
+    "h2": "Student and Renter Moves in South Kingstown",
+    "intro": "College moves are the core of this page: a room's worth of boxes, a desk, maybe a bed frame. Packing help, storage between semesters and longer moves home to another state are on the list as well, and so is a full apartment move for graduate students or staff."
+  },
+  "whyChoose": {
+    "h2": "Why Students in South Kingstown Move With Better Life Moving",
+    "cards": [
+      {
+        "title": "Built for Small Loads",
+        "text": "A single room or a studio is a normal job for us. The crew size is matched to how much you actually own."
+      },
+      {
+        "title": "Storage Between Terms",
+        "text": "Leave for the summer without hauling everything home. We pick up, store your things and bring them back for the next lease."
+      },
+      {
+        "title": "Billing a Student Budget Can Plan For",
+        "text": "Local moves are billed hourly, with travel time from our yard added. There's a 2-hour minimum that includes travel time."
+      },
+      {
+        "title": "Parents Can Book It",
+        "text": "If you're arranging the move for your son or daughter, the quote can come to you while the student meets the crew on the day."
+      }
+    ]
+  },
+  "faqHeading": "South Kingstown Student Moving FAQ",
+  "faq": [
+    {
+      "q": "Is a single dorm room too small a job for your crew?",
+      "a": "No. A dorm room or a shared apartment is a normal job, billed by the hour with a 2-hour minimum that includes travel time."
+    },
+    {
+      "q": "What happens to my furniture between the spring move-out and the fall lease?",
+      "a": "It can go into storage. The crew picks it up at move-out, holds it, and delivers to the new address when your lease starts. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "Can my parents book and pay for the move?",
+      "a": "Yes, anyone can request the quote. Payment methods and timing are confirmed at booking, so tell the manager who will be paying."
+    },
+    {
+      "q": "How far ahead should students book a South Kingstown move?",
+      "a": "As soon as your lease dates are set. The earlier a crew is reserved, the more choice of start times you have."
+    },
+    {
+      "q": "Can you take a graduate's things from South Kingstown to another state?",
+      "a": "Yes. That's a long distance move, and long distance moves are quoted at a flat rate based on your items and the distance."
+    }
+  ],
+  "faqClosing": "Parents and students with other questions can find more on our FAQ page.",
+  "closing": {
+    "h2": "Reserve a Crew for Your South Kingstown Move",
+    "body": "Send your lease dates, both addresses and what's in the room. We'll quote the move, and storage too if there's a gap."
+  }
+}

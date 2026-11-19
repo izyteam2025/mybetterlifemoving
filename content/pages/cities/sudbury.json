@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Sudbury movers for whole houses: packing, loading and long distance moves on our own trucks. Hourly local rates, flat-rate interstate quotes. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Moving a whole Sudbury house is mostly a packing job with a truck at the end. Closets, the attic and a garage full of tools add up long before the first box is carried out.",
+      "We send our own packers and movers from Brighton. If the house is heading out of state, the move is priced as one flat quote."
+    ],
+    "sellingPoints": [
+      "Full-house packing by our crew",
+      "A flat-rate figure if you leave Massachusetts",
+      "One company from packing to delivery"
+    ],
+    "ctaLabel": "Get a Sudbury Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "From Packing Day to Delivery in Sudbury",
+    "intro": "Packing, the move itself, storage and unpacking at the new place can all come from us. Book them together or one at a time. Larger houses tend to hold the pieces that need extra thought, like a piano or a glass-front cabinet, so those services are on the list as well."
+  },
+  "whyChoose": {
+    "h2": "What a Sudbury Household Gets From Us",
+    "cards": [
+      {
+        "title": "Packing Split Your Way",
+        "text": "Tell us which rooms you want packed and which you plan to do yourself. Our crew takes the rest, so the truck is never waiting on a half-finished closet."
+      },
+      {
+        "title": "One Number for Interstate Moves",
+        "text": "An out-of-state quote is built from how much you are moving, how far it is going and the truck and labor involved. You know the price of the trip before the first box is taped."
+      },
+      {
+        "title": "Federal Authority on Record",
+        "text": "Any move leaving Massachusetts needs a carrier with operating authority. Ours is USDOT 3866930, MC 1414489, listed publicly on the FMCSA site."
+      },
+      {
+        "title": "No Hand-Off Midway",
+        "text": "The people packing your Sudbury house work for the company that drives the truck, so your belongings never pass to a subcontractor along the way."
+      }
+    ]
+  },
+  "faqHeading": "Sudbury House Move FAQ",
+  "faq": [
+    {
+      "q": "Can your crew pack our entire Sudbury house?",
+      "a": "Yes. We pack whole homes or only the rooms you choose, then load those same boxes onto our truck. Give us the size of the house when you ask for a quote."
+    },
+    {
+      "q": "How is a move from Sudbury to another state priced?",
+      "a": "Long distance moves are quoted at a flat rate. The manager works it out from your inventory, the distance and the truck and labor needed, and the hourly clock plays no part."
+    },
+    {
+      "q": "Do you unpack at the new house after a Sudbury move?",
+      "a": "Yes, unpacking can be added to the booking. The crew empties boxes into the rooms you point to, which saves the first week in the new place from being spent on cardboard."
+    },
+    {
+      "q": "What does the hourly rate cover on a local Sudbury move?",
+      "a": "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate. Travel time from our yard is added to the hours worked."
+    },
+    {
+      "q": "Can some of our Sudbury furniture go into storage while the rest moves?",
+      "a": "Yes. We can split the load, delivering part of it to the new house and holding the rest until you want it. Storage is priced by the cubic feet your items take up."
+    }
+  ],
+  "faqClosing": "Deposits, payment methods and other booking terms are on our main FAQ page.",
+  "closing": {
+    "h2": "Start Planning Your Sudbury House Move",
+    "body": "Tell us the house size, the move date and where it is going. A manager prices the packing and the move together, so the whole job shows up in a single quote. Mention the attic, the garage and anything heavy so nothing is left off the plan."
+  }
+}

@@ -17,6 +17,9 @@
 - Route pages are linked from the FAQ page: the gate does not let a service page link to extra pages (site map said Long Distance Movers). Artem to decide.
 - Non-Boston city pages carry no phone or address in body copy until the client confirms them per market.
 
+## Done (20 Nov, `feat/recover-traffic-pages`)
+- Every old URL with GSC clicks or backlinks now resolves (`docs/migration-audit.md`): 32 MA town pages, 12 RI pages, 23 blog posts + hub, 179 redirect rules. Over the 50-page cap: needs Artem. RI crews still unconfirmed by the client.
+
 ## Next
 1. Merge PR `setup/data-files` after Artem approves. Connect Cloudflare Pages to the repo.
 2. Write copy in the launch order (`navigation-sitemap.md` › Build order), one page type per chat with its skill: homepage-copy, services-hub-copy, service-area-hub-copy, service-page-copy ×12, city-page-copy ×12, city-service-page-copy ×1, About/FAQ/Contact, route pages as `content/pages/extra/`.

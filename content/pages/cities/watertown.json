@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Watertown movers based one town over in Brighton: condos, apartments and houses, elevator times planned in, hourly billing with wrap included. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Watertown and Brighton share a border, and Brighton is where our head office and trucks are based.",
+      "Since travel time is counted from our yard, a Watertown job starts with less of it than most moves we run."
+    ],
+    "sellingPoints": [
+      "Trucks based one town over in Brighton",
+      "Elevator and loading dock times planned in",
+      "Condos, apartments and houses"
+    ],
+    "ctaLabel": "Get a Watertown Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Watertown Apartment, Condo and House Moves",
+    "intro": "Here's the full list of what we do in Watertown. Condo and apartment moves with elevator reservations are planned the same way as house moves: we get the building details first, then schedule the crew around them. A walk-up apartment, a condo with a freight elevator and a single-family house each get their own plan, built around the stairs, the access and how much is moving."
+  },
+  "whyChoose": {
+    "h2": "Why Our Brighton Crews Suit a Watertown Move",
+    "cards": [
+      {
+        "title": "Short Trip From the Yard",
+        "text": "Local moves are billed hourly, with travel time from our yard added. Starting next door in Brighton keeps that part of the bill small."
+      },
+      {
+        "title": "Elevator Windows Booked Ahead",
+        "text": "If your building assigns move-in times or a freight elevator, send us the window. The crew is scheduled to arrive inside it."
+      },
+      {
+        "title": "Your Crew Is Our Crew",
+        "text": "Better Life Moving runs its own crews and trucks under USDOT 3866930, MC 1414489. We don't pass Watertown jobs to subcontractors."
+      },
+      {
+        "title": "Wrap Comes With the Rate",
+        "text": "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate. Wrapping never appears as an add-on later."
+      }
+    ]
+  },
+  "faqHeading": "Watertown Customers Want to Know",
+  "faq": [
+    {
+      "q": "How close is your crew to Watertown?",
+      "a": "Very close. Our head office is at 20 Presentation Rd in Brighton, and Brighton borders Watertown. That short distance is why travel time on a Watertown move tends to be a small part of the bill."
+    },
+    {
+      "q": "My Watertown condo requires an elevator reservation. What should I do?",
+      "a": "Reserve the elevator with your building manager first, then send us the date and time window. If the building asks the mover for paperwork, tell us what they need."
+    },
+    {
+      "q": "What does a Watertown move cost?",
+      "a": "It depends on the hours. Local moves are billed hourly, with travel time from our yard added, and the short drive from Brighton keeps travel time low."
+    },
+    {
+      "q": "Can you move my office in Watertown?",
+      "a": "Yes. We move small offices and commercial spaces, with desks, files and equipment wrapped and labeled for the new layout. Ask about a weekend date if the office can't close during the week."
+    },
+    {
+      "q": "Can I leave Watertown for another state with your crew?",
+      "a": "Yes. The job is quoted as a long distance move, and long distance moves are quoted at a flat rate. The truck that loads in Watertown is the one that delivers."
+    }
+  ],
+  "faqClosing": "Got another question about your Watertown move? The FAQ page explains booking and billing in more depth.",
+  "closing": {
+    "h2": "Schedule Your Watertown Move",
+    "body": "Send your date, the building details and both addresses. We'll plan the crew around your building's rules and give you a quote with the billing laid out. If your building has rules about move-in hours or protecting the hallways, send them along with the date."
+  }
+}

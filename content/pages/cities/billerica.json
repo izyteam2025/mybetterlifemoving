@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Billerica movers for apartments, roommates and first places: small loads, hourly billing and a 2-hour minimum with travel included. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "A first apartment, a roommate moving out, a lease that ends on the last day of the month. Those are the Billerica moves this page is written for.",
+      "Our own crew and truck handle the load by the hour, and nobody has to borrow a friend's van for the weekend."
+    ],
+    "sellingPoints": [
+      "Studio and one-bedroom moves",
+      "Roommate and split-household moves",
+      "Hourly billing for small loads"
+    ],
+    "ctaLabel": "Get a Billerica Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Apartment Moving Options in Billerica",
+    "intro": "Local apartment moves are the core of it, with college moves, furniture-only jobs and storage for the weeks between leases. If the next apartment is out of state, that is a long distance move with its own flat quote. All of it is listed below."
+  },
+  "whyChoose": {
+    "h2": "Why Billerica Renters Pick Better Life Moving",
+    "cards": [
+      {
+        "title": "Sized for Small Loads",
+        "text": "A studio or one-bedroom does not need a big crew. The manager sets the number of movers from what you own and the stairs at each end."
+      },
+      {
+        "title": "Roommates Going Separate Ways",
+        "text": "If two roommates are heading to different places, give us both addresses and the manager plans the stops on one booking. Each person's things get loaded so they come off at the correct address."
+      },
+      {
+        "title": "Covered Between Leases",
+        "text": "When the old lease ends before the new one starts, storage holds your things until move-in day."
+      },
+      {
+        "title": "Students Welcome",
+        "text": "Leaving a dorm or moving into a first apartment? Our college moving service takes small loads on short timelines, and parents can book it from out of town."
+      }
+    ]
+  },
+  "faqHeading": "Billerica Apartment Move FAQ",
+  "faq": [
+    {
+      "q": "How much does a one-bedroom move in Billerica cost?",
+      "a": "It depends on the hours the job takes. Local moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time."
+    },
+    {
+      "q": "Can two roommates move to different addresses from Billerica?",
+      "a": "Yes. List every address when you request a quote, and the manager plans the route and the time between stops. The hourly rate keeps running between addresses, so close stops cost less."
+    },
+    {
+      "q": "Do I need to buy moving blankets for my Billerica apartment move?",
+      "a": "No. Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate. Boxes for your own packing are the one thing to sort out ahead of time."
+    },
+    {
+      "q": "My new lease starts after my Billerica lease ends. What can I do?",
+      "a": "Book storage with the move. We take your things when you leave and deliver them on your move-in date. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "Do you move students out of Billerica?",
+      "a": "Yes. College moves are part of what we do, from dorm rooms to first apartments, billed like any local job. A mini fridge, a desk and a dozen boxes is a normal load."
+    }
+  ],
+  "faqClosing": "Deposits and payment methods are covered on the FAQ page.",
+  "closing": {
+    "h2": "Book Your Billerica Apartment Move",
+    "body": "Send the move date, apartment size and both addresses, plus any stairs or elevator details. A manager will send an hourly quote. Packing the boxes yourself and leaving the furniture to us keeps the crew's hours down."
+  }
+}

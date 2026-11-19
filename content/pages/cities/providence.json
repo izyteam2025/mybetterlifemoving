@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Rhode Island movers for Providence homes, apartments and offices. A licensed carrier with its own trucks and crews from Brighton, Boston. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Looking for Rhode Island movers that own their trucks? Better Life Moving is a licensed interstate carrier from Brighton, Boston, and our crews take Providence moves across town, out to other Rhode Island towns or over state lines.",
+      "Before you book, you'll see how the job is priced, including the drive down from our yard."
+    ],
+    "sellingPoints": [
+      "Our own trucks and crews, no broker",
+      "Moves inside Rhode Island and out of state",
+      "Federal carrier: USDOT 3866930, MC 1414489"
+    ],
+    "ctaLabel": "Get a Providence Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Moving Services for Providence and the Rest of Rhode Island",
+    "intro": "Apartment and house moves make up most of what people ask us for in Providence, and packing often gets added on. Some customers need storage for a few weeks while they wait on the next place. We also move offices, single heavy pieces like a piano, and full households heading to another state. Every service on this list is done by our own people, from the first box to the last bolt on the bed frame."
+  },
+  "whyChoose": {
+    "h2": "Why Providence Customers Call a Boston Carrier",
+    "cards": [
+      {
+        "title": "A Carrier, Not a Broker",
+        "text": "The company that quotes your Providence move is the one whose crew carries it. Your job is never sold on to a stranger with a rented truck."
+      },
+      {
+        "title": "The Drive Is on the Quote",
+        "text": "Our crews set out from Brighton, so travel time is part of the price. It appears on the quote before you agree to anything, never as a surprise line at the end."
+      },
+      {
+        "title": "Authority Anyone Can Look Up",
+        "text": "We hold federal interstate authority as USDOT 3866930, MC 1414489. Those numbers take about a minute to check on the FMCSA public record."
+      },
+      {
+        "title": "Wrapped and Strapped",
+        "text": "Furniture is wrapped piece by piece and strapped in place once it is loaded. Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate."
+      }
+    ]
+  },
+  "faqHeading": "Rhode Island Moving Questions, Answered",
+  "faq": [
+    {
+      "q": "Do you move people anywhere in Rhode Island, or only in Providence?",
+      "a": "We take moves all over Rhode Island, not just inside Providence. Send us both addresses and the manager will confirm the date, the crew size and how the move is priced."
+    },
+    {
+      "q": "Where do your crews start from on a Providence job?",
+      "a": "From our head office at 20 Presentation Rd in Brighton, Boston. The drive counts as travel time, which is why it shows up on your quote."
+    },
+    {
+      "q": "How is a move out of Providence priced?",
+      "a": "That depends on where you are going. Local moves are billed hourly, with travel time from our yard added, and long distance moves are quoted at a flat rate. Your quote names which one applies."
+    },
+    {
+      "q": "Can you move me from Providence up to Boston?",
+      "a": "Yes. Boston is where most of our crews work every day, so a Providence to Boston move ends on familiar ground. Share the dates and both addresses for a price."
+    },
+    {
+      "q": "How can I check whether a Rhode Island mover is licensed for interstate moves?",
+      "a": "Search the company's USDOT number on the FMCSA website. Ours is USDOT 3866930, MC 1414489, registered to Better Life Moving LLC as a carrier."
+    }
+  ],
+  "faqClosing": "Still comparing companies? Our FAQ page covers deposits, payment timing and what the crew does on moving day.",
+  "closing": {
+    "h2": "Price Your Providence Move With Us",
+    "body": "Tell us the move date, both addresses and anything heavy or fragile. A manager will come back with the price and walk you through how it was worked out."
+  }
+}

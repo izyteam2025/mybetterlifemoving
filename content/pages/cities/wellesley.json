@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Wellesley movers for antiques, art and designer furniture: each piece wrapped on its own and placed where you choose. Full home moves too. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Some Wellesley moves are mostly about a few pieces: an antique sideboard, framed art, a grandfather clock. White glove service means each of those is wrapped and handled on its own instead of stacked with the boxes.",
+      "The rest of the house moves with the same crew, sent from our head office in Brighton, Boston."
+    ],
+    "sellingPoints": [
+      "Antiques and art wrapped one at a time",
+      "Placement in the room you choose",
+      "Storage if the new house isn't finished"
+    ],
+    "ctaLabel": "Get a Wellesley Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "White Glove and Household Moving in Wellesley",
+    "intro": "White glove moving sits alongside full residential moves, packing, piano moving and storage in the list below. You can book it for the whole house or only for the handful of pieces that need it. A manager asks which items are fragile or valuable, then plans the wrapping, the crew size and the order the pieces come out of the house."
+  },
+  "whyChoose": {
+    "h2": "How We Handle Valuable Pieces in Wellesley",
+    "cards": [
+      {
+        "title": "One Item, One Wrap",
+        "text": "Art, mirrors and antique furniture get their own blankets and shrink wrap. Corners and legs are padded before anything is lifted."
+      },
+      {
+        "title": "Tell Us What Matters Most",
+        "text": "List the pieces you care about when you request a quote. The crew lead knows about them before arriving at your door."
+      },
+      {
+        "title": "Placed Where You Want It",
+        "text": "Furniture goes into the room and the spot you pick. Framed art can lean against the wall it's meant for until you're ready to hang it."
+      },
+      {
+        "title": "Our Own Crews From Brighton",
+        "text": "The people wrapping your antiques work for Better Life Moving, a carrier under USDOT 3866930, MC 1414489."
+      }
+    ]
+  },
+  "faqHeading": "Wellesley White Glove Moving Questions",
+  "faq": [
+    {
+      "q": "What does white glove moving include in Wellesley?",
+      "a": "It means individual wrapping and careful handling for antiques, art and designer furniture, plus placement in the new home. You can add it to a full move or book it for a few pieces."
+    },
+    {
+      "q": "Can you move a piano along with the rest of our Wellesley house?",
+      "a": "Yes. Piano moving is its own service, and the equipment comes on the truck with the rest of your belongings. Mention whether it's an upright or a grand when you book. A grand piano usually needs more movers than an upright, so the type helps us plan the crew."
+    },
+    {
+      "q": "Are blankets and wrap extra for fragile Wellesley pieces?",
+      "a": "No. On a local move, blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate. Fragile items simply take more of the crew's time."
+    },
+    {
+      "q": "Can you store antiques while our Wellesley renovation finishes?",
+      "a": "Yes. We pick up the pieces, keep them in storage and deliver after the work is done. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "Can you deliver a few antiques from Wellesley to family out of state?",
+      "a": "Yes. Out-of-state deliveries are long distance moves, and long distance moves are quoted at a flat rate."
+    }
+  ],
+  "faqClosing": "More to ask about fragile or valuable pieces? Our FAQ page also covers booking and the moving day.",
+  "closing": {
+    "h2": "Plan a Wellesley Move Around Your Best Pieces",
+    "body": "Tell us which pieces need the most attention, along with the date and both addresses. We'll price the move and plan how each item is handled before the crew arrives. Photos of the largest or most fragile items help the manager plan the wrapping and the number of movers."
+  }
+}

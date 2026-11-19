@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Dedham movers for senior and downsizing moves: a calm pace, furniture placed where it fits and storage for what will not. Own crews. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Helping a parent leave a long-time Dedham home is a different kind of move. There are more decisions than boxes, and the new place is usually smaller.",
+      "Our crews work at the pace the day needs, place furniture where it fits and can store whatever does not."
+    ],
+    "sellingPoints": [
+      "Senior and downsizing moves",
+      "Furniture placed in the new rooms",
+      "Storage for pieces that do not fit"
+    ],
+    "ctaLabel": "Get a Dedham Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Senior and Downsizing Moves in Dedham",
+    "intro": "Senior moving is part of our residential service, and packing and storage often go with it. Some families split the furniture between the new home, relatives and storage; give us every address and the manager plans the day around them. Local and long distance options are both on the list below."
+  },
+  "whyChoose": {
+    "h2": "Why Dedham Families Choose Us to Move a Parent",
+    "cards": [
+      {
+        "title": "Set Down Where It Belongs",
+        "text": "Each piece goes into the room and spot you choose in the smaller home, so nobody is shifting a dresser alone a week later."
+      },
+      {
+        "title": "Storage for Extra Pieces",
+        "text": "Furniture that will not fit the new place can go into storage while the family decides what to keep. Nobody has to make every call in one weekend."
+      },
+      {
+        "title": "Packing Done for Them",
+        "text": "Our crew can pack the house, which saves an older parent days of bending, lifting and taping boxes."
+      },
+      {
+        "title": "Billing the Family Can Follow",
+        "text": "Local moves are billed hourly, with travel time from our yard added, and a manager explains the quote to whoever is organizing the move."
+      }
+    ]
+  },
+  "faqHeading": "Questions About Moving a Parent From Dedham",
+  "faq": [
+    {
+      "q": "Can you move my mother from her Dedham house to a smaller apartment?",
+      "a": "Yes. Senior and downsizing moves are part of our residential work, and the crew places furniture in the new rooms as you direct."
+    },
+    {
+      "q": "What happens to furniture that will not fit after a Dedham downsizing move?",
+      "a": "We can put it in storage until the family decides. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "Can I arrange my father's Dedham move from out of state?",
+      "a": "Yes. You can request the quote and handle the booking yourself; give us both addresses and a contact who will be on site for moving day."
+    },
+    {
+      "q": "Will the crew pack my parent's Dedham home?",
+      "a": "Yes. We can pack the whole house or only the rooms that are moving, and the same crew loads it. Mark anything that stays behind so it is not boxed by mistake."
+    },
+    {
+      "q": "Is there a minimum for a small Dedham downsizing move?",
+      "a": "Yes, a 2-hour minimum that includes travel time. Beyond that, the hourly rate runs only for the time the job takes."
+    }
+  ],
+  "faqClosing": "More detail on deposits and payment is on the FAQ page.",
+  "closing": {
+    "h2": "Talk to Us About Moving a Parent in Dedham",
+    "body": "Share the move date, what is going to the new home and both addresses. A manager will price the move, plus storage if part of the furniture needs somewhere to wait. A floor plan or room sizes for the new place helps the family decide what fits before moving day."
+  }
+}

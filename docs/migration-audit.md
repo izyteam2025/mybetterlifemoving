@@ -97,3 +97,8 @@ Old service URLs with about 150 linking domains each (`/services/college-movers-
 - GBP website links: the homepage link `/?utm_source=gmb` took 518 clicks at position 3. Query strings pass through, so it keeps working; move it to the clean URL after launch.
 - Crawl this full old-URL list against the new site on launch day and confirm every 301 lands on a 200 in one hop.
 - GSC Coverage daily for two weeks; rank tracker weekly against this baseline.
+
+## Update 20 Nov 2026: all old URLs with clicks or links resolve
+Branch `feat/recover-traffic-pages` adds 32 MA town pages, 12 Rhode Island pages (Providence also takes the old state page), 23 migrated blog posts and the blog hub. The recheck finds 0 old URLs returning 404: 26 are live at the same address, 100 redirect in one hop to a live page. Only `/locations/movers-in-boston-ma/` and `/locations/movers-in-brighton-ma/` point to the homepage, which carries Boston and Brighton.
+
+Old town pages were almost all one template with the town name swapped, so the new pages keep the topic and take a different audience angle each; only Stoneham had real local detail (02180, Stoneham Square, I-93, Route 28). Unverified claims on the old pages were dropped (see the PR for the list to confirm with the client).

@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Local movers in Canton who explain the bill first: hourly rate, travel time and a 2-hour minimum, with wrap and truck costs included. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Most people looking for Canton movers want one answer before anything else: how the bill is worked out. Local moves are billed hourly, with travel time from our yard added, and the rate already covers wrap and the truck.",
+      "Our own crews come from Brighton to load, drive and unload, and the clock covers that work plus the drive."
+    ],
+    "sellingPoints": [
+      "Billing explained before you book",
+      "2-hour minimum with travel included",
+      "Wrap and truck costs in the rate"
+    ],
+    "ctaLabel": "Get a Canton Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Local Moves and More Around Canton",
+    "intro": "Apartment, condo and house moves inside Canton or to a nearby town make up most of it. Packing, storage, furniture-only jobs and out-of-state moves are listed below too. Each one is priced with the same openness about how the hours add up."
+  },
+  "whyChoose": {
+    "h2": "What Canton Customers Can Count On",
+    "cards": [
+      {
+        "title": "One Rate, Materials Included",
+        "text": "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate. There is no separate line for hiring the truck."
+      },
+      {
+        "title": "Crew Size Settled Beforehand",
+        "text": "How many movers come depends on your stairs, the access at each address and the inventory, and that gets decided before move day rather than on the curb."
+      },
+      {
+        "title": "Every Piece Wrapped",
+        "text": "Furniture is wrapped before it leaves the house and strapped in place once it is on the truck. That protection is part of the hourly rate, not an add-on."
+      },
+      {
+        "title": "Smaller Work Accepted",
+        "text": "A couch, a bed frame or the contents of a storage unit is still a job for us, under a 2-hour minimum that includes travel time."
+      }
+    ]
+  },
+  "faqHeading": "Canton Billing and Booking Questions",
+  "faq": [
+    {
+      "q": "What counts as travel time on a Canton move?",
+      "a": "The drive from our yard to your first address and back from your last one. It is billed at your hourly rate and added to the loading, driving and unloading time."
+    },
+    {
+      "q": "What is not covered by the hourly rate in Canton?",
+      "a": "Packing supplies such as boxes are not part of the hourly rate. Ask the manager how they are priced when you request a quote, or pack with your own boxes."
+    },
+    {
+      "q": "Is a deposit needed to book Canton movers?",
+      "a": "The manager tells you when you request a quote. Booking terms, including any deposit, are explained before your date is confirmed."
+    },
+    {
+      "q": "How does the 2-hour minimum work for a short Canton move?",
+      "a": "If the job takes about an hour and the drive adds another, the minimum is met. Time past two hours is billed at the same hourly rate."
+    },
+    {
+      "q": "Are long distance moves from Canton billed by the hour?",
+      "a": "No. Long distance moves are quoted at a flat rate set from your inventory and the distance, so hourly billing and travel time do not apply."
+    }
+  ],
+  "faqClosing": "Payment methods and the rest of the booking details sit on the FAQ page.",
+  "closing": {
+    "h2": "Request a Canton Quote With the Billing Laid Out",
+    "body": "Give us the move date, the size of the place and both addresses. A manager reviews the details and sends an hourly quote with the minimum and travel time laid out. Ask about anything on it that is unclear before you book."
+  }
+}

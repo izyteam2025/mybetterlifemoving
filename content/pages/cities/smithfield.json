@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Smithfield movers for offices, shops and small businesses, plus home moves. Our own trucks and crews, hourly local billing. Get a free moving quote."
+  },
+  "hero": {
+    "overview": [
+      "Moving a Smithfield office means desks, files and computers, and a business that needs to open again soon after. We plan the move around your working hours as far as our schedule allows.",
+      "Homes in Smithfield are on our list too, but this page is written for business owners."
+    ],
+    "sellingPoints": [
+      "Offices, shops and small businesses",
+      "Desks and workstations taken apart and rebuilt",
+      "Home moves for owners and staff"
+    ],
+    "ctaLabel": "Get a Smithfield Office Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Office and Commercial Moving in Smithfield",
+    "intro": "Office and commercial moves are the focus here, from a two-room practice to a retail back room. We also pack files, move heavy furniture like filing cabinets, and store furniture when a lease ends before the new space opens. Residential moves are on the same list. Retail owners moving stock and fixtures should list them apart from the office furniture, since they pack and load differently."
+  },
+  "whyChoose": {
+    "h2": "What Smithfield Business Owners Get From Our Crew",
+    "cards": [
+      {
+        "title": "A Plan Before the Truck",
+        "text": "The manager walks through what's moving, which rooms go first and what has to be working on your first day in the new space."
+      },
+      {
+        "title": "Furniture Taken Apart",
+        "text": "Desks, shelving and conference tables are disassembled for the move and rebuilt where you want them."
+      },
+      {
+        "title": "Building Paperwork Handled",
+        "text": "If the property manager asks for a Certificate of Insurance, mention it with your quote request so it's ready before the date."
+      },
+      {
+        "title": "Hours on the Invoice",
+        "text": "Local moves are billed hourly, with travel time from our yard added, so you can see what the job cost and why."
+      }
+    ]
+  },
+  "faqHeading": "Smithfield Office Moving Questions",
+  "faq": [
+    {
+      "q": "Can you move a small business office in Smithfield?",
+      "a": "Yes. Offices, shops and small commercial spaces are part of our work, from desks and filing cabinets to boxed records."
+    },
+    {
+      "q": "Can the move happen outside our business hours?",
+      "a": "Ask when you request the quote. The manager will tell you which dates and start times are open, since availability depends on that week's schedule."
+    },
+    {
+      "q": "How should we pack files and electronics?",
+      "a": "Box files by department and label each box with the room it's going to. Back up computers and pack cables with their devices, or ask us to do the packing."
+    },
+    {
+      "q": "Our landlord wants a Certificate of Insurance. Can you provide one?",
+      "a": "Yes. Mention it when you request the quote, and it will be arranged before moving day."
+    },
+    {
+      "q": "How is a Smithfield office move billed?",
+      "a": "The same way as other local jobs. Local moves are billed hourly, with travel time from our yard added, and there's a 2-hour minimum that includes travel time."
+    }
+  ],
+  "faqClosing": "Have a question about payment or deposits for a business move? Our FAQ page covers both.",
+  "closing": {
+    "h2": "Plan Your Smithfield Office Move",
+    "body": "Tell us the size of the space, the move window and anything sensitive like servers or records. We'll come back with a plan and a price, and we can quote staff home moves at the same time."
+  }
+}

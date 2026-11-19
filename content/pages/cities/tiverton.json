@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Tiverton movers for short-notice and last-minute moves. We check crew availability while you wait, with packing and storage help if needed. Get a quote."
+  },
+  "hero": {
+    "overview": [
+      "Plans fall through. A closing moves up, a lease ends early, or the last mover cancels. If your Tiverton move just became urgent, call and we'll check whether a crew is free on your date.",
+      "We can't promise every date, but you'll get a clear yes or no."
+    ],
+    "sellingPoints": [
+      "Short-notice dates when a crew is free",
+      "Packing help when time is tight",
+      "Storage if the new place isn't ready"
+    ],
+    "ctaLabel": "Check a Tiverton Moving Date"
+  },
+  "servicesBlock": {
+    "h2": "Last-Minute and Planned Moves in Tiverton",
+    "intro": "Last-minute moves are what this page covers, with packing and storage as the add-ons that help most when time is short. Planned residential, furniture and long distance moves are on the list as well, for anyone booking further ahead. If another company cancelled on you, send us the plan you had with them and we'll start from there."
+  },
+  "whyChoose": {
+    "h2": "When a Tiverton Move Can't Wait",
+    "cards": [
+      {
+        "title": "A Clear Answer on Dates",
+        "text": "Availability changes day to day. The manager checks the schedule while you're on the line and tells you what's open."
+      },
+      {
+        "title": "Packing Under Pressure",
+        "text": "If the house isn't packed, the crew can do it for you. Boxes and supplies are charged per item used."
+      },
+      {
+        "title": "Storage as a Bridge",
+        "text": "When you have to leave before the next place opens, your things go to storage and come out on the day you're ready."
+      },
+      {
+        "title": "Our Own People, Even on Short Notice",
+        "text": "A rushed date doesn't mean a stranger shows up. Better Life Moving is a carrier, USDOT 3866930, MC 1414489, and sends its own crew."
+      }
+    ]
+  },
+  "faqHeading": "Tiverton Short-Notice Moving Questions",
+  "faq": [
+    {
+      "q": "Can you do a Tiverton move this week?",
+      "a": "Possibly. It depends on whether a crew is free on your date, so call or request a quote and the manager will check the schedule."
+    },
+    {
+      "q": "What helps a last-minute move go smoothly?",
+      "a": "Have both addresses, a rough inventory and any building rules ready when you call. The fewer unknowns, the sooner a crew can be confirmed."
+    },
+    {
+      "q": "Can you pack my Tiverton home on the same day as the move?",
+      "a": "If the crew is free long enough, yes. Packing adds time to the job, so mention it up front and the manager will plan the hours."
+    },
+    {
+      "q": "Where do my things go if I have to leave before the new place is ready?",
+      "a": "Into storage until you're ready. Storage is priced by the cubic feet your items take up, and delivery is booked for the date you choose."
+    },
+    {
+      "q": "Is there a minimum charge for an urgent small move?",
+      "a": "Yes, there is a 2-hour minimum that includes travel time."
+    }
+  ],
+  "faqClosing": "Once your date is set, the FAQ page explains deposits, payment and what to expect on the day.",
+  "closing": {
+    "h2": "Check a Crew for Your Tiverton Move",
+    "body": "Send the date, both addresses and what's moving. We'll tell you if a crew is open and what the move should cost."
+  }
+}

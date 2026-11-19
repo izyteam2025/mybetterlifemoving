@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Braintree movers for short-notice moves whenever a crew is free, plus planned local and long distance jobs. Our own crews and trucks. Ask for a quote."
+  },
+  "hero": {
+    "overview": [
+      "Some Braintree moves get booked weeks out. Others start with a lease that fell through or a closing that moved up, and the question becomes whether anyone can come this week.",
+      "Ask us. If a crew is open, the manager will say so, and if none is, you will hear that too."
+    ],
+    "sellingPoints": [
+      "Short-notice moves when crews are free",
+      "Packing help when time is tight",
+      "Planned moves booked ahead"
+    ],
+    "ctaLabel": "Get a Braintree Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Urgent and Scheduled Moving for Braintree",
+    "intro": "Our last-minute service is for moves that cannot wait, and packing or storage can be added when the timeline is short. Regular local and long distance moves in Braintree are on the list too. A rushed booking still gets the same crews, the same wrapping and the same billing as one planned a month ahead."
+  },
+  "whyChoose": {
+    "h2": "Why Braintree Customers Call Us on Short Notice",
+    "cards": [
+      {
+        "title": "A Clear Yes or No",
+        "text": "We tell you plainly whether a crew is available for your date. Availability depends on the schedule, so call as early as you can and have both addresses ready when you do."
+      },
+      {
+        "title": "Packing When There Is No Time",
+        "text": "If packing has not happened, add it to the booking and the crew boxes things up before loading. That can be the kitchen alone or the whole apartment."
+      },
+      {
+        "title": "Storage as a Backstop",
+        "text": "When move-out day arrives before the new place is ready, we can store your belongings and deliver them later."
+      },
+      {
+        "title": "Billing Stays the Same",
+        "text": "A last-minute local move is billed like any other local move: by the hour, with the drive from our yard counted in."
+      }
+    ]
+  },
+  "faqHeading": "Short-Notice Moving Questions From Braintree",
+  "faq": [
+    {
+      "q": "Is there any chance of a Braintree crew in the next few days?",
+      "a": "Possibly. Last-minute moves depend on which crews are free, so call or request a quote with your date and the manager will confirm."
+    },
+    {
+      "q": "How is a last-minute Braintree move billed?",
+      "a": "Local moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time. The manager confirms the rate for your date when you get in touch."
+    },
+    {
+      "q": "Can you pack for me if I am leaving Braintree on short notice?",
+      "a": "Yes, if a packing crew is available. Packing can be added to a last-minute booking, and the crew packs before it loads."
+    },
+    {
+      "q": "What if I have to leave my Braintree apartment before the new one is ready?",
+      "a": "Book storage along with the move. We pick up, hold your things and deliver on the date you choose. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "Can I plan a Braintree move further ahead instead?",
+      "a": "Yes. Booking early gives you more dates to choose from, and the quote works the same way. You can still add packing or storage later if the plan changes."
+    }
+  ],
+  "faqClosing": "For deposits and payment, check the FAQ page.",
+  "closing": {
+    "h2": "See Which Crews Are Open for Braintree",
+    "body": "Send your move date, home size and both addresses. A manager checks the schedule and tells you what is open. If your date is flexible by a day or two, say so, since that widens the options."
+  }
+}

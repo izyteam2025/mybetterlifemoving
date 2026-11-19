@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Salem movers who hold your things when a closing slips or a lease ends early. Hourly local moves, storage priced by volume. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Closings slip. A lease can end two weeks before the new keys show up. For Salem moves like that, we pick up your household, keep it in storage and bring it back on the day you can get in.",
+      "One company handles both legs of the job, and the crew drives up from our head office in Brighton, Boston."
+    ],
+    "sellingPoints": [
+      "Pickup, storage and delivery on one quote",
+      "Every piece wrapped before it leaves the room",
+      "Delivery booked for the day you get the keys"
+    ],
+    "ctaLabel": "Get a Salem Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Salem Moves With a Gap Between Dates",
+    "intro": "Most Salem customers who call us are juggling two calendars: the date they have to be out and the date the next place opens. You can book any service below on its own, or pair it with storage so the gap between those dates is ours to manage. Going directly to the new address with no wait? That works too, and it's the same crew either way."
+  },
+  "whyChoose": {
+    "h2": "One Crew for Both Halves of a Salem Move",
+    "cards": [
+      {
+        "title": "Nobody Coordinates Two Vendors",
+        "text": "The company that loads your truck in Salem also stores your things and delivers them. When a date changes, you make one call instead of three."
+      },
+      {
+        "title": "Storage Priced by Volume",
+        "text": "Storage is priced by the cubic feet your items take up. A one-bedroom apartment doesn't pay for the space a full house would need."
+      },
+      {
+        "title": "Wrapped, Then Strapped",
+        "text": "Each dresser, table and mirror is wrapped in blankets and shrink wrap before it goes out the door, then strapped in place on the truck. That matters even more when your furniture sits in storage for a few weeks."
+      },
+      {
+        "title": "Pick a Mid-Month Date If You Can",
+        "text": "The first of the month books up first. A mid-week or mid-month pickup usually leaves more open dates, which helps when your closing is still moving around."
+      }
+    ]
+  },
+  "faqHeading": "Salem Moving and Storage Questions",
+  "faq": [
+    {
+      "q": "Can you keep my things if my Salem closing gets pushed back?",
+      "a": "Yes. We pick up from your Salem home, hold everything in storage and deliver once the new date is set. You only need to tell us when the keys are yours."
+    },
+    {
+      "q": "How is the hourly bill worked out on a Salem move?",
+      "a": "Local moves are billed hourly, with travel time from our yard added. Travel time covers the drive from our yard to your first address and back from the last one, so a Salem job includes the trip up from Brighton."
+    },
+    {
+      "q": "Do I pay extra for blankets and shrink wrap on a Salem move?",
+      "a": "No. On a local move, blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate. Ask the manager about boxes and packing materials when you request your quote."
+    },
+    {
+      "q": "Will you take a short-notice move out of Salem?",
+      "a": "When a crew is free, yes. We can't promise a date before we check the schedule, so call as soon as you know and a manager will tell you what's open."
+    },
+    {
+      "q": "Can the storage leg end with a delivery outside Massachusetts?",
+      "a": "Yes. If the next home is in another state, the job becomes a long distance move, and long distance moves are quoted at a flat rate. The storage period is planned into that same move."
+    }
+  ],
+  "faqClosing": "Still sorting out your dates? The FAQ page explains booking, billing and what happens on moving day.",
+  "closing": {
+    "h2": "Book the Salem Move and the Storage Gap",
+    "body": "Send us the day you have to be out and the day the next place opens, even if one of them is still a guess. We'll price the move, the storage and the delivery together so you see the whole plan at once."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "updated": "2026-11-20",
+  "meta": {
+    "description": "Framingham movers for city-to-house moves and local jobs: travel time explained up front, storage for the gap before closing. Get a free quote."
+  },
+  "hero": {
+    "overview": [
+      "Trading a city apartment for a house in Framingham? That kind of move usually holds more than the apartment suggested, and the drive is longer than a hop across town.",
+      "We price it as a local move, run by our own crews from the head office in Brighton, Boston."
+    ],
+    "sellingPoints": [
+      "Apartment-to-house moves planned room by room",
+      "Travel time explained before you book",
+      "Storage if lease and closing dates don't match"
+    ],
+    "ctaLabel": "Get a Framingham Moving Quote"
+  },
+  "servicesBlock": {
+    "h2": "Moving Into or Out of Framingham",
+    "intro": "Here is everything we offer for a Framingham move, for people arriving from the city, people heading out of state and people going a few streets over. Add storage if your lease ends before the closing, and packing if the boxes aren't done. A manager reviews the size of both homes and the access at each before setting the crew."
+  },
+  "whyChoose": {
+    "h2": "How a City-to-Framingham Move Works With Us",
+    "cards": [
+      {
+        "title": "Travel Time Counted Openly",
+        "text": "Local moves are billed hourly, with travel time from our yard added. For Framingham, that includes the drive out from Brighton, and the manager explains how it's counted when you book."
+      },
+      {
+        "title": "Apartments Hold More Than You Think",
+        "text": "Count closets, basement cages and the bike room when you describe the move. That way the crew size matches the load."
+      },
+      {
+        "title": "Stairs at Both Ends",
+        "text": "A third-floor walk-up at one end and a house with a basement at the other both get planned for before the truck shows up."
+      },
+      {
+        "title": "Storage for the Gap",
+        "text": "If your lease ends before the closing, we hold everything and deliver once the house is yours."
+      }
+    ]
+  },
+  "faqHeading": "What to Know Before a Framingham Move",
+  "faq": [
+    {
+      "q": "Is a move from Boston to Framingham billed as local?",
+      "a": "Yes. It's a local move billed by the hour, with the travel time from our yard added on top. The manager explains how that travel time is worked out before you book."
+    },
+    {
+      "q": "How do I estimate how many hours my Framingham move will take?",
+      "a": "Start with the number of rooms and how much is packed, then add the stairs and the walk to the truck at both ends. A manager turns those details into an estimate of hours when they quote."
+    },
+    {
+      "q": "Can you store our apartment furniture until the Framingham closing?",
+      "a": "Yes. We pick up, keep everything in storage and deliver once you own the house. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "Do you move pianos and heavy items into new houses?",
+      "a": "Yes. Piano moving is a separate service with its own equipment, so mention it when you request a quote."
+    },
+    {
+      "q": "Will you take a two-piece delivery inside Framingham?",
+      "a": "Yes. Small jobs fall under a 2-hour minimum that includes travel time."
+    }
+  ],
+  "faqClosing": "Planning the move from the city and still have questions? The FAQ page goes through billing, booking and moving day in more detail.",
+  "closing": {
+    "h2": "Get a Price for Your Framingham Move",
+    "body": "Send the date, the size of both homes and the two addresses. A manager will explain the hourly billing and the travel time before you commit to anything. If you're still waiting on a closing date, send your best guess and we'll adjust once it's firm."
+  }
+}
