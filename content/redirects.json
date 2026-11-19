@@ -124,7 +124,7 @@
   },
   {
     "from": "/locations/movers-in-rhode-island/",
-    "to": "/service-area/",
+    "to": "/providence/movers/",
     "status": 301
   },
   {
@@ -194,57 +194,57 @@
   },
   {
     "from": "/locations/movers-in-acton-ma/",
-    "to": "/",
+    "to": "/acton/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-andover-ma/",
-    "to": "/",
+    "to": "/andover/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-arlington-ma/",
-    "to": "/",
+    "to": "/arlington/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-ashland-ma/",
-    "to": "/",
+    "to": "/ashland/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-belmont-ma/",
-    "to": "/",
+    "to": "/belmont/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-billerica-ma/",
-    "to": "/",
+    "to": "/billerica/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-braintree-ma/",
-    "to": "/",
+    "to": "/braintree/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-canton-ma/",
-    "to": "/",
+    "to": "/canton/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-concord-ma/",
-    "to": "/",
+    "to": "/concord/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-dedham-ma/",
-    "to": "/",
+    "to": "/dedham/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-easton-ma/",
-    "to": "/",
+    "to": "/easton/movers/",
     "status": 301
   },
   {
@@ -254,17 +254,17 @@
   },
   {
     "from": "/locations/movers-in-framingham-ma/",
-    "to": "/",
+    "to": "/framingham/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-lawrence-ma/",
-    "to": "/",
+    "to": "/lawrence/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-lexington-ma/",
-    "to": "/",
+    "to": "/lexington/movers/",
     "status": 301
   },
   {
@@ -274,22 +274,22 @@
   },
   {
     "from": "/locations/movers-in-lynn-ma/",
-    "to": "/",
+    "to": "/lynn/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-malden-ma/",
-    "to": "/",
+    "to": "/malden/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-marlborough-ma/",
-    "to": "/",
+    "to": "/marlborough/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-medford-ma/",
-    "to": "/",
+    "to": "/medford/movers/",
     "status": 301
   },
   {
@@ -299,17 +299,17 @@
   },
   {
     "from": "/locations/movers-in-needham-ma/",
-    "to": "/",
+    "to": "/needham/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-norwood-ma/",
-    "to": "/",
+    "to": "/norwood/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-reading-ma/",
-    "to": "/",
+    "to": "/reading/movers/",
     "status": 301
   },
   {
@@ -319,42 +319,42 @@
   },
   {
     "from": "/locations/movers-in-salem-ma/",
-    "to": "/",
+    "to": "/salem/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-saugus-ma/",
-    "to": "/",
+    "to": "/saugus/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-sharon-ma/",
-    "to": "/",
+    "to": "/sharon/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-stoneham-ma/",
-    "to": "/",
+    "to": "/stoneham/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-sudbury-ma/",
-    "to": "/",
+    "to": "/sudbury/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-wakefield-ma/",
-    "to": "/",
+    "to": "/wakefield/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-walpole-ma/",
-    "to": "/",
+    "to": "/walpole/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-watertown-ma/",
-    "to": "/",
+    "to": "/watertown/movers/",
     "status": 301
   },
   {
@@ -364,17 +364,17 @@
   },
   {
     "from": "/locations/movers-in-wellesley-ma/",
-    "to": "/",
+    "to": "/wellesley/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-weston-ma/",
-    "to": "/",
+    "to": "/weston/movers/",
     "status": 301
   },
   {
     "from": "/locations/movers-in-westwood-ma/",
-    "to": "/",
+    "to": "/westwood/movers/",
     "status": 301
   },
   {
@@ -490,6 +490,71 @@
   {
     "from": "/locations/movers-in-boston-ma/storage/",
     "to": "/moving-and-storage/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-providence-ri/",
+    "to": "/providence/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-north-providence-ri/",
+    "to": "/north-providence/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-narragansett-ri/",
+    "to": "/narragansett/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-westerly-ri/",
+    "to": "/westerly/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-warren-ri/",
+    "to": "/warren/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-south-kingstown-ri/",
+    "to": "/south-kingstown/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-barrington-ri/",
+    "to": "/barrington/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-coventry-ri/",
+    "to": "/coventry/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-smithfield-ri/",
+    "to": "/smithfield/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-tiverton-ri/",
+    "to": "/tiverton/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-johnston-ri/",
+    "to": "/johnston/movers/",
+    "status": 301
+  },
+  {
+    "from": "/locations/movers-in-pawtucket-ri/",
+    "to": "/pawtucket/movers/",
+    "status": 301
+  },
+  {
+    "from": "/articles/arlington-moving-storage/",
+    "to": "/blog/arlington-moving-storage/",
     "status": 301
   }
 ]

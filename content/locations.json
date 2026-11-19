@@ -1,5 +1,5 @@
 {
-  "_comment": "Cities-only map (approved site map 19 Nov 2026). Groups are markets, not counties. Boston is the target city: the homepage. Pending (not built until confirmed): Providence, Somerville.",
+  "_comment": "Cities-only map (approved site map 19 Nov 2026). Groups are markets, not counties. Boston is the target city: the homepage. Pending (not built until confirmed): Providence, Somerville. 20 Nov 2026: 32 MA town pages and 12 Rhode Island pages added to keep old-URL traffic (pending Artem; RI crews pending client).",
   "countyPages": false,
   "counties": [
     {
@@ -34,6 +34,166 @@
         {
           "slug": "waltham",
           "name": "Waltham",
+          "region": "MA"
+        },
+        {
+          "slug": "salem",
+          "name": "Salem",
+          "region": "MA"
+        },
+        {
+          "slug": "andover",
+          "name": "Andover",
+          "region": "MA"
+        },
+        {
+          "slug": "norwood",
+          "name": "Norwood",
+          "region": "MA"
+        },
+        {
+          "slug": "malden",
+          "name": "Malden",
+          "region": "MA"
+        },
+        {
+          "slug": "needham",
+          "name": "Needham",
+          "region": "MA"
+        },
+        {
+          "slug": "lynn",
+          "name": "Lynn",
+          "region": "MA"
+        },
+        {
+          "slug": "arlington",
+          "name": "Arlington",
+          "region": "MA"
+        },
+        {
+          "slug": "wellesley",
+          "name": "Wellesley",
+          "region": "MA"
+        },
+        {
+          "slug": "medford",
+          "name": "Medford",
+          "region": "MA"
+        },
+        {
+          "slug": "framingham",
+          "name": "Framingham",
+          "region": "MA"
+        },
+        {
+          "slug": "watertown",
+          "name": "Watertown",
+          "region": "MA"
+        },
+        {
+          "slug": "marlborough",
+          "name": "Marlborough",
+          "region": "MA"
+        },
+        {
+          "slug": "westwood",
+          "name": "Westwood",
+          "region": "MA"
+        },
+        {
+          "slug": "concord",
+          "name": "Concord",
+          "region": "MA"
+        },
+        {
+          "slug": "lawrence",
+          "name": "Lawrence",
+          "region": "MA"
+        },
+        {
+          "slug": "saugus",
+          "name": "Saugus",
+          "region": "MA"
+        },
+        {
+          "slug": "ashland",
+          "name": "Ashland",
+          "region": "MA"
+        },
+        {
+          "slug": "sudbury",
+          "name": "Sudbury",
+          "region": "MA"
+        },
+        {
+          "slug": "wakefield",
+          "name": "Wakefield",
+          "region": "MA"
+        },
+        {
+          "slug": "stoneham",
+          "name": "Stoneham",
+          "region": "MA"
+        },
+        {
+          "slug": "canton",
+          "name": "Canton",
+          "region": "MA"
+        },
+        {
+          "slug": "reading",
+          "name": "Reading",
+          "region": "MA"
+        },
+        {
+          "slug": "belmont",
+          "name": "Belmont",
+          "region": "MA"
+        },
+        {
+          "slug": "acton",
+          "name": "Acton",
+          "region": "MA"
+        },
+        {
+          "slug": "braintree",
+          "name": "Braintree",
+          "region": "MA"
+        },
+        {
+          "slug": "sharon",
+          "name": "Sharon",
+          "region": "MA"
+        },
+        {
+          "slug": "walpole",
+          "name": "Walpole",
+          "region": "MA"
+        },
+        {
+          "slug": "billerica",
+          "name": "Billerica",
+          "region": "MA"
+        },
+        {
+          "slug": "easton",
+          "name": "Easton",
+          "region": "MA"
+        },
+        {
+          "slug": "dedham",
+          "name": "Dedham",
+          "region": "MA"
+        },
+        {
+          "slug": "lexington",
+          "name": "Lexington",
+          "region": "MA"
+        },
+        {
+          "slug": "weston",
+          "name": "Weston",
           "region": "MA"
         }
       ]
@@ -94,6 +254,72 @@
           "slug": "los-angeles",
           "name": "Los Angeles",
           "region": "CA"
+        }
+      ]
+    },
+    {
+      "slug": "rhode-island",
+      "name": "Rhode Island",
+      "cities": [
+        {
+          "slug": "providence",
+          "name": "Providence",
+          "region": "RI"
+        },
+        {
+          "slug": "north-providence",
+          "name": "North Providence",
+          "region": "RI"
+        },
+        {
+          "slug": "narragansett",
+          "name": "Narragansett",
+          "region": "RI"
+        },
+        {
+          "slug": "westerly",
+          "name": "Westerly",
+          "region": "RI"
+        },
+        {
+          "slug": "warren",
+          "name": "Warren",
+          "region": "RI"
+        },
+        {
+          "slug": "south-kingstown",
+          "name": "South Kingstown",
+          "region": "RI"
+        },
+        {
+          "slug": "barrington",
+          "name": "Barrington",
+          "region": "RI"
+        },
+        {
+          "slug": "coventry",
+          "name": "Coventry",
+          "region": "RI"
+        },
+        {
+          "slug": "smithfield",
+          "name": "Smithfield",
+          "region": "RI"
+        },
+        {
+          "slug": "tiverton",
+          "name": "Tiverton",
+          "region": "RI"
+        },
+        {
+          "slug": "johnston",
+          "name": "Johnston",
+          "region": "RI"
+        },
+        {
+          "slug": "pawtucket",
+          "name": "Pawtucket",
+          "region": "RI"
         }
       ]
     }
