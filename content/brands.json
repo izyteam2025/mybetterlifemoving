@@ -1,10 +1,1 @@
-[
-  {
-    "_comment": "Optional. Brand pages only when the client does brand work and the site map plans them. Leave the array empty for no brand pages. Slug follows the keyword-only URL rule.",
-    "slug": "sub-zero-appliance-repair",
-    "name": "Sub-Zero",
-    "scope": "Built-in refrigerators, wine storage and ice makers",
-    "sisters": [],
-    "additionalType": ["https://en.wikipedia.org/wiki/Sub-Zero_(company)"]
-  }
-]
+[]
