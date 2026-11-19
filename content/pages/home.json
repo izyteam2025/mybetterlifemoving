@@ -1,0 +1,100 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Movers in Boston with our own crews and trucks, USDOT 3866930. Blankets, wrap and truck costs are in the hourly rate. Get a free moving quote today."
+  },
+  "hero": {
+    "h1": "Movers in Boston, MA",
+    "overview": [
+      "Your lease ends on the 31st, the new place is a walk-up, and you want the cost pinned down before anyone shows up. Better Life Moving works as movers in Boston with our own crews and trucks. Local moves are billed by the hour with the blankets, wrap and truck already in the rate, and long distance moves are quoted at a flat rate."
+    ]
+  },
+  "servicesBlock": {
+    "h2": "Moving Services in Boston",
+    "intro": "Pick the kind of move you're planning. Each page explains how that job is priced, what the crew brings and what to have ready before they arrive.",
+    "ctaLabel": "See All Moving Services"
+  },
+  "notSureTile": {
+    "title": "Not Sure Which Move This Is?",
+    "text": "Send the move date, home size and both addresses. We'll tell you how it gets priced."
+  },
+  "credentials": {
+    "h2": "Check Our Carrier Record Before You Book",
+    "intro": "Moving scams make people wary, and they should. Our operating authority is public: look up USDOT 3866930, MC 1414489 on the FMCSA website before you sign anything."
+  },
+  "sections": [
+    {
+      "h2": "Why Choose Better Life Moving as Your Boston Movers?",
+      "body": [
+        "People planning a move in Boston tend to worry about the same things: a bill that grows on move day, a dresser that arrives scratched, and a company that stops picking up the phone. Here is how we handle each of them."
+      ],
+      "list": [
+        "We're a carrier with our own crews and trucks, not a broker. The company that quotes your move is the company that turns up to do it.",
+        "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate, so the hours on the clock are what move the total.",
+        "Furniture leaves your place wrapped, and the crew plans for walk-ups, tight staircases and elevator bookings before the first piece comes down.",
+        "Customers who move again often ask for the same crew by name. We take that as the best measure of how a move went."
+      ]
+    },
+    {
+      "h2": "How Booking Movers in Boston Works With Us",
+      "body": [
+        "There are four steps, and you know how the price is worked out by the second one."
+      ],
+      "list": [
+        "Request a quote by form or phone with your move date, home size and both addresses.",
+        "A manager goes over the details with you and explains the booking terms, including any deposit.",
+        "You get your price. Local moves are billed hourly, with travel time from our yard added, and carry a 2-hour minimum that includes travel time. Long distance moves are quoted at a flat rate.",
+        "On moving day the crew wraps, loads, drives, unloads and places the furniture where you want it. If you need storage, we hold your things between pickup and the delivery date you choose."
+      ]
+    },
+    {
+      "h2": "Moving In and Out of Boston From Our Brighton Base",
+      "body": [
+        "Better Life Moving started in 2022, when two movers set up the company at 20 Presentation Rd in Brighton (02135). Boston is still where most of our moves happen: apartments in Allston and Brighton, walk-ups in Brookline and Cambridge, family houses in Newton and Quincy.",
+        "Late August and September are our busiest weeks, because so many Boston leases turn over on September 1. If you're moving around that date, send your quote request as soon as you know it. Tell us when you book if your building needs an elevator reservation or your street needs a parking permit for the truck, so the crew can plan the day around it.",
+        "Leaving the state? Our own trucks carry long distance moves out of Boston, and customers have moved with us to Florida and Philadelphia on a flat-rate quote."
+      ]
+    }
+  ],
+  "reviews": {
+    "heading": "What Boston Customers Say About Our Movers",
+    "intro": "These reviews load live from our Google Business Profile and update as new ones come in."
+  },
+  "areasBlock": {
+    "h2": "Movers in Boston and Nearby Cities",
+    "intro": "Boston is home base, and our Boston crews also move people in Brookline, Cambridge, Newton, Quincy and Waltham. Further south and west we run crews in Raleigh and the Triangle, Charlotte, Chicago and Los Angeles, with interstate moves between them.",
+    "ctaLabel": "See Every Area We Serve"
+  },
+  "latestPosts": {
+    "h2": "Packing and Moving Guides From Our Crews"
+  },
+  "faqHeading": "Got Questions About Movers in Boston?",
+  "faq": [
+    {
+      "q": "How much do movers in Boston cost with Better Life Moving?",
+      "a": "Local moves are billed hourly, with travel time from our yard added, and a 2-hour minimum that includes travel time. Blankets, wrap and truck costs are already in the rate, so the total comes down to how long the move takes."
+    },
+    {
+      "q": "Can you handle a last-minute move in Boston?",
+      "a": "Often, yes, whenever a crew is available. Call (617) 668-1807 with your date and we'll tell you whether a crew is free. The days around September 1 fill first, so ask early if your move lands then."
+    },
+    {
+      "q": "Which neighborhoods and nearby cities do your Boston crews cover?",
+      "a": "Our Boston crews cover the whole city, Allston and Brighton included, plus Brookline, Cambridge, Newton, Quincy, Waltham, Medford and Watertown. Outside Massachusetts we have crews around Raleigh, Charlotte, Chicago and Los Angeles, and we run long distance moves between states."
+    },
+    {
+      "q": "What happens after I ask for a quote?",
+      "a": "A manager reviews your move date, home size and both addresses, then explains the booking terms, including any deposit. Local moves get an hourly quote, and long distance moves are quoted at a flat rate."
+    },
+    {
+      "q": "Is Better Life Moving a moving broker or a carrier?",
+      "a": "We're a carrier. Better Life Moving is registered with the FMCSA under USDOT 3866930, MC 1414489, and moves you with its own crews and trucks, so your belongings are never handed to another company. You can look both numbers up on the FMCSA's public record."
+    }
+  ],
+  "faqClosing": "Have a question about packing, storage or a long distance move? The FAQ page covers how booking, billing and moving day work.",
+  "closing": {
+    "h2": "Your Move, Priced Before the Truck Shows Up",
+    "body": "A grand piano or a studio across town gets the same deal: a free quote, hourly local billing with the materials and truck already in the rate, and a crew from our own team. That's why so many customers ask for the same crew the next time they move.",
+    "ctaLabel": "Get Your Free Boston Moving Quote"
+  }
+}
