@@ -1,0 +1,46 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "About Better Life Moving: a licensed interstate carrier founded in 2022 by two movers in Brighton, Boston, running its own crews and trucks in five metros."
+  },
+  "hero": {
+    "h1": "About Better Life Moving",
+    "overview": [
+      "Two movers started this company in Brighton, Boston, in 2022. It's still run the way movers would run it."
+    ],
+    "ctaLabel": "Get a Free Quote"
+  },
+  "intro": [
+    "Better Life Moving is a moving carrier founded in 2022 by two professional movers. We registered with the FMCSA that April and hold interstate operating authority under USDOT 3866930, MC 1414489. We run our own crews and our own trucks for local, long distance, office and specialty moves, and we do the packing and storage ourselves."
+  ],
+  "sections": [
+    {
+      "h2": "Why We Run Our Own Crews and Trucks",
+      "body": [
+        "A lot of moving companies you find online are brokers: they sell your move and hand it to whoever is free. We're a carrier. The company that quotes your move is the company that turns up with the truck, and that's the part of the business we care most about keeping.",
+        "It's also why customers ask for the same crew the next time they move. They remember the people who carried their couch down the stairs."
+      ]
+    },
+    {
+      "h2": "How We Price a Move",
+      "body": [
+        "We'd rather explain the bill before move day than argue about it afterwards. Local moves are billed hourly, with travel time from our yard added, with a 2-hour minimum that includes travel time. Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate. Long distance moves are quoted at a flat rate, and storage is priced by the cubic feet your items take up."
+      ]
+    },
+    {
+      "h2": "From Brighton to Five Metros",
+      "body": [
+        "Boston is home. Our head office is at 20 Presentation Rd in Brighton, and most of our moves still start or end in Greater Boston. Since 2022 we've added crews in Raleigh and the Triangle, Charlotte, Chicago and Los Angeles, and we carry interstate moves between all of them."
+      ]
+    }
+  ],
+  "credentials": {
+    "h2": "Our Operating Authority",
+    "intro": "Every interstate carrier has a public FMCSA record. Here's ours, so you can check it before you book."
+  },
+  "teamHeading": "Meet the Crew",
+  "closing": {
+    "h2": "Book a Move With the People Who Do It",
+    "body": "Send your move date, home size and both addresses, and a manager will walk you through the price."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Moving company FAQ from Better Life Moving: hourly billing, the 2-hour minimum, what's included, long distance flat rates, storage pricing and booking."
+  },
+  "hero": {
+    "h1": "Moving Company FAQ",
+    "overview": [
+      "How we bill, how booking works and what happens on moving day, answered in plain terms."
+    ],
+    "ctaLabel": "Get a Free Quote"
+  },
+  "groups": [
+    {
+      "h2": "Pricing and Billing",
+      "faq": [
+        {
+          "q": "How does hourly billing work for a local move?",
+          "a": "Local moves are billed hourly, with travel time from our yard added. Travel time covers the drive from our yard to your first address and from your last address back."
+        },
+        {
+          "q": "Is there a minimum charge?",
+          "a": "Yes, a 2-hour minimum that includes travel time. That keeps small jobs, like moving a few pieces of furniture, affordable to book."
+        },
+        {
+          "q": "What's included in the hourly rate?",
+          "a": "Blankets, shrink wrap, tape and truck costs (gas, mileage, tolls) are included in the hourly rate. You don't get a separate line for materials or fuel on a local move."
+        },
+        {
+          "q": "How are long distance moves priced?",
+          "a": "Long distance moves are quoted at a flat rate. The quote is based on your move date, the size of your home and both addresses."
+        },
+        {
+          "q": "How much does storage cost?",
+          "a": "Storage is priced by the cubic feet your items take up. A manager gives you the figure with your quote."
+        }
+      ]
+    },
+    {
+      "h2": "Booking a Move",
+      "faq": [
+        {
+          "q": "What do you need from me to give a quote?",
+          "a": "Your move date, the size of your home and both addresses. You can send them through the quote form or by phone."
+        },
+        {
+          "q": "Do I have to pay a deposit to book?",
+          "a": "A manager explains the booking terms, including any deposit, when they go over your quote with you."
+        },
+        {
+          "q": "How far ahead should I book?",
+          "a": "As soon as you know your date. Late August and September are our busiest weeks in Boston because of the September 1 lease turnover."
+        }
+      ]
+    },
+    {
+      "h2": "Moving Day",
+      "faq": [
+        {
+          "q": "Will my furniture be wrapped?",
+          "a": "Yes. The crew wraps furniture in blankets and shrink wrap before it leaves your home, and those materials are already in the hourly rate."
+        },
+        {
+          "q": "What does the crew do on moving day?",
+          "a": "The crew wraps, loads, drives, unloads and places your furniture where you want it in the new home."
+        },
+        {
+          "q": "My building needs an elevator booking. What should I do?",
+          "a": "Book the elevator for your move window and tell us the times when you request a quote, so the crew arrives inside it."
+        }
+      ]
+    },
+    {
+      "h2": "About the Company",
+      "faq": [
+        {
+          "q": "How can I check that Better Life Moving is licensed?",
+          "a": "Look up USDOT 3866930 on the FMCSA's public carrier search. It shows our interstate operating authority and our MC number, 1414489."
+        },
+        {
+          "q": "When was Better Life Moving founded?",
+          "a": "In 2022, by two professional movers in Brighton, Boston."
+        }
+      ]
+    }
+  ],
+  "closing": {
+    "h2": "Didn't See Your Question?",
+    "body": "Call us or send the quote form with your question in it, and a manager will answer it with your price."
+  }
+}
