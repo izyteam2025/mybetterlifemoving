@@ -1,0 +1,92 @@
+{
+  "updated": "2026-11-19",
+  "meta": {
+    "description": "Long distance movers in Raleigh, NC with a flat-rate quote and our own trucks. Moves out of the Triangle, or into it from another state. Free quote."
+  },
+  "hero": {
+    "overview": [
+      "Leaving the Triangle, or arriving from another state? We quote long distance moves at a flat rate. Our own trucks make the drive. You know the price before loading day."
+    ],
+    "sellingPoints": [
+      "Flat-rate quote before you book",
+      "Our crews in Raleigh and four other metros",
+      "Packing and storage on one quote"
+    ],
+    "ctaLabel": "Get a Raleigh Long Distance Quote"
+  },
+  "problems": {
+    "h2": "Long Distance Moves From Raleigh We Price Most",
+    "intro": "Interstate moves out of Raleigh, and into it, usually look like one of these.",
+    "cards": [
+      {
+        "title": "Raleigh to the Northeast",
+        "text": "Boston is where our company started, and we run crews there for the unloading end."
+      },
+      {
+        "title": "Raleigh to the Midwest or West",
+        "text": "Chicago and Los Angeles moves can have our crews at both ends of the drive."
+      },
+      {
+        "title": "Moving Into the Triangle",
+        "text": "Relocating to Raleigh from another state? The same flat-rate quote applies in reverse."
+      },
+      {
+        "title": "Storage Before Delivery",
+        "text": "Sold the house before the new one is ready? We store your things, priced by the cubic foot."
+      }
+    ]
+  },
+  "whyChoose": {
+    "h2": "Why Choose Better Life Moving for Long Distance Movers in Raleigh",
+    "cards": [
+      {
+        "title": "A Carrier, Not a Broker",
+        "text": "Our interstate authority is USDOT 3866930, MC 1414489. The company that quotes your Raleigh move is the one that drives it."
+      },
+      {
+        "title": "Price Set in Advance",
+        "text": "Long distance moves are quoted at a flat rate, worked out from your date, home size and both addresses."
+      },
+      {
+        "title": "Crews in Five Metros",
+        "text": "Raleigh, Boston, Charlotte, Chicago and Los Angeles all have our own crews, so many moves never change hands."
+      },
+      {
+        "title": "Wrapped for the Highway",
+        "text": "Furniture leaves your Raleigh home in blankets and shrink wrap, packed for a long drive rather than a short one."
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "What Customers Say About Our Long Distance Moves"
+  },
+  "faqHeading": "Raleigh Long Distance Moving FAQ",
+  "faq": [
+    {
+      "q": "How do long distance movers in Raleigh price a move?",
+      "a": "We quote long distance moves at a flat rate. The quote is built from your move date, the size of your home and both addresses."
+    },
+    {
+      "q": "Do you handle Raleigh to Boston moves?",
+      "a": "Yes. Boston is our home market, so a Raleigh to Boston move has our crews loading in Raleigh and unloading in Boston."
+    },
+    {
+      "q": "Do you move families into Raleigh from other states?",
+      "a": "Yes. Moves into the Triangle get the same flat-rate pricing, carried by our own truck."
+    },
+    {
+      "q": "Can my things be stored before delivery to my new state?",
+      "a": "Yes. We store them between pickup and delivery. Storage is priced by the cubic feet your items take up."
+    },
+    {
+      "q": "Can the crew pack my Raleigh home before a long distance move?",
+      "a": "Yes. Full or partial packing goes on the same quote, and boxes are packed for the length of the drive."
+    }
+  ],
+  "faqClosing": "Need more detail? Our FAQ page covers booking, deposits and moving day.",
+  "closing": {
+    "h2": "Book Your Long Distance Move From Raleigh",
+    "body": "Send the date and both addresses. You'll get a flat-rate figure from the company whose truck will carry your things.",
+    "ctaLabel": "Book Long Distance Movers in Raleigh"
+  }
+}

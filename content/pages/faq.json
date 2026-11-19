@@ -33,6 +33,10 @@
         {
           "q": "How much does storage cost?",
           "a": "Storage is priced by the cubic feet your items take up. A manager gives you the figure with your quote."
+        },
+        {
+          "q": "Do you move from Boston to New York, Philadelphia or Washington DC?",
+          "a": "Yes. These are long distance moves, quoted at a flat rate and carried by our own crews and trucks. See how each route works: [Boston to New York](/boston-to-new-york-movers/), [Boston to Philadelphia](/boston-to-philadelphia-movers/) and [Boston to Washington DC](/boston-to-washington-dc-movers/)."
         }
       ]
     },
